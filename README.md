@@ -8,3 +8,7 @@ Currently for content, I have been considering three main aspects.
 1. Resume and general qualifications, for the goal of getting an internship or job. 
 2. Interests with relations to Computer Science. 
 3. Daily Life
+
+Technologies I plan to implement in this:
+1. Masonry
+2. Isotope [sorting]

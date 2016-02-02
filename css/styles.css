@@ -8,7 +8,7 @@ body {
 	font-weight:400;
 	-webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-	color: #777;
+	color: #ccc;
 	background: #000;
 }
 h1, h2, h3, h4, h5, h6{
@@ -123,4 +123,8 @@ button.full-screen:hover {opacity: 1;}
 }
 #arrow_left {
 	right:95px;
+}
+.icon {
+  max-height: 20px;
+  max-width: 20px;
 }

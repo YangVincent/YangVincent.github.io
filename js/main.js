@@ -9,6 +9,9 @@ jQuery(document).ready(function() {
 	/* Main Navigation Clicks */
 	jQuery('.main-nav ul li a').click(function() {
 		var link = jQuery(this).attr('href').substr(1);
+    if (link==="esume.pdf"){
+      return;
+    }
 		
 		if ( !jQuery('section.content.show, section#' + link).is(':animated') ) {
 			jQuery('.main-nav ul li a').removeClass('active'); //remove active

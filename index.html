@@ -27,7 +27,7 @@
 	<body>
 
 		<!-- Social Links -->
-		<nav class="social-nav">
+		<nav class="social-nav fixed-nav-bar">
 			<ul>
 				<li><a href="#"><img src="images/icon-facebook.png" class="icon"/></a></li>
 				<li><a href="#"><img src="images/icon-twitter.png" class="icon"/></a></li>
@@ -40,24 +40,25 @@
 		</nav>
 
 		<!-- Switch to full screen -->
-		<button class="full-screen" onclick="$(document).toggleFullScreen()"></button>
+    <!--<button class="full-screen" onclick="$(document).toggleFullScreen()"></button>-->
 
 		<!-- Site Logo -->
 		<div id="logo">Vincent</div>
 
 		<!-- Main Navigation -->
-		<nav class="main-nav">
+		<nav class="main-nav fixed-nav-bar">
 			<ul>
 				<li><a href="#home" class="active">Home</a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
         <li><a href="#queue">Queue</a></li>
+				<li><a href="#contact">Contact</a></li>
+        <li><a href="resume.pdf" download="Vincent_Yang_Resume.pdf">Resume</a></li>
 			</ul>
 		</nav>
 
 		<!-- Slider Controls -->
-		<a href="" id="arrow_left"><img src="images/arrow-left.png" alt="Slide Left" /></a>
-		<a href="" id="arrow_right"><img src="images/arrow-right.png" alt="Slide Right" /></a>
+		<a href="" id="arrow_left"><img src="images/arrow-left.png" alt="Slide Left" class="fixed-nav-bar"/></a>
+		<a href="" id="arrow_right"><img src="images/arrow-right.png" alt="Slide Right" class="fixed-nav-bar"/></a>
 
 		<!-- Home Page -->
 		<section class="content show" id="home">
@@ -67,7 +68,7 @@
             <p>I am a second year undergraduate student at the University of California, Davis. My primary languages are Java, C++, and Python. I am interested in learning 
             about all aspects of Computer Science, but take special focus on Cryptography and Machine learning in particular. Currently, I am working on learning full-stack 
             development with Meteor. Please feel free to contact me at vinyang@ucdavis.edu</p>
-			<p><a href="#about">More info &#187;</a></p>
+            <!--<p><a href="#about">More info &#187;</a></p>-->
 		</section>
 
 		<!-- About Page -->
@@ -80,7 +81,6 @@
             two light switches. Every time I bring you into this room, you have to switch at least one switch. At some point in infinite time, I will have taken each of you
             at least once. I can take any of you in each order, and take some of you multiple times without having taken someone else at all. Now. At any time, any of you can tell me
             that everyone has gone at least once into the room. If this person is correct, all of you can go free. Otherwise, you all die. You have the rest of the night to plan. Good luck."
-            <!--<p><a href="#">Follow our updates on Twitter</a></p>-->
 		</section>
 
 		<!-- Contact Page -->
@@ -100,33 +100,42 @@
       <ul>
         <li>Cryptocurrencies</li>
         <li>Interview Prep</li>
-        <li>Phil Rogaway's Ethics of Cryptography</li>
-        <li>Arvind Narayanan's Ending the Online Panopticon</li>
-        <li>Meteor</li>
-        <li>Less</li>
+        <li><a href="https://www.youtube.com/watch?v=F-XebcVSyJw">Phil Rogaway's Ethics of Cryptography</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Jeno-MknvTg">Arvind Narayanan's Ending the Online Panopticon</a></li>
+        <li><a href="https://www.meteor.com">Meteor</a></li>
+        <li><a href="http://lesscss.org">Less</a></li>
+        <li><a href="http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html">The AI Revolution: The Road to Superintelligence</a></li>
       </ul>
     </section>
 		
 		<!-- Background Slides -->
 		<div id="maximage">
 			<div>
-				<img src="images/backgrounds/bg-img-1.jpg" alt="" />
+				<img src="images/backgrounds/bg-img-6.jpg" alt="" />
 				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
 			</div>
 			<div>
-				<img src="images/backgrounds/bg-img-2.jpg" alt="" />
+				<img src="images/backgrounds/bg-img-7.jpg" alt="" />
 				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
 			</div>
 			<div>
-				<img src="images/backgrounds/bg-img-3.jpg" alt="" />
+				<img src="images/backgrounds/bg-img-8.jpg" alt="" />
 				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
 			</div>
 			<div>
-				<img src="images/backgrounds/bg-img-4.jpg" alt="" />
+				<img src="images/backgrounds/bg-img-9.jpg" alt="" />
 				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
 			</div>
 			<div>
-				<img src="images/backgrounds/bg-img-5.jpg" alt="" />
+				<img src="images/backgrounds/bg-img-10.jpg" alt="" />
+				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
+			</div>
+			<div>
+				<img src="images/backgrounds/bg-img-11.jpg" alt="" />
+				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
+			</div>
+			<div>
+				<img src="images/backgrounds/bg-img-12.jpg" alt="" />
 				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
 			</div>
 		</div>

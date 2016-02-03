@@ -21,7 +21,8 @@ h1{font-size: 63px; line-height: 70px; padding: 0; margin: 0;}
 h5{font-size: 28px; line-height: 35px; padding: 0; margin: 0; color: #b7b7b7;}
 
 a {
-	color: #b7b7b7;
+	/*color: #b7b7b7;*/
+  color: #ccc;
 	text-decoration:none;
 	font-weight: normal;
 }
@@ -51,7 +52,7 @@ a:hover {text-decoration:underline;}
 	margin:40px;
 	position:absolute;
 	top:200px;
-	width:600px;
+	width:800px;
 	z-index:9999;
 	-webkit-font-smoothing:antialiased;
 }
@@ -62,7 +63,7 @@ a:hover {text-decoration:underline;}
 	bottom:40px;
 	height:auto;
 	left:40px;
-	position:absolute;
+	position:fixed;
 	width:20%;
 	z-index:1000;
 	color: #fff;
@@ -98,7 +99,7 @@ a:hover {text-decoration:underline;}
 	margin: 1px;
 	opacity: .5;
 }
-.social-nav ul li:hover {opacity: 1;}
+.social-nav ul li:hover {opacity: 1; padding: 110px 10px 5px 10px;}
 
 button.full-screen{ 
 	position: absolute;
@@ -125,6 +126,11 @@ button.full-screen:hover {opacity: 1;}
 	right:95px;
 }
 .icon {
-  max-height: 20px;
-  max-width: 20px;
+  height: 20px;
+  width: 20px;
 }
+
+.fixed-nav-bar {
+  position: fixed;
+}
+

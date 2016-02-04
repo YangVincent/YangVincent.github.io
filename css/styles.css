@@ -51,8 +51,10 @@ a:hover {text-decoration:underline;}
 	float:left;
 	margin:40px;
 	position:absolute;
-	top:200px;
-	width:800px;
+  top: 16vh;
+  width: 80vw;
+
+	/*width:800px;*/
 	z-index:9999;
 	-webkit-font-smoothing:antialiased;
 }
@@ -95,11 +97,11 @@ a:hover {text-decoration:underline;}
 	display:block;
 	float: left;
 	background: #393939;
-	padding:100px 10px 5px 10px;
+	padding:14vh 2vh 1vh 2vh;
 	margin: 1px;
 	opacity: .5;
 }
-.social-nav ul li:hover {opacity: 1; padding: 110px 10px 5px 10px;}
+.social-nav ul li:hover {opacity: 1; padding: 16vh 2vh 1vh 2vh;}
 
 button.full-screen{ 
 	position: absolute;

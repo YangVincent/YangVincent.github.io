@@ -5,10 +5,13 @@ Currently, I am looking into full stack development via Meteor, then expanding t
 This site is constantly changing since I am always trying to find other interesting features to add on, so I would love to hear about potential ideas you may have. 
 
 Currently for content, I have been considering three main aspects.
+
 1. Resume and general qualifications, for the goal of getting an internship or job. 
 2. Interests with relations to Computer Science. 
 3. Daily Life
 
 Technologies I plan to implement in this:
+
 1. Masonry
 2. Isotope [sorting]
+3. Materialize 

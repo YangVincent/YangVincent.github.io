@@ -1,4 +1,11 @@
 jQuery(document).ready(function() {
+  /* Masonry */
+	$('.grid').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+	});
 
 	/* How to Handle Hashtags */
 	jQuery(window).hashchange(function(){

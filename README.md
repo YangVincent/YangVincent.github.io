@@ -16,3 +16,4 @@ Technologies I plan to implement in this:
 2. Isotope [sorting]
 3. Materialize 
 4. Meteor
+5. Timeline https://www.technotarek.com/timeliner/

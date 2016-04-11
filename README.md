@@ -12,7 +12,7 @@ Currently for content, I have been considering three main aspects.
 
 Technologies I plan to implement in this:
 
-1. Masonry
+1. Masonry: http://www.websterhall.com/timeline/
 2. Isotope [sorting]
 3. Materialize 
 4. Meteor

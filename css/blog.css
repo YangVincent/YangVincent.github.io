@@ -1,0 +1,14 @@
+body {
+  background-color: #ded;
+}
+div.container{
+  width: 60vw;
+  float: center;
+  margin: 0 auto;
+  background-color: #bfb;
+}
+ul {
+}
+h1, h2, h3, h4, h5 {
+  float: center;
+}

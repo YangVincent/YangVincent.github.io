@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+  <title>Vincent Yang</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vincent Yang's Website">
+  <meta name="author" content="Vincent Yang">    
+  <link rel="shortcut icon" href="#">  
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">   
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+
+
+  <!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-77692423-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+
+  <!-- Theme CSS -->  
+  <link id="theme-style" rel="stylesheet" href="css/styles.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head> 
+
+<body id="body">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo" href="index"></a>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/">About</a></li>
+          <li><a href="resources">Resources</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li class="dropdown active">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Davis <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="active"><a href="#">Computer Science</a></li>
+              <li><a href="courses">CS Courses</a></li>
+              <li><a href="graph" target="_blank">Course Visualization</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="davis">General</a></li>
+              <li><a href="#">Clubs &#38; Fraternities</a></li>
+              <li><a href="food">Food</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="wrapper">
+    <div class="sidebar-wrapper large">
+      <div class="text-center course-welcome-container">
+        <h3 class="tagline">Welcome to my guide to UC Davis's Computer Science department's problems!</h3>
+      </div><!--//course-welcome-container-->
+
+      <div class="list-group davis-course-nav block-center text-center">
+        <a onclick="$('#overview').animatescroll({padding:60});" class="list-group-item list-group-item-info">Overview</a>
+        <a onclick="$('#course-content').animatescroll({padding:60});" class="list-group-item list-group-item-info">Course Content</a>
+        <a onclick="$('#course-requirements').animatescroll({padding:60});" class="list-group-item list-group-item-info">Course Requirements</a>
+        <a onclick="$('#disconnect').animatescroll({padding:60});" class="list-group-item list-group-item-info">Disconnect between the Registrar &#38; Department</a>
+        <a onclick="$('#quality').animatescroll({padding:60});" class="list-group-item list-group-item-info">Quality of Professors &#38; Lecturers</a>
+      </div>
+    </div><!--//sidebar-wrapper-->
+
+    <div class="main-wrapper">
+      <section class="section experiences-section">
+        <h2 class="section-title"><i class="fa fa-user"></i>Computer Science</h2>
+        <blockquote>In the real world, code takes more than ten minutes to compile. You're lucky.<cite>John Owens</cite><br></blockquote>
+
+        <div class="item" id="overview">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="course-section-title">Common Complaints</h3>
+            </div> <!-- //upper-row -->
+          </div> <!-- //meta -->
+          <div class="details">
+            <p>Although UC Davis is a respected school with intelligent and occasionally encouraging professors and unique opportunities, it is not without its faults.
+            I have collected the problems people have with the Computer Science Department that I've heard throughout my time here, and sorted them into 4 main categories:
+            (a) Course Content, (b) Course Requirements, (c) Disconnect between the Registrar &#38; Department and (d) Quality of Professors &#38; Lecturers.</p>
+          </div> <!-- //details -->
+        </div> <!-- //item -->
+
+        <div class="item" id="course-content">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="course-section-title">Course Content</h3>
+            </div> <!-- //upper-row -->
+          </div> <!-- //meta -->
+          <div class="details">
+            <p><b>Course Content</b>:
+            Davis is first and foremost, a research-focused university. This is a proud trait of the university for many students and staff; many often distinguish Davis as
+            drastically different from trade-based universites for this reason. However, because of this, many courses also focus on outdated technologies and algorithms. Albeit
+            important, many people believe newer ideas are important as well - such as Apache Spark and Web Development Frameworks. If you look at ECS 140, two out of the
+            three languages introduced are rarely used today (Prolog and Lisp). For ECS 50, some professors teach using CUSP (Carleton's Utterly Simple Preprocessor), which is
+            a ficticious language made to simplify Assembly, which actually has real-world usages (e.g. Reverse Engineering). Furthermore, there is one class that teaches
+            web development (ECS 89H), which is offered once a year, even though Web Development currently has one of the largest portions on the job market. As for
+            databases (ECS 165AB), NoSQL databases aren't taught.</p>
+            <p>The second problem with course content is the simple fact that Davis uses C++ as the primary language, with C as the first required Computer Science course.
+            C is arguably one of the more difficult languages to start with, and it is important to present new topics to students in a digestable, relatable manner. UCSD begins
+            with Java then leads into Python, then C/C++. UC Irvine begins with Python, then introduces OOP and Data Structures with Java. UC Berkeley's introductory course (61A)
+            begins with teaching Recursion, Functions, Data Types, Trees, etc. with Python, then goes into Algorithms and further Data Structures (and Git) with Java (61B), then finally
+            into low-level programming with C, C++, Assembly, MIPS, and OpenMP (61C). Although Davis begins with Python, many students in ECS 30 (C) still don't have a
+            clear grasp of functions, primitive data types, or general problem solving through programming and all of a sudden, they are faced with pointers, memory management,
+            learning to use UNIX, terminal text editors, debuggers (if they're lucky), and the occasional shitty grading system. <br>Allow me to explain the grading system. When I took ECS 30,
+            I had Prof. Prem Devanbu. In order to turn in my assignments, I had to use a combination of Git with Gradebot - a professor's virtual implementation of hell on Earth.
+            Admittedly, Gradebot wasn't all bad for some people - some lucky students were able to submit programs to be graded, and results, as well as test cases, would instantly
+            be shown online. In this way, students were able to easily debug their programs, learn to program, and compete with one another through Gradebot's ranking system.
+            Unfortunately, others weren't so lucky. When Prem (and a few other professors) used Gradebot, they decided not to release any test cases. As a result,
+            all you would get were:
+            <ul>
+              <li>Test Failed.</li>
+              <li>Test Passed.</li>
+              <li>Test Failed.</li>
+              <li>Test Passed.</li>
+              <li>Test Passed.</li>
+              <li>Test Failed.</li>
+            </ul>By no stretch of the imagination, these were horrendously difficult to work with because we had no idea what was actually wrong with the program. Furthermore,
+            the professor and TA insisted that they were already being kind by letting us test our program. For multiple programs, the professor told students that all output had to match,
+            character for character. Meanwhile, his answer key didn't match character for character and the entire class was getting imperfect scores, only to be met with "We're already
+            kind enough to let you test your program on these cases". Moreover, Gradebot routinely took anywhere from 2-10 minutes to update results, meaning the students had no idea if our
+            code had actually been graded or not. When I brought this issue up to Prof. John Owens in the EEC department, he retorted "In the real world, it can take far more than 10 minutes
+            to compile code. We're simply making it more realistic". With this mindset from some faculty, its no wonder so many students drop out of Computer Science - they face
+            easily avoidable hurdles (language choice + artificially inefficient debugging) that the department refuses to resolve, thus giving them a bitter taste of CS the moment they start.</p>
+          </div> <!-- //details -->
+        </div> <!-- //item -->
+
+        <div class="item" id="course-requirements">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="course-section-title">Course Requirements</h3>
+            </div> <!-- //upper-row -->
+          </div> <!-- //meta -->
+          <div class="details">
+            <p><b>Course Requirements</b>:
+            Next, for <a href="http://catalog.ucdavis.edu/programs/compsci/compscireqt.html">course requirements</a>, there are many illogical requirements. CS majors are required to take MAT 21ABC, MAT 22A, and one track on the Science series: 
+            PHY 9ABC + MAT 21D, CHE 2ABC, or CHE 2AB + BIS 2A. In terms of math, Calculus (the 21 series) is hardly useful in Computer Science. There are far better alternatives - Proofs, Number Theory, further Set Theory (beyond ECS 20), Statistics,
+            Combinatorics, etc. Any of these are at least as relatable and have as many applications (as Calculus) for Computer Science. Moreover, some significant lecturers such as Sean Davis even mentioned that
+            they have absolutely no idea why Calculus is required, and that it is simply because of history and Academic Senate. In terms of Science tracks, the Physics series is likely the most relevant,
+            in case Computer Science majors one day want to work with low-level architecture. However, the most applicable track is also the logistical worst, as it requires 4 more units than either of the other two, thus 
+            dissuading students from taking it. Moreover, Chemistry is the least related of the three sciences and yet it is in both of the more optimal tracks (fewer units). At the very least, Biology
+            leads into Computer Science through Bioinformatics and protein folding. Finally, when I brought this issue up to EEC
+            professor John Owens in early 2016, he stated, "You are receiving a degree from the University of California, <b>Davis</b>. We want that degree to mean something. Since Davis is not a trade school, this means that the graduate has received
+            a university-level education in science". To that, I call BS. Management Economics majors are also receiving a B.S., but aren't required to take a science. Economics majors aren't either, and are also in the same college as Computer
+            Science - Letters &#38; Sciences. Clearly, this supposed purpose of taking science classes is false.</p>
+          </div> <!-- //details -->
+        </div> <!-- //item -->
+
+        <div class="item" id="disconnect">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="course-section-title">Disconnect between the Registrar &#38; Department</h3>
+            </div> <!-- //upper-row -->
+          </div> <!-- //meta -->
+          <div class="details">
+            <p>With the surge of popularity in Computer Science and our relative proximity to Silicon Valley, the admissions office is letting in more Computer Science majors
+            each year. However, this is not without its costs. Rather than letting in more qualified candidates, less qualified and driven people are now allowed to compete
+            with those who are truly passionate and hard-working. As Sean Davis stated, the quality of students has dropped year by year. Meanwhile, the CSE department has
+            not expanded the number of people that are allowed to enter the program/college. This results in a great number of people being stuck in Computer Science, with
+            insufficient classroom sizes, worse student-instructor ratios, and more students unable to graduate in four years. Yet, this isn't necessarily a difficult problem
+            Currently, there are about 800 students in Computer Science as a major. Berkeley's introductory course has 1,400. Most of their classes have videos and online
+            lectures available for the students to learn from, and students are encouraged to simply watch from home. This is a great idea, but some faculty mentioned the problem
+            'who will pay for the video cameras?' Really? The video cameras? THAT is the limiting factor? I wish I could say I'm surprised. Next, there is the problem with 
+            waitlisting - even CS majors are often unable to get the classes they direly need in order to pass. It is mandatory for the department to either expand class sizes, 
+            reduce the number of incoming students, or allow online lectures.</p>
+          </div> <!-- //details -->
+        </div> <!-- //item -->
+
+        <div class="item" id="quality">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="course-section-title">Quality of Professors &#38; Lecturers</h3>
+            </div> <!-- //upper-row -->
+          </div> <!-- //meta -->
+          <div class="details">
+            <p>Finally, there is the issue of professors. Since there are now more students than ever enrolled in Computer Science, we need more professors. Yet, the department
+            often takes several years to find each new professor, since they take time to set the professor up with research, then introductory classes, etc. Another limiting
+            factor is the lack of a budget. With so many more students in CS, the department should be allocated a larger budget in order to further accomodate for the larger
+            percentage of the school. To neglect this is to neglect paying students' qualities of education.</p>
+          </div> <!-- //details -->
+        </div> <!-- //item -->
+
+      </section>
+      <a onclick="$('#body').animatescroll();" class="center-block glyphicon glyphicon-menu-up text-center davis-nav"></a>
+
+    </div><!--//main-body-->
+  </div>
+
+
+  <!-- Javascript -->          
+  <script type="text/javascript" src="plugins/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>    
+  <!-- custom js -->
+  <script type="text/javascript" src="js/main.js"></script>            
+  <!-- scroll -->
+  <script type="text/javascript" src="js/animatescroll.js"></script>
+</body>
+</html> 
+

@@ -1,194 +1,402 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js' lang='en'>
-	<!--<![endif]-->
-	<head>
-		<meta charset='utf-8' />
-		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-		<title>Vincent Yang - coming soon</title>	
-		
-		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="apple-touch-icon" href="images/favicon.png" />
-		
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="css/maximage.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen" charset="utf-8" />
-		
-		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		
-		<!--[if IE 6]>
-			<style type="text/css" media="screen">
-				.gradient {display:none;}
-			</style>
-		<![endif]-->
-	</head>
-	<body>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+  <title>Vincent Yang</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vincent Yang's Website">
+  <meta name="author" content="Vincent Yang">    
+  <link rel="shortcut icon" href="#">  
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">   
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
 
-		<!-- Social Links -->
-		<nav class="social-nav fixed-nav-bar">
-			<ul>
-				<li><a href="#"><img src="images/icon-google.png" class="icon"/></a></li>
-				<li><a href="#"><img src="images/icon-linkedin.png" class="icon"/></a></li>
-        <li><a href="http://www.github.com/YangVincent"><img src="images/icon-github.png" class="icon"/></a></li>
-			</ul>
-		</nav>
+  <meta name="description" content="vincent yang engineer bay silicon valley davis computer science cs kemper student department security undergraduate sean advice">
 
-		<!-- Switch to full screen -->
-    <!--<button class="full-screen" onclick="$(document).toggleFullScreen()"></button>-->
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon.ico"/>
+  <link rel="mask-icon" href="icon.svg">
 
-		<!-- Site Logo -->
-		<div id="logo">Vincent</div>
+  <link rel="icon" type="image/x-icon" href="favicon-ico"/>
 
-		<!-- Main Navigation -->
-		<nav class="main-nav fixed-nav-bar">
-			<ul>
-				<li><a href="#home" class="active">Home</a></li>
-				<li><a href="#about">About</a></li>
-        <li><a href="#queue">Queue</a></li>
-				<li><a href="#contact">Contact</a></li>
-        <li><a href="resume.pdf" download="Vincent_Yang_Resume.pdf">Resume</a></li>
-			</ul>
-		</nav>
+  <!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-77692423-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
 
-		<!-- Slider Controls -->
-		<a href="" id="arrow_left"><img src="images/arrow-left.png" alt="Slide Left" class="fixed-nav-bar"/></a>
-		<a href="" id="arrow_right"><img src="images/arrow-right.png" alt="Slide Right" class="fixed-nav-bar"/></a>
+  <!-- Theme CSS -->  
+  <link id="theme-style" rel="stylesheet" href="css/styles.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head> 
 
-		<!-- Home Page -->
-		<section class="content show" id="home">
-			<h1>Welcome!</h1>
-			<h5>My new site is coming soon! I am working on learning Socket.io, Angular.js, Meteor, and Bootstrap.</h5>
-			<p>I am currently working on creating my personal website, please stay tuned!</p>
-            <p>I am a second year undergraduate student at the University of California, Davis. My primary languages are Java, C++, and Python. I am interested in learning 
-            about all aspects of Computer Science, but take special focus on Cryptography and Machine Learning in particular. Currently, I am working on learning full-stack 
-            development with Meteor and preparing to teach a class on Cryptocurrencies for the Spring Quarter. Please feel free to contact me at vinyang@ucdavis.edu.</p>
-            <!--<p><a href="#about">More info &#187;</a></p>-->
-		</section>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo" href="/"></a>
 
-		<!-- About Page -->
-		<section class="content hide" id="about">
-			<h1>About</h1>
-			<h5>Here's a little about what I'm up to</h5>
-			<p>I'm currently a second year at the University of California, Davis! I'm interested in software development, especially with relations to Cryptography or Computer Security and Machine Learning.</p>
-            <p>On my free time, I enjoy skiing and snowboarding, listening to EDM and Childish Gambino, and figuring out logic puzzles. Here's my favorite one.
-            There is a prison that holds 81 prisoners. One day, the warden wants to mess with them and tells them, "Starting tomorrow, I will take each of you into a room that has
-            two light switches. Every time I bring you into this room, you have to switch at least one switch. At some point in infinite time, I will have taken each of you
-            at least once. I can take any of you in each order, and take some of you multiple times without having taken someone else at all. Now. At any time, any of you can tell me
-            that everyone has gone at least once into the room. If this person is correct, all of you can go free. Otherwise, you all die. You have the rest of the night to plan. Good luck."
-		</section>
-
-		<!-- Contact Page -->
-		<section class="content hide" id="contact">
-			<h1>Contact</h1>
-			<h5>Get in touch.</h5>
-			<p>Email: <a href="#">vinyang@ucdavis.edu</a><br />
-				Phone: 408.203.2094<br /></p>
-			<p>613 Torrington Dr.<br />
-				Sunnyvale, CA 94087</p>
-		</section>
-
-    <!-- Queue Page -->
-    <section class="content hide" id="queue">
-      <h1>Queue</h1>
-      <h5>This is what I'm currently reading or learning about</h5>
-      <div style="overflow: auto; width:100vw; height: 50vh;">
-      <ul>
-        <li>Cryptocurrencies</li>
-        <li><a href="http://materializecss.com/">Mastering the Materialize framework</a></li>
-        <li><a href="#">Teradata!</a></li>
-        <li><a href="https://www.youtube.com/watch?v=a-BOSpxYJ9M">The Agile Manifesto and it's Death</a></li>
-        <li><a href="http://www.agilemanifesto.org">The Agile Manifesto</a></li>
-        <li><a href="https://kivikakk.ee/cryptography/2016/02/20/breaking-homegrown-crypto.html">Breaking Homegrown Cryptography</a></li>
-        <li><a href="http://www.google.com/about/careers/students/guide-to-technical-development.html">Technical Development</a></li>
-        <li><a href="https://www.quora.com/How-does-one-become-a-great-coder/answer/Marlo-Major-1?srid=e0zO&share=ef593c8d">Coding Projects Quora</a></li>
-      	<li><a href="http://heather.cs.ucdavis.edu/~matloff/Python/PLN/FastLanePython.pdf">Matloff's Python Book</a></li>
-        <li><a href="http://mdbootstrap.com/bootstrap-tutorial/">MD Bootstrap Guides</a></li>
-        <li><a href="https://www.youtube.com/watch?v=TjZBTDzGeGg&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi">MIT Machine learning</a></li>
-        <li><a href="https://www.hacksplaining.com/">Security Vulnerabilities</a></li>
-        <li><a href="http://lifehacker.com/5853483/a-guide-to-sniffing-out-passwords-and-cookies-and-how-to-protect-yourself-against-it">Cookies and Networks</a></li>
-        <li><a href="https://www.quora.com/What-are-the-best-kept-secrets-of-great-programmers/answer/Guillermo-Schwarz?srid=e0zO&share=85cb7727">Quora Programming</a></li>
-        <li><a href="http://www.clock.co.uk">Clock Node.js</a></li>
-        <li><a href="http://statweb.stanford.edu/~cgates/PERSI/papers/MCMCRev.pdf">Stanford Cryptography</a></li>
-        <li><a href="http://framerjs.com/resources/">Framer.js</a></li>
-        <li><a href="#">Mitnick Attack - Whitepaper from 236 on attack with TCP flooding and IP address spoofing</a></li>
-        <li><a href="#">SVG graphics for course map</a></li>
-      </ul>
       </div>
-    </section>
-		
-		<!-- Background Slides -->
-		<div id="maximage">
-			<div>
-				<img src="images/backgrounds/bg-img-7.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-8.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-9.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-10.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-11.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-12.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-		</div>
-		
-		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-		<script src="js/jquery.easing.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.fullscreen.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.ba-hashchange.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script type="text/javascript" charset="utf-8">
-			$(function(){
-				$('#maximage').maximage({
-					cycleOptions: {
-						fx: 'fade',
-						speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
-						timeout: 5000,
-						prev: '#arrow_left',
-						next: '#arrow_right',
-						pause: 0,
-						before: function(last,current){
-							if(!$.browser.msie){
-								// Start HTML5 video when you arrive
-								if($(current).find('video').length > 0) $(current).find('video')[0].play();
-							}
-						},
-						after: function(last,current){
-							if(!$.browser.msie){
-								// Pauses HTML5 video when you leave it
-								if($(last).find('video').length > 0) $(last).find('video')[0].pause();
-							}
-						}
-					},
-					onFirstImageLoaded: function(){
-						jQuery('#cycle-loader').hide();
-						jQuery('#maximage').fadeIn('fast');
-					}
-				});
-	
-				// Helper function to Fill and Center the HTML5 Video
-				jQuery('video,object').maximage('maxcover');
-	
-			});
-		</script>
-  </body>
-</html>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index">About</a></li>
+          <li><a href="resources">Resources</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="wrapper">
+    <div class="sidebar-wrapper">
+      <div class="profile-container">
+        <img class="profile" src="images/prof.jpg" alt="profile picture" />
+        <h1 class="name">Vincent Yang</h1>
+        <h3 class="tagline">Undergraduate Researcher<br><br>Continuous Integration/DevOps Intern</h3>
+      </div><!--//profile-container-->
+
+      <div class="contact-container container-block main">
+        <ul class="list-unstyled contact-list">
+          <li class="email"><i class="fa fa-envelope"></i><a href="mailto: vinyang@ucdavis.edu">vinyang@ucdavis.edu</a></li>
+          <li class="phone"><i class="fa fa-phone"></i><a href="tel:408 203 2094">408 203 2094</a></li>
+          <li class="website"><i class="fa fa-globe"></i><a href="http://yangvincent.github.io" target="_blank">yangvincent.github.io</a></li>
+          <li class="website"><i class="fa fa-book"></i><a href="davis">guide to davis</a></li>
+          <li class="linkedin"><i class="fa fa-linkedin"></i><a href="http://www.linkedin.com/in/vinyang" target="_blank">linkedin.com/in/vinyang</a></li>
+          <li class="github"><i class="fa fa-github"></i><a href="http://www.github.com/YangVincent" target="_blank">github.com/YangVincent</a></li>
+          <li class="resume"><i class="fa fa-file-o"></i><a href="resume.pdf" download="Vincent_Yang_Resume.pdf">resume</a></li>
+        </ul>
+      </div><!--//contact-container-->
+      <div class="education-container container-block">
+        <h2 class="container-block-title">Education</h2>
+        <div class="item">
+          <h4 class="degree">B.S. in Computer Science</h4>
+          <h4 class="degree">B.A. in Economics</h4>
+          <h5 class="meta">UC Davis</h5>
+          <div class="time">2014 - 2018</div>
+        </div><!--//item-->
+      </div><!--//education-container-->
+
+      <div class="languages-container container-block">
+        <h2 class="container-block-title">Languages</h2>
+        <ul class="list-unstyled interests-list">
+          <li>English <span class="lang-desc">(Native)</span></li>
+          <li>French <span class="lang-desc">(Working)</span></li>
+          <li>Chinese <span class="lang-desc">(Working)</span></li>
+        </ul>
+      </div><!--//interests-->
+
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">Interests</h2>
+        <ul class="list-unstyled interests-list">
+          <li>Snowboarding</li>
+          <li>Kayaking</li>
+          <li>Climbing</li>
+        </ul>
+      </div><!--//interests-->
+
+    </div><!--//sidebar-wrapper-->
+
+    <div class="main-wrapper">
+
+      <section class="section summary-section">
+        <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+        <div class="summary">
+          <p>Hello! I am a second year undergraduate at the University of California, Davis. My primary languages are Java, C++, Python, and JavaScript. I am
+          interested in learning about most aspects of Computer Science, but take special focus on Computer Security in particular. 
+          <br><br>I recently co-taught an upper division undergraduate course on <a href="http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf" target="_blank">Cryptocurrency Technologies</a> 
+          with <a href="https://www.linkedin.com/in/rylanschaeffer" target="_blank">Rylan Schaeffer</a> under <a href="http://faculty.engineering.ucdavis.edu/levitt/" target="_blank">Karl Levitt</a>. 
+          9 of 23 students submitted <a href="/resources/eval.pdf" target="_blank">evaluations</a>. Labs, lectures, and assignments may be posted at a later date.
+          </p>
+          <p>
+          I am also involved in undergraduate research in Computer Security for Professor <a href="http://nob.cs.ucdavis.edu/~bishop/" target="_blank">Matt Bishop</a> under the College of Engineering, as well as the Continuous Integration/DevOps Intern at 
+          <a href="http://www.teradata.com/?LangType=1033&LangSelect=true" target="_blank">Teradata</a>.<br><br>
+          On the side, I am the Director of Technology for Delta Sigma Pi | Nu Rho at UC Davis, Webmaster for TEDxUCDavis, a private tutor for Davis Computer Science Club, and a Consultant for Davis Consulting Group.
+          </p>
+        </div><!--//summary-->
+      </section><!--//section-->
+
+      <section class="section experiences-section">
+        <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Continuous Integration/DevOps Intern</h3>
+              <div class="time">Jun 2016 - Present</div>
+            </div><!--//upper-row-->
+            <div class="company">Teradata, San Diego</div>
+          </div><!--//meta-->
+          <div class="details">
+            <p>I am developing a Continuous Integration/DevOps framework with accompanying tools to help Teradata fully integrate Agile/Scrum development using Git, Svn, Jenkins, TeamCity, Python, Ansible, Docker, Kubernetes, and various CI tools amongst its 11,000 employees.</p>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Undergraduate Researcher</h3>
+              <div class="time">Apr 2016 - Present</div>
+            </div><!--//upper-row-->
+            <div class="company">UC Davis Computer Science Department, Davis</div>
+          </div><!--//meta-->
+          <div>
+            <p>I am currently working on a research project to create a set of security exercises for UC Davis's Computer Security class, <a href="http://www.cs.ucdavis.edu/blog/ecs-153-computer-security/" target="_blank">ECS 153</a>. This
+            is a set of virtual  environments for undergraduate students to learn about OWASP's <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project" target="_blank">Top Ten</a>. My focus is on Metasploit and network penetration.</p>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Software Engineering Intern</h3>
+              <div class="time">Jun 2015 - Aug 2015</div>
+            </div><!--//upper-row-->
+            <div class="company">IdentityMind Global, Palo Alto</div>
+          </div><!--//meta-->
+          <div class="details">
+            <p><a href="http://identitymindglobal.com" target="_blank">IdentityMind Global</a> works to detect and prevent anti-money laundering (AML), transactional fraud, and boarding risk/Know Your Customer.</p>
+            <p>Here, I internationalized production level code to work seamlessly in various countries such as China, debugged various bugs and added features, often
+            utilizing Linux, MySQL, Redis, Jersey REST API, Vaadin 6 and 7, Redmine, Apache Tomcat, Jenkins automation server, Ant, and Java.<br>
+            During this time, I also created a web scraper and crawler in Python using urllib, Scrapy, and BeautifulSoup to add json and xml records to a MySQL
+            database of known criminal profiles.<br>
+            I also tested for cross-site scripting (XSS) and SQL Injection attacks.<br>
+            Throughout, I utilized Git source control to collaborate with the rest of my team members using Agile/Scrum methodology.</p>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">IT Technician</h3>
+              <div class="time">Oct 2015 - Mar 2016</div>
+            </div><!--//upper-row-->
+            <div class="company">UC Davis School of Medicine, Sacramento</div>
+          </div><!--//meta-->
+          <div class="details">
+            <p>At the <a href="http://www.ucdmc.ucdavis.edu/medschool/">School of Medicine</a>, I diagnosed a wide variety of hardware and software issues across multiple platforms. Furthermore, I maintained a high standard
+            of technical issue resolution through quick response times and Atlassian's Confluence. Finally, I eradicated and prevented further damage from viruses and trojans for professors,
+            doctors, researchers, and students.</p>
+          </div><!--//details-->
+        </div><!--//item-->
+
+      </section><!--//section-->
+
+      <section class="section projects-section">
+        <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+        <div class="intro">
+          <p>My projects can be found on GitHub, unless there is no link in which case they are for a company and I do not own the code, or it is for a class. Some of
+          this code can be made available upon request.</p>
+        </div><!--//intro-->
+        <div class="item">
+          <span class="project-title">Power Grid Load Balancer</span> - 
+          <span class="project-tagline">Simulates a power grid and balances generated power in an optimal fashion while being subject to time constraints.</span>
+        </div><!--//item-->
+
+        <div class="item">
+            <span class="project-title"><a href="https://yangvincent.github.io/yelp-and-chill/" target="_blank">Yelp and Chill</a></span> - 
+          <span class="project-tagline">Allows non-smartphone users to find places to go with Yelp or randomly decide on a location, and view details.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title"><a href="https://github.com/YangVincent/predict-elections" target="_blank">California Primary Elections Predictor</a></span> - 
+          <span class="project-tagline">Visualizes California demographics, using WSJ and Census API data to predict results of the California Primary.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title"><a href="http://www.dsp-nurho.com" target="_blank">Delta Sigma Pi - Nu Rho Website</a></span> - 
+          <span class="project-tagline">The website for Delta Sigma Pi | Nu Rho, UC Davis's premier business fraternity.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title">Government Criminals Web Scraper/Crawler</span> - 
+          <span class="project-tagline">A web scraper/crawler in Python that pulls data off of government sites and sorts known criminals into a blacklist database.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title">Funix</span> - 
+          <span class="project-tagline">An imitation of the Unix file structure with support for popular commands.</span>
+        </div><!--//item-->
+
+        <div class="item">
+          <span class="project-title"><a href="http://github.com/YangVincent/Domination" target="_blank">Domination</a></span> - 
+          <span class="project-tagline">A two-player game in Java where players infiltrate the opponent's base in a tower-defense style battle.</span>
+        </div><!--//item-->
+
+      </section><!--//section-->
+
+      <section class="skills-section section">
+        <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+        <div class="skillset">        
+          <div class="item">
+            <h3 class="level-title">Java</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="98%">
+              </div>                                      
+            </div><!--//level-bar-->                                 
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Git Version Control</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="85%">
+              </div>                                      
+            </div><!--//level-bar-->                                 
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Python</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="82%">
+              </div>                                      
+            </div><!--//level-bar-->                                 
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Linux</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="80%">
+              </div>                                      
+            </div><!--//level-bar-->                                 
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">C++</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="80%">
+              </div>                                      
+            </div><!--//level-bar-->                                 
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">HTML5 &amp; CSS</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="75%">
+              </div>                                      
+            </div><!--//level-bar-->                                 
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Javascript &amp; jQuery</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="60%">
+              </div>                                      
+            </div><!--//level-bar-->                                 
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Meteor</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="40%">
+              </div>                                      
+            </div><!--//level-bar-->                                 
+          </div><!--//item-->
+
+        </div>  
+      </section><!--//skills-section-->
+
+
+      <section class="section certifications-section">
+        <h2 class="section-title"><i class="fa fa-certificate"></i>Awards &amp; Certifications</h2>
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="cert-title">Citris Mobile App Challenge 2016 - Second Place ($2,000)</h3>
+            </div><!--//upper-row-->
+            <div class="company">Eventr</div>
+          </div><!--//meta-->
+          <div class="details">
+            <p><a href="http://citris-uc.org/students-design-and-demo-mobile-apps-to-benefit-society-at-uc-davis/">Eventr</a> is an aggregated scheduling application that integrates professional opportunities for college students and allows job-seeking 
+            collegiates to easily filter information and become informed about local opportunities.</p>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="cert-title">Cryptography 1 Certificate of Accomplishment</h3>
+            </div><!--//upper-row-->
+            <div class="company">Coursera</div>
+          </div><!--//meta-->
+          <div class="details">
+            <p>This course, made available by Coursera and Stanford University's Dr. Dan Boneh, taught stream ciphers, block ciphers, DES, AES, Message Integrity, MACs, 
+            Authenticated Encryption, Key Exchanges, and Public-Key Encryption (RSA, ElGamal, Diffie-Hellman).</p>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="cert-title">Relational Algebra Statement of Accomplishment</h3>
+            </div><!--//upper-row-->
+            <div class="company">Stanford University Online</div>
+          </div><!--//meta-->
+          <div>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="cert-title">Introduction to Meteor.js Development</h3>
+            </div><!--//upper-row-->
+            <div class="company">Coursera</div>
+          </div><!--//meta-->
+          <div class="details">
+            <p>This course by the University of London's Dr. Matthew Yee-King and Coursera, involved using the Meteor.js framework. It covered
+            templates, Bootstrap integration, the Distributed Data model, MongoDB Collections, User authentication, Security, and routing.</p>
+          </div><!--//details-->
+        </div><!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="cert-title">Introduction to Computer Science and Programming using Python</h3>
+            </div><!--//upper-row-->
+            <div class="company">edX</div>
+          </div><!--//meta-->
+          <div class="details">
+            <p>This course covered basic machine architecture, inductive reasoning and recursion, data structures, various types of testing (black box, glass box, integration and unit testing), assertions, exceptions, algorithmic
+            complexity, search and sort methods, hashing, classes, OOP and inheritance, and tree traversals.</p>
+          </div><!--//details-->
+        </div><!--//item-->
+
+      </section><!--//section-->
+
+    </div><!--//main-body-->
+  </div>
+
+
+  <!-- Javascript -->          
+  <script type="text/javascript" src="plugins/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>    
+  <!-- custom js -->
+  <script type="text/javascript" src="js/main.js"></script>            
+</body>
+</html> 
+

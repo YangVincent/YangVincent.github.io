@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+  <title>Curriculum Visualizer</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="css/graph.css"/>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+
+  <!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-77692423-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+
+
+</head>
+<body>
+  <div id="header">
+    <h1>Curriculum Visualizer</h1>
+    <h2>a graph of class requisites in UC Davis's CS major</h2>
+    <hr>
+    <p id="info">A force directed graph implemented using 
+    <a href="https://github.com/mbostock/d3/wiki/Force-Layout">Force Layout</a>
+    from <a href="http://d3js.org/">d3.js</a>.<br><br>
+    Classes are represented by nodes. When one node points to another, the class represented by that node
+    is the prerequisite of the other class.<br>
+    Note - data is based on the 2015-16 catalog and some requisites are outdated. The up-to-date catalog can be found <a href="https://www.cs.ucdavis.edu/wp-content/uploads/2015/06/Course-Descriptions-of-Computer-Science-CS-Major-Requirements-2015-2016.pdf">here</a>:
+    </p>
+
+  </div>
+  <div id="legend">
+    <h3>Legend</h3>
+    <h4>Nodes:</h4>
+    <ul style="margin-bottom: 6px">
+      <li style="color: #ace">
+        <label><input type="checkbox" checked value="lowerdiv" onclick="updateForce();">
+          Lower Div CS Courses
+        </label>
+      </li>
+      <li style="color: #17b">
+        <label><input type="checkbox" checked value="upperdiv" onclick="updateForce();">
+          Upper Div CS Requirements
+        </label>
+      </li>
+      <li style="color: #96b">
+        <label><input type="checkbox" checked value="elective" onclick="updateForce();">
+          Upper Div CS Electives
+        </label>
+      </li>
+      <li style="color: #2a2">
+        <label><input type="checkbox" checked value="math" onclick="updateForce();">
+          Math Courses
+        </label>
+      </li>
+      <li style="color: #f70">
+        <label><input type="checkbox" checked value="science" onclick="updateForce();">
+          Science Courses
+        </label>
+      </li>
+      <li style="color: #753">
+        <label><input type="checkbox" checked value="writing" onclick="updateForce();">
+          Writing 
+        </label>
+      </li>
+    </ul>
+    <h4>Lines (Requisites):</h4>
+    <ul>
+      <li>
+        <label><input type="checkbox" checked value="Enforced" onclick="updateForce();">
+          <span id="solid">Solid</span> - Enforced
+        </label>
+      </li>
+      <li>
+        <label><input type="checkbox" checked value="Recommended" onclick="updateForce();">
+          <span id="dashed">Dashed</span> - Recommended
+        </label>
+      </li>
+    </ul>
+  </div>
+
+  <div id="force">
+    <script src="js/d3.min.js"></script>
+    <script src="js/curvis.js"></script>
+  </div>
+</body>

@@ -1,0 +1,150 @@
+{
+  "nodes":[
+    {"name":"ECS 10","type":"lowerdiv"},
+    {"name":"ECS 20","type":"lowerdiv"},
+    {"name":"ECS 30","type":"lowerdiv"},
+    {"name":"ECS 40","type":"lowerdiv"},
+    {"name":"ECS 50","type":"lowerdiv"},
+    {"name":"ECE 70","type":"lowerdiv"},
+    {"name":"ECS 60","type":"lowerdiv"},
+    {"name":"ECS 12","type":"lowerdiv"},
+    {"name":"ECS 15","type":"lowerdiv"},
+    {"name":"ECS 89h","type":"lowerdiv"},
+
+    {"name":"MAT 21a","type":"math"},
+    {"name":"MAT 21b","type":"math"},
+    {"name":"MAT 21c","type":"math"},
+    {"name":"MAT 21d","type":"math"},
+    {"name":"MAT 22a","type":"math"},
+    {"name":"MAT 67","type":"math"},
+    {"name":"MAT 135","type":"math"},
+    {"name":"STA 131a","type":"math"},
+
+    {"name":"BIS 2a","type":"science"},
+    {"name":"CHE 2a","type":"science"},
+    {"name":"CHE 2b","type":"science"},
+
+    {"name":"ECS 113","type":"upperdiv"},
+    {"name":"ECS 115","type":"upperdiv"},
+    {"name":"ECS 116","type":"upperdiv"},
+    {"name":"ECS 120","type":"upperdiv"},
+    {"name":"ECS 122a","type":"upperdiv"},
+    {"name":"ECS 122b","type":"upperdiv"},
+    {"name":"ECS 124","type":"upperdiv"},
+    {"name":"ECS 127","type":"upperdiv"},
+    {"name":"ECS 129","type":"upperdiv"},
+    {"name":"ECS 130","type":"upperdiv"},
+    {"name":"ECS 132","type":"upperdiv"},
+    {"name":"ECS 140a","type":"upperdiv"},
+    {"name":"ECS 140b","type":"upperdiv"},
+    {"name":"ECS 142","type":"upperdiv"},
+    {"name":"ECS 145","type":"upperdiv"},
+    {"name":"ECS 150","type":"upperdiv"},
+    {"name":"ECS 152a","type":"upperdiv"},
+    {"name":"ECS 152b","type":"upperdiv"},
+    {"name":"ECS 152c","type":"upperdiv"},
+    {"name":"ECS 153","type":"upperdiv"},
+    {"name":"ECS 154a","type":"upperdiv"},
+    {"name":"ECS 154b","type":"upperdiv"},
+    {"name":"ECS 158","type":"upperdiv"},
+    {"name":"ECS 160","type":"upperdiv"},
+    {"name":"ECS 163","type":"upperdiv"},
+    {"name":"ECS 165a","type":"upperdiv"},
+    {"name":"ECS 165b","type":"upperdiv"},
+    {"name":"ECS 170","type":"upperdiv"},
+    {"name":"ECS 171","type":"upperdiv"},
+    {"name":"ECS 173","type":"upperdiv"},
+    {"name":"ECS 175","type":"upperdiv"},
+    {"name":"ECS 177","type":"upperdiv"},
+    {"name":"ECS 178","type":"upperdiv"},
+    {"name":"ECS 188","type":"upperdiv"},
+    {"name":"ECS 189a","type":"upperdiv"},
+    {"name":"ECS 189c","type":"upperdiv"},
+    {"name":"ECS 190c","type":"upperdiv"},
+    {"name":"ECS 192a","type":"upperdiv"},
+    {"name":"ECS 192b","type":"upperdiv"},
+    {"name":"ECS 197t","type":"upperdiv"},
+
+    {"name":"UWP 1","type":"writing"},
+    {"name":"UWP 101","type":"writing"}
+
+  ],
+  "relations":[
+    {"source":"MAT 21a","target":"ECS 30","type":"Recommended"},
+    {"source":"ECS 10","target":"ECS 30","type":"Recommended"},
+    {"source":"ECS 30","target":"ECS 40","type":"Enforced"},
+    {"source":"MAT 21a","target":"ECS 20","type":"Enforced"},
+    {"source":"ECS 20","target":"ECS 60","type":"Enforced"},
+    {"source":"ECS 40","target":"ECS 60","type":"Enforced"},
+    {"source":"ECS 20","target":"ECS 120","type":"Enforced"},
+
+    {"source":"ECS 20","target":"ECS 122a","type":"Enforced"},
+    {"source":"ECS 60","target":"ECS 122a","type":"Enforced"},
+
+    {"source":"ECS 122a","target":"ECS 122b","type":"Enforced"},
+
+    {"source":"ECS 10","target":"ECS 124","type":"Enforced"},
+    {"source":"ECS 30","target":"ECS 124","type":"Enforced"},
+
+    {"source":"ECS 30","target":"ECS 130","type":"Enforced"},
+
+    {"source":"ECS 60","target":"ECS 132","type":"Enforced"},
+    {"source":"ECS 50","target":"ECS 132","type":"Enforced"},
+
+    {"source":"ECS 50","target":"ECS 140a","type":"Enforced"},
+    {"source":"ECS 60","target":"ECS 140a","type":"Enforced"},
+
+    {"source":"ECS 140a","target":"ECS 140b","type":"Enforced"},
+
+    {"source":"ECS 20","target":"ECS 142","type":"Enforced"},
+    {"source":"ECS 140a","target":"ECS 142","type":"Enforced"},
+    {"source":"ECS 120","target":"ECS 140b","type":"Recommended"},
+
+    {"source":"ECS 120","target":"ECS 145","type":"Recommended"},
+
+    {"source":"ECS 40","target":"ECS 150","type":"Enforced"},
+    {"source":"ECS 50","target":"ECS 150","type":"Enforced"},
+
+    {"source":"ECS 60","target":"ECS 152a","type":"Enforced"},
+    {"source":"ECS 132","target":"ECS 152a","type":"Enforced"},
+
+    {"source":"ECS 152a","target":"ECS 152b","type":"Enforced"},
+
+    {"source":"ECS 150","target":"ECS 152c","type":"Enforced"},
+    {"source":"ECS 152a","target":"ECS 152c","type":"Enforced"},
+
+    {"source":"ECS 150","target":"ECS 153","type":"Enforced"},
+    {"source":"ECS 152a","target":"ECS 153","type":"Enforced"},
+
+    {"source":"ECS 50","target":"ECS 154a","type":"Enforced"},
+
+    {"source":"ECS 154a","target":"ECS 154b","type":"Enforced"},
+
+    {"source":"ECS 150","target":"ECS 158","type":"Recommended"},
+    {"source":"ECS 154b","target":"ECS 158","type":"Recommended"},
+
+    {"source":"ECS 140a","target":"ECS 160","type":"Recommended"},
+
+    {"source":"ECS 60","target":"ECS 163","type":"Enforced"},
+
+    {"source":"ECS 60","target":"ECS 165a","type":"Enforced"},
+
+    {"source":"ECS 165a","target":"ECS 165b","type":"Enforced"},
+
+    {"source":"ECS 140a","target":"ECS 170","type":"Enforced"},
+
+    {"source":"ECS 60","target":"ECS 173","type":"Enforced"},
+    {"source":"MAT 22a","target":"ECS 173","type":"Enforced"},
+
+    {"source":"ECS 60","target":"ECS 175","type":"Enforced"},
+    {"source":"MAT 22a","target":"ECS 175","type":"Enforced"},
+
+    {"source":"ECS 175","target":"ECS 177","type":"Enforced"},
+
+    {"source":"MAT 21a","target":"MAT 21b","type":"Enforced"},
+    {"source":"MAT 21b","target":"MAT 21c","type":"Enforced"},
+
+    {"source":"UWP 1","target":"UWP 101","type":"Enforced"}
+
+  ]
+}

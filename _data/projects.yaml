@@ -5,7 +5,7 @@
 
 - title: Predict Elections
   url: https://predict-elections.herokuapp.com
-  image: https://github.com/YangVincent/YangVincent.github.io/blob/master/images/predict-elections.png
+  image: https://cdn.rawgit.com/YangVincent/YangVincent.github.io/master/images/predict-elections.png
   completed: true
 
 - title: Domination

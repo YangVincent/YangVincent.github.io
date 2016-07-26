@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# About Theme
+# About 
 
 I am a third year undergraduate at the University of California, Davis. My primary interests are in Computer Security, Machine Learning, and Web Development. 
 

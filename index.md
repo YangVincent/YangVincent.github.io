@@ -3,10 +3,16 @@ layout: home
 ---
 # About Theme
 
-Vincent was here
+I am a third year undergraduate at the University of California, Davis. My primary interests are in Computer Security, Machine Learning, and Web Development. 
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+I recently co-taught an upper division undergraduate course on [Cryptocurrency Technologies](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) with
+[Rylan Schaeffer](https://www.linkedin.com/in/rylanschaeffer) under [Karl Levitt](http://faculty.engineering.ucdavis.edu/levitt/). 9 of 23 students submitted [evaluations](https://yangvincent.github.io/resources/eval.pdf).
+Labs, lectures, and assignments may be posted at a later date.
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+I am also involved in undergraduate research in Computer Security for Professor [Matt Bishop](http://nob.cs.ucdavis.edu/~bishop/) under the College of Engineering, as well
+as the Continuous Integration/DevOps Intern at Teradata. 
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+On the side, I am the Director of Technology for Delta Sigma Pi | Nu Rho at UC Davis, Webmaster for TEDxUCDavis, a private tutor for the Davis Computer Science Club, and a
+Consultant for Davis Consulting Group.
+
+In my free time, I enjoy snowboarding, listening to music, and trying new foods. 

@@ -29,11 +29,11 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:             vinyang@ucdavis.edu
 #google.plus:        username
-twitter:            username
+#twitter:            username
 #facebook:           username
-github:             username
+github:             yangvincent
 stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username

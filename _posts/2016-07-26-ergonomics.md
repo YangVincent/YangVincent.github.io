@@ -18,8 +18,6 @@ by having a separate switch for every single key. This results in many more keys
 The Kinesis Advantage has two other significant advantages. It is created with two wells - one for each hand such that each is in a natural position. The keys are set up in columns so each key is exactly where you would expect it to be naturally. This serves to minimize the amount of strain needed when typing. The distance between wells is also approximately that of shoulder width so the user isn't forced to push their arms together, thus rotating their arms. Finally,
 the keyboard has extra keys for the thumb in order to better optimize how we use each finger. For example, my left thumb's key is currently mapped to backspace, along with control, alt, and more. 
 
-####Keyboard Switches
-
 ## Standing Desks
 
 Fashion axe hella gastropub lo-fi kogi 90's aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.

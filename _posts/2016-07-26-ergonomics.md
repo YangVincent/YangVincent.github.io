@@ -8,22 +8,17 @@ tags:
   - keyboard
 ---
 
-Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
-
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+Caring about ergonomics is probably one of the most beneficial things you can do if you're often on the computer. Even in high school, several people I knew developed carpal tunnel before they'd even turned 18. Hours of gaming and staring at screens leaves many with hunched backs, wrist pains, and an inability to perform. There are four main components that drastically changed my productivity and improved my comfort while coding.
 
 ## Kinesis Advantage
 
-In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's.
+There are two types of keyboards - mechanical keyboards and membrane keyboards. Membrane keyboards are extremely popular due to their low cost and simple manufacturing. In fact, most laptops have membrane keyboards. Technically speaking, these keyboards by detecting which locations are pressed down, and sending corresponding keyboard inputs to the computer. This also means that there exists an extremely low number of keys that can be pressed at a time while having all inputs register in the computer. This is called n-key rollover. On the other hand, mechanical keyboards work 
+by having a separate switch for every single key. This results in many more keys being registered at once, often reaching up to 12+ at a time (better for gaming). Switches also last much longer than membranes, often allowing users to reach around 50 million presses, while membrane keyboards allow around 1 million key presses. Switches are better ergonomically, because they allow you to use minimal energy to register each key press instead of 'bottoming out', which is when someone presses the key all the way down in order to register a click.
 
-  * Sartorial hoodie
-  * Labore viral forage
-  * Tote bag selvage
-  * DIY exercitation et id ugh tumblr church-key
+The Kinesis Advantage has two other significant advantages. It is created with two wells - one for each hand such that each is in a natural position. The keys are set up in columns so each key is exactly where you would expect it to be naturally. This serves to minimize the amount of strain needed when typing. The distance between wells is also approximately that of shoulder width so the user isn't forced to push their arms together, thus rotating their arms. Finally,
+the keyboard has extra keys for the thumb in order to better optimize how we use each finger. For example, my left thumb's key is currently mapped to backspace, along with control, alt, and more. 
 
-Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.
-
-Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven't heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney's Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.
+####Keyboard Switches
 
 ## Standing Desks
 

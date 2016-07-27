@@ -1,5 +1,5 @@
 - title: Yelp and Chill
-  url: https://github.com/YangVincent/yelp-an…
+  url: https://yangvincent.github.io/yelp-and-chill/
   image: images/food.jpeg
   completed: true
 
@@ -23,14 +23,14 @@
   image: images/snake.png
   completed: true
 
-- title: Weather
-  url: https://yangvincent.github.io/weather/weather.html
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
-  completed: true
-
 - title: Statistical Modeling Language and Movies
   url: https://github.com/YangVincent/https://github.com/YangVincent/statistical-modeling-language-and-movies/blob/master/Project.pdf
   image: images/stat-model.png
+  completed: true
+
+- title: Weather
+  url: https://yangvincent.github.io/weather/weather.html
+  image: images/weather.jpeg
   completed: true
 
 - title: Food Board

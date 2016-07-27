@@ -15,7 +15,7 @@
 
 - title: MineSweeper
   url: https://github.com/YangVincent/MineSweeper
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
+  image: images/minesweeper.png
   completed: true
 
 - title: Weather

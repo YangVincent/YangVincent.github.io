@@ -32,3 +32,8 @@
   url: https://github.com/YangVincent/foodboard
   image: images/food-board.jpeg
   completed: false
+
+- title: Get Paid
+  url: https://github.com/YangVincent/pay-me
+  image: images/money.jpeg
+  completed: false

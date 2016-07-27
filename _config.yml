@@ -7,7 +7,7 @@ locale: en_US
 
 # Left Block Images
 background:
-  homepage: images/rave.jpg                           # this image will be shown on homepage's left block
+  homepage: images/fishing.jpeg                           # this image will be shown on homepage's left block
   #homepage: images/northern-lights.jpeg                           # this image will be shown on homepage's left block
   #post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
   post-list: images/bridge.jpeg             # this image will be shown on post list page

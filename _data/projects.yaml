@@ -30,7 +30,7 @@
 
 - title: Cryptocurrency Technologies
   url: https://github.com/RylanSchaeffer/ECS198-Cryptocurrency-Technologies
-  image: images/ecs198.png
+  image: images/ecs198.jpg
   completed: true
 
 - title: Weather
@@ -65,6 +65,6 @@
 
 - title: Twitch Chat Bot
   url: https://github.com/YangVincent/twitch-chat-bot
-  image: images/chat.png
+  image: images/chat.jpeg
   completed: true
 

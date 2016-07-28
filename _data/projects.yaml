@@ -41,22 +41,22 @@
 - title: Delta Sigma Pi Website
   url: https://dsp-nurho.com
   image: images/dsp-nurho.png
-  completed: true
+  completed: false
 
 - title: Food Board
   url: https://github.com/YangVincent/foodboard
   image: images/food-board.jpeg
   completed: false
 
-- title: Get Paid
-  url: https://github.com/YangVincent/pay-me
-  image: images/money.jpeg
-  completed: false
-
 - title: FUnix - available on request
   url: https://github.com/YangVincent/
   image: images/funix.jpeg
   completed: true
+
+- title: Get Paid
+  url: https://github.com/YangVincent/pay-me
+  image: images/money.jpeg
+  completed: false
 
 - title: Lempel Ziv Welch
   url: https://github.com/YangVincent/FileZip
@@ -66,5 +66,5 @@
 - title: Twitch Chat Bot
   url: https://github.com/YangVincent/twitch-chat-bot
   image: images/chat.jpeg
-  completed: true
+  completed: false
 

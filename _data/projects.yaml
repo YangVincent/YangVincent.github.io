@@ -28,6 +28,11 @@
   image: images/stat-model.png
   completed: true
 
+- title: Cryptocurrency Technologies
+  url: https://github.com/RylanSchaeffer/ECS198-Cryptocurrency-Technologies
+  image: images/ecs198.png
+  completed: true
+
 - title: Weather
   url: https://yangvincent.github.io/weather/weather.html
   image: images/weather.jpeg

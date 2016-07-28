@@ -27,7 +27,7 @@ sass:
   style:            compressed
 
 # Google Analytics
-google-analytics: UA-81484519-1
+#google-analytics: UA-81484519-1
 
 # Social Links
 email:              vinyang@ucdavis.edu

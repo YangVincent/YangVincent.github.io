@@ -23,7 +23,7 @@
   image: images/snake.png
   completed: true
 
-- title: Statistical Modeling Language and Movies
+- title: Statistical Modeling
   url: https://github.com/YangVincent/statistical-modeling-language-and-movies/blob/master/Project.pdf
   image: images/stat-model.png
   completed: true

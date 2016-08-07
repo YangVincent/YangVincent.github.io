@@ -1,63 +1,18 @@
 ---
 layout: post
-title: "The Flip Side"
-excerpt: "A reflection on startup vs. corporate culture"
+title: "ECS 198 - Cryptocurrency Technologies"
+excerpt: "Teaching is the Best Way to Learn"
 tags: 
-  - startup
-  - intern
-  - teradata
-  - identitymind 
-  - culture
-  - tech
+  - teaching
+  - student
+  - davis
+  - rylan 
+  - cryptocurrencies
+  - bitcoin
+  - ethereum
 ---
 
-In my two summers of college, I've experienced both sides of the company culture spectrum - IdentityMind Global - a small, <50 employee start up and Teradata - a 37 year old company with over 11,000 employees. Every few days, new differences emerge as I gain perspective on how each teaches a unique style of development. 
+
 
 ## The Startup Side - IdentityMind Global
-
-IdentityMind Global is a company specializing in antifraud and antitheft for banks. I worked at the Palo Alto office where you could walk and visit every department from
-marketing to engineering in about 7 seconds. Marketing and design were on one side with Engineering on the other. I sat beside another intern, Jeremy, with our boss right behind me
-and the Chief Architect behind him. Behind those two were four more people, and that was all of engineering. Everyone worked on the same repository, since the only project
-was also the entire product. 
-
-Overall, working at a start-up in Palo Alto was a great experience. Wake up around 7, bike to Caltrain, get off on University Avenue, and walk 5 minutes to work. 
-I'd stay until 5 or so then head home. If anything, that summer taught me the challenges of working on other peoples' code, a foreign project where you have a pinhole to look through
-and somehow piece together bugfixes and new features. On one hand, help was willingly given by those who were free. On the other, people rarely were. Accessing code or documentation 
-was trivial, and I gained a strong overview of how each branch worked together to find clients and provide a strong end product. Marketing and Engineering would often get lunch together
-and every friday everyone in the branch would gather into one room, eat together, and joke around. We were surrounded by brilliant people, all working toward the same goal. 
-
-Meanwhile, one of the marketing interns told me about his experience at another start up: 
-> If you got up before 6, people looked at you like you were crazy
-Although I didn't quite experience the same pressures, the back and forth between wanting to complete as much work as possible and finding time to relax at home were undeniable.
-Never before did I realize that my own passion towards wanting to complete building something could someday compete against my desire to relax and find something else... *coding was the relaxation*. 
-
-## The Corporate Side - Teradata
-
-Teradata was another world altogether. To start off, there was an established intern program that designated events and projects for the entire summer, we needed guest passes
-on the first day to gain access, and all you could see on each floor was cubicles and the occasional data visualization of airplanes.
-
-The program provided mentors as well as managers available for help on projects, who were also receptive to feedback. Several weeks ago, I expressed interest in working on Docker, a wish that was granted
-the week after. With many projects that all came together for various products, understanding the big picture was no longer obvious, as I took several days to understand the
-full scope of my team's influence. More enterprise level programs were integrated together and resources were readily available.
-
-At the same time, meetings potentially took weeks to set up, as I couldn't simply walk a few feet over. Gaining access was a hassle as I had to sign multiple forms and wait for
-another department to update my status in their system and finally grant me control.
-
-For lunch, you could go to the cafeteria, drive around, or walk to a nearby sandwich shop (Summer's Deli - I highly recommend), which was a drastic change from having
-the vast variety of restaurants on University Avenue, Palo Alto. Sometimes multiple interns from other floors and teams would meet up and socialize. This part was honestly
-the most similar aspect between start up and corporate culture which surprised me. I guess people of the same age category enjoy roughly similar lifestyles and have almost identical
-priorities no matter the size of the company. 
-
-All in all, I was surprised by how similar the internships were and how much more I learned talking to mentors as opposed to focusing on documentation, which brings me to the
-most important point: learning from other peoples' experiences is thus far, the most important thing an intern can do.
-
-## Network, network, network
-
-Entrepreneur Gary Vaynerchuk has a phenomenal video on the importance of networking at internships. Interns believe the most value aspect of their internship is the experience gained
-from working on complex problems, but Gary points out something different. When job searching, connections are invaluable and speak volumes louder than the difference in experience, abstracted into 3 lines on a resume.
-Moreover, networking allows you to gain perspective without the burden of taking time and experiencing everything.
-
-This summer, I took networking to heart in hopes of learning about different peoples' career paths, and its been highly rewarding. Some long term employees felt Agile/Scrum increased the necessity of performing, as it
-created a means to quantify skill. Others found outlets to find new hobbies through programs provided by the company. Recent college graduates expressed the excitement of working toward a hackathon winning patent against architects and senior developers with only a mere 2 years
-in the workforce. Networking is one of the few means of gaining the wisdom of experience without experience.
 

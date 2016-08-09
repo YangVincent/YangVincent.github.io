@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Life on the Other Side"
+title: "Share Your Knowledge"
 excerpt: "Learning by Teaching"
 image: images/teaching-teradata.jpg
 tags: 
@@ -15,7 +15,7 @@ tags:
 Tutoring is a great opportunity available for undergraduates. It allows you to learn about the different challenges various endure taking classes, refreshes hopefully important material
 in your mind, and enhances your ability to synthesize and communicate ideas in a digestable manner. 
 
-> There is no such thing as a bad student, only a bad teacher - Mr. Miyagi (1984; The Karate Kid)
+> In learning you will teach, and in teaching you will learn - Phil Collins
 
 In my time spent tutoring, I revisited basics and taught strong foundational ideas to a wide variety of peers, helping them succeed in their classes. From a young age, my 
 father drilled into my mind that understanding the purpose of somethings' existance is key to learning it as a whole; this is something I absolutely live by today. During my time

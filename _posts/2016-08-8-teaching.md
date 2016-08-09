@@ -4,11 +4,9 @@ title: "Life on the Other Side"
 excerpt: "Learning by Teaching"
 image: images/teaching-teradata.jpg
 tags: 
-  - teaching
+  - teach
   - davis
   - rylan 
-  - cryptocurrency
-  - cryptography
   - teradata
   - tutor
 ---
@@ -41,7 +39,10 @@ a university was a Master's degree. We had neither the breadth nor the depth of 
 an introductory CS course at Davis. He mentioned that he had often reviewed and relearned the material a few days before each lecture. Correspondingly, there would be no
 significant discernable difference if we had learned the material a few days prior or had years of experience.
 
-![image-center](images/ecs198.jpg){: .align-center}
+<figure class="align-center">
+  <img src="https://cdn.rawgit.com/YangVincent/YangVincent.github.io/master/images/ecs198.jpg" alt="Rylan Teaching">
+  <figcaption>Rylan Teaching RSA for ECS 198</figcaption>
+</figure> 
 
 Rylan and I normally held office hours after class at the MU, a nearby hub on campus with food and open seating. Last year when I took Rylan's class, this was by far my favorite part. Now on the other
 side as an instructor, having others look to me to see what to do even in small groups was a new experience altogether as people came up to me asking me for advice on not only
@@ -72,5 +73,4 @@ often preferring to make comments such as
 
 Overall, it was a great experience. Recognizing the different abilities and personalities of students is astoundingly straightforward, and I learned a great deal about working
 with kids. Above all, I now have much greater respect for elementary and middle school teachers.
-
 

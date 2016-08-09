@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Share Your Knowledge"
-excerpt: "Learning by Teaching"
+title: "Learning by Teaching"
+excerpt: "A list of lessons learned while teaching"
 image: images/teaching-teradata.jpg
 tags: 
   - teach

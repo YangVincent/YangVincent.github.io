@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "Teaching Cryptocurrencies and Cryptography"
+title: "Life on the Other Side"
+excerpt: "Learning by Teaching"
 image: images/teaching-teradata.jpg
 tags: 
   - teaching
-  - student
   - davis
   - rylan 
-  - cryptocurrencies
-  - bitcoin
-  - ethereum
-  - teradata
+  - cryptocurrency
   - cryptography
+  - teradata
   - tutor
 ---
 
 ## ECS 197 - Tutoring Computer Science
 Tutoring is a great opportunity available for undergraduates. It allows you to learn about the different challenges various endure taking classes, refreshes hopefully important material
 in your mind, and enhances your ability to synthesize and communicate ideas in a digestable manner. 
+
 > There is no such thing as a bad student, only a bad teacher - Mr. Miyagi (1984; The Karate Kid)
+
 In my time spent tutoring, I revisited basics and taught strong foundational ideas to a wide variety of peers, helping them succeed in their classes. From a young age, my 
 father drilled into my mind that understanding the purpose of somethings' existance is key to learning it as a whole; this is something I absolutely live by today. During my time
 as a tutor, I found that this helps others learn increasingly quickly as well. Rather than spending time memorizing algorithms and data structures, understanding and improving on 
@@ -41,12 +41,14 @@ a university was a Master's degree. We had neither the breadth nor the depth of 
 an introductory CS course at Davis. He mentioned that he had often reviewed and relearned the material a few days before each lecture. Correspondingly, there would be no
 significant discernable difference if we had learned the material a few days prior or had years of experience.
 
+![image-center](images/ecs198.jpg){: .align-center}
+
 Rylan and I normally held office hours after class at the MU, a nearby hub on campus with food and open seating. Last year when I took Rylan's class, this was by far my favorite part. Now on the other
 side as an instructor, having others look to me to see what to do even in small groups was a new experience altogether as people came up to me asking me for advice on not only
 course materials, but other advice as well regarding classes, career options, and greek life. 
 
 Several lectures in, there was a clear divide in the class between those genuinely interested in Bitcoin and the surrounding concepts and those who were only present for units. 
-Admittedly, rediscovering that others could have such little interest in something I found particularly interesting was mildly disappointing. Also, 
+Admittedly, rediscovering that others could have such little interest in something I found particularly interesting was mildly disappointing. 
 
 ## Elementary Institute of Science
 For the outreach event at my Teradata internship, we visited the Elementary Institute of Science (only four miles from the famed Tacos el Gordo!) to teach kids from 8 - 13
@@ -65,7 +67,9 @@ and frequently analysis while others struggled on understanding the newly expand
 Finally, the last group was 10 year olds. As expected, they grasped the material more quickly than the 8 year olds, but took several minutes more than the 11-13 year olds to break
 the puzzle. I was surprised however, by the accuracy with which others describe age groups. Although the 10 year olds learned rather quickly, they were also much more rebellious,
 often preferring to make comments such as 
+
 > So you're teaching us to pass notes so our teacher can't read them?
+
 Overall, it was a great experience. Recognizing the different abilities and personalities of students is astoundingly straightforward, and I learned a great deal about working
 with kids. Above all, I now have much greater respect for elementary and middle school teachers.
 

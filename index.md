@@ -14,8 +14,8 @@ Labs, lectures, and assignments may be posted at a later date.
 I am also involved in undergraduate research in Computer Security for Professor [Matt Bishop](http://nob.cs.ucdavis.edu/~bishop/) under the College of Engineering, as well
 as the Continuous Integration/DevOps Intern at [Teradata](http://www.teradata.com/?LangType=1033). 
 
-On the side, I am the Director of Technology for [Delta Sigma Pi | Nu Rho](https://www.dsp-nurho.com) at UC Davis, Webmaster for TEDxUCDavis, a private tutor for the Davis Computer Science Club, and a
-Consultant for Davis Consulting Group.
+On the side, I am the Director of Technology for [Delta Sigma Pi | Nu Rho](https://www.dsp-nurho.com) at UC Davis, Web Developer for [HackDavis](http://hackdavis.io/), Webmaster for [TEDxUCDavis](http://www.tedxucdavis.com/), a private tutor for the [Davis Computer Science Club](https://daviscsclub.org/), and a
+Consultant for [Davis Consulting Group](http://davisconsultinggroup.org/).
 
 ---
 

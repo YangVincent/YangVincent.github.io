@@ -2,7 +2,7 @@
 layout: post
 title: "The Peter Principle"
 excerpt: "Teradata Lunches"
-image: images/peterprinciple.png
+image: images/stairs.jpeg
 tags: 
   - mentor
   - management
@@ -19,7 +19,7 @@ tags:
 
 ## Daniel Hoffman
 
-> You will be promoted until you fail.
+> People rise to their level of incompetence
 
 ## Dee Horcasitas
 

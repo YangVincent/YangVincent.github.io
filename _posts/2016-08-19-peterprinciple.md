@@ -13,6 +13,7 @@ tags:
   - teradata
   - evp
   - technical interview
+  - tech
 ---
 
 ## Overview
@@ -41,10 +42,18 @@ vs. what other teams want. He stressed the importance of simultaneously serving 
 to proceed as efficiently as possible.
 
 ## Dee Horcasitas - Senior Technical Recruiter
+Dee showed me that there are two sides to everything - just because I think getting opportunities and internships is extremely difficult, she has the opposite view. At any given point,
+she has roughly 55 openings to fill, most of which with different managers and targeted skill sets. Although my experience is that there are far too many people with a scarce
+job market, she finds that managers want all the best candidates working for low prices... yesterday. I also noticed that ironically, recruiters at top companies probably have 
+the easiest time finding suitable candidates while theoretically also being the best recruiters. On the contrary, recruiters at lower level companies also have a smaller selection of candidates.
 
 ## John Poetzinger - Senior Storage Engineer
+John was a software engineer who recently switched into management. He stressed the importance of networking, since managers typically look to people who are actively communicative
+and open with the rest of the team. Additionally, he brought up a recent trend where people switch companies every few years, thus accelerating their promotion rate.
 
 ## Oliver Ratzesberger - EVP and Chief Project Officer 
-
+Oliver is the presient of Teradata Labs and reports directly to Teradata's CEO, Victor Lund. With my newfound interest in management, I imagined his perspective would be
+vastly different, since he has a higher level overview and greater influence on the company. My friends and I were astounded when he accepted, even building on our lunch offer by hosting catering
+as well. To be continued after lunch on Monday.
 
 

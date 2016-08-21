@@ -9,6 +9,7 @@ tags:
   - rylan 
   - teradata
   - tutor
+  - tech
 ---
 
 ## ECS 197 - Tutoring Computer Science

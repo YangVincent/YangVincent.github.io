@@ -56,6 +56,11 @@ Oliver is the president of Teradata Labs and reports directly to Teradata's CEO,
 vastly different, since he has a higher level overview and greater influence on the company. My friends and I were astounded when he accepted, even building on our lunch offer by hosting catering
 as well. 
 
+<figure class="align-center">
+  <img src="https://cdn.rawgit.com/YangVincent/YangVincent.github.io/master/images/oliver.jpg" alt="Lunch with Oliver">
+  <figcaption>Lunch with Oliver</figcaption>
+</figure> 
+
 At lunch, Oliver was unexpectedly down to Earth. He understood problems and issues of importance for people at all levels while discussing how he made critical decisions along his career path.
 Several main points stood out to me: First, his biggest emphasis for the company wasn't about which technological direction to bring the company, or which specific areas to further strengthen.
 Rather, he focused on improving company culture to foster collaboration and innovation - something strongly emphasized at his previous workplace, Ebay. He wanted to bring people
@@ -78,13 +83,13 @@ his engagement and personal interest in technology was astounding, even with his
 11, and specialized in technology as his high school (integrated with B.S. in Austria) track.
 
 In summary,
-*  Fun work/employees who enjoy the work they are doing work better
-*  Collaboration trumps individual effort easily
-*  Push for cultural change 2 years
-*  Home network
-*  Don't worry about promotions, but do more work than expected to fulfill your vision
-*  Don't burn out - time your work
-*  It takes a week to fully relax and remove yourself from work (ex: Ebay had 4 week sabbaticals for people every 4 years)
-*  Culture/collaboration breeds innovation
-*  Move around in the same company, don't jump. You don't make meaningful contributions until around 2 years in.
+  * Fun work/employees who enjoy the work they are doing work better
+  * Collaboration trumps individual effort easily
+  * Push for cultural change 2 years
+  * Home network
+  * Don't worry about promotions, but do more work than expected to fulfill your vision
+  * Don't burn out - time your work
+  * It takes a week to fully relax and remove yourself from work (ex: Ebay had 4 week sabbaticals for people every 4 years)
+  * Culture/collaboration breeds innovation
+  * Move around in the same company, don't jump. You don't make meaningful contributions until around 2 years in.
 

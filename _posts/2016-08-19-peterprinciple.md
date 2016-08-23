@@ -8,18 +8,20 @@ tags:
   - management
   - daniel hoffman 
   - oliver ratzesberger 
-  - dee
+  - dee horcasitas
   - john poetzinger
   - teradata
   - evp
   - technical interview
   - tech
+  - culture
+  - diversity
 ---
 
 ## Overview
-Throughout my time at Teradata, I reached out to other employees in hopes of learning from their perspectives. Here's some lessons I learned from each.
+During my time at Teradata, I reached out to other employees in hopes of learning from their perspectives. Here's some lessons I learned from each.
 
-## Daniel Hoffman - Software Engineering Manager
+#### Daniel Hoffman - Software Engineering Manager
 I reached out to Daniel after he and several other managers held a Q&A session for interns. He first hosted a luncheon along with several other managers on a smaller scale,
 then a private lunch with me. Throughout, I learned several important aspects of working towards a managerial position. To start off, most majors allow you to graduate then
 immediately begin work in your field of choice. Unfortunately, nobody really wants a new college grad manager. In order to combat this, he recommended two main tracks. The first
@@ -42,17 +44,17 @@ a manager, his days are typically filled with meetings, scheduling and preparing
 vs. what other teams want. He stressed the importance of simultaneously serving as a buffer for the team so they can work efficiently, and removing blockers for his team members
 to proceed as efficiently as possible.
 
-## Dee Horcasitas - Senior Technical Recruiter
+#### Dee Horcasitas - Senior Technical Recruiter
 Dee showed me that there are two sides to everything - just because I think getting opportunities and internships is extremely difficult, she has the opposite view. At any given point,
 she has roughly 55 openings to fill, most of which with different managers and targeted skill sets. Although my experience is that there are far too many people with a scarce
 job market, she finds that managers want all the best candidates working for low prices... yesterday. I also noticed that ironically, recruiters at top companies probably have 
 the easiest time finding suitable candidates while theoretically also being the best recruiters. On the contrary, recruiters at lower level companies also have a smaller selection of candidates.
 
-## John Poetzinger - Senior Storage Engineer
+#### John Poetzinger - Senior Storage Engineer
 John was a software engineer who recently switched into management. He stressed the importance of networking, since managers typically look to people who are actively communicative
 and open with the rest of the team. Additionally, he brought up a recent trend where people switch companies every few years, thus accelerating their promotion rate.
 
-## Oliver Ratzesberger - EVP and Chief Project Officer 
+#### Oliver Ratzesberger - EVP and Chief Project Officer 
 Oliver is the president of Teradata Labs and reports directly to Teradata's CEO, Victor Lund. With my newfound interest in management, I imagined his perspective would be
 vastly different, since he has a higher level overview and greater influence on the company. My friends and I were astounded when he accepted, even building on our lunch offer by hosting catering
 as well. 
@@ -90,8 +92,8 @@ In summary,
   * Push for cultural change 2 years
   * Home network
   * Don't worry about promotions, but do more work than expected to fulfill your vision
-  * Don't burn out - time your work
+  * Don't burn out - time your work and maintain work/life balance
   * It takes a week to fully relax and remove yourself from work (ex: Ebay had 4 week sabbaticals for people every 4 years)
   * Culture/collaboration breeds innovation
-  * Move around in the same company, don't jump. You don't make meaningful contributions until around 2 years in.
+  * Move around in the same company; don't jump. You don't make meaningful contributions until around 2 years in.
 

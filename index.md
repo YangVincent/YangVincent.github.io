@@ -12,7 +12,7 @@ I co-taught an upper division undergraduate course on [Cryptocurrency Technologi
 
 I am also involved in undergraduate research in Computer Security for Professor [Matt Bishop](http://nob.cs.ucdavis.edu/~bishop/), as well as the Continuous Integration/DevOps Intern at [Teradata](http://www.teradata.com/?LangType=1033). 
 
-On the side, I am the Director of Technology for [Delta Sigma Pi | Nu Rho](https://www.dsp-nurho.com), Web Developer for [HackDavis](http://hackdavis.io/), Webmaster for [TEDxUCDavis](http://www.tedxucdavis.com/), tutor for the [Davis Computer Science Club](https://daviscsclub.org/), and a
+On the side, I am the CTO for [Delta Sigma Pi | Nu Rho](https://www.dsp-nurho.com), Web Developer for [HackDavis](http://hackdavis.io/), Webmaster for [TEDxUCDavis](http://www.tedxucdavis.com/), tutor for the [Davis Computer Science Club](https://daviscsclub.org/), and a
 Consultant for [Davis Consulting Group](http://davisconsultinggroup.org/).
 
 ---

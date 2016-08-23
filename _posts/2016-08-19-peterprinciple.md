@@ -26,9 +26,10 @@ immediately begin work in your field of choice. Unfortunately, nobody really wan
 is to assume a project management role, then leverage a technical background into technical management. The alternative is to work as a software engineer then transition to
 a architectural role while beginning to delegate tasks to others. 
 
-On the way back, he told me to look into the Peter Principle, which states
+On the way back, he told me to look into the Peter Principle.
 
-> People rise to their level of incompetence
+Peter Principle
+:   People rise to their level of incompetence
 
 The idea behind this is that people often look at who does well in their role for promotions. However as burdens increase, people become unable to perform at their current level
 and no longer get promoted. At this level, they tend to fail which is why people seem to be inadequate for their roles.

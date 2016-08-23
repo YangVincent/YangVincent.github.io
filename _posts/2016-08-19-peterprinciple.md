@@ -52,8 +52,33 @@ John was a software engineer who recently switched into management. He stressed 
 and open with the rest of the team. Additionally, he brought up a recent trend where people switch companies every few years, thus accelerating their promotion rate.
 
 ## Oliver Ratzesberger - EVP and Chief Project Officer 
-Oliver is the presient of Teradata Labs and reports directly to Teradata's CEO, Victor Lund. With my newfound interest in management, I imagined his perspective would be
+Oliver is the president of Teradata Labs and reports directly to Teradata's CEO, Victor Lund. With my newfound interest in management, I imagined his perspective would be
 vastly different, since he has a higher level overview and greater influence on the company. My friends and I were astounded when he accepted, even building on our lunch offer by hosting catering
-as well. To be continued after lunch on Monday.
+as well. 
 
+Lunch Oliver was unexpectedly down to Earth. He understood problems and issues of importance for people at all levels while discussing how he made critical decisions along his career path.
+Several main points stood out to me: First, his biggest emphasis for the company wasn't about which technological direction to bring the company, or which specific areas to further strengthen.
+Rather, he focused on improving company culture to foster collaboration and innovation - something strongly emphasized at his previous workplace, Ebay. He wanted to bring people
+together and share ideas and gave, as example, several key ideas he was pushing for the company to make. First and foremost, he pushed for 2 years to redesign the building... complete with
+new furniture, open space, break rooms, outdoor seating/relaxation areas, etc. Next, he pushed for hackathons which people apprehensively approached, but eventually accepted and embraced.
+Third, he recalled from his own experience times when he stayed up for ~70 hours working on a product. As a result, he emphasized the importance of work life balance, encouraging
+other management executives to accept and endorse vacations spanning multiple weeks as a norm (as opposed to 1 week max breaks). Finally, he spoke passionately about the importance of diversity.
+With diversity comes different approaches to problems and improved collaboration while simultaneously breaking barriers on traditional stigmas.
+
+We also discussed other topics such as promotions and jumping companies. Throughout, I realized two interesting points. He didn't seem to focus on promotions or pay, as long
+as it was sufficient. However in each position, he would seek to push his own vision (such as diversity and open collaboration through socialization), which would result in his
+exceeding expectations. Second, he stressed the importance of not jumping ship too soon in search of promotions. In his experience, it takes around 1-2 years to begin making
+meaningful contributions - a sentiment shared by several other managers I spoke with as well. Rather, switch positions internally such that your knowledge about a product
+builds up. 
+
+In summary,
+1) Fun work/employees who enjoy the work they are doing work better
+2) Collaboration trumps individual effort easily
+3) Push for cultural change 2 years
+4) Home network
+5) Don't worry about promotions, but do more work than expected to fulfill your vision
+6) Don't burn out - time your work
+7) It takes a week to fully relax and remove yourself from work (ex: Ebay had 4 week sabbaticals for people every 4 years)
+8) Culture/collaboration breeds innovation
+9) Move around in the same company, don't jump. You don't make meaningful contributions until around 2 years in.
 

@@ -83,6 +83,7 @@ his engagement and personal interest in technology was astounding, even with his
 11, and specialized in technology as his high school (integrated with B.S. in Austria) track.
 
 In summary,
+
   * Fun work/employees who enjoy the work they are doing work better
   * Collaboration trumps individual effort easily
   * Push for cultural change 2 years

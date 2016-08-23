@@ -56,7 +56,7 @@ Oliver is the president of Teradata Labs and reports directly to Teradata's CEO,
 vastly different, since he has a higher level overview and greater influence on the company. My friends and I were astounded when he accepted, even building on our lunch offer by hosting catering
 as well. 
 
-Lunch Oliver was unexpectedly down to Earth. He understood problems and issues of importance for people at all levels while discussing how he made critical decisions along his career path.
+Oliver was unexpectedly down to Earth. He understood problems and issues of importance for people at all levels while discussing how he made critical decisions along his career path.
 Several main points stood out to me: First, his biggest emphasis for the company wasn't about which technological direction to bring the company, or which specific areas to further strengthen.
 Rather, he focused on improving company culture to foster collaboration and innovation - something strongly emphasized at his previous workplace, Ebay. He wanted to bring people
 together and share ideas and gave, as example, several key ideas he was pushing for the company to make. First and foremost, he pushed for 2 years to redesign the building... complete with
@@ -70,6 +70,12 @@ as it was sufficient. However in each position, he would seek to push his own vi
 exceeding expectations. Second, he stressed the importance of not jumping ship too soon in search of promotions. In his experience, it takes around 1-2 years to begin making
 meaningful contributions - a sentiment shared by several other managers I spoke with as well. Rather, switch positions internally such that your knowledge about a product
 builds up. 
+
+Finally, we asked him about his daily life. He responded by showing us how he keeps up with technology - through his pet project. At home, he installs sensors for different types
+of actions spanning from seismic activity to the lights currently on in his house. Two years ago, he heard about the rise of Python and decided to use it to automate and remotely
+control everything in his house. Raspberry Pis run Docker Swarm while a Mac Mini serves as a parallel processor for 28 different types of devices that update every few seconds. To me,
+his engagement and personal interest in technology was astounding, even with his packed schedule at work. He mentioned his past - he started tinkering with technology when he was
+11, and specialized in technology as his high school (integrated with B.S. in Austria) track.
 
 In summary,
 1) Fun work/employees who enjoy the work they are doing work better

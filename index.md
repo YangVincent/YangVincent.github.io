@@ -17,7 +17,7 @@ CTO @ [Delta Sigma Pi Nu Rho](https://www.dsp-nurho.com)<br>
 Web Developer @ [HackDavis](http://hackdavis.io/)<br>
 Web Developer @ [TEDxUCDavis](http://www.tedxucdavis.com/)<br>
 Tutor @ [Davis Computer Science Club](https://daviscsclub.org/)<br>
-Consultant @ Davis Consulting Group
+Vice President @ Davis Consulting Group
 
 ---
 

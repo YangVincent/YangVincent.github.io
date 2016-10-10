@@ -33,15 +33,10 @@
   image: images/ecs198.jpg
   completed: true
 
-- title: Weather
-  url: https://yangvincent.github.io/weather/weather.html
-  image: images/weather.jpeg
-  completed: true
-
 - title: Delta Sigma Pi Website
   url: https://dsp-nurho.com
   image: images/dsp-nurho.png
-  completed: false
+  completed: true
 
 - title: FUnix - available on request
   url: https://github.com/YangVincent/

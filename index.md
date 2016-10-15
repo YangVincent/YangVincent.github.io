@@ -12,12 +12,13 @@ I co-taught an upper division undergraduate course on [Cryptocurrency Technologi
 
 Undergraduate Security Researcher @ UC Davis CS<br>
 Continuous Integration/DevOps Intern @ [Teradata](http://www.teradata.com/?LangType=1033)<br> 
+Instructor @ UC Davis CS <br>
 Software Engineering Intern @ IdentityMind Global<br>
 CTO @ [Delta Sigma Pi Nu Rho](https://www.dsp-nurho.com)<br>
 Developer @ [HackDavis](http://hackdavis.io/)<br>
 Web Developer @ [TEDxUCDavis](http://www.tedxucdavis.com/)<br>
 Tutor @ [Davis Computer Science Club](https://daviscsclub.org/)<br>
-VP &#38; Developer @ [Davis Consulting Group]
+VP &#38; Developer @ [Davis Consulting Group](http://davisconsultinggroup.org)
 
 ---
 

@@ -38,11 +38,6 @@
   image: images/ecs198.jpg
   completed: true
 
-- title: Delta Sigma Pi Website
-  url: https://dsp-nurho.com
-  image: images/dsp-nurho.png
-  completed: true
-
 - title: FUnix - available on request
   url: https://github.com/YangVincent/
   image: images/funix.jpeg

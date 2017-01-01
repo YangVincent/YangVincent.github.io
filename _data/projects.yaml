@@ -1,3 +1,8 @@
+- title: HackDavis Website
+  url: https://hackdavis.io/
+  image: images/hackdavis.png
+  completed: true
+
 - title: Yelp and Chill
   url: https://yangvincent.github.io/yelp-and-chill/
   image: images/food.jpeg

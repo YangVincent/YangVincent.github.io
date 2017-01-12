@@ -7,12 +7,12 @@ Welcome! I am a third year undergraduate at the [University of California, Davis
 
 ---
 
-Full Stack SWE Intern @ Course Hero<br>
-Undergraduate Researcher @ UC Davis CS<br>
-Security Researcher @ UC Davis CS<br>
+Full Stack SWE Intern @ [Course Hero](https://www.coursehero.com)<br>
+Undergraduate Researcher @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
+Security Researcher @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
 SWE Intern @ [Teradata](http://www.teradata.com/?LangType=1033)<br> 
-[Cryptocurrency](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) Co-Instructor @ UC Davis CS<br>
-SWE Intern @ IdentityMind Global<br><br>
+[Cryptocurrency](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) Co-Instructor @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
+SWE Intern @ [IdentityMind Global](https://www.identitymindglobal.com)<br><br>
 Developer @ [HackDavis](http://hackdavis.io/)<br>
 Developer @ [BCNC](https://bcnclub.org)<br>
 Tutor @ [Davis Computer Science Club](https://daviscsclub.org/)<br>

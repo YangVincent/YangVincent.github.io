@@ -3,7 +3,7 @@ layout: home
 ---
 # About 
 
-Welcome! I am an undergraduate at the [University of California, Davis](https://www.ucdavis.edu/). My primary interests are in Computer Security and Web Development.
+Welcome! I am an incoming graduate student at the [University of California, Davis](https://www.ucdavis.edu/) with a focus on Computer Security. 
 
 ---
 

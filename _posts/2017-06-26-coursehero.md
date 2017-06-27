@@ -51,7 +51,7 @@ level. People were endlessly welcoming and helpful as I settled into my new home
 explaining his role - "to support and help the team succeed". With organized and efficient
 documentation, my development environment was set up by the end of day one. With the subsequent days, I was onboarded
 by two team members who taught me about the tools across the entire stack and helped me with my many questions. Finally,
-my mentor assigned me a task and I started working on it. I hope to push it out for QA tomorrow. 
+my mentor (Shannon Nachreiner!) assigned me a task and I started working on it. I hope to push it out for QA tomorrow. 
 
 Besides the fantastic interviewing and introduction experience from HR, here are some significant observations about
 my team and Course Hero's collaboration structure. 

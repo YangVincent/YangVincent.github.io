@@ -60,7 +60,7 @@ vastly different, since he has a higher level overview and greater influence on 
 as well. 
 
 <figure class="align-center">
-  <img src="https://cdn.rawgit.com/YangVincent/YangVincent.github.io/master/images/oliverlunch.jpg" alt="Lunch with Oliver">
+  <img src="/images/oliverlunch.jpg" alt="Lunch with Oliver">
   <figcaption>Lunch with Oliver</figcaption>
 </figure> 
 

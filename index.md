@@ -3,7 +3,7 @@ layout: home
 ---
 # About 
 
-Welcome! I am an incoming graduate student at the [University of California, Davis](https://www.ucdavis.edu/) with a focus on Computer Security. 
+Welcome! I am an incoming graduate student at the [University of California, Davis](https://www.ucdavis.edu/). 
 
 ---
 

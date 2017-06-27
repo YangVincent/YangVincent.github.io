@@ -2,7 +2,7 @@
 layout: post
 title: "The Culture"
 excerpt: "My first week at Course Hero"
-image: images/course-hero.jpg
+image: images/coursehero-glass.jpg
 tags: 
   - startup
   - intern
@@ -53,6 +53,11 @@ my team and Course Hero's collaboration structure.
   2. I was offered help and support with any/all of my questions and even with help on my first feature. Many
   of my experiences have involved struggling for hours on my own to find a trivial but tool-specific bug. 
   3. Most importantly, I was introduced and given time to bond with each member of my team. 
+
+<figure class="align-center">
+  <img src="https://cdn.rawgit.com/YangVincent/YangVincent.github.io/master/images/sd-chess.jpg" alt="Westfield Horton Plaza Chess">
+  <figcaption>Westfield Horton Plaza Chess</figcaption>
+</figure> 
 
 ## Events
 

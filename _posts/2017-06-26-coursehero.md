@@ -55,8 +55,8 @@ my team and Course Hero's collaboration structure.
   3. Most importantly, I was introduced and given time to bond with each member of my team. 
 
 <figure class="align-center">
-  <img src="https://cdn.rawgit.com/YangVincent/YangVincent.github.io/master/images/sd-chess.jpg" alt="Westfield Horton Plaza Chess">
-  <figcaption>Westfield Horton Plaza Chess</figcaption>
+  <img src="https://github.com/YangVincent/YangVincent.github.io/blob/master/images/coursehero-desk.jpg" alt="Westfield Horton Plaza Chess">
+  <figcaption>Day 1 Desk</figcaption>
 </figure> 
 
 ## Events

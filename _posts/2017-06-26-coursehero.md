@@ -35,6 +35,15 @@ to the Caltrain and the Pacific Shores Shuttle. Upon arrival, I was given a tour
 the beautiful campus to the infinite snacks, the river flowing alongside, and the game rooms nearby. Before long,
 I was settled into my desk and introduced to my workplace proximity associates. 
 
+<figure class="align-center">
+  <img src="/images/coursehero-snacks.jpg" alt="Course Hero Snacks">
+  <figcaption>Course Hero Snacks</figcaption>
+</figure> 
+<figure class="align-center">
+  <img src="/images/coursehero-desk.jpg" alt="Day 1 Desk">
+  <figcaption>Day 1 Desk</figcaption>
+</figure> 
+
 ## My Phenomenal First Week
 
 My first few days consisted of one on one meetings with each team member allowing me to get to know them on a personal
@@ -55,8 +64,8 @@ my team and Course Hero's collaboration structure.
   3. Most importantly, I was introduced and given time to bond with each member of my team. 
 
 <figure class="align-center">
-  <img src="/images/coursehero-desk.jpg" alt="Day 1 Desk">
-  <figcaption>Day 1 Desk</figcaption>
+  <img src="/images/coursehero-view.jpg" alt="Course Hero View">
+  <figcaption>Course Hero View</figcaption>
 </figure> 
 
 ## Events

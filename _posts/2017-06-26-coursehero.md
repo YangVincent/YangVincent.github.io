@@ -77,4 +77,4 @@ we had a meeting "Stories of Course Hero" in which people shared meaningful expe
 the fact that the environment was friendly and supportive enough for these people to open up as they did was
 truly remarkable to me.
 
-All in all, I'm extremely excited to be contributing to this company for the rest of the Summer! 
+All in all, I'm extremely excited to be contributing to Course Hero for the rest of the Summer! 

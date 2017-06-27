@@ -55,7 +55,7 @@ my team and Course Hero's collaboration structure.
   3. Most importantly, I was introduced and given time to bond with each member of my team. 
 
 <figure class="align-center">
-  <img src="images/coursehero-desk.jpg" alt="Day 1 Desk">
+  <img src="/images/coursehero-desk.jpg" alt="Day 1 Desk">
   <figcaption>Day 1 Desk</figcaption>
 </figure> 
 

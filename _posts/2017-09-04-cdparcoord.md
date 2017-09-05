@@ -2,7 +2,7 @@
 layout: post
 title: "cdparcoord"
 excerpt: "Top Frequency-Based Parallel Coordinates"
-image: images/cdparcoord-mlb.png
+image: images/cdparcoord-diacdpar.png
 tags: 
   - research
   - cdparcoord
@@ -31,7 +31,7 @@ have a paper on arxiv and a package on CRAN. Here are my key takeaways.
 
 ## Learnings About Research and Development
 
-1. People have different strengths, and it's important to find strengths that mesh together.
+#### People have different strengths, and it's important to find strengths that mesh together.
 
 Harrison comes from a statistics background, and I from a CS one. While collaborating on 
 cdparcoord, I found that he would be able to tackle complex analytics easily and often
@@ -47,7 +47,7 @@ to find the bug. I attribute both of these characteristics to practice, and this
 taught me just how different two people could think about the same problems, and how we
 could use this to our advantage. 
 
-2. Research is about results.
+#### Research is about results.
 
 For part of the package, I was looking for trends in airline data. Theoretically, we could
 find the path of a plan from point A, to B, to C, then analize subsets of plans that would
@@ -55,14 +55,14 @@ still contribute to the 'weight' of full routes. After spending nearly a week pr
 data and finding patterns, the results were unfortunately weak in demonstrating cdparcoord's
 strengths. As such, we could not use it. Sometimes in life, simply having hard work is insufficient.
 
-3. Research is rather similar to working on projects normally.
+#### Research is rather similar to working on projects normally.
 
 You focus on mildly different questions, but still test out programs, tools, and scenarios in
 much the same way as you would for an actual product. Stackoverflow is still your best friend and
 You still code as you would before, but now you care about finding your own implementations
 over using someone else's.
 
-4. Nothing beats experience.
+#### Nothing beats experience.
 
 There were many times where Harrison and I walked into a meeting with Dr. Matloff completely
 stuck on the project, and walked out with the realization that the fix was really quite simple. 

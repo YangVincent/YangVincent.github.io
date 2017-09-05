@@ -1,41 +1,26 @@
-- title: HackDavis Website
-  url: https://hackdavis.io/
-  image: images/hackdavis.png
-  completed: true
-
-- title: Yelp and Chill
-  url: https://yangvincent.github.io/yelp-and-chill/
-  image: images/food.jpeg
-  completed: true
-
-- title: Predict Elections
-  url: https://predict-elections.herokuapp.com
-  image: https://cdn.rawgit.com/YangVincent/YangVincent.github.io/master/images/predict-elections.png
-  completed: true
-
-- title: Domination
-  url: https://github.com/YangVincent/Domination
-  image: images/domination.png
-  completed: true
-
-- title: MineSweeper
-  url: https://github.com/YangVincent/MineSweeper
-  image: images/minesweeper.png
-  completed: true
-
-- title: Snake
-  url: https://github.com/YangVincent/Snake
-  image: images/snake.png
-  completed: true
-
-- title: Statistical Modeling
-  url: https://github.com/YangVincent/statistical-modeling-language-and-movies/blob/master/Project.pdf
-  image: images/stat-model.png
+- title: cdparcoord
+  url: https://CRAN.R-project.org/package=cdparcoord
+  image: images/cdparcoord-diacdpar.png
   completed: true
 
 - title: Cryptocurrency Technologies
   url: https://github.com/RylanSchaeffer/ECS198-Cryptocurrency-Technologies
   image: images/ecs198.jpg
+  completed: true
+
+- title: Text Yelp
+  url: https://yangvincent.github.io/text-yelp/
+  image: images/food.jpeg
+  completed: true
+
+- title: Predict Elections
+  url: https://predict-elections.herokuapp.com
+  image: images/predict-elections.png  
+  completed: true
+
+- title: Domination
+  url: https://github.com/YangVincent/Domination
+  image: images/domination.png
   completed: true
 
 - title: FUnix - available on request
@@ -47,5 +32,3 @@
   url: https://github.com/YangVincent/FileZip
   image: images/lzw.jpeg
   completed: true
-
-

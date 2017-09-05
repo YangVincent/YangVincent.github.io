@@ -9,8 +9,8 @@ Welcome! I am an incoming graduate student at the [University of California, Dav
 
 Full Stack SWE Intern @ [Course Hero](https://www.coursehero.com)<br>
 Data Science Researcher @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
-Author @ [Top Frequency-Based Parallel Coordinates](https://arxiv.org/abs/1709.00665)
-Creator @ [CRAN cdparcoord](https://CRAN.R-project.org/package=cdparcoord)
+Author @ [Top Frequency-Based Parallel Coordinates](https://arxiv.org/abs/1709.00665)<br>
+Creator @ [CRAN cdparcoord](https://CRAN.R-project.org/package=cdparcoord)<br>
 Security Researcher @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
 SWE DevOps Intern @ [Teradata](http://www.teradata.com/?LangType=1033)<br> 
 [Cryptocurrency](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) Co-Instructor @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>

@@ -22,13 +22,3 @@
   url: https://github.com/YangVincent/Domination
   image: images/domination.png
   completed: true
-
-- title: FUnix - available on request
-  url: https://github.com/YangVincent/
-  image: images/funix.jpeg
-  completed: true
-
-- title: Lempel Ziv Welch
-  url: https://github.com/YangVincent/FileZip
-  image: images/lzw.jpeg
-  completed: true

@@ -3,10 +3,9 @@ layout: home
 ---
 # About 
 
-Welcome! I am a M.S. student at [University of California, Davis](https://www.ucdavis.edu/) graduating in June 2018. <br>
-My research is in Computer Security and Data Science.<br>
-I am currently searching for a full-time position in the Bay Area.
-
+Welcome! <br>
+I am a M.S. student at [UC Davis](https://www.ucdavis.edu/) graduating in June 2018. <br>
+I am open to full-time opportunities in the Bay Area.
 
 ---
 

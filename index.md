@@ -3,7 +3,8 @@ layout: home
 ---
 # About 
 
-Welcome! I am an incoming graduate student at the [University of California, Davis](https://www.ucdavis.edu/). 
+Welcome! I am a graduate student at [University of California, Davis](https://www.ucdavis.edu/) graduating in June 2018. 
+My research is in Computer Security and Data Science.
 
 ---
 

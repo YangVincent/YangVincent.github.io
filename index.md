@@ -4,7 +4,7 @@ layout: home
 # About 
 
 Welcome! <br>
-I am a Software Engineer. <br>
+I am a Software Engineer. I focus on Computer Security, Blockchain, and Software Development Optimization.<br>
 
 ---
 

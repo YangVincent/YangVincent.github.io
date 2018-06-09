@@ -4,11 +4,11 @@ layout: home
 # About 
 
 Welcome! <br>
-I am a M.S. student at [UC Davis](https://www.ucdavis.edu/) graduating in June 2018. <br>
-I am open to full-time opportunities in the Bay Area.
+I am a Software Engineer. <br>
 
 ---
 
+M.S. Computer Science @ [UC Davis](https://www.ucdavis.edu/)<br>
 B.S. Computer Science @ [UC Davis](https://www.ucdavis.edu/)<br>
 Full Stack SWE Intern @ [Course Hero](https://www.coursehero.com)<br>
 Security Researcher @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>

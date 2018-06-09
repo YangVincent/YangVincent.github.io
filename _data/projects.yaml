@@ -3,6 +3,11 @@
   image: images/cdparcoord-diacdpar.png
   completed: true
 
+- title: Smart Contract Testing
+  url: https://www.github.com/yangvincent
+  image: images/smartcontracttester.png
+  completed: true
+
 - title: Cryptocurrency Technologies
   url: https://github.com/RylanSchaeffer/ECS198-Cryptocurrency-Technologies
   image: images/ecs198.jpg

@@ -59,7 +59,9 @@ $(function() {
     function createDots() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         for (i = 0; i < dots.nb; i++) {
-            //dots.array.push(new Dot());
+            if (dots.array.length < dots.nb) {
+                dots.array.push(new Dot());
+            }
             dot = dots.array[i];
             dot.create();
         }

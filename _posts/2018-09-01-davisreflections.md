@@ -8,6 +8,8 @@ tags:
 ---
 
 ## Preface
+Now that I'm done with school, I've often found myself thinking of how many positive impacts unique opportunities and people at Davis have had on me.
+
 In all honesty, at the end of my first year at Davis, my typical day consisted of waking up at 1PM, 
 eating some Party Pizza Tostitos, and playing games/watching movies until 6AM (sprinkled with occasional
 assignments)... rinse and repeat. I'd done nothing, learned little, and thrown a year away. 

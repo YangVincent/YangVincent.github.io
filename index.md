@@ -4,11 +4,11 @@ layout: home
 # About 
 
 Welcome! <br>
-I am a Software Engineer. I focus on Computer Security, Blockchain, and Software Development Optimization.<br>
+I am a Software Engineer. My primary interests are in Computer Security, Blockchain, and Optimizing Developer Efficiency <br>
 
 ---
 
-I have experience in blockchain, security, full-stack, data science, visualization, and devops. <br>
+I have experience in blockchain, security, devops, full-stack webdev, data science, visualization. <br>
 B.S. &#38; M.S. @ [UC Davis](https://www.ucdavis.edu)<br>
 Author @ [Top Frequency-Based Parallel Coordinates](https://arxiv.org/abs/1709.00665)<br>
 Creator @ [CRAN cdparcoord](https://CRAN.R-project.org/package=cdparcoord)<br>

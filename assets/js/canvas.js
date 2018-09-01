@@ -76,5 +76,6 @@ $(function() {
             mousePosition.y = canvas.height / 2;
         }
     });
+    createDots();
     //setInterval(createDots, 1000 / 30);
 });

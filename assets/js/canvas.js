@@ -73,6 +73,8 @@ $(function() {
             dot = dots.array[i];
             dot.createStep();
         }
+        dot.line();
+        dot.animate();
     }
     $('canvas').on('mousemove mouseleave', function(e) {
         if (e.type == 'mousemove') {

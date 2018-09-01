@@ -1,0 +1,69 @@
+---
+layout: post
+title: "Unique Opportunities at Davis"
+excerpt: "A reflection on Davis's unique opportunities"
+image: images/mondavi.jpg
+tags: 
+  - davis
+---
+
+## Preface
+In all honesty, at the end of my first year at Davis, my typical day consisted of waking up at 1PM, 
+eating some Party Pizza Tostitos, and playing games/watching movies until 6AM (sprinkled with occasional
+assignments)... rinse and repeat. I'd done nothing, learned little, and thrown a year away. 
+
+I thought to myself -- if I graduated like this, I'd never be able to forgive myself. 
+
+Now although I haven't actually attended multiple universities, I imagine some of the experiences I have now
+wouldn't have been possible elsewhere.
+
+## Teaching
+My friend [Rylan Schaeffer](http://rylanschaeffer.github.io/) and his friend created [legislation](http://academicsenate.ucdavis.edu/committees/committee-list/coci/policies-and-procedures.cfm#studentfac) at UC Davis for student educators to exist. 
+The idea is simple. There are students who are
+  * knowledgeable and passionate about a topic without a corresponding class
+  * willing to teach
+  * sufficiently strong communicators to teach well
+
+As such, it makes perfect sense to allow students to teach. In my second year, Rylan convinced me to 
+teach a class with him; we ended up teaching cryptocurrency technologies. This class spurred notable interest
+in Davis in decentralized technologies and inspired further student educators. Personally, it gifted me the 
+fantastic experience of teaching others at scale. Whereas previously I'd only tutored 1-2 students, the lectures
+helped the 20+ students of the class as well as many who've utilized the teaching materials.
+
+I highly recommend this experience to everyone. As a student, there's nothing quite like being on the other side of the
+classroom. The content becomes simple and straightforward since you must understand it to teach it and you learn to explain
+the same concept in a wide variety of ways to accomodate for everyone.
+
+## Research
+Research significantly changed my time at Davis. I was able to work on extremely interesting projects and narrow
+in on my interests while playing around with various sub-fields of CS. Over the years, I co-created a visualization
+method for dealing with large datasets with continuous variables, developed a tool to help Smart Contract developers
+test their Solidity contracts, researched network anonymization flaws in today's industry, defended against 
+heap memory attacks by randomizing malloc's header space, and created assignments for Davis's Computer Security
+class.
+
+Research allows you to work on interesting projects with a domain expert while exposing you to the edge of a field.
+It is (hopefully) a perfect intersection of academics and application. Professors at Davis were readily
+willing to advise me and connect me to others to further my development. 
+
+<figure style="width: 300px" class="align-right">
+  <img src="/images/cdparcoord.png" alt="cdparcoord screenshot">
+</figure> 
+
+## Petitions
+Petitions at Davis allow you to petition for anything. Keep in mind these have to be approved, but
+they helped me immensely. Over the years, petitions helped me:
+  * Substitute Biology for Chemistry
+  * Complete my M.S. in 2 quarters. The required minimum residency is 3. 
+  * Teach and research for units
+
+## Notable Mentions
+My time at Davis was substantially enhanced by the following people. I would be incredibly different today had I not met them.
+  * Rylan Schaeffer
+  * Prof. Matloff
+  * Prof. Bishop
+  * Davey Jay Belliss
+  * Annie Tu
+  * Vincent Yeh
+  * Kasy Tu
+  * Vishesh Mani, Howard Tan

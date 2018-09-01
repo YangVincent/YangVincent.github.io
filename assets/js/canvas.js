@@ -59,7 +59,7 @@ $(function() {
     function createDots() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         for (i = 0; i < dots.nb; i++) {
-            dots.array.push(new Dot());
+            //dots.array.push(new Dot());
             dot = dots.array[i];
             dot.create();
         }
@@ -86,7 +86,7 @@ $(function() {
             mousePosition.y = canvas.height / 2;
         }
     });
-    setTimeout(createDots, 1);
-    setInterval(moveDots, 1000/30);
-    //setInterval(createDots, 1000 / 30);
+    //setTimeout(createDots, 1);
+    //setInterval(moveDots, 1000/30);
+    setInterval(createDots, 1000 / 30);
 });

@@ -71,10 +71,10 @@ $(function() {
         for (i = 0; i < dots.nb; i++) {
             //dots.array.push(new Dot());
             dot = dots.array[i];
-            dot.line();
-            dot.animate();
             //dot.create();
         }
+        dot.line();
+        dot.animate();
     }
     $('canvas').on('mousemove mouseleave', function(e) {
         if (e.type == 'mousemove') {

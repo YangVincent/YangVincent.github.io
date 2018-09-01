@@ -1,7 +1,7 @@
 # Site
 title: Vincent Yang
 description: Passionate about efficiency 
-url: https://yangvincent.com
+url: //yangvincent.com
 logo: v4.png                                       # Site logo
 locale: en_US
 
@@ -30,7 +30,7 @@ sass:
 google-analytics: UA-81484519-1
 
 # Social Links
-email:              vinyang@ucdavis.edu
+email:              vincenty.376@gmail.com
 #google.plus:        username
 #twitter:            username
 #facebook:           username

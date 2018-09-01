@@ -4,7 +4,8 @@ layout: home
 # About 
 
 Welcome! <br>
-I am a Software Engineer. My primary interests are in Computer Security, Blockchain, and Optimizing Developer Efficiency <br>
+I am a Software Engineer. <br>
+My primary interests are in Computer Security, Blockchain, and Optimizing Developer Efficiency <br>
 
 ---
 
@@ -12,8 +13,10 @@ MS, BS, [Cryptocurrency](http://rylanschaeffer.github.io/resources/198FCourseSyl
 Author @ [Top Frequency-Based Parallel Coordinates](https://arxiv.org/abs/1709.00665)<br>
 Creator @ [CRAN cdparcoord](https://CRAN.R-project.org/package=cdparcoord)<br>
 
-Previously in blockchain, security, devops, full-stack webdev, data science, visualization. <br>
-SWE @ <br>
+---
+
+Previously:<br>
+SWE (DevOps, &amp; Full-Stack) @ <br>
 &nbsp;&nbsp;&nbsp;{[Course Hero](https://www.coursehero.com), [IdentityMind Global](https://www.identitymindglobal.com), [Teradata](https://www.teradata.com)<br>
 &nbsp;&nbsp;&nbsp;[HackDavis](http://hackdavis.io/), [BCNC](https://bcnclub.org)}<br>
 Blockchain, Security, Data Sci/Vis Research @ <br>

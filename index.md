@@ -9,14 +9,11 @@ My primary interests are in Computer Security, Blockchain, and Optimizing Develo
 
 ---
 
-MS, BS, [Cryptocurrency](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) Co-Instructor @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
+Previously:<br>
+MS, BS, [Cryptocurrency Co-Instructor](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
 Author @ [Top Frequency-Based Parallel Coordinates](https://arxiv.org/abs/1709.00665)<br>
 Creator @ [CRAN cdparcoord](https://CRAN.R-project.org/package=cdparcoord)<br>
-
----
-
-Previously:<br>
-SWE (DevOps, &amp; Full-Stack) @ <br>
+SWE (DevOps &amp; Full-Stack) @ <br>
 &nbsp;&nbsp;&nbsp;{[Course Hero](https://www.coursehero.com), [IdentityMind Global](https://www.identitymindglobal.com), [Teradata](https://www.teradata.com)<br>
 &nbsp;&nbsp;&nbsp;[HackDavis](http://hackdavis.io/), [BCNC](https://bcnclub.org)}<br>
 Blockchain, Security, Data Sci/Vis Research @ <br>

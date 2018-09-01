@@ -66,6 +66,16 @@ $(function() {
         dot.line();
         dot.animate();
     }
+    function moveDots() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (i = 0; i < dots.nb; i++) {
+            //dots.array.push(new Dot());
+            dot = dots.array[i];
+            dot.line();
+            dot.animate();
+            //dot.create();
+        }
+    }
     $('canvas').on('mousemove mouseleave', function(e) {
         if (e.type == 'mousemove') {
             mousePosition.x = e.pageX;
@@ -77,5 +87,6 @@ $(function() {
         }
     });
     setTimeout(createDots, 1);
+    setInterval(moveDots, 1000/30);
     //setInterval(createDots, 1000 / 30);
 });

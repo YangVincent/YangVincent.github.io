@@ -13,17 +13,14 @@ Author @ [Top Frequency-Based Parallel Coordinates](https://arxiv.org/abs/1709.0
 Creator @ [CRAN cdparcoord](https://CRAN.R-project.org/package=cdparcoord)<br>
 [Cryptocurrency](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) Co-Instructor @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
 
-Previously worked on:<br>
+Previously:<br>
 General SWE @ <br>
-&nbsp; [Course Hero](https://www.coursehero.com)
-&nbsp;&nbsp;[IdentityMind Global](https://www.identitymindglobal.com), [HackDavis](http://hackdavis.io/), [BCNC](https://bcnclub.org)}<br>
+&nbsp;{[Course Hero](https://www.coursehero.com), [IdentityMind Global](https://www.identitymindglobal.com) &nbsp;[HackDavis](http://hackdavis.io/) &nbsp;[BCNC](https://bcnclub.org)}<br>
 Security &#38; Data Science @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
 DevOps @ [Teradata](http://www.teradata.com/?LangType=1033)<br> 
-
 President @ Blockchain at Davis<br>
-VP &#38; Developer @ [Davis Consulting Group](http://davisconsultinggroup.org)<br>
+VP &#38; Consultant @ [Davis Consulting Group](http://davisconsultinggroup.org)<br>
 Tutor @ [Davis Computer Science Club](https://daviscsclub.org/)<br>
-Developer @ {[HackDavis](http://hackdavis.io/), [BCNC](https://bcnclub.org)}<br>
 
 ---
 

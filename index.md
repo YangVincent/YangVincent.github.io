@@ -9,7 +9,7 @@ I am a Software Engineer. My primary interests are in Computer Security, Blockch
 ---
 
 Previously in blockchain, security, devops, full-stack webdev, data science, visualization. <br>
-{MS &amp;, BS Computer Science, [Cryptocurrency](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) Co-Instructor} @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
+{MS, BS, [Cryptocurrency](http://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf) Co-Instructor} @ [UC Davis CS](http://www.cs.ucdavis.edu)<br>
 Author @ [Top Frequency-Based Parallel Coordinates](https://arxiv.org/abs/1709.00665)<br>
 Creator @ [CRAN cdparcoord](https://CRAN.R-project.org/package=cdparcoord)<br>
 

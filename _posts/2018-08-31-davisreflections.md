@@ -5,6 +5,10 @@ excerpt: "A reflection on Davis's unique opportunities"
 image: images/mondavi.jpg
 tags: 
   - davis
+  - rylan
+  - matloff
+  - bishop
+  - education
 ---
 
 ## Preface

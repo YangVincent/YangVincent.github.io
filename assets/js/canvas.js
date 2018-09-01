@@ -67,7 +67,7 @@ $(function() {
         dot.animate();
     }
     function moveDots() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        //ctx.clearRect(0, 0, canvas.width, canvas.height);
         for (i = 0; i < dots.nb; i++) {
             //dots.array.push(new Dot());
             dot = dots.array[i];

@@ -4,18 +4,10 @@ title: "The Peter Principle"
 excerpt: "Teradata Lunches"
 image: images/stairs.jpeg
 tags: 
-  - mentor
   - management
-  - daniel hoffman 
-  - oliver ratzesberger 
-  - dee horcasitas
-  - john poetzinger
   - teradata
-  - evp
-  - technical interview
   - tech
   - culture
-  - diversity
 ---
 
 ## Overview

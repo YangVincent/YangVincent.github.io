@@ -4,8 +4,8 @@ layout: home
 # About 
 
 Welcome! <br>
-I am a Software Engineer, Tools and Infrastructure at Google. <br><br>
-My primary interests are in Computer Security, Blockchain, and Optimizing Developer Efficiency.<br>
+I am a Software Engineer, Tools and Infrastructure at Google. <br>
+I care about Computer Security, Blockchain, and Optimizing Developer Efficiency.<br>
 
 ---
 

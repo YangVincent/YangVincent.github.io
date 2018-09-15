@@ -4,7 +4,7 @@ layout: home
 # About 
 
 Welcome! <br>
-I am a Software Engineer, Tools and Infrastructure at Google. <br>
+I'm a Software Engineer, Tools and Infrastructure at Google. <br>
 I care about Computer Security, Blockchain, and Optimizing Developer Efficiency.<br>
 
 ---

@@ -3,7 +3,8 @@ layout: home
 ---
 # About 
 
-Welcome! I am a Software Engineer, Tools and Infrastructure at Google. <br>
+Welcome! <br>
+I am a Software Engineer, Tools and Infrastructure at Google. <br><br>
 My primary interests are in Computer Security, Blockchain, and Optimizing Developer Efficiency.<br>
 
 ---

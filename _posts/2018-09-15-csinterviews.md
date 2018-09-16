@@ -12,19 +12,19 @@ tags:
 * <a href="http://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/" target="_blank">Job Hunting and Interviews - Haseeb Qureshi</a>
 
 ## Overviews
-<li>You have around an 80% chance of getting an interview by referral, and around 1% if you simply apply online.</li> 
-<li><a href="https://www.linkedin.com/pulse/best-hire-me-email-ive-seen-from-recent-college-grad-ray-carroll" target="_blank">Writing Emails</a></li>
-<li><a href="https://www.linkedin.com/pulse/why-bad-experiences-happen-good-candidates-vinayak-ranade" target="_blank">Why bad experiences happen to good candidates</a></li>
-<li><a href="https://breakoutcareers.com" target="_blank">Breakout Careers</a></li>
-<li><a href="https://github.com/cassidoo/getting-a-gig" target="_blank">Getting a Gig</a></li>
-<li><a href="https://github.com/DavisCSClub/Handbook" target="_blank">Davis CS Club Handbook</a></li>
-<li><a href="https://github.com/alex-cory/Interviews" target="_blank">Alex Cory Interviews</a></li>
-<li><a href="https://engineering.dartmouth.edu/careers/students/networking/creating-a-linkedin-profile" target="_blank">Setting up a LinkedIn Profile</a></li>
-<li><a href="https://graduate.dartmouth.edu/student-support/career-services/interview-practice-techniques" target="_blank">Interviewing Strategies by Dartmouth</a></li>
-<li><a href="https://www.linkedin.com/pulse/how-network-recruiter-margaret-buj" target="_blank">How not to network with a recruiter</a></li>
-<li><a href="http://kolesky.com/datums/job-search/" target="_blank">Thirteen thousand, four hundred, fifty-five minutes for one job</a></li>
-<li><a href="https://www.paysa.com/company-rank" target="_blank">Paysa Company Rank</a></li>
-<li><a href="https://www.linkedin.com/pulse/270-applications-7-months-interviewing-land-job-new-grad-vincent-yeh/" target="_blank">Luck Game - Vincent Yeh</a></li>
+* You have around an 80% chance of getting an interview by referral, and around 1% if you simply apply online.</li> 
+* <a href="https://www.linkedin.com/pulse/best-hire-me-email-ive-seen-from-recent-college-grad-ray-carroll" target="_blank">Writing Emails</a></li>
+* <a href="https://www.linkedin.com/pulse/why-bad-experiences-happen-good-candidates-vinayak-ranade" target="_blank">Why bad experiences happen to good candidates</a></li>
+* <a href="https://breakoutcareers.com" target="_blank">Breakout Careers</a></li>
+* <a href="https://github.com/cassidoo/getting-a-gig" target="_blank">Getting a Gig</a></li>
+* <a href="https://github.com/DavisCSClub/Handbook" target="_blank">Davis CS Club Handbook</a></li>
+* <a href="https://github.com/alex-cory/Interviews" target="_blank">Alex Cory Interviews</a></li>
+* <a href="https://engineering.dartmouth.edu/careers/students/networking/creating-a-linkedin-profile" target="_blank">Setting up a LinkedIn Profile</a></li>
+* <a href="https://graduate.dartmouth.edu/student-support/career-services/interview-practice-techniques" target="_blank">Interviewing Strategies by Dartmouth</a></li>
+* <a href="https://www.linkedin.com/pulse/how-network-recruiter-margaret-buj" target="_blank">How not to network with a recruiter</a></li>
+* <a href="http://kolesky.com/datums/job-search/" target="_blank">Thirteen thousand, four hundred, fifty-five minutes for one job</a></li>
+* <a href="https://www.paysa.com/company-rank" target="_blank">Paysa Company Rank</a></li>
+* <a href="https://www.linkedin.com/pulse/270-applications-7-months-interviewing-land-job-new-grad-vincent-yeh/" target="_blank">Luck Game - Vincent Yeh</a></li>
 
 ## Applying
 <li><a href="https://angel.co" target="_blank">Angel.co</a></li>

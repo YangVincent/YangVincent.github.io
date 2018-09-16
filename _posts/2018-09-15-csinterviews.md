@@ -2,7 +2,7 @@
 layout: post
 title: "CS Interviews"
 excerpt: "Resources and Guides for Interviews"
-image: images/teradata-servers.jpg
+image: images/sb-hacks.jpg
 tags: 
   - tech
   - interview

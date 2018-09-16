@@ -2,7 +2,7 @@
 layout: post
 title: "CS Interviews"
 excerpt: "Resources and Guides for Interviews"
-image: images/sb-hacks.jpg
+image: images/useless-interviews.jpg
 tags: 
   - tech
   - interview

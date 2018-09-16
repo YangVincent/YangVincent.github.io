@@ -12,7 +12,7 @@ tags:
 * <a href="http://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/" target="_blank">Job Hunting and Interviews - Haseeb Qureshi</a>
 
 ## Overviews
-* You have around an 80% chance of getting an interview by referral, and around 1% if you simply apply online.</li> 
+* You have around an 80% chance of getting an interview by referral, and around 1% if you simply apply online.
 * <a href="https://www.linkedin.com/pulse/best-hire-me-email-ive-seen-from-recent-college-grad-ray-carroll" target="_blank">Writing Emails</a>
 * <a href="https://www.linkedin.com/pulse/why-bad-experiences-happen-good-candidates-vinayak-ranade" target="_blank">Why bad experiences happen to good candidates</a>
 * <a href="https://breakoutcareers.com" target="_blank">Breakout Careers</a>
@@ -27,97 +27,82 @@ tags:
 * <a href="https://www.linkedin.com/pulse/270-applications-7-months-interviewing-land-job-new-grad-vincent-yeh/" target="_blank">Luck Game - Vincent Yeh</a>
 
 ## Applying
-<li><a href="https://angel.co" target="_blank">Angel.co</a></li>
-<li><a href="https://breakoutlist.com" target="_blank">Breakout List</a></li>
-<li><a href="https://docs.google.com/document/d/1n7vxbL0Wjt58Q6M73b3leNjIYSkUeej1E8afQF86ZeQ/edit" target="_blank">Apply Everywhere Google Doc</a></li>
-<li><a href="https://github.com/j-delaney/easy-application/blob/master/README.md" target="_blank">J Delaney Easy Application</a></li>
-<li><a href="https://whoishiring.io" target="_blank">WhoIsHiring</a></li>
-<li><a href="https://hnjobs.emilburzo.com" target="_blank">Search for HackerNews Jobs</a></li>
-<li><a href="http://getrecruitmate.com" target="_blank">RecruitMate</a></li>
-<li><a href="https://www.jobgen.io" target="_blank">JobGen.io</a></li>
-<li><a href="https://news.ycombinator.com/item?id=12846216" target="_blank">Who Is Hiring YCombinator</a></li>
-<li>Hacker News "Who is hiring" trends</li>
-<li><a href="http://intern.supply" target="_blank">Intern Supply</a></li>
-<li><a href="https://www.reddit.com/r/cscareerquestions/comments/521a3e/company_list_for_20162017_internship/" target="_blank">Company List Reddit</a></li>
-<li><a href="https://www.reddit.com/r/cscareerquestions/comments/5u1urk/comprehensive_spreadsheet_of_us_and_canadian/" target="_blank">Canada Company List</a></li>
-<li><a href="https://www.facebook.com/techlafellowship/" target="_blank">Tech LA Fellowship</a></li>
-<li><a href="http://www.cs.cmu.edu/~gradfellowships/" target="_blank">Grad Fellowships</a></li>
-<li><a href="http://huttle.co/jobs" target="_blank">Huttle</a></li>
-<li><a href="http://www.leisurejobs.com/cheatsheet/ultimate-linkedin-cheat-sheet-A4.pdf" target="_blank">Linkedin Cheat Sheet</a></li>
-<li><a href="http://codingforinterviews.com/internships" target="_blank">Coding for Interviews Internships List</a></li>
-<li><a href="https://github.com/RyanFitzgerald/techportfolio-template" target="_blank">Tech Website Template</a></li> 
-<li><a href="https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md" target="_blank">Developer Roadmap</a></li>
+* <a href="https://angel.co" target="_blank">Angel.co</a>
+* <a href="https://breakoutlist.com" target="_blank">Breakout List</a>
+* <a href="https://docs.google.com/document/d/1n7vxbL0Wjt58Q6M73b3leNjIYSkUeej1E8afQF86ZeQ/edit" target="_blank">Apply Everywhere Google Doc</a>
+* <a href="https://github.com/j-delaney/easy-application/blob/master/README.md" target="_blank">J Delaney Easy Application</a>
+* <a href="https://whoishiring.io" target="_blank">WhoIsHiring</a>
+* <a href="https://hnjobs.emilburzo.com" target="_blank">Search for HackerNews Jobs</a>
+* <a href="http://getrecruitmate.com" target="_blank">RecruitMate</a>
+* <a href="https://www.jobgen.io" target="_blank">JobGen.io</a>
+* <a href="https://news.ycombinator.com/item?id=12846216" target="_blank">Who Is Hiring YCombinator</a>
+* Hacker News "Who is hiring" trends
+* <a href="http://intern.supply" target="_blank">Intern Supply</a>
+* <a href="https://www.reddit.com/r/cscareerquestions/comments/521a3e/company_list_for_20162017_internship/" target="_blank">Company List Reddit</a>
+* <a href="https://www.reddit.com/r/cscareerquestions/comments/5u1urk/comprehensive_spreadsheet_of_us_and_canadian/" target="_blank">Canada Company List</a>
+* <a href="https://www.facebook.com/techlafellowship/" target="_blank">Tech LA Fellowship</a>
+* <a href="http://www.cs.cmu.edu/~gradfellowships/" target="_blank">Grad Fellowships</a>
+* <a href="http://huttle.co/jobs" target="_blank">Huttle</a>
+* <a href="http://www.leisurejobs.com/cheatsheet/ultimate-linkedin-cheat-sheet-A4.pdf" target="_blank">Linkedin Cheat Sheet</a>
+* <a href="http://codingforinterviews.com/internships" target="_blank">Coding for Interviews Internships List</a>
+* <a href="https://github.com/RyanFitzgerald/techportfolio-template" target="_blank">Tech Website Template</a>
+* <a href="https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md" target="_blank">Developer Roadmap</a>
 
 ## Interview Prep
-<li>Cracking
-                <ul>
-                  <li><a href="assets/Cracking_the_Soft_Skills_v6.png" target="_blank">Cracking the Soft Skills</a></li>
-                  <li><a href="assets/Cracking_the_Coding_Skills_v6.png" target="_blank">Cracking the Coding Skills</a></li>
-                  <li><a href="assets/Cracking_the_PM_Skills_v6.png" target="_blank">Cracking the PM Skills</a></li>
-                </ul>
-              </li>
-              <li><a href="http://is.ptithcm.edu.vn/~tdhuy/Programming/Introduction.to.Algorithms.pdf" target="_blank">CLRS</a></li>
-              <li><a href="http://www.gitlogs.com/resource-guides" target="_blank">Github Definitive Resource Guide</a></li>
-              <li><a href="https://www.coursera.org/learn/cs-tech-interview" target="_blank">Coursera Software Interview</a></li>
-              <li><a href="assets/GoogleSoftwareEngineeringPrepDocument.pdf" target="_blank">Google Software Engineering Prep Document</a></li>
-              <li><a href="https://medium.freecodecamp.com/how-to-land-a-top-notch-tech-job-as-a-student-5c97fec82f3d#.svpcgzsmc" target="_blank">Michael Deng Landing Internships in School</a></li>
-              <li><a href="https://github.com/jwasham/google-interview-university" target="_blank">Google Interview University</a></li>
-              <li><a href="https://gist.github.com/TSiege/cbb0507082bb18ff7e4b" target="_blank">Interview Cheat Sheet</a></li>
-              <li><a href="https://www.reddit.com/r/cscareerquestions/comments/56ba11/anyone_have_a_preinterview_cheat_sheet_for_topics/" target="_blank">Preinterview Cheat Sheet</a></li>
-              <li><a href="https://docs.google.com/presentation/d/1Bs8skzUwgkfA30FbejcsWy2DCnD1AkIHNDyQ0sUFpRU/mobilepresent?slide=id.g1f05b8466d_0_224" target="_blank">Facebook Big O</a></li>
-              <li><a href="https://www.reddit.com/r/cscareerquestions/comments/54rf2p/the_author_of_ctci_just_posted_a_set_of_technical/" target="_blank">CTCI Hackerrank</a></li>
-              <li><a href="https://github.com/donnemartin/interactive-coding-challenges" target="_blank">Jupyter Interactive Coding Challenges</a></li>
-              <li><a href="https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/" target="_blank">Reddit CS Interview Practice</a></li>
-              <li><a href="https://www.reddit.com/r/cscareerquestions/comments/4ce2s3/resource_interview_questions_my_massive/" target="_blank">Reddit CS Interview Practice 2</a></li>
-              <li><a href="https://github.com/0xAX/linux-insides" target="_blank">Linux Insides</a></li>
-              <li><a href="https://github.com/careercup/ctci" target="_blank">CTCI v5 Solutions</a></li>
-              <li><a href="https://github.com/MaximAbramchuck/awesome-interview-questions" target="_blank">Maxim Awesome Interview Questions</a></li>
-              <li><a href="https://github.com/kdn251/Interviews/blob/master/README.md" target="_blank">KDN521 Interviews</a></li>
-              <li><a href="http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/" target="_blank">Algorithms for Interviews</a></li>
-              <li><a href="https://www.reddit.com/r/cscareerquestions/comments/6278bi/my_journey_and_tips_29_gpa_at_a_noname_liberal/" target="_blank">Journey from 2.9</a></li>
-              <li><a href="http://lifehacker.com/5971473/how-to-tackle-three-of-the-toughest-interview-questions" target="_blank">LifeHacker Tough Interview Question Approaches</a></li>
-              <li>HCI
-                <ul>
-                  <li><a href="https://medium.com/dropbox-design/illustrating-a-more-human-brand-part-1-e1cfe3c28d9" target="_blank">Dropbox Illustrating a More Human Brand</a></li>
-                  <li><a href="http://hemeon.com" target="_blank">Mark Hemeon Website</a></li>
-                  <li><a href="https://codemyui.com" target="_blank">Code My UI.com</a></li>
-                  <li><a href="https://www.reddit.com/r/webdev/comments/5zj38q/practical_color_theory_for_people_who_code/" target="_blank">Color Theory for People who Code</a></li>
-                </ul>
-              </li>
-              <li>Algorithms
-                <ul>
-                  <li><a href="https://www.quora.com/What-are-the-top-10-algorithms-every-software-engineer-should-know-by-heart/answer/Adeel-Ahmed-41?srid=kXdE&share=0b867289" target="_blank">Top Algorithms Quora</a></li>
-                  <li><a href="http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/" target="_blank">Geeks for Geeks Top Algorithms and Data Structures</a></li>
-                  <li><a href="http://algo-visualizer.jasonpark.me" target="_blank">Algorithm Visualization</a></li>
-                  <li><a href="https://github.com/andreis/interview" target="_blank">Andreis Interview Resources</a></li>
-                  <li><a href="https://github.com/rchen8/Algorithms" target="_blank">Algorithm Implementations</a></li>
-                  <li><a href="https://people.cs.clemson.edu/~bcdean/dp_practice/" target="_blank">Dynamic Programming</a></li>
-                  <li><a href="https://www.quora.com/What-are-the-top-10-most-popular-dynamic-programming-problems-among-interviewers" target="_blank">Quora Dynamic Programming Practice</a></li>
-                  <li><a href="https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/" target="_blank">Google Algorithms to Know</a></li>
-                  <li><a href="https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/" target="_blank">TopCoder DP Practice</a></li>
-                </ul>
-              </li>
-              <li>Front-end
-                <ul>
-                  <li><a href="https://www.vincentyang.me/assets/front-end-handbook.pdf" target="_blank">Front End Handbook</a></li>
-                  <li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions" target="_blank">Front-end Developer Interview Questions</a></li>
-                  <li><a href="https://github.com/vasanthk/css-refresher-notes" target="_blank">CSS Refresher Notes</a></li>
-                  <li><a href="https://github.com/Agerrr/frontend-dev-bookmarks" target="_blank">Front-end Dev Bookmarks</a></li>
-                  <li><a href="https://www.reddit.com/r/webdev/comments/3f7q3q/been_interviewing_with_a_lot_of_tech_startups_as/" target="_blank">Reddit Front-end Questions</a></li>
-                  <li><a href="http://animista.net" target="_blank">Animasta - CSS Animations on Demand</a></li>
-                  <li><a href="https://github.com/dypsilon/frontend-dev-bookmarks" target="_blank">Common Front-end Dev Bookmarks</a></li>
-                  <li><a href="https://github.com/edwardtufte" target="_blank">Edward Tufte</a></li>
-                </ul>
-              </li>
-              <li>Back-end
-                <ul>
-                  <li><a href="https://github.com/tvandame/back-end-developer-interview-questions" target="_blank">tvandame Back-End Developer Interview Questions</a></li>
-                  <li><a href="https://github.com/arialdomartini/Back-End-Developer-Interview-Questions" target="_blank">Arialdo Martini Back-End Interview Questions</a></li>
-                  <li><a href="https://hackprogramming.com/web-scraping-in-node-js-with-multiple-examples/" target="_blank">Web Scraping in Node JS</a></li>
-                  <li><a href="https://blog.rubyroidlabs.com/2017/02/heroku-aws/" target="_blank">Choosing between Heroku and AWS</a></li>
-                  <li><a href="http://sangaline.com/post/advanced-web-scraping-tutorial/" target="_blank">Advanced Web Scraping - bypassing 403 forbidden, captchas, etc.</a></li>
-                </ul>
-              </li>
+* Cracking
+  * <a href="assets/Cracking_the_Soft_Skills_v6.png" target="_blank">Cracking the Soft Skills</a>
+  * <a href="assets/Cracking_the_Coding_Skills_v6.png" target="_blank">Cracking the Coding Skills</a>
+  * <a href="assets/Cracking_the_PM_Skills_v6.png" target="_blank">Cracking the PM Skills</a>
+* <a href="http://is.ptithcm.edu.vn/~tdhuy/Programming/Introduction.to.Algorithms.pdf" target="_blank">CLRS</a></li>
+* <a href="http://www.gitlogs.com/resource-guides" target="_blank">Github Definitive Resource Guide</a></li>
+* <a href="https://www.coursera.org/learn/cs-tech-interview" target="_blank">Coursera Software Interview</a></li>
+* <a href="assets/GoogleSoftwareEngineeringPrepDocument.pdf" target="_blank">Google Software Engineering Prep Document</a></li>
+* <a href="https://medium.freecodecamp.com/how-to-land-a-top-notch-tech-job-as-a-student-5c97fec82f3d#.svpcgzsmc" target="_blank">Michael Deng Landing Internships in School</a></li>
+* <a href="https://github.com/jwasham/google-interview-university" target="_blank">Google Interview University</a></li>
+* <a href="https://gist.github.com/TSiege/cbb0507082bb18ff7e4b" target="_blank">Interview Cheat Sheet</a></li>
+* <a href="https://www.reddit.com/r/cscareerquestions/comments/56ba11/anyone_have_a_preinterview_cheat_sheet_for_topics/" target="_blank">Preinterview Cheat Sheet</a></li>
+* <a href="https://docs.google.com/presentation/d/1Bs8skzUwgkfA30FbejcsWy2DCnD1AkIHNDyQ0sUFpRU/mobilepresent?slide=id.g1f05b8466d_0_224" target="_blank">Facebook Big O</a></li>
+* <a href="https://www.reddit.com/r/cscareerquestions/comments/54rf2p/the_author_of_ctci_just_posted_a_set_of_technical/" target="_blank">CTCI Hackerrank</a></li>
+* <a href="https://github.com/donnemartin/interactive-coding-challenges" target="_blank">Jupyter Interactive Coding Challenges</a></li>
+* <a href="https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/" target="_blank">Reddit CS Interview Practice</a></li>
+* <a href="https://www.reddit.com/r/cscareerquestions/comments/4ce2s3/resource_interview_questions_my_massive/" target="_blank">Reddit CS Interview Practice 2</a></li>
+* <a href="https://github.com/0xAX/linux-insides" target="_blank">Linux Insides</a></li>
+* <a href="https://github.com/careercup/ctci" target="_blank">CTCI v5 Solutions</a></li>
+* <a href="https://github.com/MaximAbramchuck/awesome-interview-questions" target="_blank">Maxim Awesome Interview Questions</a></li>
+* <a href="https://github.com/kdn251/Interviews/blob/master/README.md" target="_blank">KDN521 Interviews</a></li>
+* <a href="http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/" target="_blank">Algorithms for Interviews</a></li>
+* <a href="https://www.reddit.com/r/cscareerquestions/comments/6278bi/my_journey_and_tips_29_gpa_at_a_noname_liberal/" target="_blank">Journey from 2.9</a></li>
+* <a href="http://lifehacker.com/5971473/how-to-tackle-three-of-the-toughest-interview-questions" target="_blank">LifeHacker Tough Interview Question Approaches</a></li>
+* HCI
+  * <a href="https://medium.com/dropbox-design/illustrating-a-more-human-brand-part-1-e1cfe3c28d9" target="_blank">Dropbox Illustrating a More Human Brand</a></li>
+  * <a href="http://hemeon.com" target="_blank">Mark Hemeon Website</a></li>
+  * <a href="https://codemyui.com" target="_blank">Code My UI.com</a></li>
+  * <a href="https://www.reddit.com/r/webdev/comments/5zj38q/practical_color_theory_for_people_who_code/" target="_blank">Color Theory for People who Code</a></li>
+* Algorithms
+  * <a href="https://www.quora.com/What-are-the-top-10-algorithms-every-software-engineer-should-know-by-heart/answer/Adeel-Ahmed-41?srid=kXdE&share=0b867289" target="_blank">Top Algorithms Quora</a></li>
+  * <a href="http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/" target="_blank">Geeks for Geeks Top Algorithms and Data Structures</a></li>
+  * <a href="http://algo-visualizer.jasonpark.me" target="_blank">Algorithm Visualization</a></li>
+  * <a href="https://github.com/andreis/interview" target="_blank">Andreis Interview Resources</a></li>
+  * <a href="https://github.com/rchen8/Algorithms" target="_blank">Algorithm Implementations</a></li>
+  * <a href="https://people.cs.clemson.edu/~bcdean/dp_practice/" target="_blank">Dynamic Programming</a></li>
+  * <a href="https://www.quora.com/What-are-the-top-10-most-popular-dynamic-programming-problems-among-interviewers" target="_blank">Quora Dynamic Programming Practice</a></li>
+  * <a href="https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/" target="_blank">Google Algorithms to Know</a></li>
+  * <a href="https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/" target="_blank">TopCoder DP Practice</a></li>
+* Front-end
+  * <a href="https://www.vincentyang.me/assets/front-end-handbook.pdf" target="_blank">Front End Handbook</a></li>
+  * <a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions" target="_blank">Front-end Developer Interview Questions</a></li>
+  * <a href="https://github.com/vasanthk/css-refresher-notes" target="_blank">CSS Refresher Notes</a></li>
+  * <a href="https://github.com/Agerrr/frontend-dev-bookmarks" target="_blank">Front-end Dev Bookmarks</a></li>
+  * <a href="https://www.reddit.com/r/webdev/comments/3f7q3q/been_interviewing_with_a_lot_of_tech_startups_as/" target="_blank">Reddit Front-end Questions</a></li>
+  * <a href="http://animista.net" target="_blank">Animasta - CSS Animations on Demand</a></li>
+  * <a href="https://github.com/dypsilon/frontend-dev-bookmarks" target="_blank">Common Front-end Dev Bookmarks</a></li>
+  * <a href="https://github.com/edwardtufte" target="_blank">Edward Tufte</a></li>
+* Back-end
+  * <a href="https://github.com/tvandame/back-end-developer-interview-questions" target="_blank">tvandame Back-End Developer Interview Questions</a></li>
+  * <a href="https://github.com/arialdomartini/Back-End-Developer-Interview-Questions" target="_blank">Arialdo Martini Back-End Interview Questions</a></li>
+  * <a href="https://hackprogramming.com/web-scraping-in-node-js-with-multiple-examples/" target="_blank">Web Scraping in Node JS</a></li>
+  * <a href="https://blog.rubyroidlabs.com/2017/02/heroku-aws/" target="_blank">Choosing between Heroku and AWS</a></li>
+  * <a href="http://sangaline.com/post/advanced-web-scraping-tutorial/" target="_blank">Advanced Web Scraping - bypassing 403 forbidden, captchas, etc.</a></li>
               <li>Full Stack
                 <ul>
                   <li><a href="https://deploystack.io" target="_blank">DeployStack - Everything to Help you Deploy</a></li>

@@ -4,8 +4,9 @@ layout: home
 # About 
 
 Welcome! <br>
-I'm a Software Engineer, Tools and Infrastructure at [Google](https://www.google.com/). <br>
-I care about Computer Security, Blockchain, and Optimizing Developer Efficiency.<br>
+I'm a Software Engineer, Tools and Infrastructure at [Google](https://www.google.com/).
+
+I care about Computer Security, Blockchain, and Optimizing Developer Efficiency.
 
 ---
 

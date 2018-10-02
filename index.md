@@ -12,10 +12,10 @@ I care about Computer Security, Blockchain, and Optimizing Developer Efficiency.
 Previously in Blockchain, Security, and Data Sci/Vis at [NIST](https://www.nist.gov), [UC Davis](https://www.cs.ucdavis.edu), [Course Hero](https://www.coursehero.com), [Teradata](https://www.teradata.com), [IdentityMind Global](https://www.identitymindglobal.com)
 
 Notably:
-<li>BS/MS from UC Davis</li>
-<li>[CRAN package](https://CRAN.R-project.org/package=cdparcoord)</li>
-<li>[paper](https://arxiv.org/abs/1709.00665)</li>
-<li>[Cryptocurrency Class](https://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf)</li>
+BS/MS from UC Davis
+[CRAN package](https://CRAN.R-project.org/package=cdparcoord) 
+[paper](https://arxiv.org/abs/1709.00665) 
+[Cryptocurrency Class](https://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf)
 
 ---
 

@@ -1,9 +1,8 @@
 ---
 layout: home
 ---
-# About 
+# Welcome!
 
-Welcome! <br>
 I'm a Software Engineer, Tools and Infrastructure at [Google](https://www.google.com/).
 
 I care about Computer Security, Blockchain, and Optimizing Developer Efficiency.

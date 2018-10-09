@@ -2,7 +2,7 @@
 layout: post
 title: "Life Advice"
 excerpt: "Resources for living"
-image: images/mondavi.jpg
+image: images/lifelimits.jpg
 tags: 
   - life
 ---

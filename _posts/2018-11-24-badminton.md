@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Badminton"
-excerpt: "A reflection on Davis's unique opportunities"
+excerpt: "Badminton Equipment Information"
 image: images/mondavi.jpg
 tags: 
   - badminton
@@ -220,3 +220,5 @@ tags:
   </tbody>
 </table>
 
+* [Racket Specifications](http://www.mybadmintonstore.com/shop/pages.php?page=specification&)
+* [Shoe Size Chart](http://www.mybadmintonstore.com/shop/pages.php?page=shoesize)

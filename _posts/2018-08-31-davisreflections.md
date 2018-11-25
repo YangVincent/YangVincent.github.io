@@ -71,5 +71,4 @@ My time at Davis was substantially enhanced by the following people. I would be 
   * Davey Jay Belliss
   * Annie Tu
   * Vincent Yeh
-  * Kasy Tu
   * Vishesh Mani, Howard Tan

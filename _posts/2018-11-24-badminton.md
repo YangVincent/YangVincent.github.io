@@ -70,10 +70,13 @@ tags:
     <tr>
       <td>Racket Weight</td>
       <td>
+        <b>U</b>: 95 - 99g<br>
         <b>2U/W2</b>: 90 - 94g<br>
         <b>3U/W3</b>: 85 - 89g<br>
         <b>4U/W4</b>: 80 - 84g<br>
         <b>5U/W5</b>: 75 - 79g<br>
+        <b>6U/F</b>: 70 - 74g<br>
+        Training is 2U or U; normal rackets are 3/4U
       </td>
     </tr>
     <tr>
@@ -96,6 +99,13 @@ tags:
         Yonex G3 - 3.75 inches<br>
         Yonex G4 - 3.50 inches<br>
         Yonex G5 - 3.25 inches<br>
+        General:<br>
+        G1: 4 in<br>
+        G2: 3.75 in<br>
+        G3: 3.5 in<br>
+        G4: 3.25 in<br>
+        G5: 3 in <br>
+        G6: 2.75 in<br>
       </td>
     </tr>
     <tr>

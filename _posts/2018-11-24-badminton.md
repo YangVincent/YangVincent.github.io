@@ -2,7 +2,7 @@
 layout: post
 title: "Badminton"
 excerpt: "Badminton Equipment Information"
-image: images/LCW-smash.jpg
+image: images/LCW.jpg
 tags: 
   - badminton
 ---

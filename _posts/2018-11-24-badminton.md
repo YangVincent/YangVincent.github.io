@@ -2,7 +2,7 @@
 layout: post
 title: "Badminton"
 excerpt: "Badminton Equipment Information"
-image: images/mondavi.jpg
+image: images/LCW-smash.jpg
 tags: 
   - badminton
 ---
@@ -31,19 +31,19 @@ tags:
     <tr>
       <td>Frame Shape</td>
       <td>
-        <b>Conventional</b>: Oval Head Shape (small sweet spot) <br>
-        <b>Isometric</b>: Square Head Shape (wider sweet spot)
+        **Conventional**: Oval Head Shape (small sweet spot) <br>
+        **Isometric**: Square Head Shape (wider sweet spot)
       </td>
     </tr>
     <tr>
       <td>Frame Composition</td>
       <td>
-        <b>Base Material</b>:<br>
+        **Base Material**:<br>
           Aluminium<br>
           Hi-Modulus Graphite<br>
           Ultra Hi-Modulus Graphite<br>
           Nano Carbon / Fullerene<br>
-        <b>Mesh</b>:<br>
+        **Mesh**:<br>
           Titanium Composite (Utility Titanium)<br>
           UltraTitanium<br>
           gForceTi<br>
@@ -55,12 +55,12 @@ tags:
     <tr>
       <td>Shaft Composition</td>
       <td>
-        <b>Base Material</b>:<br>
+        **Base Material**:<br>
           Aluminium<br>
           Hi-Modulus Graphite<br>
           Ultra Hi-Modulus Graphite<br>
           Nano Carbon / Fullerene<br>
-        <b>Mesh</b>:<br>
+        **Mesh**:<br>
           Titanium Composite (Utility Titanium)<br>
           UltraTitanium<br>
           UltimiumTi<br>
@@ -70,21 +70,21 @@ tags:
     <tr>
       <td>Racket Weight</td>
       <td>
-        <b>U</b>: 95 - 99g<br>
-        <b>2U/W2</b>: 90 - 94g<br>
-        <b>3U/W3</b>: 85 - 89g<br>
-        <b>4U/W4</b>: 80 - 84g<br>
-        <b>5U/W5</b>: 75 - 79g<br>
-        <b>6U/F</b>: 70 - 74g<br>
+        **U**: 95 - 99g<br>
+        **2U/W2**: 90 - 94g<br>
+        **3U/W3**: 85 - 89g<br>
+        **4U/W4**: 80 - 84g<br>
+        **5U/W5**: 75 - 79g<br>
+        **6U/F**: 70 - 74g<br>
         Training is 2U or U; normal rackets are 3/4U
       </td>
     </tr>
     <tr>
       <td>Total Length</td>
       <td>
-        <b>Standard</b>: 665 mm / 26.0 inches<br>
-        <b>Long</b>: 675 mm / 26.5 inches<br>
-        <b>Ultra Long</b>: 680 mm / 26.8 inches
+        **Standard**: 665 mm / 26.0 inches<br>
+        **Long**: 675 mm / 26.5 inches<br>
+        **Ultra Long**: 680 mm / 26.8 inches
       </td>
     </tr>
     <tr>
@@ -111,10 +111,10 @@ tags:
     <tr>
       <td>String Tension Tolerance</td>
       <td>
-        <b>Aluminium & Hi-Modulus Graphite Frames</b>:<br>
+        **Aluminium & Hi-Modulus Graphite Frames**:<br>
           Main 18-20lbs (8-9kg)<br>
           Cross 20-22lbs (9-10kg)<br>
-        <b>Ultra Hi-Modulus Graphite / Nano Carbon Frames</b>:<br>
+        **Ultra Hi-Modulus Graphite / Nano Carbon Frames**:<br>
           Main 18-26lbs (8-12kg)<br>
           Cross 20-28lbs (9-13kg)<br>
       </td>
@@ -122,19 +122,19 @@ tags:
     <tr>
       <td>Balance Point from Grip End</td>
       <td>
-        <b>Very Head Light</b>: 
+        **Very Head Light: 
         270 - 275 mm<br>
-        <b>Head Light</b>: 
+        **Head Light: 
         275 - 280 mm<br>
-        <b>Balanced</b>: 
+        **Balanced**: 
         280 - 285 mm<br>
-        <b>Slightly Head Heavy</b>:
+        **Slightly Head Heavy**:
         285 - 290 mm<br>
-        <b>Moderately Head Heavy</b>:
+        **Moderately Head Heavy**:
         290 - 295 mm<br>
-        <b>Head Heavy</b>:
+        **Head Heavy**:
         295 - 300 mm<br>
-        <b>Very Head Heavy</b>:
+        **Very Head Heavy**:
         > 300 mm
       </td>
     </tr>
@@ -158,6 +158,17 @@ tags:
         <b>Grip Size</b>: 2#, 3#<br>
         <b>Flexibility</b>: 8.5 - 9.0<br>
         <b>String max weight</b>: 25 lbs
+      </td>
+    </tr>
+    <tr>
+      <td>Arcsaber 7 (Yonex)</td>
+      <td>
+        <b>Level</b>: Advance<br>
+        <b>Type</b>: All Around<br>
+        <b>Flex</b>: Medium Stiff<br>
+        <b>Weight</b>: 85-89gm (3U-)<br>
+        <b>B. Pt</b>: 6 (Even Balance)<br>
+        <b>String max weight</b>: 25 lbs<br>
       </td>
     </tr>
     <tr>

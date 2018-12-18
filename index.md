@@ -13,7 +13,7 @@ Previously in Blockchain, Security, and Data Sci/Vis at [NIST](https://www.nist.
 
 BS/MS CS from UC Davis, creator of [CRAN package cdparcoord](https://CRAN.R-project.org/package=cdparcoord),
 [Top-Frequency Parallel Coordinates](https://arxiv.org/abs/1709.00665), and 
-[ECS 198 Cryptocurrency Technologies](https://rylanschaeffer.github.io/resources/198FCourseSyllabus.pdf).
+[ECS 198 Cryptocurrency Technologies](https://rylanschaeffer.github.io/files/198FCourseSyllabus.pdf).
 
 ---
 

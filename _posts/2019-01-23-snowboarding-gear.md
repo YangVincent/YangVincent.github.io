@@ -2,11 +2,10 @@
 layout: post
 title: "Snowboarding Resources"
 excerpt: "Aggregated Snowboarding Resources"
-image: images/river.jpg
+image: images/snowboarding.jpg
 tags: 
-  - life
-  - optimization
-  - habit
+  - snowboarding
+  - resources
 ---
 
 ## Useful Resources

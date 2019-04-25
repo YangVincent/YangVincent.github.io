@@ -49,8 +49,6 @@ A nice interactive, powerful shell with pleasant community support.
 #### zsh-command-time
 Track and output how long each command took.
 
-#### zsh-
-
 ## Tmux
 Tmux allows you to group your terminals and split/configure them however you like.
 The plugin manager is called tpm. [Here is a huge list of plugins](https://github.com/tmux-plugins).

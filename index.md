@@ -5,7 +5,7 @@ layout: home
 
 I'm a Software Engineer at [Google](https://www.google.com/).
 
-I care about Computer Security, Blockchain, and Optimizing Developer Efficiency.
+testedit - I care about Computer Security, Blockchain, and Optimizing Developer Efficiency.
 
 ---
 

@@ -6,7 +6,7 @@ layout: home
 I'm a Software Engineer at [Google](https://security.googleblog.com/) who enjoys
 [snowboarding](https://www.yangvincent.com/snowboarding-gear), playing [badminton](https://www.yangvincent.com/badminton), listening to music, and [reading](https://www.goodreads.com/vincentyang).
 
-I'm fascinated by living optimally and people's raison d'êtres.
+I'm fascinated by our raisons d'être and how we may best fulfill them.
 
 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Culture"
+title: "Startup Culture"
 excerpt: "My first week at Course Hero"
 image: images/coursehero-glass.jpg
 tags: 

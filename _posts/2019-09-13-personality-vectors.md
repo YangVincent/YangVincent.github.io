@@ -21,7 +21,7 @@ Disclaimer: I use this framework as a retroactive explanation of how I feel. Whe
 ## Overall Framework
 Every person has a set of things they care about. People have preferences on everything from appearances to intelligence to dessert interests and favorite movies. You can take these preferences and combine them into a single value/point on a vector. The vector here describes a person's preferences. Let's call this the preference vector (pv). A pv is also an accurate reading of what someone cares about and their own tendencies. Put simply, it's a summary of "who they really are". I've elaborated on how you can combine preferences to a vector in "Creating a Preference Vector".
 
-![group-pv](preference-vectors/group-pv.png)
+![group-pv]({{ site.url }}/images/preference-vectors/group-pv.png)
 
 Although it's difficult to argue that some values are more important than others. In the example above, I've chosen some traits that I admire and desire (right) as well as some I dislike (left). It's important to note here that, in my opinion, traits aren't intrinsically better/worse than each other (moral relativism).
 People (A) tend to be interested in other people (B) they look up to, who (B) have values they (A) appreciate. People (A) want to be with others (B) who are as high up on their (A) vectors as possible, and typically grow distant from those who aren't. A counterpoint here might be "what about people who welcome diverse individuals"? Then other people who are diverse (and similarly open to diversity) will be higher up on their vectors, and people who are uninterested in being diverse (and perhaps similar in other traits to the main character) will be lower on this vector. 
@@ -30,7 +30,7 @@ People (A) tend to be interested in other people (B) they look up to, who (B) ha
 
 What happens when two (or more) people hang out? If the two people discuss and share ideas that are received positively by the other, their vectors begin to converge. Otherwise, the vectors may diverge. Take, for instance, when you share your opinions about your favorite sports team or movie. This influences your friend to consider these factors similarly, as you've added supporting evidence for your point of view.
 
-![pv-change](preference-vectors/pv-change.png)
+![pv-change]({{ site.url }}/images/preference-vectors/pv-change.png)
 
 This works out well, since people you care about may further influence your opinions to be improved in ways you're interested in, but were previously unaware of. This is also why people may seek out their friends advice, and typically will ask their close friends before others less close.
 
@@ -47,7 +47,7 @@ Alice must maintain:
 * (Alice's impression of) Carl's impression of Alice
 * (Alice's impression of) Carl's impression of Bob
 
-![dunbar](preference-vectors/dunbar.png)
+![dunbar]({{ site.url }}/images/preference-vectors/dunbar.png)
 
 As we can see here, people's impressions of each other's vectors may be inaccurate. Additionally, each person must maintain an image of all vectors that appear here. For instance, Bob has an impression of Carl, but also must maintain his image of what he thinks Alice's impression of Carl might be. If Bob is significantly closer to Carl and knows that Carl's actually romantically interested in Alice, he may act differently to adjust for the fact that Alice might not know this. As a result, Bob must maintain
 * His impressions of people
@@ -83,7 +83,7 @@ People typically teach with a rule-based approach (bottom up). In scenario A, do
 * Inaccurate reads on other's pv's may also cause flaking. Take for instance if Alice thinks Bob doesn't enjoy being around Alice, when Bob actually thinks highly of Alice and loves hanging out with her. Alice's perception of Bob's perception of Alice may be drastically different from what it actually is, and thus Alice may act accordingly (flake). 
 4. "Short-term satisfaction": Differing/opposite preference vectors
 * In high school, I was heavily judgemental of people who did drugs. However if I view the world from their pov, they might think of me as similarly lost in the world. They could argue that I was overemphasizing the importance of the long-term, destroying my health by staying up late to study, and not living life in the present. There is no better/worse view here; people are free to have whatever values they like. 
-[!drug](preference-vectors/drug.png)
+[!drug]({{ site.url }}/images/preference-vectors/drug.png)
 5. Parenting: Preference vector passing
 * People generally believe in their own values, so parenting is often a measure of how good a parent is at passing their pv to their child. 
 6. "Two-faced": Customizing preference vector appearance
@@ -109,4 +109,4 @@ People typically teach with a rule-based approach (bottom up). In scenario A, do
   * Smallest viable group size 5-9
   * 2 can be creative but requires deep commitment/few resources
   * 3 is unstable, 4 is 2 pairs
-![group satisfaction](preference-vectors/groupsatisfaction.png)
+![group satisfaction]({{ site.url }}/images/preference-vectors/groupsatisfaction.png)

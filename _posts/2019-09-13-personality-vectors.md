@@ -83,7 +83,7 @@ People typically teach with a rule-based approach (bottom up). In scenario A, do
 * Inaccurate reads on other's pv's may also cause flaking. Take for instance if Alice thinks Bob doesn't enjoy being around Alice, when Bob actually thinks highly of Alice and loves hanging out with her. Alice's perception of Bob's perception of Alice may be drastically different from what it actually is, and thus Alice may act accordingly (flake). 
 4. "Short-term satisfaction": Differing/opposite preference vectors
 * In high school, I was heavily judgemental of people who did drugs. However if I view the world from their pov, they might think of me as similarly lost in the world. They could argue that I was overemphasizing the importance of the long-term, destroying my health by staying up late to study, and not living life in the present. There is no better/worse view here; people are free to have whatever values they like. 
-[!drug]({{ site.url }}/images/preference-vectors/drug.png)
+![drug]({{ site.url }}/images/preference-vectors/drug.png)
 5. Parenting: Preference vector passing
 * People generally believe in their own values, so parenting is often a measure of how good a parent is at passing their pv to their child. 
 6. "Two-faced": Customizing preference vector appearance

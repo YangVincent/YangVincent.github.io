@@ -42,6 +42,6 @@ A few days later, my brother finished editing:
 
 ![Kevin's Milky Way]({{ site.url }}/images/photography/kevinmilkyway.jpg)
 
-I was absolutely floored -- this was worlds different from what I'd taken, how was it possible????
+I was absolutely floored -- this was worlds different from what I'd taken, but it'd been from the same location and time. How was it possible???? (Magic, obviously).
 
 Dad noted "Wow, this one is REALLY GOOD" haha. I can't disagree.

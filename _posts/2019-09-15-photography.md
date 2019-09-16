@@ -13,7 +13,7 @@ My brother Kevin is a fascinating man. I'll write a post about him another day, 
 a fantastic photographer. If you're interested, I'd highly recommend checking out [his work](http://akevinyang.com).
 
 A few months ago, I was considering trying out new hobbies, so I reached out to my friend Annie. We were initially
-planning on driving to some random mountain to try and take photos with her [camera], but I mentioned this to 
+planning on driving to some random mountain to try and take photos, but I mentioned this to 
 Kevin who instantly shut it down. 
 
 > If you're going to do something, do it right.

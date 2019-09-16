@@ -24,7 +24,7 @@ In this post, I'd like to cover several tools, how they work, and how they work 
 ## Hardware
 The [Kinesis Advantage](https://kinesis-ergo.com/shop/advantage2/) is a marvel of a keyboard. It's composed of
 two large wells placed horizontally; one for each hand. The wells' distance from each other allows me to keep my
-arms shoulder-width apart which minimizes ulnar deviation. ![ulnar deviation](images/comp-workflow/wrist.png)
+arms shoulder-width apart which minimizes ulnar deviation. ![ulnar deviation]({{site.url}}/images/comp-workflow/wrist.png)
 Also, the wells allow me to maintain natural wrist curvature where my palm is supported and neither my wrist nor
 my fingers support more weight than they should.
 

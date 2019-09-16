@@ -12,7 +12,7 @@ tags:
 Over the years, I've put in many hours to make my processes more efficient. I spend 40 hours a week, if not more
 at a computer; it makes sense to streamline this process.
 
-Related posts are [Development Workflow] and [Life Workflow]
+Related posts are [Development Workflow]({{ site.url }}/dev-workflow/) and [Life Workflow]({{ site.url }}/life-workflow/)
 
 In this post, I'd like to cover several tools, how they work, and how they work together.
 

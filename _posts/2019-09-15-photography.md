@@ -2,7 +2,7 @@
 layout: post
 title: "Photography With Kevin"
 excerpt: "Musings"
-image: images/photography/annie-sosanya.jpg
+image: images/photography/view.jpg
 tags: 
   - life
   - family

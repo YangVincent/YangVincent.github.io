@@ -29,13 +29,13 @@ setting up and Kevin drove around to explore several other vantage points.
 He taught me the essentials: (a) how to focus the camera at infinity and ensure that it'd capture the stars
 without blur, (b) framing. He told me several other things but I'll be honest; I forgot them. Oof.
 
-Anyway, by the end of the night I'd taken this picture:
+By the end of the night I'd taken this picture:
 
 ![My Milky Way]({{ site.url }}/images/photography/milkyway.jpg)
 
 "Beautiful", I thought. I've peaked; time to find a new hobby \s. 
 
-In all honesty, I was quite proud. I hadn't expected to be able to capture that many stars.
+In all honesty, I was quite proud. I hadn't expected to capture that many stars.
 I sent this to my family, and received "where was this?" and "wow crazy boys".
 
 A few days later, my brother finished editing:

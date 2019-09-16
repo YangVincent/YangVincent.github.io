@@ -35,8 +35,8 @@ By the end of the night I'd taken this picture:
 
 "Beautiful", I thought. I've peaked; time to find a new hobby. \s
 
-In all honesty, I was quite proud. I hadn't expected to capture that many stars.
-I sent this to my family, and received "where was this?" and "wow crazy boys".
+Joking aside, I really was quite proud. I hadn't expected to capture that many stars.
+I sent this to my family and received "where was this?" and "wow crazy boys".
 
 A few days later, my brother finished editing:
 

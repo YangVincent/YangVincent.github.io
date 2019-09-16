@@ -28,7 +28,12 @@ well-defined problems. Luckily, we can offset these operations to tools. I keep 
 and "Things to do later". Before each task, consider -- why am I doing this? What happens if I don't? 
 
 > Any time anything crosses your life, you've got to ask: This thing I'm thinkinga bout doing -- why am I doing it?
-
 > What will happen if I don't? The best thing is when I have something on my todo list and I think "hmm, no".
-  
 > <cite><a href="https://www.youtube.com/watch?v=oTugjssqOT0">Randy Pausch</a></cite>
+
+I'm lucky enough to not procrastinate much, but only because having notifications on my reminders app (Todoist) frustrates
+me to no end. 
+
+## Get feedback
+Feedback is crucial for calibrating your expectations. Find out what the people around you think about the way you do things,
+how they do things and instead, then consider if you'd like to incorporate them for yourself as well.

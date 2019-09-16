@@ -27,7 +27,7 @@ Our brains are disappointingly incapable of keeping track of tabs/monitoring. We
 well-defined problems. Luckily, we can offset these operations to tools. I keep a running list of "Things to do today"
 and "Things to do later". Before each task, consider -- why am I doing this? What happens if I don't? 
 
-> Any time anything crosses your life, you've got to ask: This thing I'm thinkinga bout doing -- why am I doing it?
+> Any time anything crosses your life, you've got to ask: This thing I'm thinking about doing -- why am I doing it?
 > What will happen if I don't? The best thing is when I have something on my todo list and I think "hmm, no".
 > <cite><a href="https://www.youtube.com/watch?v=oTugjssqOT0">Randy Pausch</a></cite>
 

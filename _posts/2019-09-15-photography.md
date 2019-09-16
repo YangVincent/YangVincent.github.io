@@ -21,7 +21,7 @@ Kevin who instantly shut it down -- too much light pollution.
 Ouch.
 
 Luckily he offered a solution. He whipped up several friends and proposed driving to Big Sur that night. Before long
-we'd packed up some gear and food and were on our way down. 
+we were en route with some gear and food.
 
 Tons of tourists were there, but soon after sunset the winds whipped up and virtually everyone left. Photographers began
 setting up and Kevin drove around to explore several other vantage points. 

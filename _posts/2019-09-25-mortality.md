@@ -2,10 +2,9 @@
 layout: post
 title: "Mortality"
 excerpt: "What QOL I'd like"
-image: images/googleflowers.JPG
+image: images/paragliding.JPG
 tags: 
-  - work
-  - optimization
+  - life
 ---
 
 ## Overview

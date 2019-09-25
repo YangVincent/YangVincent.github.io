@@ -43,4 +43,4 @@ Tryptic Soy, Hektoan, and Mannitol. I wouldn't be surprised if there's more.
 * Label, return in 3-5 days. Don't open the dishes.
 
 ## Sources
-* [Mad About Science)(https://www.madaboutscience.com.au/shop/science-extra/post/grow-bacteria-on-homemade-agar-plates/) 
+* [Mad About Science](https://www.madaboutscience.com.au/shop/science-extra/post/grow-bacteria-on-homemade-agar-plates/) 

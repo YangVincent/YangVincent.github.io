@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Germophobe"
-excerpt: "Germophobic Experiments"
+title: "Germaphobe"
+excerpt: "Germaphobic Experiments"
 image: images/setup.JPG
 tags: 
   - germs
@@ -9,7 +9,7 @@ tags:
 ---
 
 ## Background
-A good friend of mine is a germophobe. From my point of view, she really does the most when it comes to keeping clean. Her car is spotless and has covers that have their own covers in turn. 
+A good friend of mine is a germaphobe. From my point of view, she really does the most when it comes to keeping clean. Her car is spotless and has covers that have their own covers in turn. 
 She cleans her phone with wipes every day, washes her hands frequently, adds napkins to the table on which she puts her phone, etc.
 
 We thought it'd be fun to do an experiment. How much bacteria is there actually, on someone's phone? How about after a day's use of a phone that's cleaned nightly? How about

@@ -48,3 +48,7 @@ the work should speak for itself and be able to be represented by anyone equally
 ### Salary
 Salary data should be public. Companies buy massive datasets of what other companies pay, and can select by region, field, role, growth stage, etc. This works against the employees. Employees should
 know how much they're worth and how much more/less they could be making, as opposed to being forced to interview to re-negotiate for a higher salary each time.
+
+### Subject Matter
+Find an area where you're curious or passionate about. This allows you to worry more about how to solve the problems. Provided sufficient mentorship/intelligence/time, 
+solid results should follow regardless.

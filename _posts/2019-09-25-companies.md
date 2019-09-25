@@ -42,7 +42,7 @@ that the manager will always want what's best for me, regardless of how it may i
 core culture. "I know that you won't always be here, but I'll help you get where you want and you give me good work in the meantime". 
 
 ### Performance Reviews
-People's performance reviews should be dependent on an objective view of their work. Unfortuantely, work is often difficult to quantify, but we can get a reasonable understanding by asking coworekrs and subject matter experts. These (and hard metrics from an employee's projects) should be the only determinants for a promotion. Promotions shouldn't have to be "fought for" by a manager;
+People's performance reviews should be dependent on an objective view of their work. Unfortuantely, work is often difficult to quantify, but we can get a reasonable understanding by asking coworkers and subject matter experts. These (and hard metrics from an employee's projects) should be the only determinants for a promotion. Promotions shouldn't have to be "fought for" by a manager;
 the work should speak for itself and be able to be represented by anyone equally. 
 
 ### Salary

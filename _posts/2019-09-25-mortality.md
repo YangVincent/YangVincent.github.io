@@ -8,9 +8,9 @@ tags:
 ---
 
 ## Overview
-I read about hospice care and the importance of discussing what quality of life we're okay with having a few months ago while reading "Being Mortal" by Atul Gawande.
+I recently read "Being Mortal" by Atul Gawande which discusses hospice care and the importance of communicating the minimum quality of life you'd accept with those around you.
 
-It occurred to me that I actually engage in fairly risky activities on a daily basis -- driving, eating new foods, traveling, etc. 
+As much as I want to believe that I'm the exception that'll never die, I must face reality: I engage in fairly risky activities on a daily basis -- driving, eating new foods, traveling, etc. 
 
 ## Thought Process & Result
 To figure out what minimal QOL I'm really okay with, I have to think -- what makes life worth living?

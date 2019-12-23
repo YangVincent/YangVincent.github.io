@@ -23,7 +23,7 @@ Sydney was a pretty nice, bustling city. There's some spectacular downtown spots
 sushi, and bars. We also met a girl on the flight who talked about some of her study abroad experiences at the
 University of Sydney. On the first night while wandering around and looking for night life, we stumbled
 upon a private concert by Flume celebrating the opening of the new Louis Vuitton store!
-![Flume's private concert for LV](images/australia/flume.jpg)
+![Flume's private concert for LV]({{ site.url }}/images/australia/flume.jpg)
 
 # Cairns
 Cairns was beautiful as well. Driving along the coast felt like living a music video. The great barrier reef is

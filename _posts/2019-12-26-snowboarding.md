@@ -49,10 +49,11 @@ Next board to try: Figure out if length really is the big factor, or if it was t
 * 360 into Butter
 
 # Bus Comparison
-* SB has later pickup and arrives later.
+* SB has later pickup and arrives later. Usually after lifts are already running.
 * SB has a bus per stop (no stops in between).
 * SB is more likely to cancel due to bad weather. TST goes to many resorts.
 * SB has good customer service.
+* SB good for loading gear up; they do it for you.
 
 # Cameras
 * GoPro Hero 7 vs. DJI Osmo

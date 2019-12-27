@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Snowboarding Resources"
-excerpt: "Aggregated Snowboarding Resources"
+title: "Snowboarding"
+excerpt: "Aggregated Snowboarding Notes"
 image: images/snowboarding.jpg
 tags: 
   - snowboarding
@@ -16,6 +16,8 @@ tags:
 * [Snowboard Trick Terminology and Guide](https://snowboardaddiction.com/blogs/jib-board-basics/snowboard-terminology)
 * [How Sidecut Works](https://www.youtube.com/watch?v=uE1YdDj_L0o)
 
+Next board to try: Figure out if length really is the big factor, or if it was the hybrid rocker.
+
 ## Boards I've Used; My Sizing
 * Snowboard size (cm): 144-152
 * Snowboard width (mm): 246-250
@@ -23,7 +25,7 @@ tags:
 * 12/25/2019 at Whistler: Burton Deja Vu Flying V 141. Easy turns, hard to stop.
 * 12/26/2019 at Whistler: Burton Process Flying V 148. Incredible for carving, good jumps, good flex.
 * Flying V is [Hybrid Rocker](https://snowboardingprofiles.com/understanding-the-different-snowboard-camber-types). 
-* Next to try: Figure out if length really is the big factor, or if it was the hybrid rocker.
+* Long boards are good for speed. Rocker camber rocker is okay at each. Short board with high flex is good for terrain park. Less flex is good for speed/stability.
 
 |Board                                                                        |Notes|
 |-----------------------------------------------------------------------------|-----|
@@ -31,7 +33,7 @@ tags:
 |Burton LTR 144L                                                              |     |
 |Burton Dragon 152                                                            | Good for speed; hard to flex/do tricks. Hard to carve on steeps.|
 |[Burton Deja Vu Flying V 141](https://www.evo.com/outlet/snowboards/burton-deja-vu-flying-v-snowboard-womens)                                                 | Extremely easy turns, but hard to stop/control. Serious flex.|
-|[Burton Process Flying V 148](https://www.evo.com/outlet/snowboards/burton-process-flying-v-snowboard-2017)| Fantastic board; great for riding fast. Good jumps, easy carves. Good mix between stiffness/flex.|
+|[Burton Process Flying V 148](https://www.evo.com/outlet/snowboards/burton-process-flying-v-snowboard-2017)| Fantastic board; great for riding fast. Good jumps, easy carves. Good mix between stiffness/flex. Used at 20in center to center, 12/12.|
 
 ## Personal Records:
 * First time riding on pure ungroomed powder: 12/15/2019

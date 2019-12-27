@@ -19,9 +19,19 @@ tags:
 ## Boards I've Used; My Sizing
 * Snowboard size (cm): 144-152
 * Snowboard width (mm): 246-250
-* Burton LTR 140 
-* Burton LTR 144L
-* Current: Burton Dragon 152
+* Current: Burton Dragon 152 (off Craigslist). Good for speed/stability, bad flex.
+* 12/25/2019 at Whistler: Burton Deja Vu Flying V 141. Easy turns, hard to stop.
+* 12/26/2019 at Whistler: Burton Process Flying V 148. Incredible for carving, good jumps, good flex.
+* Flying V is [Hybrid Rocker](https://snowboardingprofiles.com/understanding-the-different-snowboard-camber-types). 
+* Next to try: Figure out if length really is the big factor, or if it was the hybrid rocker.
+
+|Board                                                                        |Notes|
+|-----------------------------------------------------------------------------|-----|
+|Burton LTR 140                                                               |     |
+|Burton LTR 144L                                                              |     |
+|Burton Dragon 152                                                            | Good for speed; hard to flex/do tricks. Hard to carve on steeps.|
+|[Burton Deja Vu Flying V 141](https://www.evo.com/outlet/snowboards/burton-deja-vu-flying-v-snowboard-womens)                                                 | Extremely easy turns, but hard to stop/control. Serious flex.|
+|[Burton Process Flying V 148](https://www.evo.com/outlet/snowboards/burton-process-flying-v-snowboard-2017)| Fantastic board; great for riding fast. Good jumps, easy carves. Good mix between stiffness/flex.|
 
 ## Personal Records:
 * First time riding on pure ungroomed powder: 12/15/2019

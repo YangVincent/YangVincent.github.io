@@ -82,7 +82,7 @@ tags:
 * [Bus 1: Tahoe Ski Trips](https://www.tahoeskitrips.net/)
 * Bus 2: Sports Basement
 
-# Bus Comparison
+## Bus Comparison
 * SB has later pickup and arrives later. Usually after lifts are already running.
 * SB has a bus per stop (no stops in between).
 * SB is more likely to cancel due to bad weather. TST goes to many resorts.
@@ -101,26 +101,30 @@ tags:
 * Helpful people: Nigel (green button) -- manager (Zalanta)
 * Partnered with Tahoe Dave in North (you can return there)
 
-# Riding Tips:
+## Riding Tips:
 * Put the front strap around the front toe (instead of ontop)
   * Doesn't cut blood flow to toes
   * Presses your foot into the binding
   * Better for flipping onto heel edge
 
+## Gear Tips:
+* Stiff + long boards are bad, but I could probably ride a 151 stiff with more effective edge.
+* Factory recommendation for distance between feet is "shoulder width", but 21 inches for men and 20 for women
+* Boots wear in around 4 times from the heat of your foot. You can also ask shops to custom heat them for you.
+* Today, you basically need an "entire arsenal".
 
-# Gear Tips:
-  * Stiff + long boards are bad, but I could probably ride a 151 stiff with more effective edge.
-  * Factory recommendation for distance between feet is "shoulder width", but 21 inches for men and 20 for women
-  * Boots wear in around 4 times from the heat of your foot. You can also ask shops to custom heat them for you.
-  * Today, you basically need an "entire arsenal".
+## Goggles:
+* People carry 2-3 pairs of goggles, one for each type of light.
+* Don't let them get scratched.
+* Some goggles have squeegees for goggles. Keep the inside of the goggles sealed; this helps the antifog.
 
-# Tricks
+## Tricks
 * [How to Carve](https://www.youtube.com/watch?v=rG2oVl_Btmk&list=PLXrzbcStaEyo0HFT95aTJb7QnpQE4g-j3), [2](https://snowprofessor.com/how-carve-on-snowboard)
 * 360 into Butter
 
-# Cameras
+## Cameras
 * GoPro Hero 7 vs. DJI Osmo
 
-# Clothes
+## Clothes
 * Highly highly recommend OneSkee.
 

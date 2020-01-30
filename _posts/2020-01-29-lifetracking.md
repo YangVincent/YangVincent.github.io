@@ -2,7 +2,7 @@
 layout: post
 title: "Life Tracking"
 excerpt: "3 Months of Tracking"
-image: images/snowboarding.jpg
+image: images/lifetracking/atracker.jpg
 tags: 
   - tracking
 ---

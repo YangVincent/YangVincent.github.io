@@ -21,6 +21,7 @@ my laundry system which is a story for another day). Admittedly, this was helped
 One other fact that I was/am a little proud of, but I ended up hanging out in some form every day last year.
 
 Thus far, in total I've:
+
 |Category   |Total Time |Percentage |
 |--------------|--------|-----|
 |Social        |1705:37 |56%  |
@@ -35,6 +36,7 @@ Thus far, in total I've:
 My behavior is also quite different from weekends and weekdays.
 
 ## Weekend Average
+
 |Category   |Total Time |Percentage |
 |--------------|--------|-----|
 |Social        |20:09|70%  |
@@ -47,6 +49,7 @@ My behavior is also quite different from weekends and weekdays.
 |Appointment   |:32|2%   |
 
 ## Weekday Average
+
 |Category   |Total Time |Percentage |
 |--------------|--------|-----|
 |Social        |14:40|50%  |

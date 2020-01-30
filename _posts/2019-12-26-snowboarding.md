@@ -117,6 +117,7 @@ tags:
 * People carry 2-3 pairs of goggles, one for each type of light.
 * Don't let them get scratched.
 * Some goggles have squeegees for goggles. Keep the inside of the goggles sealed; this helps the antifog.
+* Some are even supposed to get you more light than you could get without goggles (Oakley high intensity yellow).
 
 ## Tricks
 * [How to Carve](https://www.youtube.com/watch?v=rG2oVl_Btmk&list=PLXrzbcStaEyo0HFT95aTJb7QnpQE4g-j3), [2](https://snowprofessor.com/how-carve-on-snowboard)

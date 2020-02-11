@@ -2,7 +2,7 @@
 layout: post
 title: "Snowboarding"
 excerpt: "Aggregated Snowboarding Notes"
-image: images/snowboarding.jpg
+image: images/northstar.jpg
 tags: 
   - snowboarding
   - resources

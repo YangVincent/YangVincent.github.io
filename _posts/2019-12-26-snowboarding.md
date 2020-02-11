@@ -9,21 +9,35 @@ tags:
 ---
 ## General Board Information
 ### Specs I've Locked Down
-* Length: 147-149 (prefer 148 so far)
-* Shape: ???
-* Stiffness: Stiffer (more aggressive)
+* Length: 148-149, possibly 147/150? 
+* Shape: Camber. Rocker isn't stable enough at speed.
+* Stiffness: Stiffer (more aggressive), unless park.
 * Stance Width: 20-21 in
 * Stance Placement: -5 +15 or -12 +12
 * Directional or Twin
-* Bindings: Flow
-* Shoes: Burton Double Boa
+* Bindings: Burton Step On, Flow
+* Shoes: Photon (8), Burton Double Boa (9). Mondopoint 25; 1cm variation in standing/sitting
+* Currently Own: Burton Rewind 149, Burton Dragon 152
 
 ### Boards Recommended for Me
 * Rider's Choice Gnu (magnatraction; asymmetric; stiff flex)
 
 ### Previously Tried:
 
-#### Upcoming: Burton StepOn
+#### Burton Women's Rewind 149
+* Pretty good ride
+* Awesome flex, good for jumps/butters
+* Reasonably stable at speed
+* Good graphic
+
+#### Burton Custom Flying V 150
+* Terrible ride. Kept shifting me over to deeper toeside. Bad stability at speed; hard to force an edge into the snow.
+
+#### Burton Killroy Twin 148
+* Pretty good ride/length/flex
+* Stable at speed on ice
+* Tried with Burton Step Ons (lots of toe pain with 7.5, better with 8)
+* Graphic looks eh
 
 #### Lib Technologies Cold Brew 149 (2020?)
 * Has magnatraction
@@ -89,17 +103,31 @@ tags:
 * SB has good customer service.
 * SB good for loading gear up; they do it for you.
 
-## Good Places to Buy Boards
+## Stores
+
+### Good Places to Buy Boards
 * Evo
 * The House
 * Backcountry
 * Note: Some stores have exclusive boards, so it's hard to find retail. (Powder House ones should be findable online)
 
-## Powder House Info
+### Sport's Basement
+* Restock once a year in fall
+* Unbeatable return policy -- return even if used up to a year. Boot molding counts as "acceptable use".
+* Boot work (repairs, etc) 80/h
+
+### REI
+* Restock continuously
+* Pretty good return policy -- return even if used, but boot molding not included.
+
+### Powder House
 * Super cheap; highly recommend if at Heavenly
 * Helpful people: Cory (Gondola)
 * Helpful people: Nigel (green button) -- manager (Zalanta)
 * Partnered with Tahoe Dave in North (you can return there)
+
+### Burton Northstar
+* Nice people to help you get set up, but personally I didn't like the manager very much. Found him rude and presumptuous.
 
 ## Riding Tips:
 * Put the front strap around the front toe (instead of ontop)
@@ -113,11 +141,18 @@ tags:
 * Boots wear in around 4 times from the heat of your foot. You can also ask shops to custom heat them for you.
 * Today, you basically need an "entire arsenal".
 
-## Goggles:
+### Goggles:
 * People carry 2-3 pairs of goggles, one for each type of light.
 * Don't let them get scratched.
 * Some goggles have squeegees for goggles. Keep the inside of the goggles sealed; this helps the antifog.
 * Some are even supposed to get you more light than you could get without goggles (Oakley high intensity yellow).
+* High VLT (40-80) for lowlight. Low VLT (~10) for highlight.
+* Wear goggles inside your goggles to keep them airtight.
+
+### Boots:
+* Heat mold them to wear them in faster.
+* Toes should line the front as you stand (your foot spreads).
+* Mondopoint = cm
 
 ## Tricks
 * [How to Carve](https://www.youtube.com/watch?v=rG2oVl_Btmk&list=PLXrzbcStaEyo0HFT95aTJb7QnpQE4g-j3), [2](https://snowprofessor.com/how-carve-on-snowboard)

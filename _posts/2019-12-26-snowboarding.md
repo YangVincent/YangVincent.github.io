@@ -15,9 +15,12 @@ tags:
 * Stance Width: 20-21 in
 * Stance Placement: -5 +15 or -12 +12
 * Directional or Twin
-* Bindings: Burton Step On, Flow
+* Bindings: Burton Step On (Men's small bindings, size 8), Flow
 * Shoes: Photon (8), Burton Double Boa (9). Mondopoint 25; 1cm variation in standing/sitting
-* Currently Own: Burton Rewind 149, Burton Dragon 152
+* Goggles: Zionor X Magnetic
+* Helmet: Smith Vantage 
+* Board: Burton Rewind 149 (DPS Phantom, -12 +12), Jones Mind Expander Women's 150 (0, 15), Burton Dragon 152
+* Bag: Burton Wheelie Board Case Board Bag Bona Flora Print
 
 ### Boards Recommended for Me
 * Rider's Choice Gnu (magnatraction; asymmetric; stiff flex)
@@ -115,6 +118,7 @@ tags:
 * Restock once a year in fall
 * Unbeatable return policy -- return even if used up to a year. Boot molding counts as "acceptable use".
 * Boot work (repairs, etc) 80/h
+* Starting near March, EVERYTHING for snow goes to 50%!
 
 ### REI
 * Restock continuously

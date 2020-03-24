@@ -7,20 +7,47 @@ tags:
   - snowboarding
   - resources
 ---
-## General Board Information
-### Specs I've Locked Down
-* Length: 148-149, possibly 147/150? 
-* Shape: Camber. Rocker isn't stable enough at speed.
-* Stiffness: Stiffer (more aggressive), unless park.
-* Stance Width: 20-21 in
-* Stance Placement: -5 +15 or -12 +12
-* Directional or Twin
+
+## Tricks I'm Working On
+* [How to Carve](https://www.youtube.com/watch?v=rG2oVl_Btmk&list=PLXrzbcStaEyo0HFT95aTJb7QnpQE4g-j3), [2](https://snowprofessor.com/how-carve-on-snowboard)
+* 360 into Butter
+
+## Travel Tips
+* Use southwest. They have the best boot/bag policy (it counts as carry-on).
+
+## Maintenance
+
+### Boot Care
+* Dry your boots asap. Take out the liners.
+* For off-season, lace them up so they don't lose pressure. Store in room temp.
+
+### Board Care
+* [Wax](https://www.youtube.com/watch?v=LmyJdbdHdps)
+* [Inspecting an Edge](https://www.youtube.com/watch?v=tM1r7rFzsXE)
+* [Tuning Edges](https://www.youtube.com/watch?v=71H9kRm30Uw)
+* Store at room temp. To be pedantic, put sideways + on cushion so you don't stress an edge or ruin the camber. Clean and leave on thick wax to preserve moisture. Scrape off the wax when the season comes.
+
+### Other Gear
+* Dry goggles
+* Soft wash/air dry clothes
+
+---
+
+## Gear
+* Board: Burton Rewind 149 (DPS Phantom), Jones Mind Expander Women's 150 (DPS Phantom), Burton Dragon 152
 * Bindings: Burton Step On (Men's small bindings, size 8), Flow
 * Shoes: Photon (8), Burton Double Boa (9). Mondopoint 25; 1cm variation in standing/sitting
 * Goggles: Zionor X Magnetic
 * Helmet: Smith Vantage 
-* Board: Burton Rewind 149 (DPS Phantom, -12 +12), Jones Mind Expander Women's 150 (0, 15), Burton Dragon 152
 * Bag: Burton Wheelie Board Case Board Bag Bona Flora Print
+* Clothes: Oneskee
+
+## General Board Information
+### Specs I've Locked Down
+* Length: 148-149, possibly 147/150? 
+* Stiffness: Stiffer (more aggressive), unless park.
+* Stance Width: 20-21 in
+* Adjustments: 20 or 21 center to center, -9/9, 0/15.
 
 ### Boards Recommended for Me
 * Rider's Choice Gnu (magnatraction; asymmetric; stiff flex)
@@ -158,13 +185,5 @@ tags:
 * Toes should line the front as you stand (your foot spreads).
 * Mondopoint = cm
 
-## Tricks
-* [How to Carve](https://www.youtube.com/watch?v=rG2oVl_Btmk&list=PLXrzbcStaEyo0HFT95aTJb7QnpQE4g-j3), [2](https://snowprofessor.com/how-carve-on-snowboard)
-* 360 into Butter
-
 ## Cameras
-* GoPro Hero 7 vs. DJI Osmo
-
-## Clothes
-* Highly highly recommend OneSkee.
-
+* Insta 360 One R

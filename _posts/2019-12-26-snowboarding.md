@@ -8,6 +8,10 @@ tags:
   - resources
 ---
 
+## Important Resources
+[SBINZ Manual 2017]({{ site.url }}/images/SBINZ_Manual_2017.pdf))
+
+
 ## Tricks I'm Working On
 * [How to Carve](https://www.youtube.com/watch?v=rG2oVl_Btmk&list=PLXrzbcStaEyo0HFT95aTJb7QnpQE4g-j3), [2](https://snowprofessor.com/how-carve-on-snowboard)
 * 360 into Butter

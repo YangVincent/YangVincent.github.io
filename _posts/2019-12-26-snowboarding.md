@@ -9,7 +9,7 @@ tags:
 ---
 
 ## Important Resources
-[SBINZ Manual 2017]({{ site.url }}/images/SBINZ_Manual_2017.pdf))
+[SBINZ Manual 2017]({{ site.url }}/images/SBINZ_Manual_2017.pdf)
 
 
 ## Tricks I'm Working On

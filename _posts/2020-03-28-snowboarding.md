@@ -2,14 +2,33 @@
 layout: post
 title: "Snowboarding"
 excerpt: "Aggregated Snowboarding Notes"
-image: images/northstar.jpg
+image: images/snowboarding/northstar.jpg
 tags: 
   - snowboarding
   - resources
 ---
 
 ## Important Resources
-[SBINZ Manual 2017]({{ site.url }}/images/SBINZ_Manual_2017.pdf)
+* [SBINZ Manual 2017]({{ site.url }}/images/snowboarding/SBINZ_Manual_2017.pdf)
+* [Down Unweighting]({{ site.url }}/images/snowboarding/down-unweighting.pdf)
+* [Up Unweighting]({{ site.url }}/images/snowboarding/up-unweighting.pdf)
+* [Material]({{ site.url }}/images/snowboarding/material.pdf)
+
+## Resources for when I'm Better
+* [Carving Axiom]({{ site.url }}/images/snowboarding/carving-axiom.pdf)
+* [Carving Binding]({{ site.url }}/images/snowboarding/carving-binding.pdf)
+* [Carving Inclination]({{ site.url }}/images/snowboarding/carving-inclination.pdf)
+* [Carving Minus Plus]({{ site.url }}/images/snowboarding/carving-minusplus.pdf)
+* [Carving Position]({{ site.url }}/images/snowboarding/carving-position.pdf)
+* [Carving Push n Pull]({{ site.url }}/images/snowboarding/carving-pushnpull.pdf)
+* [Carving Rotation]({{ site.url }}/images/snowboarding/carving-rotation.pdf)
+* [Carving Snowboard]({{ site.url }}/images/snowboarding/carving-snowboard.pdf)
+* [Carving Technique]({{ site.url }}/images/snowboarding/carving-technique.pdf)
+* [Carving Terrain]({{ site.url }}/images/snowboarding/carving-terrain.pdf)
+* [Carving Vertical]({{ site.url }}/images/snowboarding/carving-vertical.pdf)
+* [Carving Laid Down]({{ site.url }}/images/snowboarding/carving-laiddown.pdf)
+* [Carving Laid Down Backside]({{ site.url }}/images/snowboarding/carving-laiddown-backside.pdf)
+* [Carving Laid Down Frontside]({{ site.url }}/images/snowboarding/carving-laiddown-frontside.pdf)
 
 
 ## Tricks I'm Working On

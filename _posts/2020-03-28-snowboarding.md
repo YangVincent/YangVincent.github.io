@@ -12,6 +12,7 @@ tags:
 * [SBINZ Manual 2017]({{ site.url }}/images/snowboarding/SBINZ_Manual_2017.pdf)
 * [Down Unweighting]({{ site.url }}/images/snowboarding/down-unweighting.pdf)
 * [Up Unweighting]({{ site.url }}/images/snowboarding/up-unweighting.pdf)
+* [Snowmie Down vs UpUnweighting]({{ site.url }}/images/snowboarding/snowmie.pdf)
 * [Material]({{ site.url }}/images/snowboarding/material.pdf)
 
 ## Resources for when I'm Better

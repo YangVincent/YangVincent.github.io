@@ -16,7 +16,7 @@ Whenever I bike with avid cyclists, I end up thanking them for waiting for me. T
 
 Just how big of a difference could this possibly be? It turns out my hybrid is 26 lbs and a road bike is around 15 lbs. With [this handy dandy website](https://www.gribble.org/cycling/power_v_speed.html), 
 I can easily figure out roughly how much faster I'd be with a lighter bike! Ignoring hills because I don't have a good way to estimate grade, Strava says I ride with an average of 150 watts, so I move at 18.75 mph (with defaults for all other settings).
-Now suppose I get a new 15 lbs roadbike -- this costs around 3,000 USE, but only gets me up to 18.87 mph!
+Now suppose I get a new 15 lbs roadbike -- this costs around 3,000 USD, but only gets me up to 18.87 mph!
 
 3,000 though... that's pretty steep. Do we have any alternatives? What if instead of reducing weight, I increased power?
 

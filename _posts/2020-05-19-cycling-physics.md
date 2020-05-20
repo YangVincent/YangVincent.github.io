@@ -4,8 +4,7 @@ title: "Bikes vs. Steroids"
 excerpt: "Optimizing for money (and nothing else)"
 image: images/hawkhill.jpg
 tags: 
-  - snowboarding
-  - resources
+  - cycling
 ---
 
 Biking has been my primary hobby ever since quarantine started. I highly recommend it -- it helps you explore, exercise, and meet new & interesting people.

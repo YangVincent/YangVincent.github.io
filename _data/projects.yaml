@@ -17,8 +17,3 @@
   url: https://yangvincent.github.io/text-yelp/
   image: images/food.jpeg
   completed: true
-
-- title: Predict Elections
-  url: https://predict-elections.herokuapp.com
-  image: images/predict-elections.png  
-  completed: true

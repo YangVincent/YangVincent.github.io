@@ -49,7 +49,7 @@ canvas {
 .projects-menu-icon {
   position: absolute;
   top: 30px;
-  right: 35px;
+  right: 29px; // Manually set :( because length of "POSTS"
   width: 15px;
   height: 15px;
   border: 2px solid $gray;

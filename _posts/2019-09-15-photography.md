@@ -31,7 +31,7 @@ without blur, and how to frame. He told me several other things but I'll be hone
 
 By the end of the night I'd taken this picture:
 
-![My Milky Way]({{ site.url }}/images/photography/milkyway.jpg)
+![My Milky Way]({{ site.url }}/assets/images/photography/milkyway.jpg)
 
 "Beautiful", I thought. I've peaked; time to find a new hobby. \s
 
@@ -40,7 +40,7 @@ I sent this to my family and received "where was this?" and "wow crazy boys".
 
 A few days later, my brother finished editing:
 
-![Kevin's Milky Way]({{ site.url }}/images/photography/kevinmilkyway.jpg)
+![Kevin's Milky Way]({{ site.url }}/assets/images/photography/kevinmilkyway.jpg)
 
 I was absolutely floored -- this was worlds different from what I'd taken, but it'd been from the same location and time. How was it possible???? (Magic, obviously).
 

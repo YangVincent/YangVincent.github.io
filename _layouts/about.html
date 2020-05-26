@@ -21,10 +21,12 @@
                     {% endif %}
         		</header>
                 <div class="row">
-                    <p>
-                        <span class="image left"><img src="{{ site.baseurl }}/{{ page.image }}" alt=""/></span>
-                        {{ page.content }}
-                    </p>
+                    <div class="5u 12u$(medium)">
+                        <img src="{{ site.baseurl }}/{{ page.image }}" alt=""/>
+                    </div>
+                    <div class="7u 12u$(medium)">
+                            {{ page.content }}
+                    </div>
                 </div>
         	</div>
         </section>

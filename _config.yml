@@ -32,6 +32,10 @@ resume_url: https://www.yangvincent.com/resume.pdf
 
 # build settings
 markdown: kramdown
+kramdown:
+    audo_ids: true
+    toc_levels: 1..6
+    enable_coderay: true
 
 sass:
   style: compressed

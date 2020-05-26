@@ -8,6 +8,12 @@ tags:
   - resources
 ---
 
+## Table of Contents
+* # toc
+{:toc}
+
+<hr>
+
 ## Important Resources
 * [SBINZ Manual 2017]({{ site.url }}/images/snowboarding/SBINZ_Manual_2017.pdf)
 * [Down Unweighting]({{ site.url }}/images/snowboarding/down-unweighting.pdf)

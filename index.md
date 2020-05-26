@@ -1,10 +1,11 @@
 ---
 layout: home
+title: Home
+landing-title: 'Passionate about Efficiency'
+description: 'Description'
+image: null
+author: null
+show_tile: false
 ---
-# Welcome!
 
-I'm a Software Engineer at [Google](https://security.googleblog.com/) who enjoys
-[snowboarding](https://www.yangvincent.com/snowboarding), playing [badminton](https://www.yangvincent.com/badminton), [listening to music](https://open.spotify.com/user/1211576758), and [reading](https://www.goodreads.com/vincentyang).
-
-I'm fascinated by our raisons d'être and how we may best fulfill them.
-
+Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.

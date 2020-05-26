@@ -1,45 +1,60 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html>
+
 {% include head.html %}
-<body id="homepage">
 
-  <div class="block-left">
-    <div class="content">
-      <div class="main-info">
-        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
-        <h1>
-          {{ site.title }}
-        </h1>
-        <h2>
-          {{ site.description }}
-        </h2>
-        {% include social-links.html %}
-      </div>
-      <div class="arrow bounce"></div>
-    </div>
-    <canvas></canvas>
-  </div>
+<body>
 
-  <div class="block-right">
-    <a href="{{ site.url }}/posts" title="posts" class="posts-menu-icon"></a>
-    <span class="posts-link">BLOG</span>
-    <a title="project" class="projects-menu-icon">
-      <span></span>
-    </a>
-    <span class="projects-link">POST5</span>
-    <div class="content">
-      <div class="about-info">
-        {{ content }}
-      </div>
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h3>{{ page.landing-title }}</h3>
+            </header>
+            <div class="row">
+                <div class="content 10u 12u$(medium)">
+                    <p style="">
+                        I'm a Software Engineer at <a href="https://security.googleblog.com/" target="_blank">Google</a> probably out snowboarding, biking, listening to music, or reading.<br><br>
+                        I'm fascinated by our raisons d’être and how we may best fulfill them.
+                    </p>
+
+                    <!--<ul class="actions">
+                        <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    </ul>-->
+                </div>
+                <div class="inner 2u 12u$(small)">
+                  <ul class="icons">
+                      <li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                      <li><a href="{{ site.resume_url }}" class="icon alt fa-file" target="_blank"><span class="label">Resume</span></a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <!--<section id="two">
+            <div class="inner">
+                <header class="major">
+                  <h2>Massa libero</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="landing.html" class="button next">Get Started</a></li>
+                </ul>
+            </div>
+        </section>-->
+
     </div>
-  </div>
-  {% include overlay.html %}
-  {% include scripts.html %}
-  <script src="{{ site.url }}/assets/js/canvas.js"></script>
-  <!--<script src="{{ site.url }}/assets/js/particles-js.js"></script>-->
+    {% include footer.html %}
+
 </body>
 </html>

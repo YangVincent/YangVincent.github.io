@@ -2,10 +2,12 @@
 layout: post
 title: "Snowboarding"
 excerpt: "Aggregated Snowboarding Notes"
-image: images/snowboarding/sbcrop.jpg
+image: assets/images/snowboarding/sbcrop.jpg
 tags: 
   - snowboarding
   - resources
+nav-menu: false
+show_tile: false
 ---
 
 ## Table of Contents

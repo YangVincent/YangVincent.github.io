@@ -22,8 +22,3 @@
   url: https://predict-elections.herokuapp.com
   image: images/predict-elections.png  
   completed: true
-
-- title: Domination
-  url: https://github.com/YangVincent/Domination
-  image: images/domination.png
-  completed: true

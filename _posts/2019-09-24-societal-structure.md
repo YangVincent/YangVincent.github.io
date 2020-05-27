@@ -2,16 +2,16 @@
 layout: post
 title: "Societal Structure"
 excerpt: "Quick Intro to Economies/Politics"
-image: images/setup.JPG
+image: assets/images/setup.JPG
 tags: 
   - society
 ---
 
-## Overview
+### Overview
 I recently had several extensive discussions about what kind of society we live in and what society we would
 want to live in. Several definitions are important and useful for future topics/conversations.
 
-### Definitions
+#### Definitions
 * Socialism: Abolishes classes, significant 'welfare' programs, People are taxed based on ability, and given aid based on
 their contributions. Private ownership.
 * Communism: Abolishes classes, no private ownership, people are taxed on ability, and given need-based aid.

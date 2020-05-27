@@ -2,10 +2,11 @@
 layout: post
 title: "Life Tracking"
 excerpt: "3 Months of Tracking"
-image: images/lifetracking/atracker.jpg
+image: assets/images/lifetracking/atracker.jpg
 tags: 
   - tracking
 ---
+
 Since October 17, 2019, (my visit to Boston for Rylan with Jessica), I've been tracking my time. I've split it into several categories:
 * Social (time spent with others)
 * Sleep
@@ -35,7 +36,7 @@ Thus far, in total I've:
 
 My behavior is also quite different from weekends and weekdays.
 
-## Weekend Average
+### Weekend Average
 
 |Category   |Total Time |Percentage |
 |--------------|--------|-----|
@@ -48,7 +49,7 @@ My behavior is also quite different from weekends and weekdays.
 |Gym           |:20|1%   |
 |Appointment   |:32|2%   |
 
-## Weekday Average
+### Weekday Average
 
 |Category   |Total Time |Percentage |
 |--------------|--------|-----|
@@ -61,7 +62,7 @@ My behavior is also quite different from weekends and weekdays.
 |Gym           |:26|1%  |
 |Appointment   |:07|1%  |
 
-# Overlapping
+### Overlapping
 Since I view these goals as optimizing pillars, I want to overlap as many things as possible to get the most out of any unit time. For instance, 
 working on productive things while being social is better than any single option on its own. As such, you can notice that the times should
 add up to more than the time alotted. In 15 weeks, there are 2520 hours, but the sum here is 2980.

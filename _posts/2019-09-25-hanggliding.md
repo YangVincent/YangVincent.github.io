@@ -7,7 +7,7 @@ tags:
   - hanggliding
 ---
 
-## Background
+### Background
 I've recently started looking into hanggliding. It's more appealing to me than paragliding cause there's fewer parts (and probably easier setup).
 
 There's several gyms near me: East Bay, Pacifica, Mission Peak, Milpitas. 

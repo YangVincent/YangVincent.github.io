@@ -2,12 +2,12 @@
 layout: post
 title: "Information Security Symposium"
 excerpt: "Speaking on Healthcare + Blockchain"
-image: images/infosec.jpg
+image: assets/images/infosec.jpg
 tags: 
   - research
 ---
 
-## Overview
+### Overview
 I recently spoke at the [Davis Security Symposium](https://www.cvent.com/events/2019-information-security-symposium/custom-35-2bf6e0b8a1fd41a78a7211e81fcd1fd8.aspx?cpc=H7NM3FQB9TN) with my friend Harrison Nguyen
 about [healthcare and blockchain](https://web.archive.org/web/20190624185212/https://www.cvent.com/events/2019-information-security-symposium/agenda-2bf6e0b8a1fd41a78a7211e81fcd1fd8.aspx?cpc=H7NM3FQB9TN).
 

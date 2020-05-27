@@ -9,12 +9,12 @@ tags:
   - learning
 ---
 
-## Overview
+### Overview
 Especially with full-time jobs taking the vast majority of our lives, streamlining the remainder of our time
 is of utmost importance. Learning about the world and others is important for our growth and sometimes, our 
 entertainment. I've therefore found a few ways to easily gaining information simpler. 
 
-## Audiobooks and Overcast
+### Audiobooks and Overcast
 Audiobooks and podcasts are useful because it's possible to fully digest them even while we're somewhat occupied. The best
 example of this is driving. Although we can't do other hobbies while driving (watching movies, playing games, 
 participating in group activities), audiobooks and podcasts allow us to get well-formatted, digestable information
@@ -29,11 +29,11 @@ sounds natural, but saves you time in the long run. In a typical audiobook, I sa
 20 minutes - 1+ hours simply from smart speed. Additionally, Overcast's voice boost feature makes listening
 on the car feasible yet enjoyable without downside.
 
-## Morning Brew
+### Morning Brew
 [Morning Brew](https://www.morningbrew.com/?kid=9NGB6) is a fantastic newsletter that covers business, tech, and 
 politics quickly and efficiently while providing ample background information to understand context. 
 
-## Pocket/News Aggregators
+### Pocket/News Aggregators
 News aggregators pull from countless sources and provide you with news they believe you'll find interesting/relevant.
 This is good in that it reduces your search time while maintaining your ability to reasonably gain a strong
 overview of what's happening in the world. However, these also cause 'echo chambers', where you continuously get

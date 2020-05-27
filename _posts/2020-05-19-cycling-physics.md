@@ -2,7 +2,7 @@
 layout: post
 title: "Bikes vs. Steroids"
 excerpt: "Optimizing for money (and nothing else)"
-image: images/hawkhill.jpg
+image: assets/images/hawkhill.jpg
 tags: 
   - cycling
 ---

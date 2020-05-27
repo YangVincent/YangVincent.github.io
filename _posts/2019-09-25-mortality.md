@@ -7,12 +7,12 @@ tags:
   - life
 ---
 
-## Overview
+### Overview
 I recently read "Being Mortal" by Atul Gawande which discusses hospice care and the importance of communicating the minimum quality of life you'd accept with those around you.
 
 As much as I want to believe that I'm the exception that'll never die, I must face reality: I engage in fairly risky activities on a daily basis -- driving, eating new foods, traveling, etc. 
 
-## Thought Process & Result
+### Thought Process & Result
 To figure out what minimal QOL I'm really okay with, I have to think -- what makes life worth living?
 
 This is quite a difficult question when you consider that I don't even know what I truly enjoy yet. I can, however, pinpoint several things I deeply enjoy.

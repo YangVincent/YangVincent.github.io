@@ -2,12 +2,12 @@
 layout: post
 title: "Badminton"
 excerpt: "Badminton Equipment Information"
-image: images/LCW.jpg
+image: assets/images/LCW.jpg
 tags: 
   - badminton
 ---
 
-## Badminton Table
+### Badminton Table
 <table class="table table-hover table-bordered table-striped">
   <thead>
     <tr>

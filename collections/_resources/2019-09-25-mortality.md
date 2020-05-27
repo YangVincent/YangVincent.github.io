@@ -2,7 +2,7 @@
 layout: post
 title: "Mortality"
 excerpt: "What QOL I'd like"
-image: images/paragliding.JPG
+image: assets/images/paragliding.jpg
 tags: 
   - life
 ---

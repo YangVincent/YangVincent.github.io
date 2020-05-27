@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Photography With Kevin"
-excerpt: "Musings"
-image: images/photography/view.jpg
+excerpt: "Musings of an adventure with my brother"
+image: assets/images/photography/view.jpg
 tags: 
   - life
   - family

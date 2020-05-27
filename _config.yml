@@ -42,6 +42,8 @@ collections_dir: collections
 collections:
     resources:
         output: true
+    stories:
+        output: true
 
 sass:
   style: compressed

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include header.html %} 
+    
+    <!-- Main -->
+    <div id="main" class="alt">
+        <!-- One -->
+        <section id="one">
+            <div class="inner">
+                <header class="major">
+                    <h2>Stories</h2>
+                </header>
+            </div>
+        </section>
+        <section id="two" class="spotlights">
+            {% for story in site.stories %}
+                {% if story.title != 404 %}
+                    <section>
+                        <!-- Hacky fix to use image positioning -->
+                        <a href="" class="image">
+                            <img src="{{ site.baseurl }}/{{ story.image }}" style="height:100%;"alt="" data-position="center center"/>
+                        </a>
+                        <div class="content">
+                            <div class="inner">
+                                <header class="major">
+                                    <h3>{{ story.title }}</h3>
+                                </header>
+                                <!-- story date? -->
+                                <p>{{ story.excerpt }}</p>
+                                <!-- Some posts are short enough to just be an excerpt. We tag these with nopost. -->
+                                {% if story.nopost != true %}
+                                    <ul class="actions">
+                                        <li><a href="{{ story.url }}" class="button">Read more</a></li>
+                                    </ul>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </section>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

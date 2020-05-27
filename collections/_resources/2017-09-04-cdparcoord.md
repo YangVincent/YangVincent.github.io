@@ -2,7 +2,7 @@
 layout: post
 title: "cdparcoord"
 excerpt: "Top Frequency-Based Parallel Coordinates"
-image: images/cdparcoord-diacdpar.png
+image: assets/images/cdparcoord-diacdpar.png
 tags: 
   - research
   - cdparcoord

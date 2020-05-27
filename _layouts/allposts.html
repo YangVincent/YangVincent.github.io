@@ -17,13 +17,13 @@
 	                    <header class="major">
                             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 	                    </header>
-	                    {% if post.date %}
-                          <p>
-                            {{ post.date | date: "%B %-d, %Y"  }}
-                          </p>
-                        {% endif %}
-	                    {% if post.image %}<span class="image right"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-	                    <p>{{ post.content }}
+                        <p>
+	                        {% if post.date %}
+                                {{ post.date | date: "%B %-d, %Y" }}
+                            {% endif %}
+                            {% if post.excerpt %}
+                            - <b>{{ post.excerpt }}</b>
+                            {% endif %}
                         </p>
 	                {% endif %}
                     <hr>

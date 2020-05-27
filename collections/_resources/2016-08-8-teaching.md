@@ -41,7 +41,7 @@ an introductory CS course at Davis. He mentioned that he had often reviewed and 
 significant discernable difference if we had learned the material a few days prior or had years of experience.
 
 <figure class="align-center">
-  <img src="assets/images/ecs198.jpg" alt="Rylan Teaching">
+  <img src="{{ site.url }}/assets/images/ecs198.jpg" alt="Rylan Teaching">
   <figcaption>Rylan Teaching RSA for ECS 198</figcaption>
 </figure> 
 

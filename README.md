@@ -6,3 +6,4 @@ https://jekyllrb.com/docs/installation/windows/
 
 # Guides
 https://devhints.io/jekyll
+https://varunagrawal.github.io/2018/03/27/latex-jekyll/

@@ -17,7 +17,7 @@ locale: en_US
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 60
 
 # social settings
 500px_url:
@@ -38,6 +38,7 @@ kramdown:
     audo_ids: true
     toc_levels: 1..6
     enable_coderay: false
+    math_engine: mathjax
 
 collections_dir: collections
 

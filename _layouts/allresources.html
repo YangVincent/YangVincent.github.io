@@ -15,7 +15,7 @@
                 </header>
             </div>
         </section>
-        {% assign tiles = site.resources %}
+        {% assign tiles = (site.resources | sort: 'date') | reverse %}
         <div class="content">
             <div class="inner">
                 <section id="one" class="tiles">

@@ -9,7 +9,7 @@ show_tile: true
 
 <p>
     I’m a Software Engineer at Google working on improving product security. 
-    I spend 50% of my time working with bughunters through the [Vulnerability Rewards Program](https://www.google.com/about/appsecurity/reward-program/) and
+    I spend 50% of my time working with bughunters through the <a href="https://www.google.com/about/appsecurity/reward-program/" target="_blank">Vulnerability Rewards Program</a> and
     the other 50% on scaling our team with tooling.
 </p>
 
@@ -18,12 +18,12 @@ show_tile: true
     <p>
         Previously, I achieved my MS and BS in Computer Science from UC Davis where I
         <ul>
-            <li>Co-taught an upper-division course titled Bitcoin and Cryptocurrency Technologies in Spring 2016 with Rylan Schaeffer</li>
-            <li>Spoke at the UC Davis Security Symposium in 2019 about the pitfalls of using blockchain for medical health data.</li>
+            <li>Co-taught an upper-division course titled <a href="http://rylanschaeffer.github.io/files/198FCourseSyllabus.pdf" target="_blank">Bitcoin and Cryptocurrency Technologies</a> in Spring 2016 with Rylan Schaeffer</li>
+            <li>Spoke at the <a href="https://web.archive.org/save/https://www.cvent.com/events/2019-information-security-symposium/speakers-2bf6e0b8a1fd41a78a7211e81fcd1fd8.aspx" target="_blank">UC Davis Security Symposium</a> in 2019 about the pitfalls of using blockchain for medical health data.</li>
             <li>Researched ways to:</li>
             <ul>
-                <li>Improve smart contract security</li>
-                <li>Visualize multi-dimensional data with parallel coordinates with Dr. Matloff</li>
+                <li>Improve <a href="https://github.com/YangVincent/SmartContractTester" target="_blank">smart contract security</a></li>
+                <li><a href="https://github.com/matloff/cdparcoord" target="_blank">Visualize multi-dimensional data with parallel coordinates with Dr. Matloff</a></li>
                 <li>Improve security education with Dr. Bishop</li>
             </ul>
         </ul>

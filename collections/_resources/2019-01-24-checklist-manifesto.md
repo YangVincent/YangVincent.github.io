@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Checklist Manifesto"
-excerpt: "Reading Summaries"
+excerpt: ""
 image: assets/images/surgery.jpg
 tags: 
   - reading

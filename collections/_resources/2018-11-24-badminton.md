@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Badminton"
-excerpt: "Badminton Equipment Information"
+excerpt: ""
 image: assets/images/LCW.jpg
 tags: 
   - badminton

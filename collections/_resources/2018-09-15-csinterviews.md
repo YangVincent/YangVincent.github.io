@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CS Interviews"
-excerpt: "Resources and Guides for Interviews"
+excerpt: ""
 image: assets/images/useless-interviews-resized.jpeg
 tags: 
   - tech

@@ -12,6 +12,8 @@ state:
 zip_code: 
 country: United States of America
 phone: 
+logo: assets/images/v4.png
+locale: en_US
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -42,8 +44,15 @@ collections_dir: collections
 collections:
     resources:
         output: true
+        permalink: /:collection/:title/
     stories:
         output: true
+        permalink: /:collection/:title/
+    posts:
+        output: true
+        permalink: /:collection/:title/
+
+permalink: pretty
 
 sass:
   style: compressed

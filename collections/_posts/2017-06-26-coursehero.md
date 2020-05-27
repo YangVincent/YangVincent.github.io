@@ -2,7 +2,7 @@
 layout: post
 title: "Startup Culture"
 excerpt: "My first week at Course Hero"
-image: images/coursehero-glass.jpg
+image: assets/images/coursehero-glass.jpg
 tags: 
   - startup
   - intern
@@ -36,11 +36,11 @@ the beautiful campus to the infinite snacks, the river flowing alongside, and th
 I was settled into my desk and introduced to my workplace proximity associates. 
 
 <figure class="align-center">
-  <img src="/images/coursehero-snacks.jpg" alt="Course Hero Snacks">
+  <img src="/assets/images/coursehero-snacks.jpg" alt="Course Hero Snacks">
   <figcaption>Course Hero Snacks</figcaption>
 </figure> 
 <figure class="align-center">
-  <img src="/images/coursehero-desk.jpg" alt="Day 1 Desk">
+  <img src="/assets/images/coursehero-desk.jpg" alt="Day 1 Desk">
   <figcaption>Day 1 Desk</figcaption>
 </figure> 
 
@@ -64,7 +64,7 @@ my team and Course Hero's collaboration structure.
   3. Most importantly, I was introduced and given time to bond with each member of my team. 
 
 <figure class="align-center">
-  <img src="/images/coursehero-view.jpg" alt="Course Hero View">
+  <img src="/assets/images/coursehero-view.jpg" alt="Course Hero View">
   <figcaption>Course Hero View</figcaption>
 </figure> 
 

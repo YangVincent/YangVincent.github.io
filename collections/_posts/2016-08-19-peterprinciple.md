@@ -2,7 +2,7 @@
 layout: post
 title: "The Peter Principle"
 excerpt: "Teradata Lunches"
-image: images/stairs.jpeg
+image: assets/images/stairs.jpeg
 tags: 
   - management
   - teradata
@@ -52,7 +52,7 @@ vastly different, since he has a higher level overview and greater influence on 
 as well. 
 
 <figure class="align-center">
-  <img src="/images/oliverlunch.jpg" alt="Lunch with Oliver">
+  <img src="assets/images/oliverlunch.jpg" alt="Lunch with Oliver">
   <figcaption>Lunch with Oliver</figcaption>
 </figure> 
 

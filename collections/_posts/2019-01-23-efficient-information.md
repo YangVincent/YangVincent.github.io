@@ -2,7 +2,7 @@
 layout: post
 title: "Efficient Information Acquisition"
 excerpt: "An approach to improving life"
-image: images/matrix.jpg
+image: assets/images/matrix.jpg
 tags: 
   - life
   - optimization

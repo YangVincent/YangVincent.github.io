@@ -2,7 +2,7 @@
 layout: post
 title: "Hang Gliding"
 excerpt: "Hang Gliding Notes"
-image: images/setup.JPG
+image: assets/images/setup.JPG
 tags: 
   - hanggliding
 ---

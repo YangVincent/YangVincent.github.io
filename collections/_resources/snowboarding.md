@@ -3,7 +3,7 @@ layout: post
 title: "Snowboarding"
 description: "Snowboarding"
 excerpt: "Aggregated Snowboarding Notes"
-image: assets/images/snowboarding/sbcrop.jpg
+image: assets/images/snowboarding/kirkwood-pano.jpg
 tags: 
   - snowboarding
   - resources

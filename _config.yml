@@ -35,7 +35,13 @@ markdown: kramdown
 kramdown:
     audo_ids: true
     toc_levels: 1..6
-    enable_coderay: true
+    enable_coderay: false
+
+collections_dir: collections
+
+collections:
+    resources:
+        output: true
 
 sass:
   style: compressed

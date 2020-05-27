@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include header.html %} 
+    
+    <!-- Main -->
+    <div id="main" class="alt">
+        <!-- One -->
+        <section id="one">
+            <div class="inner">
+                <header class="major">
+                    <h2>Resources & Articles</h2>
+                </header>
+            </div>
+        </section>
+        <section id="two" class="spotlights">
+            {% for resource in site.resources %}
+                {% if resource.title != 404 %}
+                    <section>
+                        <a href="generic.html" class="image">
+                            <img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center"/>
+                        </a>
+                        <div class="content">
+                            <div class="inner">
+                                <header class="major">
+                                    <h3>{{ resource.title }}</h3>
+                                </header>
+                                <!-- resource date? -->
+                                <p>{{ resource.description }}</p>
+                                <ul class="actions">
+                                    <li><a href="{{ resource.url }}" class="button">Read more</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </section>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

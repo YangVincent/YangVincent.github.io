@@ -8,9 +8,7 @@ show_tile: true
 ---
 
 <p>
-    I’m a Software Engineer at Google working on improving product security. 
-    I spend 50% of my time working with bughunters through the <a href="https://www.google.com/about/appsecurity/reward-program/" target="_blank">Vulnerability Rewards Program</a> and
-    the other 50% on scaling our team with tooling.
+    I’m a Software Engineer at Google where I improve and scale product security.
 </p>
 
 <div>

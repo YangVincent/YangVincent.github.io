@@ -7,7 +7,7 @@ tags:
   - cycling
 ---
 
-Biking has been my primary hobby ever since quarantine started. I highly recommend it -- it helps you explore, exercise, and meet new & interesting people.
+Biking has been my primary hobby ever since quarantine started. I highly recommend it -- it enables exploration, exercise, and meeting new & interesting people.
 My friends occupy a wide variety of cyclist "types". On the hardcore end we have Angela who introduced herself with "I'm a casual biker" shortly before elaborating on her transamerican trek.
 On the other hand, we have Ping-ko with whom my mouth does more running than I do riding. 
 

@@ -17,12 +17,11 @@
             </div>
         </section>
         {% assign tiles = site.stories %}
-            {% for story in site.stories %}
-                {% if story.title != 404 %}
-                    <div class="content">
-                        <div class="inner">
-                            <section id="one" class="tiles">
-                                {% for tile in tiles limit:site.tiles-count %}
+            <div class="content">
+                <div class="inner">
+                    <section id="one" class="tiles">
+                        {% for tile in tiles limit:site.tiles-count %}
+                            {% if story.title != 404 %}
                                 <article>
                                     <span class="image">
                                         <img src="{{ site.baseurl }}/{{ tile.image }}" alt="" />
@@ -32,12 +31,11 @@
                                         <p>{{ tile.excerpt }}</p>
                                     </header>
                                 </article>
-                                {% endfor %}
-                            </section>
-                        </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    </section>
+                </div>
+            </div>
     </div>
 
     {% include footer.html %}

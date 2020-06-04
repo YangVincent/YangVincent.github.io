@@ -26,21 +26,21 @@ Here is where it starts.
 
 ### Interests and Preferences
 
-Suppose our world has a list of infinite interests. This is everything I (or anyone) could possibly have an opinion on -- from dogs to running 
-to crying to mitochondria. Let's call this `$I: \{$`set of all interests`$\} = \{$`dog, japan, crying, `$...\}$`. Formally,
+Our world has infinite things I (or anyone) could possibly have an opinion on -- from dogs to japan to honesty. 
+Let's call this `$I: \{$set of all interests$\} = \{$dog, japan, honesty, $...\}$`. Formally,
 
 $$I: \{i_1, i_2, i_3, ...\}, |I| = \infty$$
 
-As people (or animals), we have preferences about these things. That is, we have some opinion about how much we like it or not. We can scale these
-preferences to a range from `$-1$` to `$1$`, so things I really hate are closer to `$-1$` and things I love are closer to `$1$`. Let's suppose
+As people (or animals), we have preferences about these things. That is, we have some opinion about how much we like each thing or not. We can scale these
+preferences to a range from `$-1$ to $1$`, so things I really hate are closer to `$-1$` and things I love are closer to `$1$`. Let's suppose
 my preferences for the interests listed above are:
 
 * I like dogs, so `$0.6$`
 * Japan is an amazing destination with rich culture, so `$0.9$`
-* Crying sucks, so `$-0.7$`
+* Honesty is almost always important, so `0.8`
 
-Ordering this up with our above list, we get `$(0.6, 0.9, -0.7)$` are my preferences for 
-`$\{$`dog, japan, crying`$\}$`. We'll forget the rest for now for the sake of example. Formally, this is our **preference vector**. 
+Ordering this up with our above list, we get `$(0.6, 0.9, 0.8)$` are my preferences for 
+`$\{$ dog, japan, honesty $\}$`. We'll forget the rest for now for the sake of example. Formally, this is our **preference vector**. 
 
 $$PV: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1$$
 
@@ -49,46 +49,69 @@ $$PV: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1$$
 As you interact with people, you implicitly score them for every attribute in `$I$`. This means if I know Alice `$A$` and Bob `$B$`,
 I can rank them based on my PV.
 
-* Rank Alice on my line.
-* Rank Bob on my line.
-* Rank myself on my line.
+TODO: Show how Alice and Bob each rank on my chart.
+
 
 ### Other people's PVs
 
 My preference vector is a reasonable summary of who I am as a person. At the same time, everyone else also has their own preference vectors.
 For firm mathematical footing, we're working with these vectors in an `$l_2$` space.
 
+I think Alice loves dogs, but has no interest in Japan. She also thinks being honest is pretty important. 
+On the other hand, Bob is a monster who hates dogs, hates Japan, and is extremely dishonest.
+
+$$PV_A=\{1, -0.3, 0.7\}$$
+
+$$PV_B=\{-0.9, -0.4, -0.7\}$$
+
+<div id='otherPeople'></div>
+<script>
+//Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-line1.csv', function(err, rows){
+Plotly.d3.csv('http://localhost:4000/assets/pv1.csv', function(err, rows){
+    function unpack(rows, key) {
+        return rows.map(function(row) 
+        { return row[key]; }); 
+    }
+          
+	var x = unpack(rows , 'x');
+	var y = unpack(rows , 'y');
+	var z = unpack(rows , 'z'); 
+	var c = unpack(rows , 'color');
+	Plotly.newPlot('otherPeople', [{
+	  type: 'scatter3d',
+	  mode: 'lines',
+	  x: x,
+	  y: y,
+	  z: z,
+	  opacity: 1,
+	  line: {
+	    width: 6,
+	    color: c,
+	    reversescale: false
+	  }
+	}], {
+  			height: 440
+	});
+});
+</script>
+
+We tend to want to spend more time with people who have similar preferences. That means the smaller the angle between our vectors,
+the more similar our preferences are.
+
+In the chart below, we can see that Alice (orange) and My (white) PVs are more similar than either of ours to Bob's. This
+means we're more likely to want to spend time and get to know each other than either of us to Bob.
+
+### Ranking People on our PVs
+
+Not only do we have preferences, but we have the ability to rank how good we are fulfilling those preferences. For instance, if
+I'm reasonably good at being honest `$0.5$` but someone else abides by radical candor `$1.0$`, then they'll be "higher up"
+on my PV than myself.
+
+
+
 
 
 # Figure out how to add plotly.
 This is a plot.
 
-<div id='myDiv'></div>
 
-<script>
-Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-line1.csv', function(err, rows){
-      function unpack(rows, key) {
-          return rows.map(function(row) 
-          { return row[key]; }); }
-          
-var x = unpack(rows , 'x');
-var y = unpack(rows , 'y');
-var z = unpack(rows , 'z'); 
-var c = unpack(rows , 'color');
-Plotly.newPlot('myDiv', [{
-  type: 'scatter3d',
-  mode: 'lines',
-  x: x,
-  y: y,
-  z: z,
-  opacity: 1,
-  line: {
-    width: 6,
-    color: c,
-    reversescale: false
-  }
-}], {
-  height: 640
-});
-});
-</script>

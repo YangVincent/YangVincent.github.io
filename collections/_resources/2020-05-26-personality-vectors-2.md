@@ -59,13 +59,13 @@ I can combine their values to a point on my `$P$`.
 
 $$f(P, A) = \sum_{i-0}^{i=\infty}A_{i} \cdot P_{i} $$
 
-$$f(P_v, A) = (0.6 \cdot 0) + (0.9 \cdot -0.2) + (0.8 \cdot 0.8) = 0.46$$
+$$f(P_v, A_{A}) = (0.6 \cdot 0) + (0.9 \cdot -0.2) + (0.8 \cdot 0.8) = 0.46$$
 
-$$f(P_v, B) = (0.6 \cdot 1) + (0.9 \cdot 0.8) + (0.8 \cdot -0.7) = 0.76$$
+$$f(P_v, A_{B}) = (0.6 \cdot 1) + (0.9 \cdot 0.8) + (0.8 \cdot -0.7) = 0.76$$
 
 I can also grade myself based on my own attributes `$M$`.
 
-$$f(P_v, M) = (0.6 \cdot 0) + (0.9 \cdot 0.4) + (0.8 \cdot 0.7) = 0.92$$
+$$f(P_v, A_{M}) = (0.6 \cdot 0) + (0.9 \cdot 0.4) + (0.8 \cdot 0.7) = 0.92$$
 
 
 <div id='myDiv'></div>

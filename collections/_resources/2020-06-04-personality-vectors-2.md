@@ -10,7 +10,7 @@ tags:
 ---
 
 ### Overview
-If you haven't yet read the first version, read [personality vectors]({{site.url}}/personality-vectors/).
+If you haven't yet read the first version, read [personality vectors]({{site.url}}/resources/personality-vectors/).
 
 This will establish:
 * Things: An ordered, infinitely large set of everything you could possibly have an opinion on.

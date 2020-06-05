@@ -12,14 +12,21 @@ tags:
 ### Overview
 If you haven't yet read the first version, read [personality vectors]({{site.url}}/personality-vectors/).
 
+This will establish:
+* Things: An ordered, infinitely large set of everything you could possibly have an opinion on.
+* Preference Vectors: A person's preference for each thing. This represents both how much it matters to you, how much you like it, etc. 
+* Attributes: This is someone's attributes. Attributes can be combined with your preference vector to determine a scalar that represents how much
+you want to interact with them.
+* Similarities: Two people are more similar if the angles between their preference vectors are more similar.
+
 ### Interests and Preferences
 
 Our world has infinite things I (or anyone) could possibly have an opinion on -- from dogs to japan to honesty. 
-Let's call this `$I: \{$set of all interests$\} = \{$dog, japan, honesty, $...\}$`. Formally,
+Let's call this `$T: \{$set of all things\} = \{$dog, japan, honesty, $...\}$`. Formally,
 
-$$I: \{i_1, i_2, i_3, ...\}, |I| = \infty$$
+$$T: \{t_1, t_2, t_3, ...\}, |T| = \infty$$
 
-As people (or animals), we have preferences about these things. That is, we have some opinion about how much we like each thing or not. We can scale these
+As people (or animals), we have preferences about these things. We can scale these
 preferences to a range from `$-1$ to $1$`, so things I really hate are closer to `$-1$` and things I love are closer to `$1$`. Let's suppose
 my preferences for the interests listed above are:
 
@@ -56,7 +63,7 @@ $$f(P_v, A) = (0.6 \cdot 0) + (0.9 \cdot -0.2) + (0.8 \cdot 0.8) = 0.46$$
 
 $$f(P_v, B) = (0.6 \cdot 1) + (0.9 \cdot 0.8) + (0.8 \cdot -0.7) = 0.76$$
 
-I can also grade myself `$M$`.
+I can also grade myself based on my own attributes `$M$`.
 
 $$f(P_v, M) = (0.6 \cdot 0) + (0.9 \cdot 0.4) + (0.8 \cdot 0.7) = 0.92$$
 
@@ -142,10 +149,7 @@ var layout = {
 };
 
 var data = [alice, bob, me];
-
 Plotly.newPlot('myDiv', data, layout);
-
-
 </script>
 
 ---
@@ -165,8 +169,8 @@ $$PV_B=\{-0.9, -0.4, -0.7\}$$
 We tend to want to spend more time with people who have similar preferences. That means the smaller the angle between our vectors,
 the more similar our preferences are. Our preferences are closely tied with our attributes.
 
-In the chart below, we can see that Alice (orange) and My (white) PVs are more similar than either of ours to Bob's. This
-means we're more likely to want to spend time and get to know each other than either of us to Bob.
+In the chart below, we can see that Alice (orange) and My (white) PVs are more similar than either of ours is to Bob's. This
+means we're more likely to want to spend time and get to know each other than either of us does to Bob.
 
 <div id='otherPeople'></div>
 <script>

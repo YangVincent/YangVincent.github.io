@@ -49,7 +49,7 @@ Bob is a dog `$1$` that lives in Japan `$0.8$`, but plays tricks and isn't very 
 on my PV. We can calculate each of their positions based off their attributes. Let's define the `Attribute vector $A$` and
 use it to calculate the `Position`. The `$i$th` element on `A` is the attribute for the `$i$th` element on `I`.
 
-$$A = \{a_1, a_2, a_3, ...\}, |A| = |I|$$
+$$Attr = \{a_1, a_2, a_3, ...\}, |Attr| = |I|$$
 
 $$A_{A} = \{0, -0.2, 0.8\}$$
 

@@ -40,16 +40,125 @@ my preferences for the interests listed above are:
 * Honesty is almost always important, so `0.8`
 
 Ordering this up with our above list, we get `$(0.6, 0.9, 0.8)$` are my preferences for 
-`$\{$ dog, japan, honesty $\}$`. We'll forget the rest for now for the sake of example. Formally, this is our **preference vector**. 
+`$\{$ dog, japan, honesty $\}$`. We'll forget the rest of my preferences for now for the sake of example. Formally, this is our **preference vector**. 
 
-$$PV: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1$$
+$$P: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1$$
 
 ### What your PV means to you
 
 As you interact with people, you implicitly score them for every attribute in `$I$`. This means if I know Alice `$A$` and Bob `$B$`,
 I can rank them based on my PV.
 
-TODO: Show how Alice and Bob each rank on my chart.
+Suppose Alice is my friend who is not a dog `$0$`, has never heard of Japan `$-0.2$`, and is very honest `$0.8$`. 
+Bob is a dog `$1$` that lives in Japan `$0.8$`, but plays tricks and isn't very honest `$-0.7$`. Each of them has a position
+on my PV. We can calculate each of their positions based off their attributes. Let's define the `Attribute vector $A$` and
+use it to calculate the `Position`. The `$i$th` element on `A` is the attribute for the `$i$th` element on `I`.
+
+$$A = \{a_1, a_2, a_3, ...\}, |A| = |I|$$
+
+$$A_{A} = \{0, -0.2, 0.8\}$$
+
+$$A_{B} = \{1, 0.8, -0.7\}$$
+
+I can combine their values to a point on my P.
+
+$$f(P, A) = \sum_{i-0}^{i=\infty}A_{i} \cdot P_{i} $$
+
+$$f(P_v, A) = (0.6 \cdot 0) + (0.9 \cdot -0.2) + (0.8 \cdot 0.8) = 0.46$$
+
+$$f(P_v, B) = (0.6 \cdot 1) + (0.9 \cdot 0.8) + (0.8 \cdot -0.7) = 0.76$$
+
+I can also grade myself `$M$`.
+
+$$f(P_v, M) = (0.6 \cdot 0) + (0.9 \cdot 0.4) + (0.8 \cdot 0.7) = 0.92$$
+
+
+<div id='myDiv'></div>
+
+<img src="{{ site.url }}/assets/images/preference-vectors/group-pv.png" alt="group-pv" style="background-color:#fff; padding: 5px 5px 5px 5px;"/>
+
+You tend to want to interact with people higher than you on this range and avoid those lower than you on this range.
+
+<script>
+var alice = {
+  x: [0.46],
+  y: [0],
+  type: 'scatter',
+  hoverinfo: 'x'
+};
+var bob = {
+  x: [0.76],
+  y: [0],
+  type: 'scatter',
+  hoverinfo: 'x'
+};
+var me = {
+  x: [0.92],
+  y: [0],
+  type: 'scatter',
+  hoverinfo: 'x'
+};
+
+
+var layout = {
+  hovermode: 'closest',
+  showlegend: false,
+  xaxis: {
+	range: [-1,1],
+    autorange: false,
+    showgrid: false,
+    zeroline: false,
+    showline: false,
+    autotick: true,
+    ticks: 'outside',
+    showticklabels: true
+  },
+  yaxis: {
+    autorange: false,
+    showgrid: false,
+    zeroline: false,
+    showline: false,
+    autotick: false,
+	zerolinewidth:3,
+    showticklabels: false
+  },
+  annotations: [
+	{
+		xref: 'x',
+    	yref: 'y',
+    	x: 0.46,
+    	y: 0.1,
+    	xanchor: 'center',
+    	text: 'Alice',
+		yanchor: 'bottom',
+  	},
+	{
+		xref: 'x',
+    	yref: 'y',
+    	x: 0.76,
+    	y: 0.1,
+    	xanchor: 'center',
+    	text: 'Bob',
+		yanchor: 'bottom',
+  	},
+	{
+		xref: 'x',
+    	yref: 'y',
+    	x: 0.92,
+    	y: 0.1,
+    	xanchor: 'center',
+    	text: 'Me',
+		yanchor: 'bottom',
+  	}
+  ]
+};
+
+var data = [alice, bob, me];
+
+Plotly.newPlot('myDiv', data, layout);
+
+
+</script>
 
 
 ### Other people's PVs

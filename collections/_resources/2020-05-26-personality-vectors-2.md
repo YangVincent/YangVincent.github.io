@@ -12,18 +12,6 @@ tags:
 ### Overview
 If you haven't yet read the first version, read [personality vectors]({{site.url}}/personality-vectors/).
 
-This version establishes firm mathematical footing and is still very much in progress, especially since I haven't added LaTeX support.
-
-Here's an unordered list of facts we care about.
-
-* We want a finite number of possible interests. Otherwise the inner product between two vectors could be unbounded, which would be problematic. Otherwise, we need definite infinite.
-* There's a precise term for this space of vectors, called L2-Space. "Interests are infinite-dimensional vectors living in the square-integrable L2 space"
-* Square integrable means the Lebesque integral of the function squared is finite. If f is the function, I the interval and p(x)dx the probability measure,
-f is square integrable if the integral over l of $$dx p(x) (f(x)^2) < infinity$$.
-
-
-Here is where it starts.
-
 ### Interests and Preferences
 
 Our world has infinite things I (or anyone) could possibly have an opinion on -- from dogs to japan to honesty. 
@@ -60,7 +48,7 @@ $$A_{A} = \{0, -0.2, 0.8\}$$
 
 $$A_{B} = \{1, 0.8, -0.7\}$$
 
-I can combine their values to a point on my P.
+I can combine their values to a point on my `$P$`.
 
 $$f(P, A) = \sum_{i-0}^{i=\infty}A_{i} \cdot P_{i} $$
 
@@ -160,6 +148,7 @@ Plotly.newPlot('myDiv', data, layout);
 
 </script>
 
+---
 
 ### Other people's PVs
 
@@ -173,9 +162,14 @@ $$PV_A=\{1, -0.3, 0.7\}$$
 
 $$PV_B=\{-0.9, -0.4, -0.7\}$$
 
+We tend to want to spend more time with people who have similar preferences. That means the smaller the angle between our vectors,
+the more similar our preferences are. Our preferences are closely tied with our attributes.
+
+In the chart below, we can see that Alice (orange) and My (white) PVs are more similar than either of ours to Bob's. This
+means we're more likely to want to spend time and get to know each other than either of us to Bob.
+
 <div id='otherPeople'></div>
 <script>
-//Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-line1.csv', function(err, rows){
 Plotly.d3.csv('http://localhost:4000/assets/pv1.csv', function(err, rows){
     function unpack(rows, key) {
         return rows.map(function(row) 
@@ -199,28 +193,15 @@ Plotly.d3.csv('http://localhost:4000/assets/pv1.csv', function(err, rows){
 	    reversescale: false
 	  }
 	}], {
-  			height: 440
+			autosize: true,
+			margin: {
+				l: 5,
+				r: 5,
+				b: 5,
+				t: 5,
+			}
 	});
 });
 </script>
 
-We tend to want to spend more time with people who have similar preferences. That means the smaller the angle between our vectors,
-the more similar our preferences are.
-
-In the chart below, we can see that Alice (orange) and My (white) PVs are more similar than either of ours to Bob's. This
-means we're more likely to want to spend time and get to know each other than either of us to Bob.
-
-### Ranking People on our PVs
-
-Not only do we have preferences, but we have the ability to rank how good we are fulfilling those preferences. For instance, if
-I'm reasonably good at being honest `$0.5$` but someone else abides by radical candor `$1.0$`, then they'll be "higher up"
-on my PV than myself.
-
-
-
-
-
-# Figure out how to add plotly.
-This is a plot.
-
-
+Over time, people who spend together have preference vectors whose angles shrink -- the vectors become more similar.

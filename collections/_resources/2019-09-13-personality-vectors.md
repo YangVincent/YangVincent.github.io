@@ -18,6 +18,8 @@ This framework helps to reason about
 ### Disclaimer
 Disclaimer: I use this framework as a retroactive explanation of how I feel. When I interact with people, I first consider how I felt about the interaction, then if I need to explain a concept or [over]analyze a situation, I extrapolate details out to this model. This is important -- don’t think of the model first, then the action (ex: This person provides x for me, so I will do y). 
 
+For firm mathematical footing, please visit [Preference Vector Math]({{ site.url }}/resources/personality-vectors-2)
+
 ### Overall Framework
 Every person has a set of things they care about. People have preferences on everything from appearances to intelligence to dessert interests and favorite movies. You can take these preferences and combine them into a single value/point on a vector. The vector here describes a person's preferences. Let's call this the preference vector (pv). A pv is also an accurate reading of what someone cares about and their own tendencies. Put simply, it's a summary of "who they really are". I've elaborated on how you can combine preferences to a vector in "Creating a Preference Vector".
 

@@ -12,12 +12,74 @@ tags:
 ### Overview
 If you haven't yet read the first version, read [personality vectors]({{site.url}}/resources/personality-vectors/).
 
+### Core Definitions
+Let us establish:
+* Things (`$T$`): An ordered, infinitely large set of everything you could possibly have an opinion on.
+* Preference Vectors (`$P$`): A person's preference for each thing they could possibly have an opinion on. This order matches that of `$T$`. Ex: Honesty. Higher values are better.
+Two people are more similar if their (`$P$s`) are more similar.
+* Attributes (`$A$`): A person's attributes. Ex: Whether or not I am honest. Higher values are more significant. These can be combined with `$P$` to determine how much you want to interact with someone. 
+
+For firm mathematical footing, let's rigidly define each.
+
+$$T: \{t_1, t_2, t_3, ...\}, |T| = \infty$$
+
+$$P: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1$$
+
+$$A = \{a_1, a_2, a_3, ...\}, |A| = |I|, -= \leq a_i \leq 1$$
+
+Notice that a single preference `$p_i$` is scaled down to `$[-1, 1]$`. This means `$1$` is the most you could possibly care for any single thing, and everything must exist
+in proportion to this. If I have gone through a traumatic experience with a friend with whom I have no other common values, that means I must value "having had that experience"
+more than the sum of "all my common values". The same holds true for attributes.
+
+### Similarity
+
+The similarity between two people is the cross product of their PVs. The cross product combines both the significance (length) as well as the similarity (angle).
+
+$$Similarity = \langle P_1, P_2 \rangle$$
+
+### Bandwidth
+
+Since we have a finite amount of time and processing power, we're capped in terms of how many things we can have meaningful opinions on. This works like
+a budget: you have some amount of "effort" you can dedicate towards learning about and participating in things. This "effort" gets distributed 
+across your own attributes as well as your preferences. Effectively, this means it is impossible to care about/be known for everything maximally, although
+some people may have a more diverse spread than others.
+
+### Opacity
+
+Unfortunately, it's impossible to know the true value of our preference vectors and attributes, so there's an extra degree of uncertainty here. As we interact with people,
+our impressions of them grow more clear, so our perceived attributes and guesses of others' PVs hopefully grow more accurate.
+
+
+### Example
+
+Suppose our world actually only has 3 things we could possibly have an opinion on: being a dog, being related to Japan, and being honest.
+
+$$T = \{dog, japan, honesty\}$$
+
+Let's first figure out how much I care about each.
+
+* I like dogs, so `$0.6$`
+* Japan is an amazing destination with rich culture, so `$0.9$`
+* Honesty is almost always important, so `0.8`
+
+Ordering this up with our above list, we get `$(0.6, 0.9, 0.8)$` are my preferences for 
+`$\{$ dog, japan, honesty $\}$`. We'll forget the rest of my preferences for now for the sake of example. Formally, this is our **preference vector**. 
+
+I observe my own attributes and score each of them:
+
+$$P_{v}: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1$$
+
+
+
+
+
 This will establish:
 * Things: An ordered, infinitely large set of everything you could possibly have an opinion on.
 * Preference Vectors: A person's preference for each thing. This represents both how much it matters to you, how much you like it, etc. 
 * Attributes: This is someone's attributes. Attributes can be combined with your preference vector to determine a scalar that represents how much
 you want to interact with them.
-* Similarities: Two people are more similar if the angles between their preference vectors are more similar.
+* Similarities: Two people are more similar if the inner product between their preference vectors are more similar. The inner product is the combination
+of the difference and significance.
 
 ### Interests and Preferences
 
@@ -166,7 +228,7 @@ $$PV_A=\{1, -0.3, 0.7\}$$
 
 $$PV_B=\{-0.9, -0.4, -0.7\}$$
 
-We tend to want to spend more time with people who have similar preferences. That means the smaller the angle between our vectors,
+We tend to want to spend more time with people who have similar preferences. That means the smaller the inner product between our vectors,
 the more similar our preferences are. Our preferences are closely tied with our attributes.
 
 In the chart below, we can see that Alice (orange) and My (white) PVs are more similar than either of ours is to Bob's. This
@@ -208,7 +270,7 @@ Plotly.d3.csv('https://www.yangvincent.com/assets/pv1.csv', function(err, rows){
 });
 </script>
 
-Over time, people who spend together have preference vectors whose angles shrink -- the vectors become more similar.
+Over time, people who spend together have preference vectors whose inner products shrink -- the vectors become more similar.
 
 Opacity as mentioned in the first version is actually just inaccurate mappings from your understanding of someone's PV to their actual PV (which
 they might not even truly know).

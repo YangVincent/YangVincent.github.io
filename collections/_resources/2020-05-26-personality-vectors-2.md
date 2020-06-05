@@ -205,3 +205,6 @@ Plotly.d3.csv('http://localhost:4000/assets/pv1.csv', function(err, rows){
 </script>
 
 Over time, people who spend together have preference vectors whose angles shrink -- the vectors become more similar.
+
+Opacity as mentioned in the first version is actually just inaccurate mappings from your understanding of someone's PV to their actual PV (which
+they might not even truly know).

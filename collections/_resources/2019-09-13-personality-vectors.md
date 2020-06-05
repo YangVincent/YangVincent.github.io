@@ -10,6 +10,9 @@ tags:
 ---
 
 ### Overview
+Edit 6/4/2020: For firm mathematical footing, please visit [Preference Vector 2]({{ site.url }}/resources/personality-vectors-2). I've also
+redacted some of this due to inconsistency after fleshing out the math. I'm leaving this as the more reasonably understandable handwavey explanation.
+
 This framework helps to reason about
 1. What people care about
 2. Why they do what they do
@@ -17,8 +20,6 @@ This framework helps to reason about
 
 ### Disclaimer
 Disclaimer: I use this framework as a retroactive explanation of how I feel. When I interact with people, I first consider how I felt about the interaction, then if I need to explain a concept or [over]analyze a situation, I extrapolate details out to this model. This is important -- don’t think of the model first, then the action (ex: This person provides x for me, so I will do y). 
-
-For firm mathematical footing, please visit [Preference Vector Math]({{ site.url }}/resources/personality-vectors-2)
 
 ### Overall Framework
 Every person has a set of things they care about. People have preferences on everything from appearances to intelligence to dessert interests and favorite movies. You can take these preferences and combine them into a single value/point on a vector. The vector here describes a person's preferences. Let's call this the preference vector (pv). A pv is also an accurate reading of what someone cares about and their own tendencies. Put simply, it's a summary of "who they really are". I've elaborated on how you can combine preferences to a vector in "Creating a Preference Vector".
@@ -39,7 +40,7 @@ This works out well, since people you care about may further influence your opin
 #### Social Competence
 Unfortunately, we can’t easily discern what people’s pvs are. As we interact more with people, we learn more about their preferences. Some conversations reveal more about their vectors than others (deep conversations vs. small talk), which are in turn helpful for helping you decide if you want to further invest in a person. I think of this as the vector's opacity. Over time, the line gets more solid. Some people are more open than others. This is how willing someone is to reveal their line (and quickly bolden their lines for others)
 
-Not only is learning about people's preference vectors important for understanding social context, understanding other people's impressions of others (yet again) is crucial as well. This has exponential growth -- the number of (perceived/potential) preference vectors = 2num\_people. With 3 people (Alice, Bob, Carl), (AB -> A's impression of B)
+Not only is learning about people's preference vectors important for understanding social context, understanding other people's impressions of others (yet again) is crucial as well. This has exponential growth -- the number of (perceived/potential) preference vectors = `$2^{ppl}$`. With 3 people (Alice, Bob, Carl), (AB -> A's impression of B)
 
 Alice must maintain:
 * Alice's impression of Bob
@@ -55,13 +56,13 @@ As we can see here, people's impressions of each other's vectors may be inaccura
 * His impressions of people
 * His impressions of other people's impressions
 
-We are theoretically upper-limit capped at 150 for how many impressions we can maintain before this breaks down. This is [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number). Realistically, this is still an obscenely high # (1427247692705959881058285969449495136382746624) of social contexts to keep track of, hence our large brain size. [The ability to understand and navigate social standing was extremely powerful for survival during hunter/gatherer eras](https://www.pnas.org/content/99/7/4141). (Disclaimer: [There are many other explanations for our brain sizes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5498304/))
+We are theoretically upper-limit capped at 150 for how many impressions we can maintain before this breaks down. This is [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number). Realistically, this is still an obscenely high # (`$2^{150}$`) of social contexts to keep track of, hence our large brain size. [The ability to understand and navigate social standing was extremely powerful for survival during hunter/gatherer eras](https://www.pnas.org/content/99/7/4141). (Disclaimer: [There are many other explanations for our brain sizes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5498304/))
 
 ### People Change Over Time
 Not only do we have impressions of other people's pvs, we are also figuring out our own. As we learn and grow, our pvs may change significantly. New scenarios (perhaps school drama or a difficult life event) push you to flesh out different areas of their own preference vectors. 
 
 ### Ideal Relationships (imo)
-People who have complementary personalities work well in relationships. To me, a complementary relationship is one where one's shortcomings are offset by a positive attribute of the partner. For instance, one person may have anger issues while the other may have exceptional patience and emotional stability to ensure arguments resolve appropriately. This would be represented in this model with two parallel vectors. The two vectors may bounce off each other and possibly influence each other to be closer/more identical, but I don’t think "exact matching vectors" happen in reality, due to the massive variance of upbringings/genetic influences. 
+People who have complementary personalities work well in relationships. To me, a complementary relationship is one where one's shortcomings are offset by a positive attribute of the partner. For instance, one person may have anger issues while the other may have exceptional patience and emotional stability to ensure arguments resolve appropriately. ~~This would be represented in this model with two parallel vectors. The two vectors may bounce off each other and possibly influence each other to be closer/more identical, but~~ I don’t think "exact matching vectors" happen in reality, due to the massive variance of upbringings/genetic influences.~~ 
 
 ### Creating a Preference Vector
 **EVERYTHING**  goes into a preference vector. Here’s a bunch of examples on how to map them + how other people’s impressions of your preference vector may change, given an action/event. Feel free to comment if you have other examples you’d like me to cover.

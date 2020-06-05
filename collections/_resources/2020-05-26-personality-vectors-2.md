@@ -170,7 +170,7 @@ means we're more likely to want to spend time and get to know each other than ei
 
 <div id='otherPeople'></div>
 <script>
-Plotly.d3.csv('http://localhost:4000/assets/pv1.csv', function(err, rows){
+Plotly.d3.csv('https://yangvincent.com/assets/pv1.csv', function(err, rows){
     function unpack(rows, key) {
         return rows.map(function(row) 
         { return row[key]; }); 

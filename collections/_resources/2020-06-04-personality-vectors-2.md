@@ -9,17 +9,17 @@ tags:
   - habit
 ---
 
-### Overview
+## Overview
 If you haven't yet read the first version, read [personality vectors]({{site.url}}/resources/personality-vectors/).
 
-### Core Definitions
+## Core Definitions
 Let us establish:
 * Things (`$T$`): An ordered, infinitely large set of everything you could possibly have an opinion on.
 * Preference Vectors (`$P$`): A person's preference for each thing they could possibly have an opinion on. This order matches that of `$T$`. Ex: Honesty. Higher values are better.
 Two people are more similar if their (`$P$s`) are more similar.
 * Attributes (`$A$`): A person's attributes. Ex: Whether or not I am honest. Higher values are more significant. These can be combined with `$P$` to determine how much you want to interact with someone. 
 
-For firm mathematical footing, let's rigidly define each.
+For firm mathematical footing, let's rigidly define each. We're working with these vectors in an `$l_2$` space.
 
 $$T: \{t_1, t_2, t_3, ...\}, |T| = \infty$$
 
@@ -49,92 +49,64 @@ some people may have a more diverse spread than others.
 Unfortunately, it's impossible to know the true value of our preference vectors and attributes, so there's an extra degree of uncertainty here. As we interact with people,
 our impressions of them grow more clear, so our perceived attributes and guesses of others' PVs hopefully grow more accurate.
 
-
 ### Example
 
 Suppose our world actually only has 3 things we could possibly have an opinion on: being a dog, being related to Japan, and being honest.
 
 $$T = \{dog, japan, honesty\}$$
 
-Let's first figure out how much I care about each.
+Let's first figure out my PV -- how much I care about each.
 
 * I like dogs, so `$0.6$`
 * Japan is an amazing destination with rich culture, so `$0.9$`
 * Honesty is almost always important, so `0.8`
 
-Ordering this up with our above list, we get `$(0.6, 0.9, 0.8)$` are my preferences for 
-`$\{$ dog, japan, honesty $\}$`. We'll forget the rest of my preferences for now for the sake of example. Formally, this is our **preference vector**. 
+Ordering this up with `$T$`, we get 
 
-I observe my own attributes and score each of them:
+$$P_v = (0.6, 0.9, 0.8)$$
 
-$$P_{v}: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1$$
+Now, I `$v$` can also observe how well I adhere to each of these. Note that this is not the same as my preference for them. Rather, it is
+how well I am attributed to each.
+
+* I am not a dog, so `$0$`
+* I have only been to Japan once but don't know much about their culture, so `$0.2$`
+* I am mostly honest, but not always, so `$0.6$`
+
+$$ A_{v}: \{0, 0.2, 0.6\} $$
+
+I can also observe others' attributes; Suppose Eve `$e$` is my friend who 
+* is not a dog `$0$`
+* has never heard of Japan `$-0.2$`
+* is very honest `$0.8$`. 
+
+And Bob `$b$` is 
+* a dog `$1$` 
+* that lives in Japan `$0.8$`
+* but plays tricks and isn't very honest `$-0.7$`. 
+
+$$A_{e} = \{0, -0.2, 0.8\}$$
+
+$$A_{b} = \{1, 0.8, -0.7\}$$
 
 
-
-
-
-This will establish:
-* Things: An ordered, infinitely large set of everything you could possibly have an opinion on.
-* Preference Vectors: A person's preference for each thing. This represents both how much it matters to you, how much you like it, etc. 
-* Attributes: This is someone's attributes. Attributes can be combined with your preference vector to determine a scalar that represents how much
-you want to interact with them.
-* Similarities: Two people are more similar if the inner product between their preference vectors are more similar. The inner product is the combination
-of the difference and significance.
-
-### Interests and Preferences
-
-Our world has infinite things I (or anyone) could possibly have an opinion on -- from dogs to japan to honesty. 
-Let's call this `$T: \{$set of all things\} = \{$dog, japan, honesty, $...\}$`. Formally,
-
-$$T: \{t_1, t_2, t_3, ...\}, |T| = \infty$$
-
-As people (or animals), we have preferences about these things. We can scale these
-preferences to a range from `$-1$ to $1$`, so things I really hate are closer to `$-1$` and things I love are closer to `$1$`. Let's suppose
-my preferences for the interests listed above are:
-
-* I like dogs, so `$0.6$`
-* Japan is an amazing destination with rich culture, so `$0.9$`
-* Honesty is almost always important, so `0.8`
-
-Ordering this up with our above list, we get `$(0.6, 0.9, 0.8)$` are my preferences for 
-`$\{$ dog, japan, honesty $\}$`. We'll forget the rest of my preferences for now for the sake of example. Formally, this is our **preference vector**. 
-
-$$P: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1$$
-
-### What your PV means to you
-
-As you interact with people, you implicitly score them for every attribute in `$I$`. This means if I know Alice `$A$` and Bob `$B$`,
-I can rank them based on my PV.
-
-Suppose Alice is my friend who is not a dog `$0$`, has never heard of Japan `$-0.2$`, and is very honest `$0.8$`. 
-Bob is a dog `$1$` that lives in Japan `$0.8$`, but plays tricks and isn't very honest `$-0.7$`. Each of them has a position
-on my PV. We can calculate each of their positions based off their attributes. Let's define the `Attribute vector $A$` and
-use it to calculate the `Position`. The `$i$th` element on `A` is the attribute for the `$i$th` element on `I`.
-
-$$Attr = \{a_1, a_2, a_3, ...\}, |Attr| = |I|$$
-
-$$A_{A} = \{0, -0.2, 0.8\}$$
-
-$$A_{B} = \{1, 0.8, -0.7\}$$
-
-I can combine their values to a point on my `$P$`.
+I can combine each person's values to respective points on my `$P$`, which represents my world view. 
+You tend to want to interact with people higher than you on this range and avoid those lower than you on this range.
+The formula `$f$` for doing so is:
 
 $$f(P, A) = \sum_{i-0}^{i=\infty}A_{i} \cdot P_{i} $$
 
-$$f(P_v, A_{A}) = (0.6 \cdot 0) + (0.9 \cdot -0.2) + (0.8 \cdot 0.8) = 0.46$$
+$$f(P_v, A_{e}) = (0 \cdot 0.6) + (-0.2 \cdot 0.9) + (0.8 \cdot 0.8) = 0.46$$
 
-$$f(P_v, A_{B}) = (0.6 \cdot 1) + (0.9 \cdot 0.8) + (0.8 \cdot -0.7) = 0.76$$
+$$f(P_v, A_{b}) = (1 \cdot 0.6) + (0.8 \cdot 0.9) + (-0.7 \cdot 0.8) = 0.76$$
 
-I can also grade myself based on my own attributes `$M$`.
+I can also grade myself based on my own attributes `$A_v$`.
 
-$$f(P_v, A_{M}) = (0.6 \cdot 0) + (0.9 \cdot 0.4) + (0.8 \cdot 0.7) = 0.92$$
+$$f(P_v, A_{v}) = (0 \cdot 0.6) + (0.2 \cdot 0.9) + (0.6 \cdot 0.8) = 0.66$$
 
 
 <div id='myDiv'></div>
 
 <img src="{{ site.url }}/assets/images/preference-vectors/group-pv.png" alt="group-pv" style="background-color:#fff; padding: 5px 5px 5px 5px;"/>
-
-You tend to want to interact with people higher than you on this range and avoid those lower than you on this range.
 
 <script>
 var alice = {
@@ -150,7 +122,7 @@ var bob = {
   hoverinfo: 'x'
 };
 var me = {
-  x: [0.92],
+  x: [0.66],
   y: [0],
   type: 'scatter',
   hoverinfo: 'x'
@@ -201,7 +173,7 @@ var layout = {
 	{
 		xref: 'x',
     	yref: 'y',
-    	x: 0.92,
+    	x: 0.66,
     	y: 0.1,
     	xanchor: 'center',
     	text: 'Me',
@@ -214,24 +186,31 @@ var data = [alice, bob, me];
 Plotly.newPlot('myDiv', data, layout);
 </script>
 
+
 ---
 
-### Other people's PVs
+## Other people's PVs
 
 My preference vector is a reasonable summary of who I am as a person. At the same time, everyone else also has their own preference vectors.
-For firm mathematical footing, we're working with these vectors in an `$l_2$` space.
+Note that preference vectors are different from attribute vectors, in that preference vectors indicate someone's opinions towards things and
+not their ability to fulfill those things. For instance, I like dogs (preference) but am not a dog (attribute). However, the fact that I like dogs 
+can also be a separate attribute. **To be pedantic, it's possible preference vectors are actually simply a subset of attributes**.
 
-I think Alice loves dogs, but has no interest in Japan. She also thinks being honest is pretty important. 
+Let's now describe `eve` and `bob`'s preferences.
+Alice loves dogs, but has no interest in Japan. She also thinks being honest is pretty important. 
 On the other hand, Bob is a monster who hates dogs, hates Japan, and is extremely dishonest.
 
-$$PV_A=\{1, -0.3, 0.7\}$$
+$$P_e=\{1, -0.3, 0.7\}$$
 
-$$PV_B=\{-0.9, -0.4, -0.7\}$$
+$$P_b=\{-0.9, -0.4, -0.7\}$$
 
-We tend to want to spend more time with people who have similar preferences. That means the smaller the inner product between our vectors,
+$$P_v = (0.6, 0.9, 0.8)$$
+
+We tend to want to spend more time with people who have similar preferences. The smaller the inner product between our vectors,
 the more similar our preferences are. Our preferences are closely tied with our attributes.
+Over time, people who spend together have preference vectors whose inner products shrink -- the vectors become more similar.
 
-In the chart below, we can see that Alice (orange) and My (white) PVs are more similar than either of ours is to Bob's. This
+In the chart below, we can see that `eve` (orange) and My (white) PVs are more similar than either of ours is to `bob`'s. This
 means we're more likely to want to spend time and get to know each other than either of us does to Bob.
 
 <div id='otherPeople'></div>
@@ -270,7 +249,9 @@ Plotly.d3.csv('https://www.yangvincent.com/assets/pv1.csv', function(err, rows){
 });
 </script>
 
-Over time, people who spend together have preference vectors whose inner products shrink -- the vectors become more similar.
+--- 
 
-Opacity as mentioned in the first version is actually just inaccurate mappings from your understanding of someone's PV to their actual PV (which
-they might not even truly know).
+### More math details
+
+* We constrain to an `$l_2$ space` to allow for infinite-sized preference vectors while maintaining that the cross product is finite. This is important
+because differences between people must be comparable. Being "infinitely close" to my best friend as well as to my significant other isn't a meaningful comparison.

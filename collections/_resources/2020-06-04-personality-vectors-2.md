@@ -198,9 +198,6 @@ Here, it seems I look up to Bob and will try to spend more time with Bob than Ev
 ## Other people's PVs
 
 My preference vector is a reasonable summary of who I am as a person. At the same time, everyone else also has their own preference vectors.
-Note that preference vectors are different from attribute vectors, in that preference vectors indicate someone's opinions towards things and
-not their ability to fulfill those things. For instance, I like dogs (preference) but am not a dog (attribute). However, the fact that I like dogs 
-can also be a separate attribute. **To be pedantic, it's possible preference vectors are actually simply a subset of attributes**.
 
 Let's now describe `eve` and `bob`'s preferences.
 Eve loves dogs, but has no interest in Japan. She also thinks being honest is pretty important. 
@@ -255,6 +252,13 @@ Plotly.d3.csv('https://www.yangvincent.com/assets/pv1.csv', function(err, rows){
 });
 </script>
 
+#### Weighted Similarity
+
+It's important to note that this is a weighted / scaled similarity. Suppose I have 2 friends: X who I have very little in common with but 
+helped me through all my worst times (war, parents dying, dropping out of school, etc.) and Y who shares all my views and morals, but
+I haven't had similarly significant experiences with. I might still prefer spending time with X, which means my preference for
+"having been through significant times" weighs much heavier than "having similar morals".
+
 --- 
 
 ### More details
@@ -262,4 +266,6 @@ Plotly.d3.csv('https://www.yangvincent.com/assets/pv1.csv', function(err, rows){
 * We constrain to an `$l_2$ space` to allow for infinite-sized preference vectors while keeping the cross product finite. This is important
 because differences between people must be comparable. Being "infinitely close" to my best friend as well as to my significant other isn't a meaningful comparison.
 * Cross product is a combination of length (bandwidth) and angle (similarity). People who have different preferences are obviously different,
-but so far people with varied bandwidth.
+but so are people with varied bandwidth.
+
+For a more complete list of implications and how this relates to understanding people's behaviors, read [personality vectors]({{site.url}}/resources/personality-vectors/)!

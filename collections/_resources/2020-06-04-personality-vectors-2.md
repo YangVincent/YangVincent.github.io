@@ -109,7 +109,7 @@ $$f(P_v, A_{v}) = (0 \cdot 0.6) + (0.2 \cdot 0.9) + (0.6 \cdot 0.8) = 0.66$$
 <img src="{{ site.url }}/assets/images/preference-vectors/group-pv.png" alt="group-pv" style="background-color:#fff; padding: 5px 5px 5px 5px;"/>
 
 <script>
-var alice = {
+var eve = {
   x: [0.46],
   y: [0],
   type: 'scatter',
@@ -158,7 +158,7 @@ var layout = {
     	x: 0.46,
     	y: 0.1,
     	xanchor: 'center',
-    	text: 'Alice',
+    	text: 'Eve',
 		yanchor: 'bottom',
   	},
 	{
@@ -182,9 +182,11 @@ var layout = {
   ]
 };
 
-var data = [alice, bob, me];
+var data = [eve, bob, me];
 Plotly.newPlot('myDiv', data, layout);
 </script>
+
+Here, it seems I look up to Bob and will try to spend more time with Bob than Eve.
 
 
 ---
@@ -197,8 +199,8 @@ not their ability to fulfill those things. For instance, I like dogs (preference
 can also be a separate attribute. **To be pedantic, it's possible preference vectors are actually simply a subset of attributes**.
 
 Let's now describe `eve` and `bob`'s preferences.
-Alice loves dogs, but has no interest in Japan. She also thinks being honest is pretty important. 
-On the other hand, Bob is a monster who hates dogs, hates Japan, and is extremely dishonest.
+Eve loves dogs, but has no interest in Japan. She also thinks being honest is pretty important. 
+On the other hand, Bob is a monster who hates dogs (despite being one), hates Japan (despite living there), and is extremely dishonest.
 
 $$P_e=\{1, -0.3, 0.7\}$$
 

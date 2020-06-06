@@ -10,7 +10,7 @@ tags:
 ---
 
 ## Overview
-If you haven't yet read the first version, read [personality vectors]({{site.url}}/resources/personality-vectors/).
+This establishes a more solid core for [personality vectors]({{site.url}}/resources/personality-vectors/). If you enjoy learning from the low-level components first, read this first and vice versa.
 
 ## Core Definitions
 Let us establish:

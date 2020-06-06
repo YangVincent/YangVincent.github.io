@@ -12,6 +12,7 @@ tags:
 ### Overview
 Edit 6/4/2020: For firm mathematical footing, please visit [Preference Vector 2]({{ site.url }}/resources/personality-vectors-2). I've also
 redacted some of this due to inconsistency after fleshing out the math. I'm leaving this as the more reasonably understandable handwavey explanation.
+If you enjoy learning from high level ideas then discovering details, read this first and vice versa.
 
 This framework helps to reason about
 1. What people care about

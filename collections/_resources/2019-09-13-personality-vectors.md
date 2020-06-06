@@ -109,6 +109,8 @@ People typically teach with a rule-based approach (bottom up). In scenario A, do
 3. Would you use this? Why or why not?
 
 ### Relevant Further Reading
+If any of this doesn't make sense, please read [Preference Vector 2]({{ site.url }}/resources/personality-vectors-2)!
+
 * [Life with Alacrity Group Size Numbers](http://www.lifewithalacrity.com/2004/03/the_dunbar_numb.html)
   * Smallest viable group size 5-9
   * 2 can be creative but requires deep commitment/few resources

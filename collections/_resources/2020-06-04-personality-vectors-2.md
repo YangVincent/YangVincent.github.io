@@ -5,8 +5,7 @@ excerpt: "A mathematical approach to improving life"
 image: assets/images/river.jpg
 tags: 
   - life
-  - optimization
-  - habit
+  - social
 ---
 
 ## Overview
@@ -17,7 +16,12 @@ Let us establish:
 * Things (`$T$`): An ordered, infinitely large set of everything you could possibly have an opinion on.
 * Preference Vectors (`$P$`): A person's preference for each thing they could possibly have an opinion on. This order matches that of `$T$`. Ex: Honesty. Higher values are better.
 Two people are more similar if their (`$P$s`) are more similar.
-* Attributes (`$A$`): A person's attributes. Ex: Whether or not I am honest. Higher values are more significant. These can be combined with `$P$` to determine how much you want to interact with someone. 
+* Attributes (`$A$`): A person's attributes in relation to each thing. Ex: Whether or not I am honest. Higher values are more significant. These can be combined with `$P$` to determine how much you want to interact with someone. 
+
+Preference vectors are actually simply a subset of attributes, but we refer to them separately for simplicity in explanation. 
+For now, the difference is that preference vectors indicate someone's opinions towards things and
+not their ability to fulfill those things. For instance, I like dogs (preference) but am not a dog (attribute). However, the fact that I like dogs 
+can also be a separate attribute (since `$P \subset A$`).
 
 For firm mathematical footing, let's rigidly define each. We're working with these vectors in an `$l_2$` space.
 
@@ -42,7 +46,7 @@ $$Similarity = \langle P_1, P_2 \rangle$$
 Since we have a finite amount of time and processing power, we're capped in terms of how many things we can have meaningful opinions on. This works like
 a budget: you have some amount of "effort" you can dedicate towards learning about and participating in things. This "effort" gets distributed 
 across your own attributes as well as your preferences. Effectively, this means it is impossible to care about/be known for everything maximally, although
-some people may have a more diverse spread than others.
+some people may have a more diverse spread than others. Someone who cares a lot about everything might also have a higher "bandwidth" than someone with no opinions.
 
 ### Opacity
 
@@ -253,7 +257,9 @@ Plotly.d3.csv('https://www.yangvincent.com/assets/pv1.csv', function(err, rows){
 
 --- 
 
-### More math details
+### More details
 
-* We constrain to an `$l_2$ space` to allow for infinite-sized preference vectors while maintaining that the cross product is finite. This is important
+* We constrain to an `$l_2$ space` to allow for infinite-sized preference vectors while keeping the cross product finite. This is important
 because differences between people must be comparable. Being "infinitely close" to my best friend as well as to my significant other isn't a meaningful comparison.
+* Cross product is a combination of length (bandwidth) and angle (similarity). People who have different preferences are obviously different,
+but so far people with varied bandwidth.

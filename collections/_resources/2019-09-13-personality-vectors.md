@@ -20,25 +20,29 @@ This framework helps to reason about
 3. What they might do given a situation
 
 ### Disclaimer
-Disclaimer: I use this framework as a retroactive explanation of how I feel. When I interact with people, I first consider how I felt about the interaction, then if I need to explain a concept or [over]analyze a situation, I extrapolate details out to this model. This is important -- don’t think of the model first, then the action (ex: This person provides x for me, so I will do y). 
+Disclaimer: I use this framework as a retroactive explanation for social interactions. When I interact with people, I first consider how I felt about the interaction, then if I need to explain a concept or [over]analyze a situation, I extrapolate details out to this model.
 
 ### Overall Framework
 Every person has a set of things they care about. People have preferences on everything from appearances to intelligence to dessert interests and favorite movies. You can take these preferences and combine them into a single value/point on a vector. The vector here describes a person's preferences. Let's call this the preference vector (pv). A pv is also an accurate reading of what someone cares about and their own tendencies. Put simply, it's a summary of "who they really are". I've elaborated on how you can combine preferences to a vector in "Creating a Preference Vector".
 
+In the example below, I've chosen some traits that I admire and desire (right) as well as some I dislike (left). It's important to note here that, in my opinion, traits aren't intrinsically better/worse than each other (moral relativism).
+People (A) tend to be interested in other people (B) they look up to, who (B) have values they (A) appreciate. People (A) want to be with others (B) who are as high up on their (A) vectors as possible, and typically grow distant from those who aren't. A counterpoint here might be "what about people who welcome diverse individuals"? 
+Then other people who enjoy being around people with vectors that are more different? Then they'll simply enjoy being around others who have vectors who likely also share this interest in differing values.
+
 <img src="{{ site.url }}/assets/images/preference-vectors/group-pv.png" alt="group-pv" style="background-color:#fff; padding: 5px 5px 5px 5px;"/>
 
-Although it's difficult to argue that some values are more important than others. In the example above, I've chosen some traits that I admire and desire (right) as well as some I dislike (left). It's important to note here that, in my opinion, traits aren't intrinsically better/worse than each other (moral relativism).
-People (A) tend to be interested in other people (B) they look up to, who (B) have values they (A) appreciate. People (A) want to be with others (B) who are as high up on their (A) vectors as possible, and typically grow distant from those who aren't. A counterpoint here might be "what about people who welcome diverse individuals"? Then other people who are diverse (and similarly open to diversity) will be higher up on their vectors, and people who are uninterested in being diverse (and perhaps similar in other traits to the main character) will be lower on this vector. 
+One quick note: This image simplifies how values work. The fact that someone has values you enjoy raises where they are on this line, and vice versa. Each value can contribute positively or negatively and this differs from person to person. For a nicer visualization, please check out preference vector 2.
 
 #### You are the average of your 5 closest friends
 
-What happens when two (or more) people hang out? If the two people discuss and share ideas that are received positively by the other, their vectors begin to converge. Otherwise, the vectors may diverge. Take, for instance, when you share your opinions about your favorite sports team or movie. This influences your friend to consider these factors similarly, as you've added supporting evidence for your point of view.
+What happens when two (or more) people hang out? If the two people discuss and share ideas that are received positively by the other, their vectors begin to converge. Otherwise, the vectors may diverge. Take, for instance, when you share your opinions about your favorite mode of transportation or movie. This influences your friend to consider these factors similarly, as you've added supporting evidence for your point of view.
 
 <img src="{{ site.url }}/assets/images/preference-vectors/pv-change.png" alt="pv-change" style="background-color:#fff; padding: 5px 5px 5px 5px;"/>
 
-This works out well, since people you care about may further influence your opinions to be improved in ways you're interested in, but were previously unaware of. This is also why people may seek out their friends advice, and typically will ask their close friends before others less close.
+This works out well, since people you care about may further influence your opinions to be improved in ways you're interested in, but were previously unaware of. This is also why people may seek out their friends advice' and typically will ask their close friends before asking others who are less close.
 
 #### Social Competence
+The better we are at understanding others' preferences, the better we are at understanding their motives, actions, and reactions. Being better here is the same as being more socially competent.
 Unfortunately, we can’t easily discern what people’s pvs are. As we interact more with people, we learn more about their preferences. Some conversations reveal more about their vectors than others (deep conversations vs. small talk), which are in turn helpful for helping you decide if you want to further invest in a person. I think of this as the vector's opacity. Over time, the line gets more solid. Some people are more open than others. This is how willing someone is to reveal their line (and quickly bolden their lines for others)
 
 Not only is learning about people's preference vectors important for understanding social context, understanding other people's impressions of others (yet again) is crucial as well. This has exponential growth -- the number of (perceived/potential) preference vectors = `$2^{ppl}$`. With 3 people (Alice, Bob, Carl), (AB -> A's impression of B)
@@ -57,16 +61,16 @@ As we can see here, people's impressions of each other's vectors may be inaccura
 * His impressions of people
 * His impressions of other people's impressions
 
-We are theoretically upper-limit capped at 150 for how many impressions we can maintain before this breaks down. This is [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number). Realistically, this is still an obscenely high # (`$2^{150}$`) of social contexts to keep track of, hence our large brain size. [The ability to understand and navigate social standing was extremely powerful for survival during hunter/gatherer eras](https://www.pnas.org/content/99/7/4141). (Disclaimer: [There are many other explanations for our brain sizes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5498304/))
+We are theoretically upper-limit capped at 150 for how many impressions we can maintain before this breaks down. This is [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number). 
 
 ### People Change Over Time
 Not only do we have impressions of other people's pvs, we are also figuring out our own. As we learn and grow, our pvs may change significantly. New scenarios (perhaps school drama or a difficult life event) push you to flesh out different areas of their own preference vectors. 
 
-### Ideal Relationships (imo)
+### Ideal Relationships
 People who have complementary personalities work well in relationships. To me, a complementary relationship is one where one's shortcomings are offset by a positive attribute of the partner. For instance, one person may have anger issues while the other may have exceptional patience and emotional stability to ensure arguments resolve appropriately. ~~This would be represented in this model with two parallel vectors. The two vectors may bounce off each other and possibly influence each other to be closer/more identical, but~~ I don’t think "exact matching vectors" happen in reality, due to the massive variance of upbringings/genetic influences.~~ 
 
 ### Creating a Preference Vector
-**EVERYTHING**  goes into a preference vector. Here’s a bunch of examples on how to map them + how other people’s impressions of your preference vector may change, given an action/event. Feel free to comment if you have other examples you’d like me to cover.
+**EVERYTHING**  goes into a preference vector. Here are a bunch of examples on how to map them + how other people’s impressions of your preference vector may change, given an action/event. Feel free to comment if you have other examples you’d like me to cover.
 1. I enjoy when people do nice things for me
 2. I respect and want to be around smart people
 3. My friend took care of me when I was drunk, indicating his loyalty/consideration/helpfulness/responsibility
@@ -75,10 +79,12 @@ People who have complementary personalities work well in relationships. To me, a
 6. I cried during the movie -> indicates some form of intimacy/vulnerability to people nearby
 
 ### Why teaching social competence is difficult
-People typically teach with a rule-based approach (bottom up). In scenario A, do this. In scenario B, do something else. However, there are far too many rules necessary to navigate a situation. For each relationship (grows exponentially), we also have a (near) infinite set of attributes to care about (the attributes that contribute to someone’s pv). It’s far easier to approach this from a top-down, statistical approach: “Here’s a fuck ton of data; go find some trends”. This is why imo, the best way to learn about social norms is simply to talk to as many people as possible about as many topics as possible. Yet, this also explains why people with troubled childhoods may have less healthy tendencies, since their understanding of how to navigate social situations may be stunted. [Kids start caring about/reacting to social norms from a remarkably young age](https://www.ted.com/talks/sara_valencia_botto_when_do_kids_start_to_care_about_other_people_s_opinions#t-598929). 
+People typically teach social competence with a rule-based approach (bottom up). In scenario A, do this. In scenario B, do something else. For instance, kids who get in trouble for lying are told not to lie as a blanket rule, then left alone to learn what the exceptions are.
+However, there are far too many rules necessary to navigate a situation. For each relationship (grows exponentially with each additional person), we also have an infinite set of attributes to care about (the attributes that contribute to someone’s pv). 
+With so many variations, we either have too many rules or too many exceptions. It’s far easier to approach learning social nuance from a top-down, statistical approach: “Here’s a ton of data; go find some trends”. The best way to learn about social norms is simply to talk to as many people as possible about as many topics as possible. This also explains why people with troubled childhoods may have less healthy tendencies, since their understanding of how to navigate social situations may be stunted. [Kids start caring about/reacting to social norms from a remarkably young age](https://www.ted.com/talks/sara_valencia_botto_when_do_kids_start_to_care_about_other_people_s_opinions#t-598929). 
 
 ##### Miscellaneous other matchings of social tendencies to this framework:
-1. "Don’t be judgemental": A person’s tendency to (a) use an interaction to discern another’s preference vectors, and (b) their tendency to act/make further decisions on whether to invest in the relationship, based off that interaction. 
+1. "Don’t be judgmental": A person’s tendency to (a) use an interaction to discern another’s preference vectors, and (b) their tendency to act/make further decisions on whether to invest in the relationship, based off of that interaction. 
 2. "Emotions vs. logic": Everything goes into preference vectors
 * Imo, people are all innately logical, but may weigh things differently. EVERYTHING goes into the preference vector, including "how satisfied would I feel if I react impulsively given my current emotional state", or "I'm mad right now but logically I know I shouldn't yell at my kid". As such, although something might not work out to be the best outcome in the longer term (my kid might have trauma from my yelling), I will have fulfilled something else I have a tendency (albeit possibly unintentionally) -- my eagerness to feel instant gratification from exploding anger.
 3. "Flakes": New data about another's preference vector
@@ -95,13 +101,13 @@ People typically teach with a rule-based approach (bottom up). In scenario A, do
 7. "Betrayal": New, different data for your perception of someone else’s preference vector.
 * When people are betrayed, it's really just one person revealing a negative tendency of their preference vector to the other. The ideal scenario here is for the victim to
   * Evaluate whether or not they want to further invest
-  * Evaluate if they want to forgive
+  * Evaluate whether they want to forgive
   * Decide if/how to give back
   * Update their internal model of the betrayer's preference vector.
-8. "Stubbornness": How influencible is their preference vector?
-* It's incredibly difficult to maintain not just our impressions of people, but also other people's impressions of everyone else. It's also difficult to "bolden"/learn about other people’s pvs. This leads us to create generalizations that help optimize the way we learn about others. For instance, if every asian I've met in the past enjoys eating with chopsticks, perhaps the next asian might like chopsticks as well. 
+8. "Stubbornness": How influenceable is their preference vector?
+* It's incredibly difficult to maintain not just our impressions of people, but also other people's impressions of everyone else. It's also difficult to "bolden"/learn about other people’s pvs. This leads us to create generalizations that help optimize the way we learn about others. For instance, if every skier I've met enjoys moguls, then the next skier might enjoy them as well. 
 9. "In-group vs. Out-group": Sub-segmentation via. Priority
-* When there are too many relationships to keep track of, we prioritize off of (sometimes arbitrary) subsets of people. Perhaps these are the people you get along better with, you work close to you, or you find attractive. We prioritize learning about their pv's because time is a finite resource and we optimize for finding people that align with our pvs accordingly. For instance, people you're nearby are far easier to hang out with, and therefore have a lower barrier to entry to get to know. Even if they aren't people you'd typically spend time with, you're much more likely to elucidate the pv's of those around you. 
+* When there are too many relationships to keep track of, we prioritize (sometimes arbitrary) subsets of people. Perhaps these are the people you get along better with, you work close to you, or you find attractive. We prioritize learning about their pv's because time is a finite resource. For instance, people you're nearby are far easier to hang out with, and therefore have a lower barrier to entry to get to know. Even if they aren't people you'd typically spend time with, you're much more likely to elucidate the pv's of those around you. 
 
 ### Questions for the Reader
 1. Thoughts/suggestions? Please message me :D
@@ -110,10 +116,3 @@ People typically teach with a rule-based approach (bottom up). In scenario A, do
 
 ### Relevant Further Reading
 If any of this doesn't make sense, please read [Preference Vector 2]({{ site.url }}/resources/personality-vectors-2)!
-
-* [Life with Alacrity Group Size Numbers](http://www.lifewithalacrity.com/2004/03/the_dunbar_numb.html)
-  * Smallest viable group size 5-9
-  * 2 can be creative but requires deep commitment/few resources
-  * 3 is unstable, 4 is 2 pairs
-
-![group satisfaction]({{ site.url }}/assets/images/preference-vectors/groupsatisfaction.png)

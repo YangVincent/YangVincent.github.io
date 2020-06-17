@@ -1,6 +1,9 @@
 # Set-up
 https://jekyllrb.com/docs/installation/windows/
 
+# Keep Plugins up to date:
+`bundle install` (uses Gemfile)
+
 # Running
 `bundle exec jekyll serve`
 

@@ -64,6 +64,12 @@ sass:
 # Google Analytics
 google-analytics: UA-81484519-1
 
+# Algolia API Key
+algolia:
+    application_id: 'B0GOCOINZN'
+    index_name: 'prod_WEBSITE'
+    search_only_api_key: '2b185b6fffab3ebfc9ecca5748aa29d9'
+
 # Exclude list
 include: [_pages]
 exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store] 

@@ -5,6 +5,16 @@
 
 
 <script>
+	// Not currently used + realistically probably insecure lol.
+    function removeTags(str) {
+    	if ((str===null) || (str===''))
+    		return false;
+    	else
+    		str = str.toString();
+    		return str.replace( /(<([^>]+)>)/ig, '' );
+    }
+	
+
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
   apiKey: '{{ site.algolia.search_only_api_key }}',
@@ -19,7 +29,7 @@ const hitTemplate = function(hit) {
 
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
 
-  const title = hit._highlightResult.title.value;
+  let title = hit._highlightResult.title.value;
 
   let breadcrumbs = '';
   if (hit._highlightResult.headings) {
@@ -28,19 +38,19 @@ const hitTemplate = function(hit) {
     }).join(' > ')
   }
 
-  const content = hit._highlightResult.html.value;
+	const content = hit._highlightResult.html.value;
 
   return `
     <div class="post-item">
       <span class="post-meta">${date}</span>
       <h2><a class="post-link" href="${url}">${title}</a></h2>
-      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
+	  <hr>
     </div>
   `;
 }
 
-
+// {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
@@ -70,21 +80,23 @@ search.start();
   margin-bottom: 30px;
 }
 .post-link .ais-Highlight {
-  color: #111;
+  color: #aaa;
+  font-weight: bold;
   font-style: normal;
   text-decoration: underline;
 }
 .post-breadcrumbs {
-  color: #424242;
+  color: #fff;
   display: block;
 }
 .post-breadcrumb {
   font-size: 18px;
-  color: #424242;
+  color: #fff;
 }
 .post-breadcrumb .ais-Highlight {
-  font-weight: bold;
+  color: #2a7ae2;
   font-style: normal;
+  font-weight: bold;
 }
 .post-snippet .ais-Highlight {
   color: #2a7ae2;
@@ -93,6 +105,15 @@ search.start();
 }
 .post-snippet img {
   display: none;
+}
+.ais-search-box--powered-by {
+	display:none;
+}
+.ais-search-box--magnifier-wrapper {
+	display:none;
+}
+.ais-search-box--reset {
+	display:none;
 }
 </style>
 

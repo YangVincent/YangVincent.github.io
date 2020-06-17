@@ -11,6 +11,7 @@ layout: default
         <section id="one">
             <div class="inner">
                 <div id="search-searchbar"></div>
+                <p class="rss-subscribe">Subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
             </div>
         </section>
         <!-- One -->
@@ -21,14 +22,6 @@ layout: default
 	                    <header class="major">
                             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 	                    </header>
-                        <!--<p>
-	                        {% if post.date %}
-                                {{ post.date | date: "%B %-d, %Y" }}
-                            {% endif %}
-                            {% if post.excerpt %}
-                            - <b>{{ post.excerpt }}</b>
-                            {% endif %}
-                        </p>-->
 	                {% endif %}
                     <hr>
                 {% endfor %}
@@ -36,7 +29,6 @@ layout: default
         </section>
     </div>
     {% include algolia.html %}
-    <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
 
     {% include footer.html %}
 </div>

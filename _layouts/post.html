@@ -16,6 +16,8 @@
                         {% if page.date %}
                           <p>
                             {{ page.date | date: "%B %-d, %Y" }}
+                            <br>
+                            Reading Time: {{ content | reading_time }}
                           </p>
                         {% endif %}
             		</header>

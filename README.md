@@ -16,3 +16,4 @@ https://gist.github.com/ichadhr/0b4e35174c7e90c0b31b
 
 # TODO:
 * https://ayastreb.me/jekyll-maps/
+* Write a plugin for bidirectional links: https://jekyllrb.com/docs/plugins/

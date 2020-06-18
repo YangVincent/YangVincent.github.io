@@ -6,7 +6,7 @@ before_install:
 script:
   - bundle exec jekyll algolia
 branches:
-  only:
+  except:
     - master
 rvm:
  - 2.4

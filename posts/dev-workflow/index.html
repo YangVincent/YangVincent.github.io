@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Development Workflow &#8211; Vincent Yang</title>
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+
+    <!-- Taken from v2 -->
+    
+    <link rel="canonical" href="https://www.yangvincent.com/posts/dev-workflow/">
+    <!-- Handheld -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='/posts/dev-workflow//feed.xml' rel='alternate' type='application/atom+xml'>
+
+    <!-- Load jQuery -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+          }
+        });
+    </script>
+	<script type="text/javascript" async
+  		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+</head>
+
+
+    <body>
+        <!-- Wrapper -->
+<div id="wrapper">
+
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+<!-- Header -->
+<header id="header">
+	<a href="https://www.yangvincent.com/" class="logo">Vincent Yang</a>
+	<!--<nav>
+		<a href="#menu">Menu</a>
+    </nav>-->
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com//">Home</a></li>
+	    	
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/about/">About</a></li>
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/algolia/">Algolia</a></li>
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/notes/">Notes</a></li>
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/resources/">Resources & Articles</a></li>
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/stories/">Stories</a></li>
+		    
+		
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>
+ 
+        
+        <!-- Main -->
+        <div id="main" class="alt">
+            <!-- One -->
+            <section id="one">
+            	<div class="inner">
+            		<header class="major">
+            			<h1>Development Workflow</h1>
+                        
+                          <p>
+                            April 24, 2019
+                            <br>
+                            Reading Time: about 2  minutes
+                          </p>
+                        
+            		</header>
+                    <h3 id="overview">Overview</h3>
+<p>I’m a strong believer that we should improve both at what we do and how we do it.
+I spend hours at a computer telling it what to do; it follows that I should improve
+<em>how</em> I tell it what to do. In this post, I’ll focus on plugins/tips/tricks for my development tools.
+IMO (and in the opinion of <a href="https://ux.stackexchange.com/questions/30682/are-there-any-recent-studies-of-the-keyboard-vs-mouse-issue">these studies</a>), 
+using only the keyboard should be faster than the mouse.</p>
+
+<h3 id="tools">Tools</h3>
+<ul>
+  <li>Vim (Emacs + evil mode)</li>
+  <li>Zsh</li>
+  <li>Tmux</li>
+  <li>fzf</li>
+</ul>
+
+<h3 id="vim">Vim</h3>
+<p>Vim’s philosophy is that you edit text in modes – moving around and editing.
+You can find articles on this virtually everywhere, so I’ll focus on what I find more unique: the plugins.</p>
+
+<h5 id="evil">Evil</h5>
+<p>Emacs has better “large feature” support. You can run things that hook back in asynchronously
+and even run their version of vim, in emacs (evil).</p>
+
+<h5 id="kythe">Kythe</h5>
+<p><a href="https://github.com/kythe/kythe">Kythe</a> is an ecosystem that seeks to “understand” code.
+Specifically, it allows tools to communicate across languages. This is helpful in Vim because
+it helps you find, for instance, the definition of a function, or where that function
+may be called, or the documentation for a function. This allows you to “click through”
+in vim.</p>
+
+<h5 id="jumplist">Jumplist</h5>
+<p>Use <code class="language-plaintext highlighter-rouge">C-i</code> and <code class="language-plaintext highlighter-rouge">C-o</code> to jump forward and backward in a jump list. Typically, you’re supposed 
+to open multiple buffers for all your files so you don’t completely close vim for hours at a time.
+When you jump to/from functions and in/out of various files, this will track where you’ve been and
+let you navigate this history easily. Think of it as moving forward and backward in time, vs space.</p>
+
+<h3 id="zsh">Zsh</h3>
+<p>A nice interactive, powerful shell with pleasant community support.</p>
+
+<h5 id="zsh-command-time">zsh-command-time</h5>
+<p>Track and output how long each command took.</p>
+
+<h3 id="tmux">Tmux</h3>
+<p>Tmux allows you to group your terminals and split/configure them however you like.
+The plugin manager is called tpm. <a href="https://github.com/tmux-plugins">Here is a huge list of plugins</a>.</p>
+
+<h5 id="tmux-resurrect">tmux-resurrect</h5>
+<p>Preserves your contents even when you leave sessions/close down the server completely.</p>
+
+<h5 id="tmux-continuum">tmux-continuum</h5>
+<p>Allows you to reload buffer contents (even stuff like vim files!)</p>
+
+<h3 id="fzf">fzf</h3>
+<p>Fzf allows you to fuzzy search through a list of strings.</p>
+
+<h5 id="fasd">fasd</h5>
+<p>Fasd sorts past commands by frequency and recency (frecency). When coupled with fzf, it is
+a powerful way to fuzzy search through opening files you open often. It basically becomes 
+global project or content search that can be coupled with vim.</p>
+
+<h5 id="history">history</h5>
+<p>fzf and history is nice too.</p>
+
+            	</div>
+            </section>
+            
+        </div>
+        <!---->
+        <!-- Contact -->
+<!--<section id="contact">
+  <div class="inner">
+    <section>
+			<form action="https://formspree.io/vincenty376+incoming@gmail.com" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+    </section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="#">vincenty376+incoming@gmail.com</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<span></span>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					
+					
+					
+					
+					
+					    United States of America
+					
+					</span>
+				</div>
+			</section>
+    </section>
+    </div>
+</section>-->
+
+	<!-- JS -->
+
+<!-- Asynchronous Google Analytics snippet -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-81484519-1', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://github.com/yangvincent" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				
+				
+				
+				<li><a href="https://www.linkedin.com/in/vinyang/" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				
+				
+				<li><a href="https://www.yangvincent.com/resume.pdf" class="icon alt fa-file" target="_blank"><span class="label">Resume</span></a></li>
+				
+			</ul>
+		</div>
+	</footer>
+  </div>
+
+<!-- Scripts -->
+	<script src="https://www.yangvincent.com/assets/js/jquery.min.js"></script>
+	<script src="https://www.yangvincent.com/assets/js/jquery.scrolly.min.js"></script>
+	<script src="https://www.yangvincent.com/assets/js/jquery.scrollex.min.js"></script>
+	<script src="https://www.yangvincent.com/assets/js/skel.min.js"></script>
+	<script src="https://www.yangvincent.com/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="https://www.yangvincent.com/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="https://www.yangvincent.com/assets/js/main.js"></script>
+
+    </body>
+</html>

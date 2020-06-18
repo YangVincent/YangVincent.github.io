@@ -1,21 +1,779 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:20 %}
+    <title>AeonNeo</title>
+    <description>A myriad of thoughts</description>
+    <link>https://www.yangvincent.com</link>
+    <atom:link href="https://www.yangvincent.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url }}/{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
+        <title>Test 2</title>
+        <description>&lt;p&gt;Roam Research recently moved to a paid model. Not that I don’t support their product, it’s quite good, but it’s pushing
+me to realize that I can’t rely on other products to always behave the same or have my best interests at heart. They did,
+however, bring up a really good idea – that our thoughts are inherently graph-structured and keeping our notes in a similar fashion makes sense.&lt;/p&gt;
+
+&lt;p&gt;Memex provides a reasonable alternative: it allows me to take notes and annotations on webpages I read as well as full-text search through them.
+However, this doesn’t have the “web” built in. Rather, it relies on normal search. I want to continue writing notes
+with this graph based structure but with something that has a mobile app &amp;amp; looks a little better.&lt;/p&gt;
+
+&lt;p&gt;A realistic alternative might actually to just take a bunch of notes in Markdown, then create a function that
+automatically ingests tags in Jekyll and transforms them into links to appropriate pages. In this way, we could also detect and create 
+bidirectional links.&lt;/p&gt;
+
+&lt;p&gt;I already have markdown &amp;amp; latex support, so this would probably only take a day to make.&lt;/p&gt;
+
+&lt;p&gt;In the meantime though, looks like I might have to use Notion.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.yangvincent.com/posts/test1/&quot;&gt;Text3&lt;/a&gt;
+&lt;a href=&quot;https://www.yangvincent.com/posts/test1/&quot;&gt;Text3&lt;/a&gt;
+&lt;a href=&quot;https://www.yangvincent.com/posts/test1/&quot;&gt;Text3&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jun 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/test2/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/test2/</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Test 1</title>
+        <description>&lt;p&gt;Roam Research recently moved to a paid model. Not that I don’t support their product, it’s quite good, but it’s pushing
+me to realize that I can’t rely on other products to always behave the same or have my best interests at heart. They did,
+however, bring up a really good idea – that our thoughts are inherently graph-structured and keeping our notes in a similar fashion makes sense.&lt;/p&gt;
+
+&lt;p&gt;Memex provides a reasonable alternative: it allows me to take notes and annotations on webpages I read as well as full-text search through them.
+However, this doesn’t have the “web” built in. Rather, it relies on normal search. I want to continue writing notes
+with this graph based structure but with something that has a mobile app &amp;amp; looks a little better.&lt;/p&gt;
+
+&lt;p&gt;A realistic alternative might actually to just take a bunch of notes in Markdown, then create a function that
+automatically ingests tags in Jekyll and transforms them into links to appropriate pages. In this way, we could also detect and create 
+bidirectional links.&lt;/p&gt;
+
+&lt;p&gt;I already have markdown &amp;amp; latex support, so this would probably only take a day to make.&lt;/p&gt;
+
+&lt;p&gt;In the meantime though, looks like I might have to use Notion.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.yangvincent.com/posts/test2/&quot;&gt;Text3&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jun 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/test1/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/test1/</guid>
+      </item>
+    
+      <item>
+        <title>Roam Research</title>
+        <description>&lt;p&gt;Roam Research recently moved to a paid model. Not that I don’t support their product, it’s quite good, but it’s pushing
+me to realize that I can’t rely on other products to always behave the same or have my best interests at heart. They did,
+however, bring up a really good idea – that our thoughts are inherently graph-structured and keeping our notes in a similar fashion makes sense.&lt;/p&gt;
+
+&lt;p&gt;Memex provides a reasonable alternative: it allows me to take notes and annotations on webpages I read as well as full-text search through them.
+However, this doesn’t have the “web” built in. Rather, it relies on normal search. I want to continue writing notes
+with this graph based structure but with something that has a mobile app &amp;amp; looks a little better.&lt;/p&gt;
+
+&lt;p&gt;A realistic alternative might actually to just take a bunch of notes in Markdown, then create a function that
+automatically ingests tags in Jekyll and transforms them into links to appropriate pages. In this way, we could also detect and create 
+bidirectional links.&lt;/p&gt;
+
+&lt;p&gt;I already have markdown &amp;amp; latex support, so this would probably only take a day to make.&lt;/p&gt;
+
+&lt;p&gt;In the meantime though, looks like I might have to use Notion.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/roam-research/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/roam-research/</guid>
+      </item>
+    
+      <item>
+        <title>weblog</title>
+        <description>&lt;p&gt;Did you know blog is short for weblog?&lt;/p&gt;
+
+&lt;p&gt;A lot of this page (and the blog category) are inspired by &lt;a href=&quot;http://www.aaronsw.com/weblog/&quot;&gt;Aaron Swartz&lt;/a&gt;. It’s
+intended as a space for me to put miscellaneous thoughts into the void but not quite so far that I can’t retrieve it on the fly.&lt;/p&gt;
+
+&lt;p&gt;More organized thoughts, guides, and links go in Resources, and explicitly written-for-public-consumption reads are under /stories.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 May 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/weblog/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/weblog/</guid>
+      </item>
+    
+      <item>
+        <title>Heavenly</title>
+        <description>&lt;p&gt;Some complaints.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Heavenly isn’t very friendly to snowboarders. There are tons of flats. From California to Nevada (Skyline Trail), Round a bout, etc.&lt;/li&gt;
+  &lt;li&gt;I expect resorts to have internet connection or reliable wifi at lodges. They’re often a central place to meet up, and not having internet makes this loads more difficult.&lt;/li&gt;
+  &lt;li&gt;Nobody wants to end the day waiting for a gondola to bring them down, but Heavenly doesn’t have any runs from East Peak Lodge to Boulder Lodge. At California Lodge, there are no beginner friendly routes down.&lt;/li&gt;
+  &lt;li&gt;There aren’t many beginner friendly runs. The runs that are are also spread apart.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That said, there are some nice aspects as well.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It’s close to Nevada, so gambling is allowed.&lt;/li&gt;
+  &lt;li&gt;They have powder house nearby, which has incredibly cheap rentals and great employees.&lt;/li&gt;
+  &lt;li&gt;They have one of the best views and challenging (imo)  double blacks.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 18 Feb 2020 08:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/heavenly/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/heavenly/</guid>
+      </item>
+    
+      <item>
+        <title>Family</title>
+        <description>&lt;p&gt;It’s nice that my family has grown closer as Kevin and I have grown up. In
+all honesty our relationship was incredibly strained early on as my parents pressured me to
+pick up “regular hobbies” like Kevin’s, practice more violin, and do better in school.&lt;/p&gt;
+
+&lt;p&gt;I ended up making a large deal with them which ended with my gaining significant independence.
+Ever since, my parents and my relationship has significantly improved, as we now interact as equals.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.yangvincent.com/assets/images/family/mom_dad.jpg&quot; alt=&quot;Parents&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We all have incredible variation.&lt;/p&gt;
+
+&lt;p&gt;My father enjoys classical music, nature, and reading. He’s also 
+fully content on his own. Growing up, all of our family vacations were nature-based thanks to him.&lt;/p&gt;
+
+&lt;p&gt;My mother on the other hand is extremely social. She cares deeply about tai chi and eastern
+medicine.&lt;/p&gt;
+
+&lt;p&gt;Kevin is your “true adventurer” who enjoys solo travel, beautiful views, and photography. 
+Currently, he cares about sustainable architecture. You can easily see the similarities to my dad.&lt;/p&gt;
+
+&lt;p&gt;I’m a reasonable mix of both. I enjoy CS along with my dad, and we’re both interested in optimizing
+our lives – how can you find your purpose and maximize it? How can you spent your time efficiently? 
+I also enjoy nature, though I’m far more interested in cities. In other ways however,
+I’m far more similar to my mom. She’s extremely social, as am I. She’s also fairly stubborn and argumentative, as am I.&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;kevin-dad&quot; src=&quot;https://www.yangvincent.com/assets/images/family/kevin_dad.jpg&quot; data-rotate=&quot;90&quot; alt=&quot;kevin and dad&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Dec 2019 08:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/family/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/family/</guid>
+      </item>
+    
+      <item>
+        <title>Vacation to Australia!</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;I recently traveled to Australia for my annual trip with my friends from SD. Specifically, this trip was with
+Josh, Divya, and Alan. We visited 3 locations (each of which in its own biome!).&lt;/p&gt;
+
+&lt;h3 id=&quot;a-brief-history&quot;&gt;A Brief History&lt;/h3&gt;
+&lt;p&gt;Australia has quite an interesting history. Several hundred years ago, the UK decided that they had too
+many convicts so they dumped all of their criminals into Australia. Today, Australia has a lower crime rate.
+They also had several racist laws until fairly recently, trying to keep the nation white. I actually
+somewhat felt the effect of this, as the only people who went out of their way to help us were asian.&lt;/p&gt;
+
+&lt;h3 id=&quot;sydney&quot;&gt;Sydney&lt;/h3&gt;
+&lt;p&gt;Sydney was a pretty nice, bustling city. There’s some spectacular downtown spots that highly consisted of thai,
+sushi, and bars. We also met a girl on the flight who talked about some of her study abroad experiences at the
+University of Sydney. On the first night while wandering around and looking for night life, we stumbled
+upon a private concert by Flume celebrating the opening of the new Louis Vuitton store!
+&lt;img src=&quot;https://www.yangvincent.com/assets/images/australia/flume.jpg&quot; alt=&quot;Flume's private concert for LV&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cairns&quot;&gt;Cairns&lt;/h3&gt;
+&lt;p&gt;Cairns was beautiful as well. Driving along the coast felt like living a music video. The great barrier reef is
+definitely not doing well, but it was my first time seeing so much biodiversity. At one point,
+I even saw a shark while scuba diving! Scuba is really interesting because being so far under water actually
+feels quite foreign, especially with all of the equipment involved. We had to go through training
+to learn how to get water out of goggles and how to get the respirator back in after it got waterlogged.&lt;/p&gt;
+
+&lt;p&gt;Cairns also had Hartley’s Crocodile Park, which was absolutely mind blowing. Crocs can survive for up to a year
+on a single chicken, and they show feedings literally feets away from where you are. Crocs have an insanely
+high bite force, so hearing the jaws clamp is awe inspiring. Hartley’s also acts as a sanctuary because they
+collect the eggs in order to supply the croc industry. They also had a really fun nocturnal exhibit where we saw
+kangaroo mice and tons of other weird rodents!&lt;/p&gt;
+
+&lt;h3 id=&quot;uluru&quot;&gt;Uluru&lt;/h3&gt;
+&lt;p&gt;Honestly, we spent a little too much time in Uluru. It was around 105 degrees every day, so we spent a ton of time
+in our jail cell-like room doing random shenanigans. Riding camels was quite fun, and digideroos are incredibly difficult.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 22 Dec 2019 08:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/australia/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/australia/</guid>
+      </item>
+    
+      <item>
+        <title>Hang Gliding</title>
+        <description>&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+&lt;p&gt;I’ve recently started looking into hanggliding. It’s more appealing to me than paragliding cause there’s fewer parts (and probably easier setup).&lt;/p&gt;
+
+&lt;p&gt;There’s several gyms near me: East Bay, Pacifica, Mission Peak, Milpitas.&lt;/p&gt;
+
+&lt;p&gt;The death rate is around 1 death per 1,000 active pilots per year. A full set of gear costs around 4k. People can get in the air and go straight after
+the first lesson. There are several levels.&lt;/p&gt;
+
+&lt;p&gt;In progress.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Sep 2019 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/hanggliding/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/hanggliding/</guid>
+      </item>
+    
+      <item>
+        <title>Companies</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;I’m lucky to work on a topic I’m passionate about with intelligent people willing to mentor me at a company that treats me well. This situation has pushed me
+to have strong opinions about how companies should operate and what employees should be free to do.&lt;/p&gt;
+
+&lt;h4 id=&quot;optics&quot;&gt;Optics&lt;/h4&gt;
+&lt;p&gt;Optics are when people explicitly stay longer or come in earlier to demonstrate to others that they’re working an adequate amount. This makes no sense. The 
+amount of time spent at work has minimal relation to the actual amount of work being done, and the ‘day to day impressions’ of random people on your floor
+should be minimally impactful (read: not AT ALL) on your performance rating, which should be the sole determinant of promotion.&lt;/p&gt;
+
+&lt;p&gt;Other easy examples are artificially increasing the number of relevant team members to make a task seem bigger than it is. Represent your work accurately, 
+and difficult/valuable work will be naturally rewarded.&lt;/p&gt;
+
+&lt;h4 id=&quot;transparency&quot;&gt;Transparency&lt;/h4&gt;
+&lt;p&gt;Be clear and coherent about your preferences. Give helful feedback when necessary and be open to receiving feedback in turn. Seek to listen then explain, so
+everyone can understand others’ points of view. Only by understanding the other pov can you successfully negotiate and/or engage their sympathy.&lt;/p&gt;
+
+&lt;p&gt;This might not be as drastic as the Bridgewater dot system, but in all honesty I support that as well.&lt;/p&gt;
+
+&lt;h4 id=&quot;management&quot;&gt;Management&lt;/h4&gt;
+&lt;p&gt;Companies shouldn’t allow current managers to block their subordinates’ movements. Transfers should be solely dependent on the consent of the new team and the moving 
+employee in question. This prevents employees from being fucked over by their managers and prevents people from working in toxic environments. Even if this
+may leave a team short-handed, any sufficiently important team should have capable management and adequate resources.&lt;/p&gt;
+
+&lt;p&gt;People should feel comfortable talking to their managers and vice versa. They should be on the same “team” against the world.&lt;/p&gt;
+
+&lt;p&gt;My old manager told me this:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;My priorities are as follows. You, the team, the org, the company, the world.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This means that if something is advantageous only to me and not the team, he’ll still support it. If there’s an alternative that’s equally
+advantageous to me but also benefits the team, then he’ll push for that, and so on/so forth. This is fantastic because it allows me to trust
+that the manager will always want what’s best for me, regardless of how it may impact the team. LinkedIn also has this ingrained in their 
+core culture. “I know that you won’t always be here, but I’ll help you get where you want and you give me good work in the meantime”.&lt;/p&gt;
+
+&lt;h4 id=&quot;performance-reviews&quot;&gt;Performance Reviews&lt;/h4&gt;
+&lt;p&gt;People’s performance reviews should be dependent on an objective view of their work. Unfortuantely, work is often difficult to quantify, but we can get a reasonable understanding by asking coworkers and subject matter experts. These (and hard metrics from an employee’s projects) should be the only determinants for a promotion. Promotions shouldn’t have to be “fought for” by a manager;
+the work should speak for itself and be able to be represented by anyone equally.&lt;/p&gt;
+
+&lt;h4 id=&quot;salary&quot;&gt;Salary&lt;/h4&gt;
+&lt;p&gt;Salary data should be public. Companies buy massive datasets of what other companies pay, and can select by region, field, role, growth stage, etc. This works against the employees. Employees should
+know how much they’re worth and how much more/less they could be making, as opposed to being forced to interview to re-negotiate for a higher salary each time.&lt;/p&gt;
+
+&lt;h4 id=&quot;subject-matter&quot;&gt;Subject Matter&lt;/h4&gt;
+&lt;p&gt;Find an area where you’re curious or passionate about. This allows you to worry more about how to solve the problems. Provided sufficient mentorship/intelligence/time, 
+solid results should follow regardless.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Sep 2019 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/companies/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/companies/</guid>
+      </item>
+    
+      <item>
+        <title>Societal Structure</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;I recently had several extensive discussions about what kind of society we live in and what society we would
+want to live in. Several definitions are important and useful for future topics/conversations.&lt;/p&gt;
+
+&lt;h4 id=&quot;definitions&quot;&gt;Definitions&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Socialism: Abolishes classes, significant ‘welfare’ programs, People are taxed based on ability, and given aid based on
+their contributions. Private ownership.&lt;/li&gt;
+  &lt;li&gt;Communism: Abolishes classes, no private ownership, people are taxed on ability, and given need-based aid.&lt;/li&gt;
+  &lt;li&gt;Democracy: People elect those in power (opposite: fascism)&lt;/li&gt;
+  &lt;li&gt;Fascism: Dictatorship&lt;/li&gt;
+  &lt;li&gt;Capitalism: Private ownership, market sets prices/demand/etc. Classes exist.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 24 Sep 2019 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/societal-structure/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/societal-structure/</guid>
+      </item>
+    
+      <item>
+        <title>Rafting</title>
+        <description>&lt;p&gt;This last weekend I want rafting with a bunch of colleagues. One employee went out of her way to plan out a 3-day trip
+for 100 people! Rafting consisted of the lower south fork and middle fork of the American river.&lt;/p&gt;
+
+&lt;p&gt;Previously, I’d only tried up to class 3 before, but the rapids for class 4 were a whole new ball game. The guides for
+this round were also significantly better than any others I’ve had. We surfed, did tricks with spinning off rocks and shifting
+the boat’s weight to one side, swam in the middle of eddies to spin, and many other fun rafting nuances I’d never
+heard of before.&lt;/p&gt;
+
+&lt;p&gt;The difference between each class of rapids is as follows. Class 1: no work required. Class 2: Mild rapids, no real work 
+required. Class 3: Some rapids, maneuvering helpful. Class 4. Accuracy within several feet to navigate rapids. Class 5: 
+Accuracy within inches to navigate rapids. Class 6: Literally will die.&lt;/p&gt;
+
+&lt;p&gt;Rapids are graded on the easiest route through them, but may have multiple ratings for specific lines taken.&lt;/p&gt;
+
+&lt;p&gt;Overall definitely a fantastic experience. Met some interesting people, had a phenomenal time rafting and learning about the
+guides’ lives.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Sep 2019 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/rafting/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/rafting/</guid>
+      </item>
+    
+      <item>
+        <title>Life Workflow</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Suppose we want to hone ourselves to be as productive as possible. This might look like training for a competition or
+creating a startup or learning/growing in any other capacity, but acting efficiently is always in our best interest. How
+might we do so? What base components should we have in our life to allow us to excel elsewhere? These are the things
+I’ve found thus far. Keep in mind that maximizing efficiency is a means, not an end. The end is maximizing fun.&lt;/p&gt;
+
+&lt;h3 id=&quot;health&quot;&gt;Health&lt;/h3&gt;
+&lt;p&gt;Get enough sleep every day. If you don’t, repay this debt as soon as you can. Exercise as much as you can; it chemically
+makes you happier as a side benefit. Drink tons of water. Sleep early.&lt;/p&gt;
+
+&lt;h3 id=&quot;mental-health&quot;&gt;Mental Health&lt;/h3&gt;
+&lt;p&gt;Figure out what affects your mood. Mine is highly dependent on how optimistic I feel for the future and how
+secure I feel with my friends. Surround yourself with good people who will pick you up and push you to achieve more.
+Talk about your problems with others and listen to theirs in turn. Care about people.&lt;/p&gt;
+
+&lt;h3 id=&quot;keep-a-todo-list-and-a-calendar&quot;&gt;Keep a TODO list and a calendar&lt;/h3&gt;
+&lt;p&gt;Our brains are disappointingly incapable of keeping track of tabs/monitoring. We’re far better at working through
+well-defined problems. Luckily, we can offset these operations to tools. I keep a running list of “Things to do today”
+and “Things to do later”. Before each task, consider – why am I doing this? What happens if I don’t?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Any time anything crosses your life, you’ve got to ask: This thing I’m thinking about doing – why am I doing it?
+What will happen if I don’t? The best thing is when I have something on my todo list and I think “hmm, no”.
+&lt;cite&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oTugjssqOT0&quot;&gt;Randy Pausch&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m lucky enough to not procrastinate much, but only because having notifications on my reminders app (Todoist) frustrates
+me to no end.&lt;/p&gt;
+
+&lt;h3 id=&quot;get-feedback&quot;&gt;Get feedback&lt;/h3&gt;
+&lt;p&gt;Feedback is crucial for calibrating your expectations. Find out what the people around you think about the way you do things,
+how they do things and instead, then consider if you’d like to incorporate them for yourself as well.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Sep 2019 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/life-workflow/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/life-workflow/</guid>
+      </item>
+    
+      <item>
+        <title>Computer Workflow</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Over the years, I’ve put in many hours to make my processes more efficient. I spend 40 hours a week, if not more
+at a computer; it makes sense to streamline this process.&lt;/p&gt;
+
+&lt;p&gt;Related posts are &lt;a href=&quot;https://www.yangvincent.com/dev-workflow/&quot;&gt;Development Workflow&lt;/a&gt; and &lt;a href=&quot;https://www.yangvincent.com/life-workflow/&quot;&gt;Life Workflow&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this post, I’d like to cover several tools, how they work, and how they work together.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Kinesis Advantage&lt;/li&gt;
+  &lt;li&gt;Keyboard Layouts&lt;/li&gt;
+  &lt;li&gt;Multiple screens&lt;/li&gt;
+  &lt;li&gt;Vimium&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;hardware&quot;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&quot;https://kinesis-ergo.com/shop/advantage2/&quot;&gt;Kinesis Advantage&lt;/a&gt; is a marvel of a keyboard. It’s composed of
+two large wells placed horizontally; one for each hand. The wells’ distance from each other allows me to keep my
+arms shoulder-width apart which minimizes ulnar deviation. &lt;img src=&quot;https://www.yangvincent.com/assets/images/comp-workflow/wrist.png&quot; alt=&quot;ulnar deviation&quot; /&gt;
+Also, the wells allow me to maintain natural wrist curvature where my palm is supported and neither my wrist nor
+my fingers support more weight than they should.&lt;/p&gt;
+
+&lt;p&gt;It has cherry brown switches which are quieter than blues and reasonably suited for workplaces. Mechanical
+switches are better than rubber keyboards because they last longer provide specific actuation points without
+bottoming out. In other words, you don’t need to mash on them to type.&lt;/p&gt;
+
+&lt;p&gt;Finally, it has ortholinear rows (i.e. all of the keys are placed vertically and not offset), which allows my fingers
+to naturally move up and down while keeping all keys closer to the home row. Finally, it moves some of the most
+important keys to the thumb (backspace, control, etc).&lt;/p&gt;
+
+&lt;h3 id=&quot;keyboard-layouts&quot;&gt;Keyboard Layouts&lt;/h3&gt;
+&lt;p&gt;I interchange between Dvorak and Qwerty. Dvorak was created to minimize finger movement in several ways. Vowels are placed on 
+the left and keys are generally placed to maximize hand alternation. The most popular keys are on the home row,
+with the subsequent keys placed on the top, and finally the least used keys on bottom. Unfortunately, I’ve never reached
+the same speed on Dvorak as I have on Qwerty, so I use it in limited capacity.&lt;/p&gt;
+
+&lt;h3 id=&quot;importance-of-screen-size&quot;&gt;Importance of Screen Size&lt;/h3&gt;
+&lt;p&gt;I have 3 monitors at home. I’ve found this is optimal so everything I might want to maintain in my mind and reasonably
+access quickly can be done so with ease. This often looks like a screen with 4 panes of code, another monitor for docs,
+and finally one more for miscellaneous items.&lt;/p&gt;
+
+&lt;h3 id=&quot;vimium&quot;&gt;Vimium&lt;/h3&gt;
+&lt;p&gt;I’m strongly against using the mouse; I believe our arms should never move (or only move minimally) from the keyboard
+since everything can be done from the keyboard. Vimium allows me to browse/navigate webpages/search, etc. without
+using the mouse.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Sep 2019 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/comp-workflow/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/comp-workflow/</guid>
+      </item>
+    
+      <item>
+        <title>Information Security Symposium</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;I recently spoke at the &lt;a href=&quot;https://www.cvent.com/events/2019-information-security-symposium/custom-35-2bf6e0b8a1fd41a78a7211e81fcd1fd8.aspx?cpc=H7NM3FQB9TN&quot;&gt;Davis Security Symposium&lt;/a&gt; with my friend Harrison Nguyen
+about &lt;a href=&quot;https://web.archive.org/web/20190624185212/https://www.cvent.com/events/2019-information-security-symposium/agenda-2bf6e0b8a1fd41a78a7211e81fcd1fd8.aspx?cpc=H7NM3FQB9TN&quot;&gt;healthcare and blockchain&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The gist of the paper is:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Health information exchange is important and complicated.&lt;/li&gt;
+  &lt;li&gt;Despite &lt;a href=&quot;https://www.google.com/search?q=millions+invested+into+blockchain+healthcare&amp;amp;oq=millions+invested+into+blockchain+healthcare&amp;amp;aqs=chrome..69i57j33.4783j1j1&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&quot;&gt;millions being invested into blockchain + healthcare solutions&lt;/a&gt;, 
+blockchain remains a premature technology.&lt;/li&gt;
+  &lt;li&gt;At its core, blockchain allows us to act without a trusted 3rd party. For healthcare, this means blockchain would manage our permissions for who can access health records (infeasible to actually store the images).&lt;/li&gt;
+  &lt;li&gt;Who would run these nodes? The hospital? 3rd parties? Other patients? If so, can we guarantee that at least 50% would be honest? No.&lt;/li&gt;
+  &lt;li&gt;Most benefits of blockchain are really just of PKI.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Personally, I also realized that many people still don’t understand how blockchain works even though there’s many resources talking about how it fundamentally works. It’s difficult to discuss further implications of this
+technology with people don’t have a strong understanding of its capabilities yet.&lt;/p&gt;
+
+&lt;p&gt;There’s also quite a significant split between people who are in IT security and research security.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Jun 2019 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/infosec-symposium/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/infosec-symposium/</guid>
+      </item>
+    
+      <item>
+        <title>Development Workflow</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;I’m a strong believer that we should improve both at what we do and how we do it.
+I spend hours at a computer telling it what to do; it follows that I should improve
+&lt;em&gt;how&lt;/em&gt; I tell it what to do. In this post, I’ll focus on plugins/tips/tricks for my development tools.
+IMO (and in the opinion of &lt;a href=&quot;https://ux.stackexchange.com/questions/30682/are-there-any-recent-studies-of-the-keyboard-vs-mouse-issue&quot;&gt;these studies&lt;/a&gt;), 
+using only the keyboard should be faster than the mouse.&lt;/p&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vim (Emacs + evil mode)&lt;/li&gt;
+  &lt;li&gt;Zsh&lt;/li&gt;
+  &lt;li&gt;Tmux&lt;/li&gt;
+  &lt;li&gt;fzf&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vim&quot;&gt;Vim&lt;/h3&gt;
+&lt;p&gt;Vim’s philosophy is that you edit text in modes – moving around and editing.
+You can find articles on this virtually everywhere, so I’ll focus on what I find more unique: the plugins.&lt;/p&gt;
+
+&lt;h5 id=&quot;evil&quot;&gt;Evil&lt;/h5&gt;
+&lt;p&gt;Emacs has better “large feature” support. You can run things that hook back in asynchronously
+and even run their version of vim, in emacs (evil).&lt;/p&gt;
+
+&lt;h5 id=&quot;kythe&quot;&gt;Kythe&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/kythe/kythe&quot;&gt;Kythe&lt;/a&gt; is an ecosystem that seeks to “understand” code.
+Specifically, it allows tools to communicate across languages. This is helpful in Vim because
+it helps you find, for instance, the definition of a function, or where that function
+may be called, or the documentation for a function. This allows you to “click through”
+in vim.&lt;/p&gt;
+
+&lt;h5 id=&quot;jumplist&quot;&gt;Jumplist&lt;/h5&gt;
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C-i&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C-o&lt;/code&gt; to jump forward and backward in a jump list. Typically, you’re supposed 
+to open multiple buffers for all your files so you don’t completely close vim for hours at a time.
+When you jump to/from functions and in/out of various files, this will track where you’ve been and
+let you navigate this history easily. Think of it as moving forward and backward in time, vs space.&lt;/p&gt;
+
+&lt;h3 id=&quot;zsh&quot;&gt;Zsh&lt;/h3&gt;
+&lt;p&gt;A nice interactive, powerful shell with pleasant community support.&lt;/p&gt;
+
+&lt;h5 id=&quot;zsh-command-time&quot;&gt;zsh-command-time&lt;/h5&gt;
+&lt;p&gt;Track and output how long each command took.&lt;/p&gt;
+
+&lt;h3 id=&quot;tmux&quot;&gt;Tmux&lt;/h3&gt;
+&lt;p&gt;Tmux allows you to group your terminals and split/configure them however you like.
+The plugin manager is called tpm. &lt;a href=&quot;https://github.com/tmux-plugins&quot;&gt;Here is a huge list of plugins&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;tmux-resurrect&quot;&gt;tmux-resurrect&lt;/h5&gt;
+&lt;p&gt;Preserves your contents even when you leave sessions/close down the server completely.&lt;/p&gt;
+
+&lt;h5 id=&quot;tmux-continuum&quot;&gt;tmux-continuum&lt;/h5&gt;
+&lt;p&gt;Allows you to reload buffer contents (even stuff like vim files!)&lt;/p&gt;
+
+&lt;h3 id=&quot;fzf&quot;&gt;fzf&lt;/h3&gt;
+&lt;p&gt;Fzf allows you to fuzzy search through a list of strings.&lt;/p&gt;
+
+&lt;h5 id=&quot;fasd&quot;&gt;fasd&lt;/h5&gt;
+&lt;p&gt;Fasd sorts past commands by frequency and recency (frecency). When coupled with fzf, it is
+a powerful way to fuzzy search through opening files you open often. It basically becomes 
+global project or content search that can be coupled with vim.&lt;/p&gt;
+
+&lt;h5 id=&quot;history&quot;&gt;history&lt;/h5&gt;
+&lt;p&gt;fzf and history is nice too.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Apr 2019 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/dev-workflow/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/dev-workflow/</guid>
+      </item>
+    
+      <item>
+        <title>Efficient Information Acquisition</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Especially with full-time jobs taking the vast majority of our lives, streamlining the remainder of our time
+is of utmost importance. Learning about the world and others is important for our growth and sometimes, our 
+entertainment. I’ve therefore found a few ways to easily gaining information simpler.&lt;/p&gt;
+
+&lt;h3 id=&quot;audiobooks-and-overcast&quot;&gt;Audiobooks and Overcast&lt;/h3&gt;
+&lt;p&gt;Audiobooks and podcasts are useful because it’s possible to fully digest them even while we’re somewhat occupied. The best
+example of this is driving. Although we can’t do other hobbies while driving (watching movies, playing games, 
+participating in group activities), audiobooks and podcasts allow us to get well-formatted, digestable information
+during time that’s already used (commute).&lt;/p&gt;
+
+&lt;p&gt;This is well-known and popular, especially among millenials. As such, I submit one further improvement.&lt;/p&gt;
+
+&lt;p&gt;Overcast is an application with a special feature: smart speed. Conventional podcast/audiobook applications
+are capable of linearly accelerating audio. Put simply, the voice will be faster but of higher pitch, resulting in
+a potentially irritating listening experience. Smart speed removes pauses in people’s speech such that it still
+sounds natural, but saves you time in the long run. In a typical audiobook, I save something on the order of
+20 minutes - 1+ hours simply from smart speed. Additionally, Overcast’s voice boost feature makes listening
+on the car feasible yet enjoyable without downside.&lt;/p&gt;
+
+&lt;h3 id=&quot;morning-brew&quot;&gt;Morning Brew&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.morningbrew.com/?kid=9NGB6&quot;&gt;Morning Brew&lt;/a&gt; is a fantastic newsletter that covers business, tech, and 
+politics quickly and efficiently while providing ample background information to understand context.&lt;/p&gt;
+
+&lt;h3 id=&quot;pocketnews-aggregators&quot;&gt;Pocket/News Aggregators&lt;/h3&gt;
+&lt;p&gt;News aggregators pull from countless sources and provide you with news they believe you’ll find interesting/relevant.
+This is good in that it reduces your search time while maintaining your ability to reasonably gain a strong
+overview of what’s happening in the world. However, these also cause ‘echo chambers’, where you continuously get
+news that matches your viewpoint.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Jan 2019 08:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/efficient-information/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/efficient-information/</guid>
+      </item>
+    
+      <item>
+        <title>Efficient Habit Acquisition</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Habits are important because they allow us to fundamentally change the way we live. Over time, we can apply
+information gained to better streamline ourselves for reaching our goals. Having certain processes in place
+makes picking up new habits and ensuring new habit quality simple.&lt;/p&gt;
+
+&lt;h3 id=&quot;useful-processes&quot;&gt;Useful Processes&lt;/h3&gt;
+&lt;p&gt;Habits are difficult to acquire for several reasons.&lt;/p&gt;
+
+&lt;p&gt;First, there are conflicting sources citing the length of time required for a repeated action to become
+sufficiently ingrained such that it is a habit 
+&lt;a href=&quot;https://examinedexistence.com/how-long-does-it-take-for-something-to-become-a-habit/&quot;&gt;1&lt;/a&gt;, 
+&lt;a href=&quot;https://www.brainpickings.org/2014/01/02/how-long-it-takes-to-form-a-new-habit/&quot;&gt;2&lt;/a&gt;,
+&lt;a href=&quot;https://www.amazon.com/Making-Habits-Breaking-Things-Change/dp/0306822628/?tag=braipick-20&quot;&gt;3&lt;/a&gt;.
+For me, a habit is something I do without thinking
+or consistently with infrequent compromise and ease.&lt;/p&gt;
+
+&lt;p&gt;Second, it is difficult to pinpoint when, exactly, a repeated action ceases to be a potential habit. This information is
+helpful for deducing why this happened and how it might be prevented in the future.&lt;/p&gt;
+
+&lt;p&gt;Third, understanding that a habit is indeed a good one and therefore worthwhile picking up is occasionally difficult.&lt;/p&gt;
+
+&lt;p&gt;Therefore to fix these, it is important to have&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;An evaluation process on whether or not a repeated action has become a habit (useful for estimating the rate at which
+you may pick up new habits in the future); solves issue 1&lt;/li&gt;
+  &lt;li&gt;A periodic check to (a) re-evaluate whether a repeated action is still worthwhile or (b) remind you to keep with
+the potential habit; solves issue 2&lt;/li&gt;
+  &lt;li&gt;A selection process for choosing new potential habits to minimize time wasted; solves issue 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;useful-tipstricks&quot;&gt;Useful Tips/Tricks&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;If the habit you want to pick up has something you can log or is aesthetically pleasing, then you can accumulate
+these to build up a record. Over time, losing the streak built in the record can incentivize you to continue
+with the habit. A good example here is crossing off days that you’ve worked out on a visible calendar.&lt;/li&gt;
+  &lt;li&gt;If you’re susceptible to peer pressure and peer shame, then telling your friends may help to discourage yourself
+from being a hypocrite.&lt;/li&gt;
+  &lt;li&gt;Sharing the habit building process with friends/family and building them side by side may be helpful
+for having someone else encourage you to keep it up.&lt;/li&gt;
+  &lt;li&gt;Keep an easily visible checklist for when you need to do things/potential orderings.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 22 Jan 2019 08:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/habits/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/habits/</guid>
+      </item>
+    
+      <item>
+        <title>Life Advice</title>
+        <description>&lt;h3 id=&quot;why-optimize-your-life&quot;&gt;Why Optimize Your Life?&lt;/h3&gt;
+&lt;p&gt;Your life is arguably your most important resource. Without it, almost nothing matters. As such, it is imperative
+that everyone continuously reinvest in themselves. The first big question is: How do you know you’re investing
+in the right things? Randy Pausch discusses the importance of chasing your childhood dreams – the things that are
+initially and genuinely important to you, in his famous &lt;a href=&quot;https://www.youtube.com/watch?v=ji5_MqicxSo&amp;amp;vl=en&quot;&gt;Last Lecture&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-i-sustain-dreams&quot;&gt;How do I sustain dreams?&lt;/h3&gt;
+&lt;p&gt;Unfortunately, most people can’t just chase their dreams, but choosing between dreams and a career is a never-ending
+struggle that plagues many. &lt;a href=&quot;https://www.ted.com/speakers/tim_urban&quot;&gt;Master Procrastinator Tim Urban&lt;/a&gt; covers
+&lt;a href=&quot;https://waitbutwhy.com/2018/04/picking-career.html&quot;&gt;key aspects&lt;/a&gt; to remain cognizant of as you pick your career.&lt;/p&gt;
+
+&lt;h3 id=&quot;stop-wasting-time&quot;&gt;Stop Wasting Time&lt;/h3&gt;
+&lt;p&gt;Throughout everything, it’s important that you actually do real, &lt;strong&gt;deep&lt;/strong&gt; work. Simply talking about an action
+without executing is useless. Cal Newport has optimized his life around doing deep work and has a variety of 
+fantastic advice.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Keep your desk clean&lt;/li&gt;
+  &lt;li&gt;Keep a TODO list&lt;/li&gt;
+  &lt;li&gt;Evaluate why you’re doing each item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;… and &lt;a href=&quot;http://calnewport.com/blog/about/&quot;&gt;many other optimizations/study hacks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;networking&quot;&gt;Networking&lt;/h3&gt;
+&lt;p&gt;Finally, one of my favorite ways to gain information about anything quickly is to talk to experts in said field.
+Here’s some good tips &lt;a href=&quot;https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/&quot;&gt;breaking into fields&lt;/a&gt;, from Haseeb Qureshi.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Oct 2018 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/lifeadvice/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/lifeadvice/</guid>
+      </item>
+    
+      <item>
+        <title>Summer 2018</title>
+        <description>&lt;h3 id=&quot;preface&quot;&gt;Preface&lt;/h3&gt;
+&lt;p&gt;Going into Summer, I had one defining thought.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I have to prioritize figuring out what I genuinely enjoy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’d spent the last 4 years with disproportionate focus on career and academics; it was time to figure out
+my hobbies and how I’d be as an adult. The following is a collection of things I worked on or did that were 
+significant to me in some way.&lt;/p&gt;
+
+&lt;h3 id=&quot;magic-mirror&quot;&gt;Magic Mirror&lt;/h3&gt;
+&lt;p&gt;I’ve had two raspberry pi’s that simply sat on my closet gathering dust. I finally picked these up and created
+a magic mirror. I wanted to do several other things as well here (integrate Nest cams, self-host a server, etc.). 
+Now that I’ve finished, there’ve been two big observations.&lt;/p&gt;
+
+&lt;p&gt;First, I have no idea how raspberry pi’s are marketed to children to learn to code. Learning to work with a potentially oudated
+debian (or subset thereof) distro was a terrible experience. I probably spent more time dealing with memory, energy, and
+dependency issues than actually coding. Next, I’ve always had this glamorous image of magic mirror’s in my head. For those
+who don’t know, these are simply webpages with one-way mirrors in front of them, so you can look in the mirror and 
+see information on it. This has actually been pretty cool to play with despite how simple it is. There’s a pretty
+big community built around making this process as easy as possible, so tons of existing modules exist for integrating 
+all your devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.yangvincent.com/assets/images/magicmirror.png&quot; alt=&quot;Magic Mirror&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;anime-and-anime-expo&quot;&gt;Anime (and Anime Expo)&lt;/h3&gt;
+&lt;p&gt;Growing up, I always had a rather stereotypical view of anime. Now that I’ve watched several, I have a new appreciation.
+Many have sophisticated and entertaining storylines and progress much faster than TV shows. For those of you
+disappointed by the current options for shows, I recommend trying out anime. There’s a wider variety of types and
+a seemingly more active community. When I attended Anime Expo (courtesy of Josh), the big surprising factor
+was that there were actually people of all types – all genders, ages, heights, appearances, etc. People
+were generally friendly and all just happy to be there despite the intense heat. 
+&lt;img src=&quot;https://www.yangvincent.com/assets/images/ax.JPG&quot; alt=&quot;Cosplayer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;europe&quot;&gt;Europe&lt;/h3&gt;
+&lt;p&gt;In July and August, Josh, Alan, and I visited the UK, France (Paris, Lille, Versailles), Brussels, and Amsterdam.
+People there are far more social than here and seem to enjoy life more. It wasn’t uncommon to see someone 
+sitting alone eating a fruit and relaxing on a bench facing a canal. Work almost never came up in conversation
+even at company events. Shoutout to Rylan for showing us around London. Street performers were far more competent
+musicians and we actually listened to a quintet for over half an hour in Amsterdam.&lt;/p&gt;
+
+&lt;h3 id=&quot;la&quot;&gt;LA&lt;/h3&gt;
+&lt;p&gt;Traveling LA was a fantastic experience. The most surprising factor was the scale of what they can do in 
+Hollywood. If you haven’t been to universal studios, I highly recommend it. Definitely check out their general tour; it was
+easily my favorite “ride” simply due to how many times it exceed expectations.&lt;/p&gt;
+
+&lt;h3 id=&quot;audiobooks&quot;&gt;Audiobooks&lt;/h3&gt;
+&lt;p&gt;I use a fantastic app called Overcast to listen to podcasts. There are two notable features – smart speed and voice boost.
+The latter is self-explanetory but the former is less so. Smart speed accelerates playing audio by removing the filler
+“empty” pauses in people’s speech. Unfortunately, this only works for podcasts so to listen to audiobooks, you have
+to host your own podcast. This experience has been detestable. It is difficult uploading/downloading large files onto the app
+and if the connection is broken, it is difficult to debug anything on the app’s side. On the plus side, I finally got 
+it to work with a 3rd party app. In the first 4.5h of my audiobook, I’ve already saved over an hour in empty time. 10/10
+highly recommend.&lt;/p&gt;
+
+&lt;h3 id=&quot;memex&quot;&gt;Memex&lt;/h3&gt;
+&lt;p&gt;I spend an exorbitant amount of time organizing my thoughts and workflows. Memex has a great idea. Often times
+you’ll come across a useful resource or infographic that you’d like to save for later. Saving these links to a centralized
+storage takes forever and is easily forgotten. Memex let’s you store these easily to lists you can create right in the page. 
+It then has full-text search, making it extremely easy to find any page you’ve read in the past.&lt;/p&gt;
+
+&lt;h3 id=&quot;reflection&quot;&gt;Reflection&lt;/h3&gt;
+&lt;p&gt;All in all, I’ve progressed in my personal interests for development, optimizing my learning, and come up with some hobbies to try
+when I start work (hopefully the clubs there are good). I’m particularly hoping to get into fencing, snowboarding, and cooking. The first two
+have given me genuine, in-the-moment happiness as soon as I tried them. The last one would be convenient and cool to show friends. Here’s
+to hoping they go well.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Sep 2018 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/summer-2018/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/summer-2018/</guid>
+      </item>
+    
+      <item>
+        <title>Startup Culture</title>
+        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;There’s great internships, then there’s &lt;strong&gt;great internships&lt;/strong&gt;. My first week at Course Hero was nothing short of phenomenal.
+Every detail had been meticulously thought through; my experience with onboarding and connecting with my team was 
+facilitated and streamlined. Prior to my first day, upon receiving my offer, multiple people at Course Hero who I had never
+even interacted with before reached out to me congratulating me on my new opportunity. At the time, I was somewhat
+conflicted between Course Hero and several other companies. However, I can now say
+with confidence that I made the right choice.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-offer-experience&quot;&gt;The Offer Experience&lt;/h2&gt;
+
+&lt;p&gt;With my offer also came several useful documents - a tech stack spreadsheet, intern benefits infographic, 
+company culture and values presentation. Several months later, on the first day of finals week, my recruiter (shoutout to Mabel So), as well as
+my team, sent me a Course Hero jacket along with a note wishing me the best on my finals. With my imminent first day,
+the HR team sent me an onboarding link with the formal documents to sign and submit. However, even this
+experience was ameliorated by the materials surrounding it. The onboarding site led me through
+Course Hero’s history, its vision, how my team falls in place, my team members, and how I fall along with Course
+Hero’s progress.&lt;/p&gt;
+
+&lt;p&gt;Just a couple days before I started, HR sent me first day instructions, the employee handbook, and directions
+to the Caltrain and the Pacific Shores Shuttle. Upon arrival, I was given a tour by several different people around
+the beautiful campus to the infinite snacks, the river flowing alongside, and the game rooms nearby. Before long,
+I was settled into my desk and introduced to my workplace proximity associates.&lt;/p&gt;
+
+&lt;figure class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;/assets/images/coursehero-snacks.jpg&quot; alt=&quot;Course Hero Snacks&quot; /&gt;
+  &lt;figcaption&gt;Course Hero Snacks&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;/assets/images/coursehero-desk.jpg&quot; alt=&quot;Day 1 Desk&quot; /&gt;
+  &lt;figcaption&gt;Day 1 Desk&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;my-phenomenal-first-week&quot;&gt;My Phenomenal First Week&lt;/h2&gt;
+
+&lt;p&gt;My first few days consisted of one on one meetings with each team member allowing me to get to know them on a personal
+level. People were endlessly welcoming and helpful as I settled into my new home. I distinctly remember my manager
+explaining his role - “to support and help the team succeed”. With organized and efficient
+documentation, my development environment was set up by the end of day one. With the subsequent days, I was onboarded
+by two team members who taught me about the tools across the entire stack and helped me with my many questions. Finally,
+my mentor (Shannon Nachreiner!) assigned me a task and I started working on it. I hope to push it out for QA tomorrow.&lt;/p&gt;
+
+&lt;p&gt;Besides the fantastic interviewing and introduction experience from HR, here are some significant observations about
+my team and Course Hero’s collaboration structure.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Onboarding included teaching me how each part of the tech stack worked. Although I was familiar with many
+  web development concepts, the syntax and PHP specifics were foreign to me. Repositories, DQL, and Entity Managers
+  would have been far more difficult to learn without the mentorship.&lt;/li&gt;
+  &lt;li&gt;I was offered help and support with any/all of my questions and even with help on my first feature. Many
+  of my experiences have involved struggling for hours on my own to find a trivial but tool-specific bug.&lt;/li&gt;
+  &lt;li&gt;Most importantly, I was introduced and given time to bond with each member of my team.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;/assets/images/coursehero-view.jpg&quot; alt=&quot;Course Hero View&quot; /&gt;
+  &lt;figcaption&gt;Course Hero View&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+
+&lt;p&gt;There are three significant events that have already happened. First, the CEO and CFO spoke to the company at a
+biweekly meeting where ALL of the employees gather. This meeting celebrated the company’s wins and recognized
+remarkable attitudes and work. Second, we went on a sponsored company trip to Great America. Finally, today, 
+we had a meeting “Stories of Course Hero” in which people shared meaningful experiences from their lives. To be honest,
+the fact that the environment was friendly and supportive enough for these people to open up as they did was
+truly remarkable to me.&lt;/p&gt;
+
+&lt;p&gt;All in all, I’m extremely excited to be contributing to Course Hero for the rest of the Summer!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Jun 2017 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/coursehero/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/coursehero/</guid>
+      </item>
+    
   </channel>
 </rss>

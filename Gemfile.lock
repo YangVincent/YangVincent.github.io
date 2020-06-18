@@ -108,7 +108,6 @@ DEPENDENCIES
   jekyll-algolia
   jekyll-babel
   jgd
-  json (= 2.3.0)
   stringex
   thor
 

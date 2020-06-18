@@ -14,4 +14,4 @@ branches:
 rvm:
   - 2.4
 after_success:
-  - jgd -b master -r code
+  - gem install jgd && jgd -b master -r code

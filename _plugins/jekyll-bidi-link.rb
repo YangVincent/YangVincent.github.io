@@ -73,18 +73,14 @@ module JekyllFeed
 					######################
 					lnks = m.content.scan(/post_url.* /)
 
-					blnks = m.content.scan(/\[\[.*\]\]/)
-					#Jekyll.logger.info "Blnks", "#{blnks}"
+					blnks = m.content.scan(/purl .* /)
 					# String match to find the most similar one
 					blnks.each do |blnk|
 						min_dist = 1000
 						target = ""
 						allpages.each do |page|
-							puts blnk[2..-3]
-							puts page[/\-[a-z]*.*\./][7..-2]
-							puts levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase, blnk[2..-3].downcase)
-							puts "---"
-							l_dist = levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase, blnk[2..-3].downcase)
+							puts blnk[5..-2]
+							l_dist = levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase, blnk[5..-2].downcase)
 							if l_dist < min_dist
 								target = page
 								min_dist = l_dist
@@ -99,20 +95,6 @@ module JekyllFeed
 						end
 					end
 					puts backlinks
-
-
-					# Create links we can link to
-
-					lnks.each do |lnk|
-						# Remove "post_url" and ending space. Use the target URL as the key so we can reverse.
-						target = "_posts/" + lnk[9..-2] + ".md"
-						if backlinks.has_key?(target)
-							backlinks[target].push(filename)
-							backlinks[target].uniq! # Remove duplicates
-						else
-							backlinks[target] = Array[filename]
-						end
-					end
 				end
 			end
 

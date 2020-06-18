@@ -3,7 +3,7 @@
 module Jekyll
     module Tags
         class PostComparer
-            #MATCHER = %r!^(.+/)*(\d+-\d+-\d+)-(.*)$!.freeze
+            MATCHER = %r!^(.+/)*(\d+-\d+-\d+)-(.*)$!.freeze
             MATCHER = %r!^(.+/)*(.*)$!.freeze
 
             attr_reader :path, :date, :slug, :name
@@ -11,14 +11,11 @@ module Jekyll
             def initialize(name)
                 @name = name
 
-                #Jekyll.logger.info "Name is ", "#{@name}"
-
-                #all, @path, @date, @slug = *name.sub(%r!^/!, "").match(MATCHER)
-                all, @path, @slug = *name.sub(%r!^/!, "").match(MATCHER)
+                all, @path, @date, @slug = *name.sub(%r!^/!, "").match(MATCHER)
 
                 Jekyll.logger.info "all is ", "#{all}"
                 Jekyll.logger.info "path is ", "#{@path}"
-                #Jekyll.logger.info "date is ", "#{@date}"
+                Jekyll.logger.info "date is ", "#{@date}"
                 Jekyll.logger.info "slug is ", "#{@slug}"
                 unless all
                   raise Jekyll::Errors::InvalidPostNameError,
@@ -151,9 +148,7 @@ module Jekyll
                              target_doc = nil
                     		allpages.each do |page|
                                 @post = @orig_post
-                                #@post = PostComparer.new(@orig_post)
-                                # TODO(yangvincent): Replace spaces with dashes
-                                l_dist = levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase, @post)
+                                l_dist = levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase.gsub(" ", "-"), @post.gsub(" ", "-"))
                     			if l_dist < min_dist
                     				min_dist = l_dist
                                     target_doc = page
@@ -163,11 +158,11 @@ module Jekyll
                                 return relative_url(allpagehash[target_doc])
                             else
                                 raise Jekyll::Errors::PostURLError, <<~MSG
-                                  Could not find post "#{@orig_post}" in tag 'purl'.
+                                  Could not find post "#{@orig_post}" in tag 'bidi'.
                                   Make sure the post exists and the name is correct.
                                 MSG
                                 Jekyll::Deprecator.deprecation_message "A call to "\
-                                  "'{% purl #{@post.name} %}' did not match " \
+                                  "'{% bidi #{@post.name} %}' did not match " \
                                   "a post using the new matching method of checking name " \
                                   "(path-date-slug) equality. Please make sure that you " \
                                   "change this tag to match the post's name exactly."
@@ -179,4 +174,4 @@ module Jekyll
     end
 end
 
-Liquid::Template.register_tag("purl", Jekyll::Tags::PostUrl)
+Liquid::Template.register_tag("bidi", Jekyll::Tags::PostUrl)

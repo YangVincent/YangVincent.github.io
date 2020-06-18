@@ -71,9 +71,7 @@ module JekyllFeed
 					######################
 					# Detect all links
 					######################
-					lnks = m.content.scan(/post_url.* /)
-
-					blnks = m.content.scan(/purl .* /)
+					blnks = m.content.scan(/bidi .* /)
 					# String match to find the most similar one
 					blnks.each do |blnk|
 						min_dist = 1000

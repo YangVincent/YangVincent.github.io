@@ -36,15 +36,13 @@ const hitTemplate = function(hit) {
 
   let breadcrumbs = '';
   if (hit._highlightResult.headings) {
-	  console.log("results are");
-	  console.log(hit._highlightResult.headings);
     breadcrumbs = hit._highlightResult.headings.map(match => {
       return `<span class="post-breadcrumb">${match.value}</span>`
     }).join(' > ')
   }
 
   let content = '';
-  if (hit._highlightResult.html.value) {
+  if (hit !== undefined && hit._highlightResult !== undefined && hit._highlightResult.html !== undefined && hit._highlightResult.html.value !== undefined) {
     content = hit._highlightResult.html.value;
   }
 

@@ -19,3 +19,7 @@ https://gist.github.com/ichadhr/0b4e35174c7e90c0b31b
 * Write a plugin for bidirectional links: https://jekyllrb.com/docs/plugins/
 
 * https://github.com/yegor256/jekyll-github-deploy
+
+# JGD
+* Pull code from code and push built files to master
+jgd -b master -r code

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     {% include head.html %}
 
     <body>
@@ -26,7 +25,7 @@
             </section>
         </div>
         {% for backlink in page.backlink %}
-        <a href={{site.url}}{% link {{backlink }} %}>Link</a>
+          <a href={{site.url}}{% link {{backlink }} %}>Link</a>
         {% endfor %}
         <!--{{ page.counter }}-->
         {% include footer.html %}

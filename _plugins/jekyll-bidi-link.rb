@@ -1,15 +1,53 @@
 module JekyllFeed
 	class Generator < Jekyll::Generator
+        def levenshtein_distance(s, t)
+			return 1000 if s == nil || t == nil
+  			m = s.length
+  			n = t.length
+  			return m if n == 0
+  			return n if m == 0
+  			d = Array.new(m+1) {Array.new(n+1)}
+
+  			(0..m).each {|i| d[i][0] = i}
+  			(0..n).each {|j| d[0][j] = j}
+  			(1..n).each do |j|
+  			  (1..m).each do |i|
+  			    d[i][j] = if s[i-1] == t[j-1]  # adjust index into string
+  			                d[i-1][j-1]       # no operation required
+  			              else
+  			                [ d[i-1][j]+1,    # deletion
+  			                  d[i][j-1]+1,    # insertion
+  			                  d[i-1][j-1]+1,  # substitution
+  			                ].min
+  			              end
+  			  end
+  			end
+  			d[m][n]
+		end
+
+
 		def generate(site)
 			backlinks = Hash.new
-			counter = 1
 			@site = site
+
+			###
+			# Get all posts
+			###
+			allpages = []
+			site.collections.each do |cname, meta|
+				meta.docs.each do |m|
+					filename = "_" + cname + "/" + m.data["date"].utc.strftime('%Y-%m-%d') + "-" + m.data["slug"] + m.data["ext"]
+					allpages.push(filename)
+				end
+			end
+
+
 			site.collections.each do |cname, meta|
 				if cname == "drafts"
 					next
 				end
-				Jekyll.logger.info "Jekyll Feed:", "Generating feed for #{cname}"
-				Jekyll.logger.info "Jekyll Meta:", "Generating meta for #{meta}"
+				#Jekyll.logger.info "Jekyll Feed:", "Generating feed for #{cname}"
+				#Jekyll.logger.info "Jekyll Meta:", "Generating meta for #{meta}"
 
 				meta.docs.each do |m|
 					if m == nil
@@ -35,8 +73,35 @@ module JekyllFeed
 					######################
 					lnks = m.content.scan(/post_url.* /)
 
+					blnks = m.content.scan(/\[\[.*\]\]/)
+					#Jekyll.logger.info "Blnks", "#{blnks}"
+					# String match to find the most similar one
+					blnks.each do |blnk|
+						min_dist = 1000
+						target = ""
+						allpages.each do |page|
+							puts blnk[2..-3]
+							puts page[/\-[a-z]*.*\./][7..-2]
+							puts levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase, blnk[2..-3].downcase)
+							puts "---"
+							l_dist = levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase, blnk[2..-3].downcase)
+							if l_dist < min_dist
+								target = page
+								min_dist = l_dist
+							end
+						end
+
+						if backlinks.has_key?(target)
+							backlinks[target].push(filename)
+							backlinks[target].uniq! # Remove duplicates
+						else
+							backlinks[target] = Array[filename]
+						end
+					end
+					puts backlinks
+
+
 					# Create links we can link to
-					cleanlnks = []
 
 					lnks.each do |lnk|
 						# Remove "post_url" and ending space. Use the target URL as the key so we can reverse.

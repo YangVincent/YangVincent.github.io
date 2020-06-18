@@ -22,4 +22,5 @@ https://gist.github.com/ichadhr/0b4e35174c7e90c0b31b
 
 # JGD
 * Pull code from code and push built files to master
+* Always make sure to run this after you push!
 jgd -b master -r code

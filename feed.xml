@@ -7,6 +7,45 @@
     <atom:link href="https://www.yangvincent.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Github hates Jekyll</title>
+        <description>&lt;p&gt;Recently I’ve spent a lot of time thinking about how I want to manage my data and my notes. I’ve previously 
+used Roam Research and Notion, but I’m scared that those might someday force me to pay or worse, lose my data.
+I’ve decided to instead create a clone of the features I enjoy here so I can just put all my notes online and
+access them whenever. The downside is that I can’t modify them on mobile, but I’m okay with that loss.&lt;/p&gt;
+
+&lt;p&gt;New features:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Search with Algolia&lt;/li&gt;
+  &lt;li&gt;Travis CI&lt;/li&gt;
+  &lt;li&gt;Estimated reading time&lt;/li&gt;
+  &lt;li&gt;Bidirectional Linking&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;algolia&quot;&gt;Algolia&lt;/h3&gt;
+&lt;p&gt;Integrating with Algolia was absurdly simple. You add a few snippets of code and send your pages over to them so they can build a search index. They even help you set up Travis CI so this index gets rebuilt whenever you push new changes.&lt;/p&gt;
+
+&lt;h3 id=&quot;travis-ci&quot;&gt;Travis CI&lt;/h3&gt;
+&lt;p&gt;I got this for free with Algolia, but it’s a little bit sad doing dependency management here. Specifically, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle&lt;/code&gt; doesn’t play well with newer versions of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;json&lt;/code&gt; so in its infinite wisdom, Travis CI (but really the problem is Ruby) decides to die.&lt;/p&gt;
+
+&lt;h3 id=&quot;bidirectional-linking&quot;&gt;Bidirectional linking&lt;/h3&gt;
+&lt;p&gt;I created this by looking over and over at how Generators work in Jekyll. It was a ton of googling how to do very basic things in Ruby and slowly hacking it together. Some learnings:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Generators work by taking in some information and outputting other information that can be read by each page to become content.&lt;/li&gt;
+  &lt;li&gt;We have to first look through all posts to find where all the links are pointing to, then reverse this so we can see where all the links are pointing from.&lt;/li&gt;
+  &lt;li&gt;I should probably change my plugin to an actual Gem, but I’m lazy.&lt;/li&gt;
+  &lt;li&gt;Github doesn’t allow us to install plugins because they mandate safe mode!!&lt;/li&gt;
+  &lt;li&gt;I found a reasonable tool to use Github to host, but disable their Jekyll (jgd – jekyll github deploy). It works by taking a source branch, building it, and dumping it on a resulting branch to build.&lt;/li&gt;
+  &lt;li&gt;Github forces you to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; to build on a name branch.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Github hates Jekyll. You heard it here first.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Jun 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/github-hates-jekyll/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/github-hates-jekyll/</guid>
+      </item>
+    
+      <item>
         <title>Test 2</title>
         <description>&lt;p&gt;Roam Research recently moved to a paid model. Not that I don’t support their product, it’s quite good, but it’s pushing
 me to realize that I can’t rely on other products to always behave the same or have my best interests at heart. They did,
@@ -696,83 +735,6 @@ to hoping they go well.&lt;/p&gt;
         <pubDate>Sat, 01 Sep 2018 07:00:00 +0000</pubDate>
         <link>https://www.yangvincent.com//posts/summer-2018/</link>
         <guid isPermaLink="true">https://www.yangvincent.com//posts/summer-2018/</guid>
-      </item>
-    
-      <item>
-        <title>Startup Culture</title>
-        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;There’s great internships, then there’s &lt;strong&gt;great internships&lt;/strong&gt;. My first week at Course Hero was nothing short of phenomenal.
-Every detail had been meticulously thought through; my experience with onboarding and connecting with my team was 
-facilitated and streamlined. Prior to my first day, upon receiving my offer, multiple people at Course Hero who I had never
-even interacted with before reached out to me congratulating me on my new opportunity. At the time, I was somewhat
-conflicted between Course Hero and several other companies. However, I can now say
-with confidence that I made the right choice.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-offer-experience&quot;&gt;The Offer Experience&lt;/h2&gt;
-
-&lt;p&gt;With my offer also came several useful documents - a tech stack spreadsheet, intern benefits infographic, 
-company culture and values presentation. Several months later, on the first day of finals week, my recruiter (shoutout to Mabel So), as well as
-my team, sent me a Course Hero jacket along with a note wishing me the best on my finals. With my imminent first day,
-the HR team sent me an onboarding link with the formal documents to sign and submit. However, even this
-experience was ameliorated by the materials surrounding it. The onboarding site led me through
-Course Hero’s history, its vision, how my team falls in place, my team members, and how I fall along with Course
-Hero’s progress.&lt;/p&gt;
-
-&lt;p&gt;Just a couple days before I started, HR sent me first day instructions, the employee handbook, and directions
-to the Caltrain and the Pacific Shores Shuttle. Upon arrival, I was given a tour by several different people around
-the beautiful campus to the infinite snacks, the river flowing alongside, and the game rooms nearby. Before long,
-I was settled into my desk and introduced to my workplace proximity associates.&lt;/p&gt;
-
-&lt;figure class=&quot;align-center&quot;&gt;
-  &lt;img src=&quot;/assets/images/coursehero-snacks.jpg&quot; alt=&quot;Course Hero Snacks&quot; /&gt;
-  &lt;figcaption&gt;Course Hero Snacks&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure class=&quot;align-center&quot;&gt;
-  &lt;img src=&quot;/assets/images/coursehero-desk.jpg&quot; alt=&quot;Day 1 Desk&quot; /&gt;
-  &lt;figcaption&gt;Day 1 Desk&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;my-phenomenal-first-week&quot;&gt;My Phenomenal First Week&lt;/h2&gt;
-
-&lt;p&gt;My first few days consisted of one on one meetings with each team member allowing me to get to know them on a personal
-level. People were endlessly welcoming and helpful as I settled into my new home. I distinctly remember my manager
-explaining his role - “to support and help the team succeed”. With organized and efficient
-documentation, my development environment was set up by the end of day one. With the subsequent days, I was onboarded
-by two team members who taught me about the tools across the entire stack and helped me with my many questions. Finally,
-my mentor (Shannon Nachreiner!) assigned me a task and I started working on it. I hope to push it out for QA tomorrow.&lt;/p&gt;
-
-&lt;p&gt;Besides the fantastic interviewing and introduction experience from HR, here are some significant observations about
-my team and Course Hero’s collaboration structure.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Onboarding included teaching me how each part of the tech stack worked. Although I was familiar with many
-  web development concepts, the syntax and PHP specifics were foreign to me. Repositories, DQL, and Entity Managers
-  would have been far more difficult to learn without the mentorship.&lt;/li&gt;
-  &lt;li&gt;I was offered help and support with any/all of my questions and even with help on my first feature. Many
-  of my experiences have involved struggling for hours on my own to find a trivial but tool-specific bug.&lt;/li&gt;
-  &lt;li&gt;Most importantly, I was introduced and given time to bond with each member of my team.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;align-center&quot;&gt;
-  &lt;img src=&quot;/assets/images/coursehero-view.jpg&quot; alt=&quot;Course Hero View&quot; /&gt;
-  &lt;figcaption&gt;Course Hero View&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
-
-&lt;p&gt;There are three significant events that have already happened. First, the CEO and CFO spoke to the company at a
-biweekly meeting where ALL of the employees gather. This meeting celebrated the company’s wins and recognized
-remarkable attitudes and work. Second, we went on a sponsored company trip to Great America. Finally, today, 
-we had a meeting “Stories of Course Hero” in which people shared meaningful experiences from their lives. To be honest,
-the fact that the environment was friendly and supportive enough for these people to open up as they did was
-truly remarkable to me.&lt;/p&gt;
-
-&lt;p&gt;All in all, I’m extremely excited to be contributing to Course Hero for the rest of the Summer!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 26 Jun 2017 07:00:00 +0000</pubDate>
-        <link>https://www.yangvincent.com//posts/coursehero/</link>
-        <guid isPermaLink="true">https://www.yangvincent.com//posts/coursehero/</guid>
       </item>
     
   </channel>

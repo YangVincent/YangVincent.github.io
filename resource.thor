@@ -1,11 +1,11 @@
 require "stringex"
-class Jekyll < Thor
+class Resource < Thor
   desc "new", "create a new post"
   method_option :editor, :default => "vim"
   def new(*title)
     title = title.join(" ")
     date = Time.now.strftime('%Y-%m-%d')
-    filename = "collections/_posts/#{date}-#{title.to_url}.md"
+    filename = "collections/_resources/#{date}-#{title.to_url}.md"
 
     if File.exist?(filename)
       abort("#{filename} already exists!")

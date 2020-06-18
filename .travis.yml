@@ -3,8 +3,10 @@ language: ruby
 cache: bundler
 before_install:
   - gem install bundler
+  - gem install jgd
 script:
   - bundle exec jekyll algolia
+  - jgd -b master -r code
 branches:
   except:
     - master
@@ -13,5 +15,3 @@ branches:
     - code
 rvm:
   - 2.4
-after_success:
-  - gem install jgd && jgd -b master -r code

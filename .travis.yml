@@ -2,11 +2,9 @@
 language: ruby
 cache: bundler
 before_install:
-  - gem install bundler -v '< 2.0'
-  - gem install jgd
+  - gem install bundler
 script:
   - bundle exec jekyll algolia
-  - jgd -b master -r code
 branches:
   except:
     - master

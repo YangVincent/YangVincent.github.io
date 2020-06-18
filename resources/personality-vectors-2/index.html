@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Personality Vectors, Rigidly Defined &#8211; Vincent Yang</title>
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+
+    <!-- Taken from v2 -->
+    
+    <link rel="canonical" href="https://www.yangvincent.com/resources/personality-vectors-2/">
+    <!-- Handheld -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='/resources/personality-vectors-2//feed.xml' rel='alternate' type='application/atom+xml'>
+
+    <!-- Load jQuery -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+          }
+        });
+    </script>
+	<script type="text/javascript" async
+  		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+</head>
+
+
+    <body>
+        <!-- Wrapper -->
+<div id="wrapper">
+
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+<!-- Header -->
+<header id="header">
+	<a href="https://www.yangvincent.com/" class="logo">Vincent Yang</a>
+	<!--<nav>
+		<a href="#menu">Menu</a>
+    </nav>-->
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com//">Home</a></li>
+	    	
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/about/">About</a></li>
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/algolia/">Algolia</a></li>
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/notes/">Notes</a></li>
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/resources/">Resources & Articles</a></li>
+		    
+		
+		    
+		        <li><a href="https://www.yangvincent.com/stories/">Stories</a></li>
+		    
+		
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>
+ 
+        
+        <!-- Main -->
+        <div id="main" class="alt">
+            <!-- One -->
+            <section id="one">
+            	<div class="inner">
+            		<header class="major">
+            			<h1>Personality Vectors, Rigidly Defined</h1>
+                        
+                          <p>
+                            June 4, 2020
+                            <br>
+                            Reading Time: about 8  minutes
+                          </p>
+                        
+            		</header>
+                    <h2 id="overview">Overview</h2>
+<p>This establishes a more solid core for <a href="https://www.yangvincent.com/resources/personality-vectors/">personality vectors</a>. If you enjoy learning from the low-level components first, read this first and vice versa.</p>
+
+<h2 id="core-definitions">Core Definitions</h2>
+<p>Let us establish:</p>
+<ul>
+  <li>Things (<code class="language-plaintext highlighter-rouge">$T$</code>): An ordered, infinitely large set of everything you could possibly have an opinion on.</li>
+  <li>Preference Vectors (<code class="language-plaintext highlighter-rouge">$P$</code>): A person’s preference for each thing they could possibly have an opinion on. This order matches that of <code class="language-plaintext highlighter-rouge">$T$</code>. Ex: Honesty. Higher values are better.
+Two people are more similar if their (<code class="language-plaintext highlighter-rouge">$P$s</code>) are more similar.</li>
+  <li>Attributes (<code class="language-plaintext highlighter-rouge">$A$</code>): A person’s attributes in relation to each thing. Ex: Whether or not I am honest. Higher values are more significant. These can be combined with <code class="language-plaintext highlighter-rouge">$P$</code> to determine how much you want to interact with someone.</li>
+</ul>
+
+<p>Preference vectors are actually simply a subset of attributes, but we refer to them separately for simplicity in explanation. 
+For now, the difference is that preference vectors indicate someone’s opinions towards things and
+not their ability to fulfill those things. For instance, I like dogs (preference) but am not a dog (attribute). However, the fact that I like dogs 
+can also be a separate attribute (since <code class="language-plaintext highlighter-rouge">$P \subset A$</code>).</p>
+
+<p>For firm mathematical footing, let’s rigidly define each. We’re working with these vectors in an <code class="language-plaintext highlighter-rouge">$l_2$</code> space.</p>
+
+\[T: \{t_1, t_2, t_3, ...\}, |T| = \infty\]
+
+\[P: \{p_1, p_2, p_3, ...\}: p_i\ |\ i \in \mathbb{N}, -1 \leq p_i \leq 1\]
+
+\[A = \{a_1, a_2, a_3, ...\}, |A| = |I|, -= \leq a_i \leq 1\]
+
+<p>Notice that a single preference <code class="language-plaintext highlighter-rouge">$p_i$</code> is scaled down to <code class="language-plaintext highlighter-rouge">$[-1, 1]$</code>. This means <code class="language-plaintext highlighter-rouge">$1$</code> is the most you could possibly care for any single thing, and everything must exist
+in proportion to this. If I have gone through a traumatic experience with a friend with whom I have no other common values, that means I must value “having had that experience”
+more than the sum of “all my common values”. The same holds true for attributes.</p>
+
+<h3 id="similarity">Similarity</h3>
+
+<p>The similarity between two people is the cross product of their PVs. The cross product combines both the significance (length) as well as the similarity (angle).</p>
+
+\[Similarity = \langle P_1, P_2 \rangle\]
+
+<h3 id="bandwidth">Bandwidth</h3>
+
+<p>Since we have a finite amount of time and processing power, we’re capped in terms of how many things we can have meaningful opinions on. This works like
+a budget: you have some amount of “effort” you can dedicate towards learning about and participating in things. This “effort” gets distributed 
+across your own attributes as well as your preferences. Effectively, this means it is impossible to care about/be known for everything maximally, although
+some people may have a more diverse spread than others. Someone who cares a lot about everything might also have a higher “bandwidth” than someone with no opinions.</p>
+
+<h3 id="opacity">Opacity</h3>
+
+<p>Unfortunately, it’s impossible to know the true value of our preference vectors and attributes, so there’s an extra degree of uncertainty here. As we interact with people,
+our impressions of them grow more clear, so our perceived attributes and guesses of others’ PVs hopefully grow more accurate.</p>
+
+<h3 id="example">Example</h3>
+
+<p>Suppose our world actually only has 3 things we could possibly have an opinion on: being a dog, being related to Japan, and being honest.</p>
+
+\[T = \{dog, japan, honesty\}\]
+
+<p>Let’s first figure out my PV – how much I care about each.</p>
+
+<ul>
+  <li>I like dogs, so <code class="language-plaintext highlighter-rouge">$0.6$</code></li>
+  <li>Japan is an amazing destination with rich culture, so <code class="language-plaintext highlighter-rouge">$0.9$</code></li>
+  <li>Honesty is almost always important, so <code class="language-plaintext highlighter-rouge">0.8</code></li>
+</ul>
+
+<p>Ordering this up with <code class="language-plaintext highlighter-rouge">$T$</code>, we get</p>
+
+\[P_v = (0.6, 0.9, 0.8)\]
+
+<p>Now, I <code class="language-plaintext highlighter-rouge">$v$</code> can also observe how well I adhere to each of these. Note that this is not the same as my preference for them. Rather, it is
+how well I am attributed to each.</p>
+
+<ul>
+  <li>I am not a dog, so <code class="language-plaintext highlighter-rouge">$0$</code></li>
+  <li>I have only been to Japan once but don’t know much about their culture, so <code class="language-plaintext highlighter-rouge">$0.2$</code></li>
+  <li>I am mostly honest, but not always, so <code class="language-plaintext highlighter-rouge">$0.6$</code></li>
+</ul>
+
+\[A_{v}: \{0, 0.2, 0.6\}\]
+
+<p>I can also observe others’ attributes; Suppose Eve <code class="language-plaintext highlighter-rouge">$e$</code> is my friend who</p>
+<ul>
+  <li>is not a dog <code class="language-plaintext highlighter-rouge">$0$</code></li>
+  <li>has never heard of Japan <code class="language-plaintext highlighter-rouge">$-0.2$</code></li>
+  <li>is very honest <code class="language-plaintext highlighter-rouge">$0.8$</code>.</li>
+</ul>
+
+<p>And Bob <code class="language-plaintext highlighter-rouge">$b$</code> is</p>
+<ul>
+  <li>a dog <code class="language-plaintext highlighter-rouge">$1$</code></li>
+  <li>that lives in Japan <code class="language-plaintext highlighter-rouge">$0.8$</code></li>
+  <li>but plays tricks and isn’t very honest <code class="language-plaintext highlighter-rouge">$-0.7$</code>.</li>
+</ul>
+
+\[A_{e} = \{0, -0.2, 0.8\}\]
+
+\[A_{b} = \{1, 0.8, -0.7\}\]
+
+<p>I can combine each person’s values to respective points on my <code class="language-plaintext highlighter-rouge">$P$</code>, which represents my world view. 
+You tend to want to interact with people higher than you on this range and avoid those lower than you on this range.
+The formula <code class="language-plaintext highlighter-rouge">$f$</code> for doing so is:</p>
+
+\[f(P, A) = \sum_{i-0}^{i=\infty}A_{i} \cdot P_{i}\]
+
+\[f(P_v, A_{e}) = (0 \cdot 0.6) + (-0.2 \cdot 0.9) + (0.8 \cdot 0.8) = 0.46\]
+
+\[f(P_v, A_{b}) = (1 \cdot 0.6) + (0.8 \cdot 0.9) + (-0.7 \cdot 0.8) = 0.76\]
+
+<p>I can also grade myself based on my own attributes <code class="language-plaintext highlighter-rouge">$A_v$</code>.</p>
+
+\[f(P_v, A_{v}) = (0 \cdot 0.6) + (0.2 \cdot 0.9) + (0.6 \cdot 0.8) = 0.66\]
+
+<div id="myDiv"></div>
+
+<p><img src="https://www.yangvincent.com/assets/images/preference-vectors/group-pv.png" alt="group-pv" style="background-color:#fff; padding: 5px 5px 5px 5px;" /></p>
+
+<script>
+var eve = {
+  x: [0.46],
+  y: [0],
+  type: 'scatter',
+  hoverinfo: 'x'
+};
+var bob = {
+  x: [0.76],
+  y: [0],
+  type: 'scatter',
+  hoverinfo: 'x'
+};
+var me = {
+  x: [0.66],
+  y: [0],
+  type: 'scatter',
+  hoverinfo: 'x'
+};
+
+
+var layout = {
+  hovermode: 'closest',
+  showlegend: false,
+  xaxis: {
+	range: [-1,1],
+    autorange: false,
+    showgrid: false,
+    zeroline: false,
+    showline: false,
+    autotick: true,
+    ticks: 'outside',
+    showticklabels: true
+  },
+  yaxis: {
+    autorange: false,
+    showgrid: false,
+    zeroline: false,
+    showline: false,
+    autotick: false,
+	zerolinewidth:3,
+    showticklabels: false
+  },
+  annotations: [
+	{
+		xref: 'x',
+    	yref: 'y',
+    	x: 0.46,
+    	y: 0.1,
+    	xanchor: 'center',
+    	text: 'Eve',
+		yanchor: 'bottom',
+  	},
+	{
+		xref: 'x',
+    	yref: 'y',
+    	x: 0.76,
+    	y: 0.1,
+    	xanchor: 'center',
+    	text: 'Bob',
+		yanchor: 'bottom',
+  	},
+	{
+		xref: 'x',
+    	yref: 'y',
+    	x: 0.66,
+    	y: 0.1,
+    	xanchor: 'center',
+    	text: 'Me',
+		yanchor: 'bottom',
+  	}
+  ]
+};
+
+var data = [eve, bob, me];
+Plotly.newPlot('myDiv', data, layout);
+</script>
+
+<p>Here, it seems I look up to Bob and will try to spend more time with Bob than Eve.</p>
+
+<hr />
+
+<h2 id="other-peoples-pvs">Other people’s PVs</h2>
+
+<p>My preference vector is a reasonable summary of who I am as a person. At the same time, everyone else also has their own preference vectors.</p>
+
+<p>Let’s now describe <code class="language-plaintext highlighter-rouge">eve</code> and <code class="language-plaintext highlighter-rouge">bob</code>’s preferences.
+Eve loves dogs, but has no interest in Japan. She also thinks being honest is pretty important. 
+On the other hand, Bob is a monster who hates dogs (despite being one), hates Japan (despite living there), and is extremely dishonest.</p>
+
+\[P_e=\{1, -0.3, 0.7\}\]
+
+\[P_b=\{-0.9, -0.4, -0.7\}\]
+
+\[P_v = (0.6, 0.9, 0.8)\]
+
+<p>We tend to want to spend more time with people who have similar preferences. The smaller the inner product between our vectors,
+the more similar our preferences are. Our preferences are closely tied with our attributes.
+Over time, people who spend together have preference vectors whose inner products shrink – the vectors become more similar.</p>
+
+<p>In the chart below, we can see that <code class="language-plaintext highlighter-rouge">eve</code> (orange) and My (white) PVs are more similar than either of ours is to <code class="language-plaintext highlighter-rouge">bob</code>’s. This
+means we’re more likely to want to spend time and get to know each other than either of us does to Bob.</p>
+
+<div id="otherPeople"></div>
+<script>
+Plotly.d3.csv('https://www.yangvincent.com/assets/pv1.csv', function(err, rows){
+    function unpack(rows, key) {
+        return rows.map(function(row) 
+        { return row[key]; }); 
+    }
+          
+	var x = unpack(rows , 'x');
+	var y = unpack(rows , 'y');
+	var z = unpack(rows , 'z'); 
+	var c = unpack(rows , 'color');
+	Plotly.newPlot('otherPeople', [{
+	  type: 'scatter3d',
+	  mode: 'lines',
+	  x: x,
+	  y: y,
+	  z: z,
+	  opacity: 1,
+	  line: {
+	    width: 6,
+	    color: c,
+	    reversescale: false
+	  }
+	}], {
+			autosize: true,
+			margin: {
+				l: 5,
+				r: 5,
+				b: 5,
+				t: 5,
+			}
+	});
+});
+</script>
+
+<h4 id="weighted-similarity">Weighted Similarity</h4>
+
+<p>It’s important to note that this is a weighted / scaled similarity. Suppose I have 2 friends: X who I have very little in common with but 
+helped me through all my worst times (war, parents dying, dropping out of school, etc.) and Y who shares all my views and morals, but
+I haven’t had similarly significant experiences with. I might still prefer spending time with X, which means my preference for
+“having been through significant times” weighs much heavier than “having similar morals”.</p>
+
+<hr />
+
+<h3 id="more-details">More details</h3>
+
+<ul>
+  <li>We constrain to an <code class="language-plaintext highlighter-rouge">$l_2$ space</code> to allow for infinite-sized preference vectors while keeping the cross product finite. This is important
+because differences between people must be comparable. Being “infinitely close” to my best friend as well as to my significant other isn’t a meaningful comparison.</li>
+  <li>Cross product is a combination of length (bandwidth) and angle (similarity). People who have different preferences are obviously different,
+but so are people with varied bandwidth.</li>
+</ul>
+
+<p>For a more complete list of implications and how this relates to understanding people’s behaviors, read <a href="https://www.yangvincent.com/resources/personality-vectors/">personality vectors</a>!</p>
+
+            	</div>
+            </section>
+        </div>
+        
+        <!---->
+        <!-- Contact -->
+<!--<section id="contact">
+  <div class="inner">
+    <section>
+			<form action="https://formspree.io/vincenty376+incoming@gmail.com" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+    </section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="#">vincenty376+incoming@gmail.com</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<span></span>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					
+					
+					
+					
+					
+					    United States of America
+					
+					</span>
+				</div>
+			</section>
+    </section>
+    </div>
+</section>-->
+
+	<!-- JS -->
+
+<!-- Asynchronous Google Analytics snippet -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-81484519-1', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://github.com/yangvincent" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				
+				
+				
+				<li><a href="https://www.linkedin.com/in/vinyang/" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				
+				
+				<li><a href="https://www.yangvincent.com/resume.pdf" class="icon alt fa-file" target="_blank"><span class="label">Resume</span></a></li>
+				
+			</ul>
+		</div>
+	</footer>
+  </div>
+
+<!-- Scripts -->
+	<script src="https://www.yangvincent.com/assets/js/jquery.min.js"></script>
+	<script src="https://www.yangvincent.com/assets/js/jquery.scrolly.min.js"></script>
+	<script src="https://www.yangvincent.com/assets/js/jquery.scrollex.min.js"></script>
+	<script src="https://www.yangvincent.com/assets/js/skel.min.js"></script>
+	<script src="https://www.yangvincent.com/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="https://www.yangvincent.com/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="https://www.yangvincent.com/assets/js/main.js"></script>
+
+    </body>
+</html>

@@ -23,10 +23,17 @@
                     {{ content }}
             	</div>
             </section>
+            {% if page.backlink %}
+                <section>
+                    <div class="inner">
+                        <h3>This page is linked from:</h3>
+                        {% for backlink in page.backlink %}
+                        <a href={{site.url}}{% link {{backlink }} %}>{{backlink}}</a>
+                        {% endfor %}
+                    </div>
+                </section>
+            {% endif %}
         </div>
-        {% for backlink in page.backlink %}
-          <a href={{site.url}}{% link {{backlink }} %}>Link</a>
-        {% endfor %}
         <!--{{ page.counter }}-->
         {% include footer.html %}
     </body>

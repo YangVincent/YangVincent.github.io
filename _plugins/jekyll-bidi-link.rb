@@ -11,7 +11,6 @@ module JekyllFeed
 				Jekyll.logger.info "Jekyll Feed:", "Generating feed for #{cname}"
 				Jekyll.logger.info "Jekyll Meta:", "Generating meta for #{meta}"
 
-
 				meta.docs.each do |m|
 					if m == nil
 						next

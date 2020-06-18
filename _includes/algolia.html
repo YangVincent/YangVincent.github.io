@@ -29,16 +29,24 @@ const hitTemplate = function(hit) {
 
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
 
-  let title = hit._highlightResult.title.value;
+  let title = ''
+  if (hit._highlightResult.title.value) {
+    title = hit._highlightResult.title.value;
+  }
 
   let breadcrumbs = '';
   if (hit._highlightResult.headings) {
+	  console.log("results are");
+	  console.log(hit._highlightResult.headings);
     breadcrumbs = hit._highlightResult.headings.map(match => {
       return `<span class="post-breadcrumb">${match.value}</span>`
     }).join(' > ')
   }
 
-	const content = hit._highlightResult.html.value;
+  let content = '';
+  if (hit._highlightResult.html.value) {
+    content = hit._highlightResult.html.value;
+  }
 
   return `
     <div class="post-item">
@@ -50,7 +58,6 @@ const hitTemplate = function(hit) {
   `;
 }
 
-// {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',

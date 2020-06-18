@@ -1,97 +1,99 @@
-# Outputs the reading time
+module JekyllFeed
+	class Generator < Jekyll::Generator
+		def generate(site)
+			backlinks = Hash.new
+			counter = 1
+			@site = site
+			site.collections.each do |cname, meta|
+				if cname == "drafts"
+					next
+				end
+				Jekyll.logger.info "Jekyll Feed:", "Generating feed for #{cname}"
+				Jekyll.logger.info "Jekyll Meta:", "Generating meta for #{meta}"
 
-# Read this in “about 4 minutes”
-# Put into your _plugins dir in your Jekyll site
-# Usage: Read this in about {{ page.content | reading_time }}
-#
-# This works
-#
-#module Jekyll
-#	class BidirectionalLinks < Liquid::Tag
-#		def initialize(tagName, text, tokens)
-#			super
-#			@text = text
-#			@tokens = tokens
-#		end
-#
-#		def render(context)
-#			current_post_url = context.registers[:page]["path"]
-#		end
-#	end
-#end
-#Liquid::Template.register_tag('bidili', Jekyll::BidirectionalLinks)
-#
-# Other useful functions:
-# context.registers[:site].collections is a KV map of all collections to their contents.
 
-module Jekyll
-	class BidirectionalLinks < Liquid::Tag
-		def initialize(tagName, text, tokens)
-			super
-			@text = text
-			@tokens = tokens
+				meta.docs.each do |m|
+					if m == nil
+						next
+					end
+
+					#if m.data["title"] != "Test 1" && m.data["title"] != "Test 2"
+					#	next
+					#end
+
+					###############################
+					# Get Filename to store links
+					###############################
+					if m.data["date"] != nil
+						filename = "_" + cname + "/" + m.data["date"].utc.strftime('%Y-%m-%d') + "-" + m.data["slug"] + m.data["ext"]
+					else
+						filename = "_" + cname + "/" + m.data["slug"] + m.data["ext"]
+					end
+
+					
+					######################
+					# Detect all links
+					######################
+					lnks = m.content.scan(/post_url.* /)
+
+					# Create links we can link to
+					cleanlnks = []
+
+					lnks.each do |lnk|
+						# Remove "post_url" and ending space. Use the target URL as the key so we can reverse.
+						target = "_posts/" + lnk[9..-2] + ".md"
+						if backlinks.has_key?(target)
+							backlinks[target].push(filename)
+							backlinks[target].uniq! # Remove duplicates
+						else
+							backlinks[target] = Array[filename]
+						end
+					end
+				end
+			end
+
+			###########################
+			# Writing out to the page
+			###########################
+			Jekyll.logger.info "All pages: #{site.pages}"
+			site.collections.each do |cname, meta|
+				if cname == "drafts"
+					next
+				end
+				# Output our findings!
+				meta.docs.each do |m| 
+					if m == nil 
+						next
+					end
+					if m.data["date"] != nil
+						filename = "_" + cname + "/" + m.data["date"].utc.strftime('%Y-%m-%d') + "-" + m.data["slug"] + m.data["ext"]
+						Jekyll.logger.info "Filename is ", "#{filename}"
+						m.data["backlink"] = backlinks[filename]
+						Jekyll.logger.info "Backlink is ", "#{backlinks[filename]}"
+					else
+						filename = "_" + cname + "/" + m.data["slug"] + m.data["ext"]
+						m.data["backlink"] = backlinks[filename]
+						Jekyll.logger.info "Hello World", "#{m.data}"
+					end
+				end
+			end
 		end
 
-		def render(context)
-			#for page in context.registers[:site].posts.docs do
-			#	puts page.url
-			#end
-			#puts context.registers[:site].collections.keys[2]
-			#
-			cls = context.registers[:site].collections
-			cls
-			#cls["posts"].docs.each{ |key| puts "k: #{key.url}" }
+		# Determines the destination path of a given feed
+    	#
+    	# collection - the name of a collection, e.g., "posts"
+    	# category - a category within that collection, e.g., "news"
+    	#
+    	# Will return "/feed.xml", or the config-specified default feed for posts
+    	# Will return `/feed/category.xml` for post categories
+    	# WIll return `/feed/collection.xml` for other collections
+    	# Will return `/feed/collection/category.xml` for other collection categories
+    	def feed_path(collection: "posts", category: nil)
+    		prefix = collection == "posts" ? "/feed" : "/feed/#{collection}"
+    		return "#{prefix}/#{category}.xml" if category
 
-			#for c in cls.each_key do
-			#	puts c
-			#end
-			
-			#for collection in context.registers[:site].collections.each_key do 
-			#	puts "The hash key is #{collection} and the value is"
-			#end
-
-		#	puts context.registers[:site].categories.each_key do |category|
-			
-			
-			#for collection in context.registers[:site].collections do
-			#	for page in collection[0] do
-			#		puts page
-			#	end
-			#	#for page in collection do
-			#	#	puts page.url
-			#	#end
-			#end
-		end
+    		collections.dig(collection, "path") || "#{prefix}.xml"
+    	end
 	end
-end
-Liquid::Template.register_tag('bidili', Jekyll::BidirectionalLinks)
-
-
-# Source: https://github.com/benbalter/jekyll-relative-links/blob/master/lib/jekyll-relative-links/generator.rb
-#module JekyllBidirectionalLinks
-#	class Generator < Jekyll:Generator
-#		attr_accessor :site, :config
-#
-#		# Use Jekyll's native relative_url filter
-#		include Jekyll::Filters::URLFilters
-#
-#		def initialize(config)
-#			@config = config
-#		end
-#
-#		def generate(site)
-#			return if disabled?
-#
-#			@site = site
-#			@context = context
-#
-#			documents = site.pages
-#		end
-#	end
-#end
-
-require "jekyll"
-
-module JekyllBidirectionalLinks
 end
 

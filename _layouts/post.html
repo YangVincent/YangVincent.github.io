@@ -25,6 +25,10 @@
             	</div>
             </section>
         </div>
+        {% for backlink in page.backlink %}
+        <a href={{site.url}}{% link {{backlink }} %}>Link</a>
+        {% endfor %}
+        <!--{{ page.counter }}-->
         {% include footer.html %}
     </body>
 </html>

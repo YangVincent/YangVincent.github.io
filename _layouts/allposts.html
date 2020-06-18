@@ -1,34 +1,36 @@
----
-layout: default
----
-<!-- Remove the algolia search logo -->
-{% include head.html %}
-<div>
-    {% include header.html %} 
-    
-    <!-- Main -->
-    <div id="main" class="alt">
-        <section id="one">
-            <div class="inner">
-                <div id="search-searchbar"></div>
-                <p class="rss-subscribe">Subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <!-- Remove the algolia search logo -->
+        <div>
+            {% include header.html %} 
+            
+            <!-- Main -->
+            <div id="main" class="alt">
+                <section id="one">
+                    <div class="inner">
+                        <div id="search-searchbar"></div>
+                        <p class="rss-subscribe">Subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+                    </div>
+                </section>
+                <!-- One -->
+                <section id="two">
+        	        <div class="inner" id="search-hits">
+                        {% for post in site.posts %}
+        	                {% if post.title != 404 %}
+        	                    <header class="major">
+                                    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        	                    </header>
+        	                {% endif %}
+                            <hr>
+                        {% endfor %}
+        	        </div>
+                </section>
             </div>
-        </section>
-        <!-- One -->
-        <section id="two">
-	        <div class="inner" id="search-hits">
-                {% for post in site.posts %}
-	                {% if post.title != 404 %}
-	                    <header class="major">
-                            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	                    </header>
-	                {% endif %}
-                    <hr>
-                {% endfor %}
-	        </div>
-        </section>
-    </div>
-    {% include algolia.html %}
-
-    {% include footer.html %}
-</div>
+            {% include algolia.html %}
+        
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

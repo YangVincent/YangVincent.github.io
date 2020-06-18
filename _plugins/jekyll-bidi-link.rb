@@ -67,13 +67,10 @@ module JekyllFeed
 					end
 					if m.data["date"] != nil
 						filename = "_" + cname + "/" + m.data["date"].utc.strftime('%Y-%m-%d') + "-" + m.data["slug"] + m.data["ext"]
-						Jekyll.logger.info "Filename is ", "#{filename}"
 						m.data["backlink"] = backlinks[filename]
-						Jekyll.logger.info "Backlink is ", "#{backlinks[filename]}"
 					else
 						filename = "_" + cname + "/" + m.data["slug"] + m.data["ext"]
 						m.data["backlink"] = backlinks[filename]
-						Jekyll.logger.info "Hello World", "#{m.data}"
 					end
 				end
 			end

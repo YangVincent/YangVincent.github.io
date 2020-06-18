@@ -12,4 +12,6 @@ branches:
   only:
     - code
 rvm:
- - 2.4
+  - 2.4
+after_success:
+  - jgd -b master -r code

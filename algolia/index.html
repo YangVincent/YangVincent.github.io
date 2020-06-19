@@ -11,6 +11,47 @@
     
       <div class="post-item">
         
+        <span class="post-meta">Jun 19, 2020</span>
+
+        <h2>
+          <a class="post-link" href="/posts/effective-altruism/">
+            Effective Altruism
+          </a>
+        </h2>
+
+        <div class="post-snippet">EA</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jun 19, 2020</span>
+
+        <h2>
+          <a class="post-link" href="/posts/ai/">
+            ai
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>This is for general notes on AI</p>
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jun 19, 2020</span>
+
+        <h2>
+          <a class="post-link" href="/posts/80000-hours/">
+            80000 Hours
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>This is a website created to help you figure out how to have the most impact with your time.</p>
+</div>
+      </div>
+    
+      <div class="post-item">
+        
         <span class="post-meta">Jun 18, 2020</span>
 
         <h2>
@@ -46,7 +87,7 @@ access them whenever. The downside is that I can’t modify them on mobile, but 
 
         <h2>
           <a class="post-link" href="/posts/dumplings/">
-            Fried Rice
+            Dumplings
           </a>
         </h2>
 
@@ -67,6 +108,7 @@ access them whenever. The downside is that I can’t modify them on mobile, but 
         <div class="post-snippet"><ul>
   <li><a href="/posts/fried-rice/">Fried Rice</a></li>
   <li><a href="/posts/dumplings/">Dumplings</a></li>
+  <li><a href="/posts/80000-hours/">Asked</a></li>
 </ul>
 </div>
       </div>
@@ -356,56 +398,57 @@ however, bring up a really good idea – that our thoughts are inherently graph-
 
 
 <script>
-	// Not currently used + realistically probably insecure lol.
+    // Not currently used + realistically probably insecure lol.
     function removeTags(str) {
-    	if ((str===null) || (str===''))
-    		return false;
-    	else
-    		str = str.toString();
-    		return str.replace( /(<([^>]+)>)/ig, '' );
+        if ((str===null) || (str===''))
+            return false;
+        else
+            str = str.toString();
+            return str.replace( /(<([^>]+)>)/ig, '' );
     }
-	
+    
 
-const search = instantsearch({
-  appId: 'B0GOCOINZN',
-  apiKey: '2b185b6fffab3ebfc9ecca5748aa29d9',
-  indexName: 'prod_WEBSITE'
-});
+	const search = instantsearch({
+	  appId: 'B0GOCOINZN',
+	  apiKey: '2b185b6fffab3ebfc9ecca5748aa29d9',
+	  indexName: 'prod_WEBSITE'
+	});
 
-const hitTemplate = function(hit) {
-  let date = '';
-  if (hit.date) {
-    date = moment.unix(hit.date).format('MMM D, YYYY');
-  }
+	const hitTemplate = function(hit) {
+  		let date = '';
+  		if (hit.date) {
+    		date = moment.unix(hit.date).format('MMM D, YYYY');
+  		}
 
-  let url = `${hit.url}#${hit.anchor}`;
+  		let url = `${hit.url}#${hit.anchor}`;
 
-  let title = ''
-  if (hit._highlightResult.title.value) {
-    title = hit._highlightResult.title.value;
-  }
+  		let title = ''
+  		if (hit._highlightResult.title.value) {
+  		  title = hit._highlightResult.title.value;
+  		}
 
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
+  		let breadcrumbs = '';
+  		if (hit._highlightResult.headings) {
+  		  breadcrumbs = hit._highlightResult.headings.map(match => {
+  		      return `<span class="post-breadcrumb">${match.value}</span>`
+  		  }).join(' > ')
+  		}
 
-  let content = '';
-  if (hit !== undefined && hit._highlightResult !== undefined && hit._highlightResult.html !== undefined && hit._highlightResult.html.value !== undefined) {
-    content = hit._highlightResult.html.value;
-  }
+		let content = "";
+    	if (hit._highlightResult.content !== undefined) {
+    	    content = hit._highlightResult.content.value;
+    	}
 
-  return `
-    <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <div class="post-snippet">${content}</div>
-	  <hr>
-    </div>
-  `;
-}
+	return `
+    	<div class="post-item">
+      	<span class="post-meta">${date}</span>
+      	<h2><a class="post-link" href="${url}">${title}</a></h2>
+      	<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
+      	<div class="post-snippet">${content}</div>
+      	<hr>
+    	</div>
+  		`;
+	}
 
 search.addWidget(
   instantsearch.widgets.searchBox({
@@ -463,13 +506,13 @@ search.start();
   display: none;
 }
 .ais-search-box--powered-by {
-	display:none;
+    display:none;
 }
 .ais-search-box--magnifier-wrapper {
-	display:none;
+    display:none;
 }
 .ais-search-box--reset {
-	display:none;
+    display:none;
 }
 </style>
 

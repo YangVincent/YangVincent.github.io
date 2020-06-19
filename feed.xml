@@ -7,6 +7,47 @@
     <atom:link href="https://www.yangvincent.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Effective Altruism</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;prioritization of how we can maximize impact to help current + future humans.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/posts/80000-hours/&quot;&gt;80000 Hours&lt;/a&gt; has some surprising research and a &lt;a href=&quot;https://www.guidedtrack.com/programs/3025/embed/auth?source=https%3A%2F%2F80000hours.org%2Fproblem-quiz%2F&quot;&gt;quiz &lt;/a&gt; here. It turns out that my current work in [[security]] is likely maximally impactful, since it allows me to help protect the development of &lt;a href=&quot;/posts/ai/&quot;&gt;ai&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;list of &lt;a href=&quot;https://80000hours.org/problem-profiles/&quot;&gt;problem profiles&lt;/a&gt;, which takes many problems and ranks them.
+    &lt;ul&gt;
+      &lt;li&gt;helping create safe AI
+        &lt;ul&gt;
+          &lt;li&gt;global priorities research&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;working against global warming was surprisingly really far down the list&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 19 Jun 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/effective-altruism/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/effective-altruism/</guid>
+      </item>
+    
+      <item>
+        <title>ai</title>
+        <description>&lt;p&gt;This is for general notes on AI&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Jun 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/ai/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/ai/</guid>
+      </item>
+    
+      <item>
+        <title>80000 Hours</title>
+        <description>&lt;p&gt;This is a website created to help you figure out how to have the most impact with your time.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Jun 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/80000-hours/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/80000-hours/</guid>
+      </item>
+    
+      <item>
         <title>Github hates Jekyll</title>
         <description>&lt;p&gt;Recently I’ve spent a lot of time thinking about how I want to manage my data and my notes. I’ve previously 
 used Roam Research and Notion, but I’m scared that those might someday force me to pay or worse, lose my data.
@@ -55,7 +96,7 @@ access them whenever. The downside is that I can’t modify them on mobile, but 
       </item>
     
       <item>
-        <title>Fried Rice</title>
+        <title>Dumplings</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://www.averiecooks.com/easy-better-takeout-chicken-fried-rice/&quot;&gt;Recipe&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Jun 2020 07:00:00 +0000</pubDate>
@@ -68,6 +109,7 @@ access them whenever. The downside is that I can’t modify them on mobile, but 
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/posts/fried-rice/&quot;&gt;Fried Rice&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/posts/dumplings/&quot;&gt;Dumplings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/posts/80000-hours/&quot;&gt;Asked&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 18 Jun 2020 07:00:00 +0000</pubDate>
@@ -517,127 +559,6 @@ global project or content search that can be coupled with vim.&lt;/p&gt;
         <pubDate>Wed, 24 Apr 2019 07:00:00 +0000</pubDate>
         <link>https://www.yangvincent.com//posts/dev-workflow/</link>
         <guid isPermaLink="true">https://www.yangvincent.com//posts/dev-workflow/</guid>
-      </item>
-    
-      <item>
-        <title>Efficient Information Acquisition</title>
-        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;Especially with full-time jobs taking the vast majority of our lives, streamlining the remainder of our time
-is of utmost importance. Learning about the world and others is important for our growth and sometimes, our 
-entertainment. I’ve therefore found a few ways to easily gaining information simpler.&lt;/p&gt;
-
-&lt;h3 id=&quot;audiobooks-and-overcast&quot;&gt;Audiobooks and Overcast&lt;/h3&gt;
-&lt;p&gt;Audiobooks and podcasts are useful because it’s possible to fully digest them even while we’re somewhat occupied. The best
-example of this is driving. Although we can’t do other hobbies while driving (watching movies, playing games, 
-participating in group activities), audiobooks and podcasts allow us to get well-formatted, digestable information
-during time that’s already used (commute).&lt;/p&gt;
-
-&lt;p&gt;This is well-known and popular, especially among millenials. As such, I submit one further improvement.&lt;/p&gt;
-
-&lt;p&gt;Overcast is an application with a special feature: smart speed. Conventional podcast/audiobook applications
-are capable of linearly accelerating audio. Put simply, the voice will be faster but of higher pitch, resulting in
-a potentially irritating listening experience. Smart speed removes pauses in people’s speech such that it still
-sounds natural, but saves you time in the long run. In a typical audiobook, I save something on the order of
-20 minutes - 1+ hours simply from smart speed. Additionally, Overcast’s voice boost feature makes listening
-on the car feasible yet enjoyable without downside.&lt;/p&gt;
-
-&lt;h3 id=&quot;morning-brew&quot;&gt;Morning Brew&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.morningbrew.com/?kid=9NGB6&quot;&gt;Morning Brew&lt;/a&gt; is a fantastic newsletter that covers business, tech, and 
-politics quickly and efficiently while providing ample background information to understand context.&lt;/p&gt;
-
-&lt;h3 id=&quot;pocketnews-aggregators&quot;&gt;Pocket/News Aggregators&lt;/h3&gt;
-&lt;p&gt;News aggregators pull from countless sources and provide you with news they believe you’ll find interesting/relevant.
-This is good in that it reduces your search time while maintaining your ability to reasonably gain a strong
-overview of what’s happening in the world. However, these also cause ‘echo chambers’, where you continuously get
-news that matches your viewpoint.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 23 Jan 2019 08:00:00 +0000</pubDate>
-        <link>https://www.yangvincent.com//posts/efficient-information/</link>
-        <guid isPermaLink="true">https://www.yangvincent.com//posts/efficient-information/</guid>
-      </item>
-    
-      <item>
-        <title>Efficient Habit Acquisition</title>
-        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;Habits are important because they allow us to fundamentally change the way we live. Over time, we can apply
-information gained to better streamline ourselves for reaching our goals. Having certain processes in place
-makes picking up new habits and ensuring new habit quality simple.&lt;/p&gt;
-
-&lt;h3 id=&quot;useful-processes&quot;&gt;Useful Processes&lt;/h3&gt;
-&lt;p&gt;Habits are difficult to acquire for several reasons.&lt;/p&gt;
-
-&lt;p&gt;First, there are conflicting sources citing the length of time required for a repeated action to become
-sufficiently ingrained such that it is a habit 
-&lt;a href=&quot;https://examinedexistence.com/how-long-does-it-take-for-something-to-become-a-habit/&quot;&gt;1&lt;/a&gt;, 
-&lt;a href=&quot;https://www.brainpickings.org/2014/01/02/how-long-it-takes-to-form-a-new-habit/&quot;&gt;2&lt;/a&gt;,
-&lt;a href=&quot;https://www.amazon.com/Making-Habits-Breaking-Things-Change/dp/0306822628/?tag=braipick-20&quot;&gt;3&lt;/a&gt;.
-For me, a habit is something I do without thinking
-or consistently with infrequent compromise and ease.&lt;/p&gt;
-
-&lt;p&gt;Second, it is difficult to pinpoint when, exactly, a repeated action ceases to be a potential habit. This information is
-helpful for deducing why this happened and how it might be prevented in the future.&lt;/p&gt;
-
-&lt;p&gt;Third, understanding that a habit is indeed a good one and therefore worthwhile picking up is occasionally difficult.&lt;/p&gt;
-
-&lt;p&gt;Therefore to fix these, it is important to have&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;An evaluation process on whether or not a repeated action has become a habit (useful for estimating the rate at which
-you may pick up new habits in the future); solves issue 1&lt;/li&gt;
-  &lt;li&gt;A periodic check to (a) re-evaluate whether a repeated action is still worthwhile or (b) remind you to keep with
-the potential habit; solves issue 2&lt;/li&gt;
-  &lt;li&gt;A selection process for choosing new potential habits to minimize time wasted; solves issue 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;useful-tipstricks&quot;&gt;Useful Tips/Tricks&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;If the habit you want to pick up has something you can log or is aesthetically pleasing, then you can accumulate
-these to build up a record. Over time, losing the streak built in the record can incentivize you to continue
-with the habit. A good example here is crossing off days that you’ve worked out on a visible calendar.&lt;/li&gt;
-  &lt;li&gt;If you’re susceptible to peer pressure and peer shame, then telling your friends may help to discourage yourself
-from being a hypocrite.&lt;/li&gt;
-  &lt;li&gt;Sharing the habit building process with friends/family and building them side by side may be helpful
-for having someone else encourage you to keep it up.&lt;/li&gt;
-  &lt;li&gt;Keep an easily visible checklist for when you need to do things/potential orderings.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Tue, 22 Jan 2019 08:00:00 +0000</pubDate>
-        <link>https://www.yangvincent.com//posts/habits/</link>
-        <guid isPermaLink="true">https://www.yangvincent.com//posts/habits/</guid>
-      </item>
-    
-      <item>
-        <title>Life Advice</title>
-        <description>&lt;h3 id=&quot;why-optimize-your-life&quot;&gt;Why Optimize Your Life?&lt;/h3&gt;
-&lt;p&gt;Your life is arguably your most important resource. Without it, almost nothing matters. As such, it is imperative
-that everyone continuously reinvest in themselves. The first big question is: How do you know you’re investing
-in the right things? Randy Pausch discusses the importance of chasing your childhood dreams – the things that are
-initially and genuinely important to you, in his famous &lt;a href=&quot;https://www.youtube.com/watch?v=ji5_MqicxSo&amp;amp;vl=en&quot;&gt;Last Lecture&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-do-i-sustain-dreams&quot;&gt;How do I sustain dreams?&lt;/h3&gt;
-&lt;p&gt;Unfortunately, most people can’t just chase their dreams, but choosing between dreams and a career is a never-ending
-struggle that plagues many. &lt;a href=&quot;https://www.ted.com/speakers/tim_urban&quot;&gt;Master Procrastinator Tim Urban&lt;/a&gt; covers
-&lt;a href=&quot;https://waitbutwhy.com/2018/04/picking-career.html&quot;&gt;key aspects&lt;/a&gt; to remain cognizant of as you pick your career.&lt;/p&gt;
-
-&lt;h3 id=&quot;stop-wasting-time&quot;&gt;Stop Wasting Time&lt;/h3&gt;
-&lt;p&gt;Throughout everything, it’s important that you actually do real, &lt;strong&gt;deep&lt;/strong&gt; work. Simply talking about an action
-without executing is useless. Cal Newport has optimized his life around doing deep work and has a variety of 
-fantastic advice.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Keep your desk clean&lt;/li&gt;
-  &lt;li&gt;Keep a TODO list&lt;/li&gt;
-  &lt;li&gt;Evaluate why you’re doing each item&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;… and &lt;a href=&quot;http://calnewport.com/blog/about/&quot;&gt;many other optimizations/study hacks&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;networking&quot;&gt;Networking&lt;/h3&gt;
-&lt;p&gt;Finally, one of my favorite ways to gain information about anything quickly is to talk to experts in said field.
-Here’s some good tips &lt;a href=&quot;https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/&quot;&gt;breaking into fields&lt;/a&gt;, from Haseeb Qureshi.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Oct 2018 07:00:00 +0000</pubDate>
-        <link>https://www.yangvincent.com//posts/lifeadvice/</link>
-        <guid isPermaLink="true">https://www.yangvincent.com//posts/lifeadvice/</guid>
       </item>
     
   </channel>

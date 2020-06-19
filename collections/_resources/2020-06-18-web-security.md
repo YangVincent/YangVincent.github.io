@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Web Security"
-excerpt:
+excerpt: Websec
 tags:
  - security
 ---

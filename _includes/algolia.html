@@ -33,8 +33,6 @@
   		if (hit._highlightResult.title.value) {
   		  title = hit._highlightResult.title.value;
   		}
-  		console.log("headings");
-  		console.log(hit._highlightResult);
 
   		let breadcrumbs = '';
   		if (hit._highlightResult.headings) {
@@ -47,19 +45,6 @@
     	if (hit._highlightResult.content !== undefined) {
     	    content = hit._highlightResult.content.value;
     	}
-    	console.log("Breadcrumbs");
-    	console.log(breadcrumbs);
-
-    	// if breadcrumbs != '' {
-    	//  return `
-    	//    <div class="post-item">
-    	//      <span class="post-meta">${date}</span>
-    	//      <h2><a class="post-link" href="${url}">${title}</a></h2>
-    	//      <div class="post-snippet">${content}</div>
-    	//      <hr>
-    	//    </div>
-    	//  `;
-    	// }
 
 	return `
     	<div class="post-item">

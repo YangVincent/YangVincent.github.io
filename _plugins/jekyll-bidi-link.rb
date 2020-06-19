@@ -46,13 +46,15 @@ module JekyllFeed
 				if cname == "drafts"
 					next
 				end
-				#Jekyll.logger.info "Jekyll Feed:", "Generating feed for #{cname}"
-				#Jekyll.logger.info "Jekyll Meta:", "Generating meta for #{meta}"
+				Jekyll.logger.info "Jekyll Feed:", "Generating feed for #{cname}"
+				Jekyll.logger.info "Jekyll Meta:", "Generating meta for #{meta}"
 
 				meta.docs.each do |m|
 					if m == nil
 						next
 					end
+
+					Jekyll.logger.info "Currently finding links coming from ", "#{m.data["slug"]}"
 
 					#if m.data["title"] != "Test 1" && m.data["title"] != "Test 2"
 					#	next
@@ -71,35 +73,39 @@ module JekyllFeed
 					######################
 					# Detect all links
 					######################
-					blnks = m.content.scan(/bidi .* /)
+					# Look for bidi, then some whitespace, then 0+ [non-whitespace + whitespace]
+					blnks = m.content.scan(/bidi\s[[\w]+[\s]]+/)
 					# String match to find the most similar one
 					blnks.each do |blnk|
+						Jekyll.logger.info "Checking link: #{blnk}"
 						min_dist = 1000
 						target = ""
 						allpages.each do |page|
-							puts blnk[5..-2]
-							l_dist = levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase, blnk[5..-2].downcase)
+							l_dist = levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase.gsub(" ", "-").gsub(",", ""), blnk[5..-1].downcase.gsub(" ", "-").gsub(",", ""))
 							if l_dist < min_dist
 								target = page
 								min_dist = l_dist
 							end
 						end
 
-						if backlinks.has_key?(target)
-							backlinks[target].push(filename)
-							backlinks[target].uniq! # Remove duplicates
-						else
-							backlinks[target] = Array[filename]
+                        if target != nil && min_dist <= 1
+							Jekyll.logger.info "Adding link from #{target} to #{filename}"
+							if backlinks.has_key?(target)
+								backlinks[target].push(filename)
+								backlinks[target].uniq! # Remove duplicates
+							else
+								backlinks[target] = Array[filename]
+							end
 						end
+
 					end
-					puts backlinks
 				end
 			end
 
 			###########################
 			# Writing out to the page
 			###########################
-			Jekyll.logger.info "All pages: #{site.pages}"
+			#Jekyll.logger.info "All pages: #{site.pages}"
 			site.collections.each do |cname, meta|
 				if cname == "drafts"
 					next
@@ -109,6 +115,7 @@ module JekyllFeed
 					if m == nil 
 						next
 					end
+					#Jekyll.logger.info "Meta.docs.each m is ", "#{m.data}"
 					if m.data["date"] != nil
 						filename = "_" + cname + "/" + m.data["date"].utc.strftime('%Y-%m-%d') + "-" + m.data["slug"] + m.data["ext"]
 						m.data["backlink"] = backlinks[filename]

@@ -99,9 +99,6 @@ module Jekyll
                 def render(context)
                     @context = context
                     @backlinks = Hash.new
-                    puts "------------- STARTING ----------------"
-                    puts "RENDERING POST "
-                    puts @orig_post
                     site = context.registers[:site]
 
                     ###
@@ -145,7 +142,7 @@ module Jekyll
                             # Look for target of current post
                             ########
                     		min_dist = 1000
-                             target_doc = nil
+                            target_doc = nil
                     		allpages.each do |page|
                                 @post = @orig_post
                                 l_dist = levenshtein_distance(page[/\-[a-z]*.*\./][7..-2].downcase.gsub(" ", "-"), @post.gsub(" ", "-"))

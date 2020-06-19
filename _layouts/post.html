@@ -28,7 +28,7 @@
                     <div class="inner">
                         <h3>This page is linked from:</h3>
                         {% for backlink in page.backlink %}
-                        <a href={{site.url}}{% link {{backlink }} %}>{{backlink}}</a>
+                            <a href={{site.url}}{% link {{ backlink }} %}>{{ backlink }}</a>
                         {% endfor %}
                     </div>
                 </section>

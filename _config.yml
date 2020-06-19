@@ -73,4 +73,4 @@ algolia:
 
 # Exclude list
 include: [_pages]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, LICENSE, Rakefile, .sass-cache, .DS_Store] 
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, LICENSE, Rakefile, .sass-cache, .DS_Store, finish.sh] 

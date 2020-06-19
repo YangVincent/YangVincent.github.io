@@ -5,56 +5,72 @@
 
 
 <script>
-	// Not currently used + realistically probably insecure lol.
+    // Not currently used + realistically probably insecure lol.
     function removeTags(str) {
-    	if ((str===null) || (str===''))
-    		return false;
-    	else
-    		str = str.toString();
-    		return str.replace( /(<([^>]+)>)/ig, '' );
+        if ((str===null) || (str===''))
+            return false;
+        else
+            str = str.toString();
+            return str.replace( /(<([^>]+)>)/ig, '' );
     }
-	
+    
 
-const search = instantsearch({
-  appId: '{{ site.algolia.application_id }}',
-  apiKey: '{{ site.algolia.search_only_api_key }}',
-  indexName: '{{ site.algolia.index_name }}'
-});
+	const search = instantsearch({
+	  appId: '{{ site.algolia.application_id }}',
+	  apiKey: '{{ site.algolia.search_only_api_key }}',
+	  indexName: '{{ site.algolia.index_name }}'
+	});
 
-const hitTemplate = function(hit) {
-  let date = '';
-  if (hit.date) {
-    date = moment.unix(hit.date).format('MMM D, YYYY');
-  }
+	const hitTemplate = function(hit) {
+  		let date = '';
+  		if (hit.date) {
+    		date = moment.unix(hit.date).format('MMM D, YYYY');
+  		}
 
-  let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+  		let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
 
-  let title = ''
-  if (hit._highlightResult.title.value) {
-    title = hit._highlightResult.title.value;
-  }
+  		let title = ''
+  		if (hit._highlightResult.title.value) {
+  		  title = hit._highlightResult.title.value;
+  		}
+  		console.log("headings");
+  		console.log(hit._highlightResult);
 
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
+  		let breadcrumbs = '';
+  		if (hit._highlightResult.headings) {
+  		  breadcrumbs = hit._highlightResult.headings.map(match => {
+  		      return `<span class="post-breadcrumb">${match.value}</span>`
+  		  }).join(' > ')
+  		}
 
-  let content = '';
-  if (hit !== undefined && hit._highlightResult !== undefined && hit._highlightResult.html !== undefined && hit._highlightResult.html.value !== undefined) {
-    content = hit._highlightResult.html.value;
-  }
+		let content = "";
+    	if (hit._highlightResult.content !== undefined) {
+    	    content = hit._highlightResult.content.value;
+    	}
+    	console.log("Breadcrumbs");
+    	console.log(breadcrumbs);
 
-  return `
-    <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <div class="post-snippet">${content}</div>
-	  <hr>
-    </div>
-  `;
-}
+    	// if breadcrumbs != '' {
+    	//  return `
+    	//    <div class="post-item">
+    	//      <span class="post-meta">${date}</span>
+    	//      <h2><a class="post-link" href="${url}">${title}</a></h2>
+    	//      <div class="post-snippet">${content}</div>
+    	//      <hr>
+    	//    </div>
+    	//  `;
+    	// }
+
+	return `
+    	<div class="post-item">
+      	<span class="post-meta">${date}</span>
+      	<h2><a class="post-link" href="${url}">${title}</a></h2>
+      	{{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+      	<div class="post-snippet">${content}</div>
+      	<hr>
+    	</div>
+  		`;
+	}
 
 search.addWidget(
   instantsearch.widgets.searchBox({
@@ -112,13 +128,13 @@ search.start();
   display: none;
 }
 .ais-search-box--powered-by {
-	display:none;
+    display:none;
 }
 .ais-search-box--magnifier-wrapper {
-	display:none;
+    display:none;
 }
 .ais-search-box--reset {
-	display:none;
+    display:none;
 }
 </style>
 

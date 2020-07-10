@@ -1,12 +1,12 @@
 ---
 layout: allposts
-title: Notes
-landing-title: 'Notes'
+title: Weblog
+landing-title: 'Weblog'
 nav-menu: true
 description: null
 image: assets/images/cdparcoord.png
 author: null
-show_tile: true
+show_tile: false
 ---
 
 <h1>All notes</h1>

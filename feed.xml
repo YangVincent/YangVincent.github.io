@@ -7,6 +7,38 @@
     <atom:link href="https://www.yangvincent.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Whole 30</title>
+        <description>&lt;p&gt;I’m starting Whole 30 today with my brother. I’m fairly excited to see&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How well we can keep each other consistent&lt;/li&gt;
+  &lt;li&gt;How much closer we get&lt;/li&gt;
+  &lt;li&gt;What foods I have a reaction to&lt;/li&gt;
+  &lt;li&gt;How sustainable this is&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We’ve roughly timed it to happen before Hawaii, but there’re also other benefits. Angie mentioned that 
+her focus and discipline changes based on food and that it’s a good way to lead into discipline in other areas,
+so I’m curious to see if I’ll have similar effects. This post is here to help keep me accountable :D&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jul 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/whole-30/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/whole-30/</guid>
+      </item>
+    
+      <item>
+        <title>Rylan/Vincent Cycling Eulogy</title>
+        <description>&lt;p&gt;I’d like to take a moment of silence for our biweekly cycling trips. Once the highlights of my week, these trips gave me welcome reprieve from the mundane monotony of quarantine life. My stomach is forever grateful for all the burritos we picked up along the way and I will never forget the right turn - u turn - right turn combos. Nothing put a smile on my face quite like hearing about Rylan’s omniscient, perfect advisor or being continuously lapped by Rylan’s dad.&lt;/p&gt;
+
+&lt;p&gt;I’ll also miss your neglected little brother, “workout circuits at a nearby park”, who would push me to fantasize about being the type of person who’d do these workouts. That dream will never be realized, but only out of honor for our biweekly cycling trips, of course.&lt;/p&gt;
+
+&lt;p&gt;Rest in peace, biweekly Rylan/Vincent biking trips :(&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jul 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/rylan-vincent-cycling-eulogy/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/rylan-vincent-cycling-eulogy/</guid>
+      </item>
+    
+      <item>
         <title>Biking</title>
         <description>&lt;p&gt;I learned several interesting things from Rylan’s dad today about biking (and from the ride in general)!&lt;/p&gt;
 &lt;ol&gt;
@@ -458,85 +490,6 @@ how they do things and instead, then consider if you’d like to incorporate the
         <pubDate>Sat, 14 Sep 2019 07:00:00 +0000</pubDate>
         <link>https://www.yangvincent.com//posts/life-workflow/</link>
         <guid isPermaLink="true">https://www.yangvincent.com//posts/life-workflow/</guid>
-      </item>
-    
-      <item>
-        <title>Computer Workflow</title>
-        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;Over the years, I’ve put in many hours to make my processes more efficient. I spend 40 hours a week, if not more
-at a computer; it makes sense to streamline this process.&lt;/p&gt;
-
-&lt;p&gt;Related posts are &lt;a href=&quot;https://www.yangvincent.com/dev-workflow/&quot;&gt;Development Workflow&lt;/a&gt; and &lt;a href=&quot;https://www.yangvincent.com/life-workflow/&quot;&gt;Life Workflow&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In this post, I’d like to cover several tools, how they work, and how they work together.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Kinesis Advantage&lt;/li&gt;
-  &lt;li&gt;Keyboard Layouts&lt;/li&gt;
-  &lt;li&gt;Multiple screens&lt;/li&gt;
-  &lt;li&gt;Vimium&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;hardware&quot;&gt;Hardware&lt;/h3&gt;
-&lt;p&gt;The &lt;a href=&quot;https://kinesis-ergo.com/shop/advantage2/&quot;&gt;Kinesis Advantage&lt;/a&gt; is a marvel of a keyboard. It’s composed of
-two large wells placed horizontally; one for each hand. The wells’ distance from each other allows me to keep my
-arms shoulder-width apart which minimizes ulnar deviation. &lt;img src=&quot;https://www.yangvincent.com/assets/images/comp-workflow/wrist.png&quot; alt=&quot;ulnar deviation&quot; /&gt;
-Also, the wells allow me to maintain natural wrist curvature where my palm is supported and neither my wrist nor
-my fingers support more weight than they should.&lt;/p&gt;
-
-&lt;p&gt;It has cherry brown switches which are quieter than blues and reasonably suited for workplaces. Mechanical
-switches are better than rubber keyboards because they last longer provide specific actuation points without
-bottoming out. In other words, you don’t need to mash on them to type.&lt;/p&gt;
-
-&lt;p&gt;Finally, it has ortholinear rows (i.e. all of the keys are placed vertically and not offset), which allows my fingers
-to naturally move up and down while keeping all keys closer to the home row. Finally, it moves some of the most
-important keys to the thumb (backspace, control, etc).&lt;/p&gt;
-
-&lt;h3 id=&quot;keyboard-layouts&quot;&gt;Keyboard Layouts&lt;/h3&gt;
-&lt;p&gt;I interchange between Dvorak and Qwerty. Dvorak was created to minimize finger movement in several ways. Vowels are placed on 
-the left and keys are generally placed to maximize hand alternation. The most popular keys are on the home row,
-with the subsequent keys placed on the top, and finally the least used keys on bottom. Unfortunately, I’ve never reached
-the same speed on Dvorak as I have on Qwerty, so I use it in limited capacity.&lt;/p&gt;
-
-&lt;h3 id=&quot;importance-of-screen-size&quot;&gt;Importance of Screen Size&lt;/h3&gt;
-&lt;p&gt;I have 3 monitors at home. I’ve found this is optimal so everything I might want to maintain in my mind and reasonably
-access quickly can be done so with ease. This often looks like a screen with 4 panes of code, another monitor for docs,
-and finally one more for miscellaneous items.&lt;/p&gt;
-
-&lt;h3 id=&quot;vimium&quot;&gt;Vimium&lt;/h3&gt;
-&lt;p&gt;I’m strongly against using the mouse; I believe our arms should never move (or only move minimally) from the keyboard
-since everything can be done from the keyboard. Vimium allows me to browse/navigate webpages/search, etc. without
-using the mouse.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 14 Sep 2019 07:00:00 +0000</pubDate>
-        <link>https://www.yangvincent.com//posts/comp-workflow/</link>
-        <guid isPermaLink="true">https://www.yangvincent.com//posts/comp-workflow/</guid>
-      </item>
-    
-      <item>
-        <title>Information Security Symposium</title>
-        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;I recently spoke at the &lt;a href=&quot;https://www.cvent.com/events/2019-information-security-symposium/custom-35-2bf6e0b8a1fd41a78a7211e81fcd1fd8.aspx?cpc=H7NM3FQB9TN&quot;&gt;Davis Security Symposium&lt;/a&gt; with my friend Harrison Nguyen
-about &lt;a href=&quot;https://web.archive.org/web/20190624185212/https://www.cvent.com/events/2019-information-security-symposium/agenda-2bf6e0b8a1fd41a78a7211e81fcd1fd8.aspx?cpc=H7NM3FQB9TN&quot;&gt;healthcare and blockchain&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The gist of the paper is:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Health information exchange is important and complicated.&lt;/li&gt;
-  &lt;li&gt;Despite &lt;a href=&quot;https://www.google.com/search?q=millions+invested+into+blockchain+healthcare&amp;amp;oq=millions+invested+into+blockchain+healthcare&amp;amp;aqs=chrome..69i57j33.4783j1j1&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&quot;&gt;millions being invested into blockchain + healthcare solutions&lt;/a&gt;, 
-blockchain remains a premature technology.&lt;/li&gt;
-  &lt;li&gt;At its core, blockchain allows us to act without a trusted 3rd party. For healthcare, this means blockchain would manage our permissions for who can access health records (infeasible to actually store the images).&lt;/li&gt;
-  &lt;li&gt;Who would run these nodes? The hospital? 3rd parties? Other patients? If so, can we guarantee that at least 50% would be honest? No.&lt;/li&gt;
-  &lt;li&gt;Most benefits of blockchain are really just of PKI.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Personally, I also realized that many people still don’t understand how blockchain works even though there’s many resources talking about how it fundamentally works. It’s difficult to discuss further implications of this
-technology with people don’t have a strong understanding of its capabilities yet.&lt;/p&gt;
-
-&lt;p&gt;There’s also quite a significant split between people who are in IT security and research security.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Jun 2019 07:00:00 +0000</pubDate>
-        <link>https://www.yangvincent.com//posts/infosec-symposium/</link>
-        <guid isPermaLink="true">https://www.yangvincent.com//posts/infosec-symposium/</guid>
       </item>
     
   </channel>

@@ -7,6 +7,20 @@
     <atom:link href="https://www.yangvincent.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Quarantine Metrics</title>
+        <description>&lt;p&gt;Since quarantine’s really settled in, I’ve measured my time allocations from 6/16/2020 to 7/10/2020.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/quarantine_time_total.png&quot; alt=&quot;Total Time&quot; /&gt;
+&lt;img src=&quot;assets/images/quarantine_weekday_avg.png&quot; alt=&quot;Weekday Average&quot; /&gt;
+&lt;img src=&quot;assets/images/quarantine_weekend_avg.png&quot; alt=&quot;Weekend Average&quot; /&gt;
+&lt;img src=&quot;assets/images/quarantine_daily_avg.png&quot; alt=&quot;Daily Average&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Jul 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/quarantine-metrics/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/quarantine-metrics/</guid>
+      </item>
+    
+      <item>
         <title>Whole 30</title>
         <description>&lt;p&gt;I’m starting Whole 30 today with my brother. I’m fairly excited to see&lt;/p&gt;
 &lt;ol&gt;
@@ -450,46 +464,6 @@ guides’ lives.&lt;/p&gt;
         <pubDate>Tue, 24 Sep 2019 07:00:00 +0000</pubDate>
         <link>https://www.yangvincent.com//posts/rafting/</link>
         <guid isPermaLink="true">https://www.yangvincent.com//posts/rafting/</guid>
-      </item>
-    
-      <item>
-        <title>Life Workflow</title>
-        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;Suppose we want to hone ourselves to be as productive as possible. This might look like training for a competition or
-creating a startup or learning/growing in any other capacity, but acting efficiently is always in our best interest. How
-might we do so? What base components should we have in our life to allow us to excel elsewhere? These are the things
-I’ve found thus far. Keep in mind that maximizing efficiency is a means, not an end. The end is maximizing fun.&lt;/p&gt;
-
-&lt;h3 id=&quot;health&quot;&gt;Health&lt;/h3&gt;
-&lt;p&gt;Get enough sleep every day. If you don’t, repay this debt as soon as you can. Exercise as much as you can; it chemically
-makes you happier as a side benefit. Drink tons of water. Sleep early.&lt;/p&gt;
-
-&lt;h3 id=&quot;mental-health&quot;&gt;Mental Health&lt;/h3&gt;
-&lt;p&gt;Figure out what affects your mood. Mine is highly dependent on how optimistic I feel for the future and how
-secure I feel with my friends. Surround yourself with good people who will pick you up and push you to achieve more.
-Talk about your problems with others and listen to theirs in turn. Care about people.&lt;/p&gt;
-
-&lt;h3 id=&quot;keep-a-todo-list-and-a-calendar&quot;&gt;Keep a TODO list and a calendar&lt;/h3&gt;
-&lt;p&gt;Our brains are disappointingly incapable of keeping track of tabs/monitoring. We’re far better at working through
-well-defined problems. Luckily, we can offset these operations to tools. I keep a running list of “Things to do today”
-and “Things to do later”. Before each task, consider – why am I doing this? What happens if I don’t?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Any time anything crosses your life, you’ve got to ask: This thing I’m thinking about doing – why am I doing it?
-What will happen if I don’t? The best thing is when I have something on my todo list and I think “hmm, no”.
-&lt;cite&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oTugjssqOT0&quot;&gt;Randy Pausch&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’m lucky enough to not procrastinate much, but only because having notifications on my reminders app (Todoist) frustrates
-me to no end.&lt;/p&gt;
-
-&lt;h3 id=&quot;get-feedback&quot;&gt;Get feedback&lt;/h3&gt;
-&lt;p&gt;Feedback is crucial for calibrating your expectations. Find out what the people around you think about the way you do things,
-how they do things and instead, then consider if you’d like to incorporate them for yourself as well.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 14 Sep 2019 07:00:00 +0000</pubDate>
-        <link>https://www.yangvincent.com//posts/life-workflow/</link>
-        <guid isPermaLink="true">https://www.yangvincent.com//posts/life-workflow/</guid>
       </item>
     
   </channel>

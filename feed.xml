@@ -7,6 +7,15 @@
     <atom:link href="https://www.yangvincent.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Tour de Bay</title>
+        <description>&lt;p&gt;My friends and I are starting to plan a bike trip around the entire SF Bay Area.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Jul 2020 07:00:00 +0000</pubDate>
+        <link>https://www.yangvincent.com//posts/tour-de-bay/</link>
+        <guid isPermaLink="true">https://www.yangvincent.com//posts/tour-de-bay/</guid>
+      </item>
+    
+      <item>
         <title>Quarantine Metrics</title>
         <description>&lt;p&gt;Since quarantine’s really settled in, I’ve measured my time allocations from 6/16/2020 to 7/10/2020.&lt;/p&gt;
 
@@ -440,30 +449,6 @@ their contributions. Private ownership.&lt;/li&gt;
         <pubDate>Tue, 24 Sep 2019 07:00:00 +0000</pubDate>
         <link>https://www.yangvincent.com//posts/societal-structure/</link>
         <guid isPermaLink="true">https://www.yangvincent.com//posts/societal-structure/</guid>
-      </item>
-    
-      <item>
-        <title>Rafting</title>
-        <description>&lt;p&gt;This last weekend I want rafting with a bunch of colleagues. One employee went out of her way to plan out a 3-day trip
-for 100 people! Rafting consisted of the lower south fork and middle fork of the American river.&lt;/p&gt;
-
-&lt;p&gt;Previously, I’d only tried up to class 3 before, but the rapids for class 4 were a whole new ball game. The guides for
-this round were also significantly better than any others I’ve had. We surfed, did tricks with spinning off rocks and shifting
-the boat’s weight to one side, swam in the middle of eddies to spin, and many other fun rafting nuances I’d never
-heard of before.&lt;/p&gt;
-
-&lt;p&gt;The difference between each class of rapids is as follows. Class 1: no work required. Class 2: Mild rapids, no real work 
-required. Class 3: Some rapids, maneuvering helpful. Class 4. Accuracy within several feet to navigate rapids. Class 5: 
-Accuracy within inches to navigate rapids. Class 6: Literally will die.&lt;/p&gt;
-
-&lt;p&gt;Rapids are graded on the easiest route through them, but may have multiple ratings for specific lines taken.&lt;/p&gt;
-
-&lt;p&gt;Overall definitely a fantastic experience. Met some interesting people, had a phenomenal time rafting and learning about the
-guides’ lives.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 24 Sep 2019 07:00:00 +0000</pubDate>
-        <link>https://www.yangvincent.com//posts/rafting/</link>
-        <guid isPermaLink="true">https://www.yangvincent.com//posts/rafting/</guid>
       </item>
     
   </channel>

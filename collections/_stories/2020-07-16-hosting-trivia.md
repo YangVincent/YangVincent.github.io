@@ -25,7 +25,7 @@ refers to Beyonce.
 By the end of the night, my team was neck and neck with another, so Arthur proudly whipped out his piece de resistance:
 a "price is right" style live round of guessing the cost of the cheapest flight from SFO to JFK.
 
-My team instantly went into a frenzy -- Sam had just flown out a month prior, when it cost around 150$. But New York's coronavirus
+My team instantly went into a frenzy -- Sam had just flown out a month prior, when it cost around 150\$. But New York's coronavirus
 cases were spiking up and people were rushing to leave. Flight frequency had been reduced which would've brought
 the price, up, but fewer people were traveling overall. In addition, airlines were still flying empty planes.
 We finally settled on $90, but not without some heated back and forth. All eyes were glued on Arthur's screen

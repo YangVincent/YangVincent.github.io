@@ -15,7 +15,7 @@ the host grades each round during the next and announces the rankings. Each of t
 covering music, culture, history, current events, geography, etc. Before and during
 the game, people could donate money to the prize pool and the first place team chooses a set of charities to donate to.
 
-I had an absolute blaste; evidently playing against your friends is far more enjoyable than getting destroyed by human encyclopaedias.
+I had an absolute blast; evidently playing against your friends is far more enjoyable than getting destroyed by human encyclopaedias.
 
 Arthur had also created several new formats; my favorite was "Person in Question", where he'd show a famous
 historical scene *about* but not displaying a person. For instance, 

@@ -6,4 +6,6 @@ tags:
  -
 ---
 
-My friends and I are starting to plan a bike trip around the entire SF Bay Area.
+My friends and I recently rode all the way around the SF Bay Area in a single day.
+
+
